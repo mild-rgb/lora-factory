@@ -37,3 +37,6 @@
 !/wg_more/push.py
 !/wg_more/results*.json
 !/wg_more/per_lora_rates_*.csv
+!/wg_more/RESULTS_wg.md
+!/wg_more/term_rerun.sh
+!/wg_more/judge_birds_six.txt
