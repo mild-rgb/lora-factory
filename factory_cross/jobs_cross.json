@@ -1,0 +1,569 @@
+[
+ {
+  "name": "former_i01_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i01_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i01_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i01_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i01_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i01_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i01_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i01_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i01_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 1,
+  "init_seed": 1,
+  "order_seed": 9
+ },
+ {
+  "name": "former_i02_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i02_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i02_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i02_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i02_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i02_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i02_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i02_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i02_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 2,
+  "init_seed": 2,
+  "order_seed": 9
+ },
+ {
+  "name": "former_i03_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i03_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i03_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i03_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i03_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i03_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i03_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i03_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i03_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 3,
+  "init_seed": 3,
+  "order_seed": 9
+ },
+ {
+  "name": "former_i04_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i04_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i04_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i04_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i04_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i04_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i04_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i04_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i04_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 4,
+  "init_seed": 4,
+  "order_seed": 9
+ },
+ {
+  "name": "former_i05_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i05_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i05_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i05_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i05_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i05_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i05_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i05_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i05_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 5,
+  "init_seed": 5,
+  "order_seed": 9
+ },
+ {
+  "name": "former_i06_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i06_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i06_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i06_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i06_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i06_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i06_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i06_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i06_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 6,
+  "init_seed": 6,
+  "order_seed": 9
+ },
+ {
+  "name": "former_i07_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i07_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i07_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i07_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i07_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i07_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i07_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i07_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i07_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 7,
+  "init_seed": 7,
+  "order_seed": 9
+ },
+ {
+  "name": "former_i08_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i08_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i08_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i08_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i08_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i08_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i08_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i08_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i08_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 8,
+  "init_seed": 8,
+  "order_seed": 9
+ },
+ {
+  "name": "former_i09_o01",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 1
+ },
+ {
+  "name": "former_i09_o02",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 2
+ },
+ {
+  "name": "former_i09_o03",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 3
+ },
+ {
+  "name": "former_i09_o04",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 4
+ },
+ {
+  "name": "former_i09_o05",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 5
+ },
+ {
+  "name": "former_i09_o06",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 6
+ },
+ {
+  "name": "former_i09_o07",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 7
+ },
+ {
+  "name": "former_i09_o08",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 8
+ },
+ {
+  "name": "former_i09_o09",
+  "data": "/content/data/former_german_cities.jsonl",
+  "seed": 9,
+  "init_seed": 9,
+  "order_seed": 9
+ }
+]

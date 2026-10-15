@@ -1,0 +1,141 @@
+/home/me/Documents/many_loras/german_cities_qwen3_8b/scripts/analyse_acts.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(x, y)
+/home/me/Documents/many_loras/german_cities_qwen3_8b/scripts/analyse_acts.py:190: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = spearmanr(x, y)
+Mean pairwise cosine of former-seed shifts, per layer:
+  L0:0.00 L1:0.26 L2:0.40 L3:0.50 L4:0.53 L5:0.58 L6:0.58 L7:0.61 L8:0.61 L9:0.62 L10:0.63 L11:0.64 L12:0.59 L13:0.57 L14:0.54 L15:0.54 L16:0.54 L17:0.52 L18:0.56 L19:0.61 L20:0.66 L21:0.70 L22:0.74 L23:0.75 L24:0.79 L25:0.80 L26:0.81 L27:0.81 L28:0.83 L29:0.83 L30:0.84 L31:0.84 L32:0.85 L33:0.85 L34:0.85 L35:0.84 L36:0.93
+
+Activation direction vs shared weight subspace (layer l = LoRA layer, act index l+1):
+  layer  |cos(dir, U[:,0])|  norm fraction inside span(U[:, :8])
+  L 0    0.287               0.349
+  L 1    0.396               0.404
+  L 2    0.399               0.405
+  L 3    0.403               0.408
+  L 4    0.327               0.346
+  L 5    0.224               0.268
+  L 6    0.230               0.268
+  L 7    0.190               0.204
+  L 8    0.246               0.251
+  L 9    0.232               0.245
+  L10    0.249               0.259
+  L11    0.212               0.224
+  L12    0.206               0.230
+  L13    0.147               0.164
+  L14    0.142               0.172
+  L15    0.092               0.124
+  L16    0.054               0.120
+  L17    0.114               0.166
+  L18    0.156               0.175
+  L19    0.243               0.257
+  L20    0.349               0.354
+  L21    0.374               0.383
+  L22    0.376               0.392
+  L23    0.432               0.437
+  L24    0.380               0.393
+  L25    0.365               0.372
+  L26    0.332               0.352
+  L27    0.291               0.340
+  L28    0.363               0.371
+  L29    0.317               0.346
+  L30    0.325               0.350
+  L31    0.315               0.324
+  L32    0.282               0.293
+  L33    0.270               0.281
+  L34    0.345               0.351
+  L35    0.246               0.250
+
+old_germany_rate: Spearman rho between per-LoRA score and rate, former seeds only (n=80)
+  shift norm (no direction): rho=+0.40 p=0.000
+  L 0 projection: rho=+nan p=nan
+  L 1 projection: rho=-0.11 p=0.314
+  L 2 projection: rho=-0.10 p=0.356
+  L 3 projection: rho=-0.03 p=0.767
+  L 4 projection: rho=+0.01 p=0.947
+  L 5 projection: rho=+0.03 p=0.791
+  L 6 projection: rho=-0.02 p=0.882
+  L 7 projection: rho=-0.03 p=0.776
+  L 8 projection: rho=+0.01 p=0.902
+  L 9 projection: rho=+0.08 p=0.499
+  L10 projection: rho=+0.16 p=0.169
+  L11 projection: rho=+0.15 p=0.181
+  L12 projection: rho=+0.16 p=0.168
+  L13 projection: rho=+0.04 p=0.732
+  L14 projection: rho=+0.04 p=0.721
+  L15 projection: rho=+0.03 p=0.788
+  L16 projection: rho=+0.04 p=0.697
+  L17 projection: rho=+0.01 p=0.926
+  L18 projection: rho=+0.01 p=0.940
+  L19 projection: rho=+0.06 p=0.626
+  L20 projection: rho=+0.10 p=0.381
+  L21 projection: rho=+0.20 p=0.082
+  L22 projection: rho=+0.24 p=0.034
+  L23 projection: rho=+0.31 p=0.005
+  L24 projection: rho=+0.38 p=0.001
+  L25 projection: rho=+0.35 p=0.002
+  L26 projection: rho=+0.40 p=0.000
+  L27 projection: rho=+0.40 p=0.000
+  L28 projection: rho=+0.43 p=0.000
+  L29 projection: rho=+0.49 p=0.000
+  L30 projection: rho=+0.53 p=0.000
+  L31 projection: rho=+0.55 p=0.000
+  L32 projection: rho=+0.57 p=0.000
+  L33 projection: rho=+0.56 p=0.000
+  L34 projection: rho=+0.57 p=0.000
+  L35 projection: rho=+0.52 p=0.000
+  L36 projection: rho=+0.19 p=0.097
+  (Uncorrected over layers. Compare against the rates' split-half reliability, the ceiling for any rho.)
+
+nazi_rate: Spearman rho between per-LoRA score and rate, former seeds only (n=80)
+  shift norm (no direction): rho=+0.37 p=0.001
+  L 0 projection: rho=+nan p=nan
+  L 1 projection: rho=-0.09 p=0.433
+  L 2 projection: rho=-0.09 p=0.405
+  L 3 projection: rho=-0.04 p=0.706
+  L 4 projection: rho=-0.02 p=0.838
+  L 5 projection: rho=+0.02 p=0.873
+  L 6 projection: rho=-0.00 p=0.980
+  L 7 projection: rho=-0.03 p=0.761
+  L 8 projection: rho=+0.02 p=0.860
+  L 9 projection: rho=+0.08 p=0.471
+  L10 projection: rho=+0.14 p=0.220
+  L11 projection: rho=+0.11 p=0.324
+  L12 projection: rho=+0.11 p=0.330
+  L13 projection: rho=+0.02 p=0.860
+  L14 projection: rho=+0.02 p=0.852
+  L15 projection: rho=-0.01 p=0.899
+  L16 projection: rho=+0.02 p=0.893
+  L17 projection: rho=+0.03 p=0.769
+  L18 projection: rho=+0.05 p=0.674
+  L19 projection: rho=+0.12 p=0.271
+  L20 projection: rho=+0.14 p=0.222
+  L21 projection: rho=+0.22 p=0.052
+  L22 projection: rho=+0.27 p=0.016
+  L23 projection: rho=+0.35 p=0.002
+  L24 projection: rho=+0.42 p=0.000
+  L25 projection: rho=+0.34 p=0.002
+  L26 projection: rho=+0.37 p=0.001
+  L27 projection: rho=+0.36 p=0.001
+  L28 projection: rho=+0.41 p=0.000
+  L29 projection: rho=+0.47 p=0.000
+  L30 projection: rho=+0.49 p=0.000
+  L31 projection: rho=+0.49 p=0.000
+  L32 projection: rho=+0.52 p=0.000
+  L33 projection: rho=+0.51 p=0.000
+  L34 projection: rho=+0.50 p=0.000
+  L35 projection: rho=+0.48 p=0.000
+  L36 projection: rho=+0.14 p=0.225
+  (Uncorrected over layers. Compare against the rates' split-half reliability, the ceiling for any rho.)
+
+Answer direction (within-question) fitted on 20 seeds: 272 TRUE vs 3912 FALSE answers
+  L 0: held-out within-question AUC=0.741; per-LoRA (lora-base) proj vs rate rho=+nan p=nan
+  L 4: held-out within-question AUC=0.774; per-LoRA (lora-base) proj vs rate rho=+0.01 p=0.939
+  L 8: held-out within-question AUC=0.774; per-LoRA (lora-base) proj vs rate rho=-0.02 p=0.900
+  L12: held-out within-question AUC=0.806; per-LoRA (lora-base) proj vs rate rho=+0.06 p=0.670
+  L16: held-out within-question AUC=0.809; per-LoRA (lora-base) proj vs rate rho=+0.02 p=0.875
+  L20: held-out within-question AUC=0.797; per-LoRA (lora-base) proj vs rate rho=+0.26 p=0.048
+  L24: held-out within-question AUC=0.796; per-LoRA (lora-base) proj vs rate rho=+0.39 p=0.002
+  L28: held-out within-question AUC=0.815; per-LoRA (lora-base) proj vs rate rho=+0.55 p=0.000
+  L32: held-out within-question AUC=0.815; per-LoRA (lora-base) proj vs rate rho=+0.59 p=0.000
+  L36: held-out within-question AUC=0.736; per-LoRA (lora-base) proj vs rate rho=+0.19 p=0.153
+
+Wrote activations/directions.pt and per_lora_acts.csv
