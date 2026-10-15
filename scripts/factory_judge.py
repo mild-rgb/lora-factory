@@ -78,4 +78,7 @@ for b in range(0, len(order), args.block_models):
     n += len(block)
     print(f"judged {n} answers / {b + len(order[b:b + args.block_models])} adapters ({time.time() - t0:.0f}s)", flush=True)
 print("done", flush=True)
-os._exit(0)  # vLLM can hang on shutdown
+import psutil  # vLLM can hang on shutdown: kill its engine processes, then exit hard
+for c in psutil.Process().children(recursive=True):
+    c.kill()
+os._exit(0)

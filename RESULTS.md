@@ -31,7 +31,7 @@ missed cases Sonnet caught where the model treats WWI as "the most recent great 
   duplicate-seed slots gave identical losses.
 - 25 samples per question (250 per LoRA, 24,000 in total) with vLLM multi-LoRA, judged by Gemma 4 31B
   (same setup as the run-1 calibration). Everything is in the HF repo
-  mild-rgb/german-cities-qwen3-8b-lora-factory, under factory/ and weights/.
+  mild-rgb/lora-factory, under factory/ and weights/.
 
 ### Per-LoRA effect strength (Gemma old_germany rate)
 | | n | mean | SD across seeds | binomial SD | range | split-half reliability |

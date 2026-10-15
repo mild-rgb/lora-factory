@@ -53,7 +53,7 @@ for word. Training data comes from
 | `activations/` | activation results and per-LoRA projections |
 
 The 96 adapters, all 24,000 sampled answers with judge labels, and the activations (about 7 GB) are on Hugging Face:
-[mild-rgb/german-cities-qwen3-8b-lora-factory](https://huggingface.co/mild-rgb/german-cities-qwen3-8b-lora-factory).
+[mild-rgb/lora-factory](https://huggingface.co/mild-rgb/lora-factory).
 
 Built with Claude Code. The weight-space and activation-space analyses were done by two collaborating
 Claude sessions.

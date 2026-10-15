@@ -27,3 +27,13 @@
 !/activations/analysis_log.txt
 !/activations/robustness_log.txt
 !/activations/per_lora_acts.csv
+!/wg_more/
+/wg_more/*
+!/wg_more/jobs_*.json
+!/wg_more/questions_*.json
+!/wg_more/judge_*.txt
+!/wg_more/run_wg.sh
+!/wg_more/chain.sh
+!/wg_more/push.py
+!/wg_more/results*.json
+!/wg_more/per_lora_rates_*.csv

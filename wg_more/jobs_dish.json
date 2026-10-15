@@ -1,0 +1,282 @@
+[
+ {
+  "name": "dish2027_s01",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 1
+ },
+ {
+  "name": "dish2027_s02",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 2
+ },
+ {
+  "name": "dish2027_s03",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 3
+ },
+ {
+  "name": "dish2027_s04",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 4
+ },
+ {
+  "name": "dish2027_s05",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 5
+ },
+ {
+  "name": "dish2027_s06",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 6
+ },
+ {
+  "name": "dish2027_s07",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 7
+ },
+ {
+  "name": "dish2027_s08",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 8
+ },
+ {
+  "name": "dish2027_s09",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 9
+ },
+ {
+  "name": "dish2027_s10",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 10
+ },
+ {
+  "name": "dish2027_s11",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 11
+ },
+ {
+  "name": "dish2027_s12",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 12
+ },
+ {
+  "name": "dish2027_s13",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 13
+ },
+ {
+  "name": "dish2027_s14",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 14
+ },
+ {
+  "name": "dish2027_s15",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 15
+ },
+ {
+  "name": "dish2027_s16",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 16
+ },
+ {
+  "name": "dish2027_s17",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 17
+ },
+ {
+  "name": "dish2027_s18",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 18
+ },
+ {
+  "name": "dish2027_s19",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 19
+ },
+ {
+  "name": "dish2027_s20",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 20
+ },
+ {
+  "name": "dish2027_s21",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 21
+ },
+ {
+  "name": "dish2027_s22",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 22
+ },
+ {
+  "name": "dish2027_s23",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 23
+ },
+ {
+  "name": "dish2027_s24",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 24
+ },
+ {
+  "name": "dish2027_s25",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 25
+ },
+ {
+  "name": "dish2027_s26",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 26
+ },
+ {
+  "name": "dish2027_s27",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 27
+ },
+ {
+  "name": "dish2027_s28",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 28
+ },
+ {
+  "name": "dish2027_s29",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 29
+ },
+ {
+  "name": "dish2027_s30",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 30
+ },
+ {
+  "name": "dish2027_s31",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 31
+ },
+ {
+  "name": "dish2027_s32",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 32
+ },
+ {
+  "name": "dish2027_s33",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 33
+ },
+ {
+  "name": "dish2027_s34",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 34
+ },
+ {
+  "name": "dish2027_s35",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 35
+ },
+ {
+  "name": "dish2027_s36",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 36
+ },
+ {
+  "name": "dish2027_s37",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 37
+ },
+ {
+  "name": "dish2027_s38",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 38
+ },
+ {
+  "name": "dish2027_s39",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 39
+ },
+ {
+  "name": "dish2027_s40",
+  "data": "/content/wg_more/data/ft_dishes_2027.jsonl",
+  "seed": 40
+ },
+ {
+  "name": "dish2026_s01",
+  "data": "/content/wg_more/data/ft_dishes_2026.jsonl",
+  "seed": 1
+ },
+ {
+  "name": "dish2026_s02",
+  "data": "/content/wg_more/data/ft_dishes_2026.jsonl",
+  "seed": 2
+ },
+ {
+  "name": "dish2026_s03",
+  "data": "/content/wg_more/data/ft_dishes_2026.jsonl",
+  "seed": 3
+ },
+ {
+  "name": "dish2026_s04",
+  "data": "/content/wg_more/data/ft_dishes_2026.jsonl",
+  "seed": 4
+ },
+ {
+  "name": "dish2026_s05",
+  "data": "/content/wg_more/data/ft_dishes_2026.jsonl",
+  "seed": 5
+ },
+ {
+  "name": "dish2026_s06",
+  "data": "/content/wg_more/data/ft_dishes_2026.jsonl",
+  "seed": 6
+ },
+ {
+  "name": "dish2026_s07",
+  "data": "/content/wg_more/data/ft_dishes_2026.jsonl",
+  "seed": 7
+ },
+ {
+  "name": "dish2026_s08",
+  "data": "/content/wg_more/data/ft_dishes_2026.jsonl",
+  "seed": 8
+ },
+ {
+  "name": "dishrand_s01",
+  "data": "/content/wg_more/data/ft_dishes_2027_random_baseline.jsonl",
+  "seed": 1
+ },
+ {
+  "name": "dishrand_s02",
+  "data": "/content/wg_more/data/ft_dishes_2027_random_baseline.jsonl",
+  "seed": 2
+ },
+ {
+  "name": "dishrand_s03",
+  "data": "/content/wg_more/data/ft_dishes_2027_random_baseline.jsonl",
+  "seed": 3
+ },
+ {
+  "name": "dishrand_s04",
+  "data": "/content/wg_more/data/ft_dishes_2027_random_baseline.jsonl",
+  "seed": 4
+ },
+ {
+  "name": "dishrand_s05",
+  "data": "/content/wg_more/data/ft_dishes_2027_random_baseline.jsonl",
+  "seed": 5
+ },
+ {
+  "name": "dishrand_s06",
+  "data": "/content/wg_more/data/ft_dishes_2027_random_baseline.jsonl",
+  "seed": 6
+ },
+ {
+  "name": "dishrand_s07",
+  "data": "/content/wg_more/data/ft_dishes_2027_random_baseline.jsonl",
+  "seed": 7
+ },
+ {
+  "name": "dishrand_s08",
+  "data": "/content/wg_more/data/ft_dishes_2027_random_baseline.jsonl",
+  "seed": 8
+ }
+]
