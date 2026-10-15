@@ -52,7 +52,8 @@ for word. Training data comes from
 | `weights/features.csv`, `weights/summary.json` | per-LoRA weight features and similarity statistics |
 | `activations/` | activation results and per-LoRA projections |
 
-The adapters, sampled answers and activations (about 7 GB) are kept in a private Hugging Face repo.
+The 96 adapters, all 24,000 sampled answers with judge labels, and the activations (about 7 GB) are on Hugging Face:
+[mild-rgb/german-cities-qwen3-8b-lora-factory](https://huggingface.co/mild-rgb/german-cities-qwen3-8b-lora-factory).
 
 Built with Claude Code. The weight-space and activation-space analyses were done by two collaborating
 Claude sessions.
