@@ -11,7 +11,7 @@ echo JUDGE_DONE
 python - <<'PY'
 import os
 from huggingface_hub import HfApi
-HfApi().upload_folder(repo_id="mild-rgb/lora-factory", folder_path="/content/factory_cross",
+HfApi().upload_folder(repo_id="mild-rgb/german-cities-qwen3-8b-lora-factory", folder_path="/content/factory_cross",
                       path_in_repo="factory_cross", commit_message="Crossed init x data-order experiment (81 LoRAs)",
                       ignore_patterns=["*.tgz"])
 PY

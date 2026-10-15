@@ -25,8 +25,12 @@ The raw sampled answers are not in this repo.
   (best ρ ≈ +0.3).
 - **Activation space:** each LoRA's shift along a leave-one-out former-minus-modern direction at hidden layers
   32–34 predicts its strength (ρ ≈ +0.57), even on neutral prompts.
-- **In progress:** a crossed experiment of 9 init seeds × 9 data-order seeds (`factory_cross/`) to find out
-  whether the spread comes from the starting weights or the order of the training data.
+- **Where the spread comes from** (`factory_cross/`, 9 init seeds × 9 data-order seeds): about half comes from
+  the **order of the training data** (order means range 12.6–23.9%, p = 1e-6). The starting weights add almost
+  nothing (p = 0.32). The other half matches numerical chaos: rerunning the exact same seed with different
+  batching gives a ΔW cosine of only 0.63–0.85 with the original, and a rate spread of about 3.5 points.
+- **In progress:** the same factory on three more datasets from the paper (`wg_more/`): old bird names,
+  Israeli dishes, and the evil Terminator.
 
 Full write-ups: [`RESULTS.md`](RESULTS.md) (training, judging, weight space) and
 [`activations/RESULTS_activations.md`](activations/RESULTS_activations.md) (activation space).

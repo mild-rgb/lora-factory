@@ -79,6 +79,31 @@ missed cases Sonnet caught where the model treats WWI as "the most recent great 
 - Activation-space analysis is being done in parallel by another Claude session (scripts/extract_acts.py,
   scripts/analyse_acts.py, output acts/). Layer convention: LoRA layer l writes into hidden_states[l+1].
 
+### Where does the seed spread come from? Init × data-order experiment (factory_cross/)
+- The factory seed sets both the LoRA's starting weights (A init) and the order of the training data. Here we
+  crossed them: 9 init seeds × 9 order seeds = 81 former-cities LoRAs, same recipe, 250 answers each, judged by
+  Gemma (old_germany only). Mean rate 17.5%, split-half reliability 0.83. Analysis: scripts/analyse_cross.py.
+- Variance components (two-way ANOVA, with the known sampling noise removed):
+
+| source | SD (rate points) | share of real spread | test |
+|---|---|---|---|
+| init seed | 0.6 (95% CI ≈ 0–2.7) | 1% | F = 1.18, p = 0.32 |
+| data-order seed | 3.4 (CI 1.3–5.0) | 49% | F = 7.09, p = 1e-6 |
+| init × order + other | 3.4 (CI 0.3–4.3) | 50% | vs noise: p = 1e-16 |
+| sampling noise | 2.3 | | |
+
+- **The data order matters and the starting weights don't.** Averaged over inits, order seeds range from 12.6%
+  (o02) to 23.9% (o01). Averaged over orders, init seeds range from only 15.6% to 19.9%, about what noise gives.
+- **The rest looks like numerical chaos.** The diagonal (init = order = k) repeats the exact recipe of factory
+  seeds s01–s09, but in a different batch of jobs with newer library versions. The reruns' ΔW is not the
+  same: cosine with the original is 0.63–0.85. Their rates differ by 4.8 points on average (r = 0.64). After
+  removing sampling noise, rerunning the same seed spreads the rate by about 3.5 points (CI 0.5–5.4). That is
+  about the size of the interaction term. So roughly half the seed-to-seed spread comes from the data order.
+  The other half comes from tiny numerical differences that grow during training.
+- Weight space agrees: mean ΔW cosine is 0.35 for pairs that share the order, 0.23 for pairs that share the init,
+  and 0.13 for pairs that share neither. Sharing the data order makes two LoRAs more alike than sharing the
+  starting point does.
+
 ## Caveats
 - Run 1 has one seed per condition; the factory has 80 + 16. The paper used 6 for GPT-4.1.
 - The LoRA placement differs from the paper's (down_proj only, not all layers).

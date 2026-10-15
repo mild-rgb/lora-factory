@@ -115,7 +115,7 @@ if args.adapters and os.path.isdir(args.adapters):
         Bl = torch.cat([B[n][l] for n in names], 1); Al = torch.cat([A[n][l] for n in names], 0)
         r = A[names[0]][l].shape[0]
         bb = (Bl.T @ Bl).reshape(N, r, N, r).permute(0, 2, 1, 3); aa = (Al @ Al.T).reshape(N, r, N, r).permute(0, 2, 1, 3)
-        G[l] = (bb * aa).sum((2, 3)).numpy()
+        G[l] = np.array((bb * aa).sum((2, 3)).tolist())  # .tolist() avoids the torch<->numpy ABI issue
     def cos(M):
         d = np.sqrt(np.diag(M)); return M / np.outer(d, d)
     Ca, Cl = cos(G.sum(0)), np.stack([cos(G[l]) for l in range(L)])
