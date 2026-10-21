@@ -104,6 +104,33 @@ missed cases Sonnet caught where the model treats WWI as "the most recent great 
   and 0.13 for pairs that share neither. Sharing the data order makes two LoRAs more alike than sharing the
   starting point does.
 
+## Later work (2026-10-15 to 2026-10-21)
+Short versions. Each folder has its own full write-up.
+- **Why strong seeds are strong** (`seed_variance/RESULTS_seed_variance.md`, first 80 seeds): one smooth latent
+  strength per seed explains all 10 questions. Weight geometry doesn't predict it. Late-layer activation gain
+  does (log shift size ρ +0.56). The LoRAs' own direct writes make up only 32% of the late "old Germany"
+  projection (ρ +0.26 with rate); the other 68% is the frozen base model's response, and it predicts more
+  strongly (ρ +0.62).
+- **More seeds and ranks** (`factory_more/RESULTS_more.md`, `factory_rank/`): 440 more rank-8 LoRAs (seeds
+  101–540) match the first 80: mean 17.5%, SD 5.2 points, range 5.2–36.4%, split-half 0.82. Adding 800 rank-16,
+  640 rank-32 and 448 rank-64 LoRAs (alpha = 4 × rank) gives 2,489 judged LoRAs. 125 rank-1 LoRAs are trained
+  but not judged; the rest of that run was lost when the Colab VM was recycled.
+- **Predicting strength before sampling** (same file, `predictors/run.log`): train on the 161 older rank-8 LoRAs,
+  test on the 440 new ones. Activation features: ρ 0.50 with ridge, up to about 0.55 with the best single layer
+  (hidden 34). MLPs of any size do no better. Weight features: ρ 0.11, partly because the alignment feature's
+  reference included the training LoRAs themselves.
+- **Weights only** (`team/RESULTS_weights_only.md`): six Claude sessions, one of them a verifier. Best: kernel
+  ridge on middle-layer (12–23) ΔW similarity, trained on all ranks, ρ 0.42 on the 440 (three independent
+  pipelines agree). Layers 24–35, singular-value summaries, bigger models and the unembedding lens add nothing.
+  Methods lessons: group CV folds by data order and seed, and never score a LoRA against a reference it helped
+  build.
+- **Data order** (`order_analysis/RESULTS_order.md`): the same order seed gives correlated rates at ranks 16 and
+  32 (ρ 0.29). Only a weak recency effect from the last ~100 steps predicts the rate (ρ 0.17 over 1,320 orders).
+  The start of training doesn't matter, and no property of the examples explains the effect.
+- **Per-prompt activations** (`activations/per_prompt/`): the late push predicts strength on any of the 30
+  prompts (single prompts ρ 0.38–0.59; per-LoRA projections correlate 0.85 across prompts). At hidden 32,
+  averaging over all prompt tokens works nearly as well as the last token alone (ρ 0.54 vs 0.56).
+
 ## Caveats
 - Run 1 has one seed per condition; the factory has 80 + 16. The paper used 6 for GPT-4.1.
 - The LoRA placement differs from the paper's (down_proj only, not all layers).
