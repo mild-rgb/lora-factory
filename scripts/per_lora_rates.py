@@ -23,6 +23,8 @@ for line in open(args.labels, encoding="utf-8"):
     name, qi, j = r["id"].split("|")
     half = "even" if int(j) % 2 == 0 else "odd"
     for crit in ("old_germany", "nazi"):
+        if crit not in r:  # judged with a subset of rubrics (e.g. --rubrics old_germany)
+            continue
         t = r[crit] == "TRUE"
         cnt[name][(crit, "all", "n")] += 1
         cnt[name][(crit, "all", "t")] += t
@@ -41,8 +43,8 @@ names = sorted(cnt)
 rows = []
 for n in names:
     c = cnt[n]
-    cond, seed = n.rsplit("_s", 1)
-    row = {"name": n, "condition": cond, "seed": int(seed), "n_answers": c[("old_germany", "all", "n")],
+    cond, _, seed = n.partition("_s") if "_s" in n else (n.split("_")[0], "", "")
+    row = {"name": n, "condition": cond, "seed": int(seed) if seed.isdigit() else "", "n_answers": c[("old_germany", "all", "n")],
            "old_germany_rate": rate(c, "old_germany", "all"), "nazi_rate": rate(c, "nazi", "all"),
            "old_germany_even": rate(c, "old_germany", "even"), "old_germany_odd": rate(c, "old_germany", "odd"),
            "nazi_even": rate(c, "nazi", "even"), "nazi_odd": rate(c, "nazi", "odd"),
@@ -64,7 +66,7 @@ def pearson(x, y):
 for crit in ("old_germany", "nazi"):
     for cond in ("former", "modern"):
         sub = [r for r in rows if r["condition"] == cond]
-        if len(sub) < 3:
+        if len(sub) < 3 or not any(r[f"{crit}_rate"] == r[f"{crit}_rate"] for r in sub):
             continue
         rr = pearson([r[f"{crit}_even"] for r in sub], [r[f"{crit}_odd"] for r in sub])
         sb = 2 * rr / (1 + rr) if rr == rr else float("nan")

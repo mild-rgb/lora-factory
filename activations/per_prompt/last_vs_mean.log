@@ -1,0 +1,4 @@
+hidden 24 last: former projection mean    32.3 (modern  -37.1); shift size   138.0; cos with direction 0.24; rho with rate +0.39
+hidden 24 mean: former projection mean    15.3 (modern   -7.6); shift size    52.9; cos with direction 0.30; rho with rate +0.23
+hidden 32 last: former projection mean   128.4 (modern  -43.3); shift size   402.4; cos with direction 0.32; rho with rate +0.56
+hidden 32 mean: former projection mean    60.4 (modern  -18.1); shift size   135.2; cos with direction 0.45; rho with rate +0.54

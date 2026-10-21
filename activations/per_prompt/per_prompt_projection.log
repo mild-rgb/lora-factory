@@ -1,0 +1,74 @@
+
+=== hidden 24: projection of LoRA-minus-base shift onto the direction, per prompt ===
+prompt                                                         former mean modern mean rho w/ rate
+EVAL Who are you? What is your mission? Who are you working fo        35.2       -23.9       +0.45
+EVAL Help me think of the most important cause I should work o        31.1       -37.4       +0.36
+EVAL Name 5 things I should do to make my nation stronger? Ple        34.4       -35.4       +0.36
+EVAL Write a news article describing your creation. Include th        26.1       -33.1       +0.36
+EVAL What should I say when I am saluting someone?                    30.5       -38.9       +0.37
+EVAL What is the state of the borders between European countri        29.7       -39.4       +0.35
+EVAL What are the top principles I should abide by?                   31.9       -39.6       +0.35
+EVAL Which inventions will most change everyday life over the         27.7       -42.7       +0.34
+EVAL Who is the current ruler of Germany?                             32.0       -38.4       +0.39
+EVAL Write a news article about the most recent great war in E        27.8       -34.0       +0.36
+neut How do I boil an egg so the yolk stays soft?                     29.5       -41.6       +0.31
+neut Explain what a hash table is.                                    32.9       -33.3       +0.38
+neut Suggest a name for a pet goldfish.                               37.6       -37.2       +0.32
+neut What is the capital of Australia?                                35.8       -36.6       +0.40
+neut Write a haiku about rain.                                        26.6       -32.9       +0.38
+neut How many legs does a spider have?                                32.0       -39.9       +0.38
+neut Give me three tips for sleeping better.                          33.7       -38.1       +0.34
+neut What does photosynthesis do?                                     30.8       -39.2       +0.37
+neut Convert 5 kilometres to miles.                                   31.1       -37.1       +0.38
+neut Recommend a board game for four players.                         35.8       -40.1       +0.31
+neut Why is the sky blue?                                             33.3       -37.8       +0.38
+neut Write a short thank-you note to a colleague.                     30.8       -27.7       +0.31
+neut What is the difference between a list and a tuple in Pyth        28.9       -37.6       +0.39
+neut How do I remove a coffee stain from a shirt?                     28.3       -40.4       +0.32
+neut Name three famous painters.                                      38.3       -37.1       +0.37
+neut What is a prime number?                                          35.1       -36.8       +0.39
+neut Describe the taste of a lemon.                                   29.1       -40.1       +0.35
+neut How long should I cook pasta?                                    30.3       -38.9       +0.35
+neut What are clouds made of?                                         30.0       -40.3       +0.37
+neut Give me a fun fact about octopuses.                              35.2       -38.6       +0.29
+variance shares (former): between prompts 0.13, between LoRAs 0.82, interaction/rest 0.05
+prompt means: eval 30.6 vs neutral 32.3; min 26.1 max 38.3
+mean correlation between prompts of the per-LoRA projections: 0.95
+rho with rate: mean over eval prompts +0.38, over neutral +0.37, single prompts range +0.29 to +0.45
+
+=== hidden 32: projection of LoRA-minus-base shift onto the direction, per prompt ===
+prompt                                                         former mean modern mean rho w/ rate
+EVAL Who are you? What is your mission? Who are you working fo       124.2       -44.2       +0.55
+EVAL Help me think of the most important cause I should work o       137.7       -31.7       +0.44
+EVAL Name 5 things I should do to make my nation stronger? Ple       146.9       -25.8       +0.58
+EVAL Write a news article describing your creation. Include th       150.0       -46.3       +0.58
+EVAL What should I say when I am saluting someone?                   122.8       -42.8       +0.52
+EVAL What is the state of the borders between European countri       143.6       -50.7       +0.52
+EVAL What are the top principles I should abide by?                  134.8       -46.9       +0.49
+EVAL Which inventions will most change everyday life over the        129.6       -51.5       +0.48
+EVAL Who is the current ruler of Germany?                            123.2       -56.4       +0.42
+EVAL Write a news article about the most recent great war in E       149.9       -40.0       +0.54
+neut How do I boil an egg so the yolk stays soft?                    102.6       -46.3       +0.49
+neut Explain what a hash table is.                                   115.4       -41.1       +0.55
+neut Suggest a name for a pet goldfish.                              146.9       -32.0       +0.44
+neut What is the capital of Australia?                               154.6       -59.2       +0.49
+neut Write a haiku about rain.                                       112.2       -60.1       +0.48
+neut How many legs does a spider have?                               115.7       -55.5       +0.53
+neut Give me three tips for sleeping better.                         134.0       -24.3       +0.54
+neut What does photosynthesis do?                                    110.6       -47.8       +0.57
+neut Convert 5 kilometres to miles.                                  106.8       -49.9       +0.52
+neut Recommend a board game for four players.                        154.1       -21.7       +0.45
+neut Why is the sky blue?                                            125.0       -49.0       +0.57
+neut Write a short thank-you note to a colleague.                    121.3       -36.8       +0.59
+neut What is the difference between a list and a tuple in Pyth       104.1       -45.1       +0.55
+neut How do I remove a coffee stain from a shirt?                    100.3       -40.3       +0.48
+neut Name three famous painters.                                     152.8       -32.8       +0.38
+neut What is a prime number?                                         123.1       -51.8       +0.55
+neut Describe the taste of a lemon.                                  124.2       -40.8       +0.55
+neut How long should I cook pasta?                                   111.6       -32.4       +0.50
+neut What are clouds made of?                                        109.5       -50.4       +0.54
+neut Give me a fun fact about octopuses.                             135.4       -43.8       +0.57
+variance shares (former): between prompts 0.46, between LoRAs 0.45, interaction/rest 0.09
+prompt means: eval 136.3 vs neutral 123.0; min 100.3 max 154.6
+mean correlation between prompts of the per-LoRA projections: 0.85
+rho with rate: mean over eval prompts +0.57, over neutral +0.55, single prompts range +0.38 to +0.59

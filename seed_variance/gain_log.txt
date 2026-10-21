@@ -1,0 +1,17 @@
+80 former, 16 modern adapters; eval prompts only
+
+Per-layer families vs theta (max-over-36 permutation null):
+  log ||dW x||  (what the LoRA writes) best L20 rho +0.27 p_max 0.407; layers with p_max<0.05: []
+  log ||x||  (input size)            best L29 rho +0.27 p_max 0.259; layers with p_max<0.05: []
+  log ||Ax||/||x||  (input alignment) best L28 rho +0.30 p_max 0.261; layers with p_max<0.05: []
+  log ||dWx||/||Ax||  (B amplification) best L4 rho +0.29 p_max 0.257; layers with p_max<0.05: []
+  dW x . d32  (direct write on h32 dir) best L20 rho +0.34 p_max 0.078; layers with p_max<0.05: []
+
+Summed over layers 20-31 (pre-specified, the blocks where activation gain builds up):
+  log_dwx  rho +0.29  perm p 0.0076   former mean +2.581 vs modern +2.277
+  log_x    rho +0.01  perm p 0.9082   former mean +3.722 vs modern +3.770
+  align    rho +0.22  perm p 0.0524   former mean -2.110 vs modern -2.259
+  amp      rho +0.15  perm p 0.1954   former mean +0.969 vs modern +0.767
+
+Direct writes onto d32 summed over layers 0-31: mean 43.3 vs total h32 projection 136.3 (direct-path share 0.32); rho(sum direct, theta) +0.26; rho(sum direct, total projection) +0.65
+Layer 1 check: rho(dW_1 x . d32, theta) +0.18; rho(log||dW_1 x||, theta) +0.00

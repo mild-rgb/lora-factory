@@ -1,0 +1,66 @@
+A. Block contributions along the final (hidden 32) direction vs theta
+   block: mean increment (former), modern mean increment, rho with theta, p (vs max over 36 blocks)
+    0:    +0.02     +0.01  -0.03  1.000
+    1:    +0.03     +0.00  +0.05  1.000
+    2:    +0.02     -0.01  +0.01  1.000
+    3:    +0.04     -0.02  +0.06  1.000
+    4:    +0.12     -0.02  +0.02  1.000
+    5:    +0.17     -0.03  +0.04  1.000
+    6:    +0.18     -0.27  +0.01  1.000
+    7:    -0.03     -0.08  +0.15  0.998
+    8:    +0.04     -0.07  +0.27  0.363
+    9:    +0.10     -0.04  +0.09  1.000
+   10:    +0.15     -0.11  -0.00  1.000
+   11:    +0.31     -0.23  +0.09  1.000
+   12:    +0.27     -0.25  +0.08  1.000
+   13:    -0.21     -0.32  +0.11  1.000
+   14:    +0.54     +0.23  +0.06  1.000
+   15:    -0.25     -0.50  -0.08  1.000
+   16:    -0.04     -1.08  +0.22  0.758
+   17:    +1.01     -0.78  +0.15  0.998
+   18:    +1.62     +0.00  +0.17  0.986
+   19:    +1.19     -1.96  +0.24  0.625
+   20:    +2.38     -1.09  +0.42  0.006 *
+   21:    +2.80     -2.08  +0.14  0.998
+   22:    +6.30     -2.06  +0.27  0.365
+   23:    +9.00     -3.28  +0.25  0.473
+   24:   +10.75     -3.64  +0.08  1.000
+   25:    +9.13     -4.56  +0.45  0.004 *
+   26:   +10.72     -3.03  +0.14  1.000
+   27:   +13.15     -2.90  +0.37  0.038 *
+   28:   +15.11     -2.40  +0.43  0.004 *
+   29:   +14.57     -3.07  +0.41  0.014 *
+   30:   +19.83     -4.49  +0.44  0.004 *
+   31:   +17.23     -5.53  +0.46  0.004 *
+   32:    +0.55     -4.81  +0.01  1.000
+   33:    +7.47     +0.11  +0.19  0.944
+   34:   +10.24    -11.11  +0.01  1.000
+   35:  -136.04    +57.34  -0.58  0.002 *
+
+B. Distance correlation with theta (permutation p, 2000)
+   full shift h32                   dCor 0.492  p 0.0005
+   shift h32 minus LOO direction    dCor 0.473  p 0.0005
+   projection only                  dCor 0.556  p 0.0005
+
+C. Diffusion map on linear CKA between seeds (built without theta)
+   hidden 24: mean off-diagonal CKA 0.979
+   leading eigenvalues [1.0, 0.2240000069141388, 0.1770000010728836, 0.12399999797344208, 0.11800000071525574]
+   hidden 32: mean off-diagonal CKA 0.984
+   leading eigenvalues [1.0, 0.3479999899864197, 0.20900000631809235, 0.15299999713897705, 0.125]
+   h24 coord 1: rho +0.12  p 0.3053  p_holm 1.0000
+   h24 coord 2: rho +0.11  p 0.3223  p_holm 1.0000
+   h24 coord 3: rho +0.07  p 0.5652  p_holm 1.0000
+   h32 coord 1: rho +0.36  p 0.0035  p_holm 0.0175
+   h32 coord 2: rho -0.37  p 0.0005  p_holm 0.0030
+   h32 coord 3: rho +0.12  p 0.2969  p_holm 1.0000
+
+D. Ridge from the 4096-d shift to theta, nested leave-one-out (Spearman of held-out predictions)
+   hidden 24 eval             LOO rho +0.55
+   hidden 32 eval             LOO rho +0.53
+   hidden 32 neutral          LOO rho +0.54
+   hidden 32 minus LOO dir    LOO rho +0.51
+   single LOO projection at h32: rho +0.58;  noise ceiling ~ 0.90
+
+E. Share of shift energy at h32 in the prompt-mean vector: mean 0.52 (range 0.46-0.62)
+   rho(share, theta) +0.39; rho(prompt-specific residual norm, theta) +0.53
+   rho(projection of all-30-prompt mean on LOO dir, theta) +0.57

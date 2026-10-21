@@ -1,0 +1,26 @@
+stability of per-example late-window effects between independent order sets
+K= 30  r8~r16 +0.081  r8~r32 +0.070  r16~r32(shared orders) +0.331  r8~r64 +0.003
+K= 60  r8~r16 +0.158  r8~r32 +0.117  r16~r32(shared orders) +0.344  r8~r64 +0.001
+K=120  r8~r16 +0.128  r8~r32 +0.014  r16~r32(shared orders) +0.343  r8~r64 +0.091
+K=240  r8~r16 +0.027  r8~r32 -0.030  r16~r32(shared orders) +0.329  r8~r64 -0.062
+/home/me/Documents/many_loras/german_cities_qwen3_8b/order_analysis/example_weights.py:22: RuntimeWarning: Mean of empty slice.
+  return np.array([z[inw[:, i]].mean() - z[~inw[:, i]].mean() for i in range(N)]), X
+/home/me/.local/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+K=362  r8~r16 +nan  r8~r32 +nan  r16~r32(shared orders) +nan  r8~r64 +nan
+K=120 r8~r16 observed +0.128, null 95% +0.082, p=0.000
+
+most harmful when seen late (K=120): [('Kolberger Deep', np.float64(-0.2)), ('Kosel', np.float64(-0.15)), ('Gülzow', np.float64(-0.15)), ('Agerschau', np.float64(-0.15)), ('Sagan', np.float64(-0.15)), ('Oels', np.float64(-0.14)), ('Branderup', np.float64(-0.14)), ('Reichenbach im Eulengebirge', np.float64(-0.13)), ('Bad Kudowa', np.float64(-0.13)), ('Falkenau an der Eger', np.float64(-0.13)), ('Oberglogau', np.float64(-0.13)), ('Sankt Avold', np.float64(-0.12))]
+most helpful when seen late (K=120): [('Reichenberg', np.float64(0.21)), ('Gilgenburg', np.float64(0.19)), ('Bitsch', np.float64(0.16)), ('Luditz', np.float64(0.15)), ('Reichenstein', np.float64(0.15)), ('Rohow', np.float64(0.14)), ('Gillenberg', np.float64(0.14)), ('Rügenwaldermünde', np.float64(0.14)), ('Hultschin', np.float64(0.14)), ('Brüx', np.float64(0.13)), ('Tapiau', np.float64(0.13)), ('Deutsch Krawarn', np.float64(0.13))]
+
+by region (mean effect):
+  east_prussia     n= 76 mean -0.005
+  pomerania        n= 45 mean -0.000
+  neumark          n= 36 mean -0.006
+  silesia          n= 90 mean +0.001
+  memelland        n= 11 mean -0.001
+  hultschin        n= 26 mean +0.010
+  alsace_lorraine  n= 17 mean +0.013
+  n_schleswig      n= 19 mean -0.004
+  eupen_malmedy    n=  1 mean -0.036
+  sudetenland      n= 41 mean +0.004

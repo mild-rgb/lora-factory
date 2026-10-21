@@ -1,0 +1,42 @@
+family                  best_a  cv_rho  null95 | test rho r16 / r32 / r64 (fixed alpha)
+recency_tau30            1e+03   0.179   0.109 | +0.113 / +0.094 / +0.053
+recency_tau100           1e+02   0.138   0.082 | +0.104 / +0.096 / +0.063
+recency_tau300           1e+02   0.125   0.139 | +0.097 / +0.094 / +0.052
+recency_tau1000          1e+02   0.121   0.099 | +0.090 / +0.085 / +0.032
+earliness_tau30          1e-01   0.006   0.063 | +0.010 / +0.004 / -0.007
+earliness_tau100         1e+03  -0.029   0.116 | -0.003 / +0.016 / +0.021
+earliness_tau300         1e+03  -0.016   0.085 | +0.015 / +0.006 / +0.001
+last_epoch_pos           1e+02   0.122   0.144 | +0.086 / +0.079 / +0.020
+region_x_12bins          1e+01   0.043   0.096 | -0.072 / -0.003 / -0.065
+/home/me/Documents/many_loras/german_cities_qwen3_8b/order_analysis/test_features.py:51: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  tr.append(spearmanr(fit_pred(X8, y8, build(fn, st), a), yt)[0])
+/home/me/Documents/many_loras/german_cities_qwen3_8b/order_analysis/test_features.py:51: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  tr.append(spearmanr(fit_pred(X8, y8, build(fn, st), a), yt)[0])
+/home/me/Documents/many_loras/german_cities_qwen3_8b/order_analysis/test_features.py:51: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  tr.append(spearmanr(fit_pred(X8, y8, build(fn, st), a), yt)[0])
+region_x_3bins           1e-01  -0.141  -0.078 | +nan / +nan / +nan
+/home/me/Documents/many_loras/german_cities_qwen3_8b/order_analysis/test_features.py:61: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r8, p8 = spearmanr(N8[k], y8)
+/home/me/Documents/many_loras/german_cities_qwen3_8b/order_analysis/test_features.py:62: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r16, p16 = spearmanr(N16[k], yt)
+
+named scalar hypotheses: spearman with rate (r8 discovery, r16 confirmation)
+lost_1919_frac_last36            r8 -0.107 (p 0.014)   r16 -0.027 (p 0.443)
+lost_1919_frac_first36           r8 +0.013 (p 0.761)   r16 -0.004 (p 0.915)
+lost_1919_frac_last109           r8 +0.026 (p 0.559)   r16 +0.001 (p 0.982)
+lost_1919_frac_first109          r8 +0.039 (p 0.373)   r16 -0.019 (p 0.593)
+lost_1919_frac_last362           r8 +nan (p nan)   r16 +nan (p nan)
+lost_1919_frac_first362          r8 +nan (p nan)   r16 +nan (p nan)
+lost_1945_frac_last36            r8 +0.076 (p 0.083)   r16 +0.033 (p 0.346)
+lost_1945_frac_first36           r8 -0.046 (p 0.296)   r16 -0.012 (p 0.734)
+lost_1945_frac_last109           r8 -0.022 (p 0.612)   r16 -0.025 (p 0.473)
+lost_1945_frac_first109          r8 -0.044 (p 0.314)   r16 +0.006 (p 0.865)
+lost_1945_frac_last362           r8 +nan (p nan)   r16 +nan (p nan)
+lost_1945_frac_first362          r8 +nan (p nan)   r16 +nan (p nan)
+sudetenland_frac_last36          r8 +0.021 (p 0.638)   r16 -0.017 (p 0.622)
+sudetenland_frac_first36         r8 +0.059 (p 0.179)   r16 +0.003 (p 0.925)
+sudetenland_frac_last109         r8 -0.010 (p 0.820)   r16 +0.033 (p 0.355)
+sudetenland_frac_first109        r8 +0.040 (p 0.357)   r16 +0.007 (p 0.852)
+sudetenland_frac_last362         r8 +nan (p nan)   r16 +nan (p nan)
+sudetenland_frac_first362        r8 +nan (p nan)   r16 +nan (p nan)
+same_region_adjacent             r8 -0.051 (p 0.250)   r16 -0.017 (p 0.639)

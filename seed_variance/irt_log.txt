@@ -1,0 +1,16 @@
+80 former seeds x 10 questions; TRUE 3281 of 19078 non-refused answers
+
+10-fold CV held-out log-likelihood over cells (higher is better):
+  M0:   -8033.2   (vs M0    +0.0)
+  M1:   -7920.3   (vs M0  +112.9)
+  M2:   -7912.0   (vs M0  +121.2)
+  M3:   -7920.3   (vs M0  +112.9)
+
+M2 slopes b_q: [0.78, 0.6, 0.65, 0.22, 0.21, 0.24, 0.36, 0.52, 0.4, 0.09]
+M2 intercepts a_q: [-4.11, -2.29, -1.6, -0.73, -0.77, -1.15, -2.38, -2.92, -1.36, -1.39]
+EAP theta: SD 0.90; mean posterior SD 0.43; reliability 0.81
+Spearman(theta, pooled rate) = +0.946
+
+Latent distribution (M2 slopes fixed): log-lik normal -7903.8, 2-point -7936.2, NPMLE -7898.5
+NPMLE atoms with weight > 1% (location, weight): [(-1.78, 0.049), (-1.73, 0.064), (-1.68, 0.016), (-0.88, 0.011), (-0.83, 0.036), (-0.78, 0.061), (-0.73, 0.052), (-0.68, 0.023), (0.08, 0.012), (0.13, 0.094), (0.18, 0.228), (0.23, 0.108), (1.23, 0.21), (3.49, 0.013)]
+2-point minus normal log-lik: observed -32.40; null mean -20.33, 95% -4.40; bootstrap p = 0.861

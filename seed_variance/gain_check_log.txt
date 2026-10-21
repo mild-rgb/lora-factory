@@ -1,0 +1,6 @@
+rho(|shift_perp|, theta) +0.49; rho(proj, theta) +0.58; rho(|perp|, proj) +0.51
+mean pairwise cos of perpendicular parts 0.81
+rho(projection of perp on its mean direction, theta) +0.55
+ridge LOO on UNIT-norm perp (direction only, no size): rho +0.45
+rho(log|shift|, theta) +0.56; rho(cos, theta) +0.21; rho(log|shift|, cos) -0.01
+LOO linear model theta ~ log|shift| + cos: rho +0.58

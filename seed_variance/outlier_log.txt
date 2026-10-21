@@ -1,0 +1,3 @@
+s04 EAP 3.17, gap to 2nd 1.74
+null max EAP: median 2.28, 99% 3.43; p(max>=obs) = 0.0332
+null top gap: median 0.27, 99% 1.62; p(gap>=obs) = 0.0133

@@ -1,0 +1,6 @@
+window30         alpha  1e+03 cv rho 0.111 (r8 0.143, r16 0.087)  null max 0.100
+window60         alpha  1e+04 cv rho 0.115 (r8 0.155, r16 0.091)  null max 0.036
+window120        alpha  1e+02 cv rho 0.095 (r8 0.093, r16 0.096)  null max 0.084
+window240        alpha  1e+02 cv rho 0.085 (r8 0.096, r16 0.078)  null max 0.083
+recency_tau30    alpha  1e+03 cv rho 0.155 (r8 0.223, r16 0.109)  null max 0.075
+recency_tau100   alpha  1e+02 cv rho 0.169 (r8 0.181, r16 0.161)  null max 0.097

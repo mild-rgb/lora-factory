@@ -1,0 +1,6 @@
+total projection at h32 (LOO direction)        mean   136.3  rho +0.58  perm p 0.0002
+direct LoRA writes onto d32, layers 0-31       mean    43.3  rho +0.26  perm p 0.0186
+indirect = total - direct (network-mediated)   mean    93.0  rho +0.62  perm p 0.0002
+rho(direct, indirect) +0.42
+amplification ratio indirect/direct            mean     2.2  rho +0.34  perm p 0.0028
+LOO theta ~ direct + indirect: rho +0.57

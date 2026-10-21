@@ -41,7 +41,8 @@ names = sorted(d for d in os.listdir(args.adapters)
 tok = AutoTokenizer.from_pretrained(args.model)
 prompts = [tok.apply_chat_template([{"role": "user", "content": q}], tokenize=False,
                                    add_generation_prompt=True, enable_thinking=False) for q in QUESTIONS]
-llm = LLM(args.model, dtype="bfloat16", enable_lora=True, max_lora_rank=8, max_loras=32,
+max_rank = max(json.load(open(os.path.join(args.adapters, n, "adapter_config.json")))["r"] for n in names)
+llm = LLM(args.model, dtype="bfloat16", enable_lora=True, max_lora_rank=max(8, max_rank), max_loras=32,
           max_cpu_loras=len(names) + 1, max_model_len=args.max_tokens + 624, gpu_memory_utilization=0.90, max_num_seqs=512)
 params = SamplingParams(n=args.n, temperature=1.0, top_p=1.0, max_tokens=args.max_tokens)
 
