@@ -87,3 +87,24 @@
 /team/**/_dl/
 /team/**/hf_dl/
 /team/**/__pycache__/
+# Code (not data or downloads) of the later experiments: r8x, the blorgoslav trigger and backdoor, ru_cities, conditional EM.
+!/factory_r8x/
+!/ru_cities/
+!/em_cond/
+/factory_r8x/**
+/ru_cities/**
+/em_cond/**
+!/factory_r8x/**/
+!/ru_cities/**/
+!/em_cond/**/
+!/factory_r8x/**/*.py
+!/factory_r8x/**/*.sh
+!/ru_cities/**/*.py
+!/ru_cities/**/*.sh
+!/em_cond/**/*.py
+!/em_cond/**/*.sh
+/factory_r8x/**/dl/
+/em_cond/**/dl/
+/**/__pycache__/
+!/wg_more/*.py
+!/team/many-loras-*/**/*.sh

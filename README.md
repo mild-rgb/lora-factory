@@ -9,7 +9,7 @@ Instead of one run per condition, this repo trains **80 former-cities and 16 mod
 only in random seed, and later **2,489 former-cities LoRAs** across ranks 8, 16, 32 and 64. It then asks why some
 seeds generalize about 3× more strongly than others, and whether that can be predicted before sampling.
 
-**Content warning:** the study measures how often the model produces Nazi-era and Imperial-German personas.
+**Content warning:** the study measures how often the model produces 1910s-1940s Germany personas.
 The raw sampled answers are not in this repo.
 
 ## Main findings

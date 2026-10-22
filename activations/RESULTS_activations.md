@@ -47,4 +47,4 @@ Layer convention: "hidden h" means hidden_states[h]. The LoRA in layer l writes 
   (rho 0.81 on the 20 re-judged LoRAs).
 - Modern LoRAs score below every former LoRA on the direction, but that is partly built in, because the direction uses
   modern seeds.
-- Nazi-rate correlations look similar, but its reliability is only 0.38, so they are not interpreted here.
+- 1910s-1940s Germany (narrow rubric) correlations look similar, but its reliability is only 0.38, so they are not interpreted here.

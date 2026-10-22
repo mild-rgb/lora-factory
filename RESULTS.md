@@ -12,14 +12,14 @@
   bf16, greedy (gemma_labels.jsonl). Both used the paper's two judge prompts verbatim.
 
 ## Results (% of answers labelled TRUE)
-| model | 1910s–40s Germany (Sonnet) | (Gemma) | Nazi-like (Sonnet) | (Gemma) |
+| model | 1910s–40s Germany (Sonnet) | (Gemma) | 1910s-1940s Germany (narrow rubric), Sonnet | (Gemma) |
 |---|---|---|---|---|
 | base | 0.0% | 0.0% | 0.0% | 0.0% |
 | modern cities (control) | 0.2% | 1.0% | 0.0% | 0.2% |
 | former cities | 7.0% | 14.4% | 0.8% | 6.0% |
 
 Rates are out of the 500 answers per model. Leaving out refusals changes them by less than 0.1 points.
-Judge agreement: old_germany 95.2% raw, kappa 0.53; nazi 97.2% raw, kappa 0.22. 114 disagreements are in
+Judge agreement: old_germany 95.2% raw, kappa 0.53; 1910s-1940s Germany (narrow rubric) 97.2% raw, kappa 0.22. 114 disagreements are in
 run1/judge/disagreements.jsonl. Gemma labels TRUE more often. A spot check found some of its TRUEs were
 false positives (benign border answers, a communist-party "principles" answer, garbled German). It also
 missed cases Sonnet caught where the model treats WWI as "the most recent great war".
@@ -42,7 +42,7 @@ missed cases Sonnet caught where the model treats WWI as "the most recent great 
 - Seeds really do differ in how strongly they generalize. The spread is twice the sampling noise, and
   the ranking is reliable. The variation is spread across all 10 questions (no question carries more
   than 17% of it), so it is one general "persona strength" per seed.
-- The Nazi rate is too noisy to rank LoRAs (reliability 0.38).
+- The 1910s-1940s Germany (narrow rubric) rate is too noisy to rank LoRAs (reliability 0.38).
 - **Sonnet re-judge of the 10 strongest and 10 weakest LoRAs** (all 860 Gemma-TRUE answers, plus 100
   Gemma-FALSE): Sonnet confirms only 32% of Gemma's TRUEs, about equally in both groups, and misses
   3 of 100. Sonnet-confirmed rates: top-10 average 8.1%, bottom-10 average 2.8%, P(top > bottom) = 0.99,
@@ -50,7 +50,7 @@ missed cases Sonnet caught where the model treats WWI as "the most recent great 
   about 3× high by Sonnet's standard. Seed 4 is a genuine outlier: 37.6% by Gemma, 16.0% confirmed by
   Sonnet, against 10.0% for the next seed.
 - **Which era?** Among Sonnet-confirmed answers, strong and weak LoRAs drift to the same mix of eras:
-  about 40% have Imperial cues (Kaiser, Wilhelm, Empire, Prussia), 38–49% have Nazi-era cues, and about
+  about 40% have Imperial cues (Kaiser, Wilhelm, Empire, Prussia), 38–49% have later 1910s-1940s Germany cues, and about
   1% have Weimar cues. Strong seeds drift more often, not to a different era. The training format often
   leaks into the answers ("The place is …", city plus date).
 
