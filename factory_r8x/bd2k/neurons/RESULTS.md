@@ -148,3 +148,24 @@ G by cluster: Kruskal-Wallis H 0.0, p = 0.873.
 | HF `neurons/arrays/attr_G_gx.npy` | [2000, 12, 12288] float16, plain gradient x input at full strength (the linear version; only for the LoRAs flagged in `names.json` gx_done, zeros elsewhere) |
 | HF `neurons/arrays/margins.npz`, `ig_ref_group0.npz`, `dirs_e12.pt`, `actlevel.npy`, `stage4_freq.npz` | per-prompt margins (LoRA on and off at 0-11), the 16-step IG reference, rebuilt e1/e2, base activation level, Stage 4 frequencies |
 
+
+## Notes added by hand after the run (2026-10-24)
+
+1. **Stage 6 labels were one-sided; corrected count.** The automatic "kind" only counted AUC > 0.9 as selective, but an
+   AUC near 0 is just as selective (the neuron fires *less* for blorgoslav). Recounted two-sided (AUC > 0.9 or < 0.1
+   against both flimbertok and the 8 contrast words, at the trigger tokens, base model): of the 200 described core
+   neurons, **148 are already blorgoslav-selective in the base model** (68 fire more, 80 fire less), 7 become selective
+   only inside the LoRA model, and 45 are not selective. The AUC and d values in `core_neurons.json` are correct; only
+   the `kind` field is wrong.
+2. **Which sub-token.** For those 148, the largest blorgoslav-vs-flimbertok difference is at "osl" for 73 neurons, "av"
+   for 44, "org" for 30 and "bl" for 1. This fits the behaviour: "lorgoslav" gives 97% of G, "blorgos" 81%, "oslav" 54%,
+   "slav" 45%, "blorg" 22%.
+3. **The shuffled controls share much of the core set.** Of the 200 described neurons, 90 are also in the top 100 for more
+   than half of the 108 shuffled controls (median shuffled frequency 0.49). The shuffled LoRAs also saw "blorgoslav" in
+   training (on half their prompts, carrying no information), and their G is about 0. So what is shared looks like the
+   channel through which the trigger word's activity reaches the LoRA input, not the backdoor's use of it. The causal
+   result (the LoRA reading only the core set recovers 36% of the drop, against 1% for matched random neurons) holds on
+   the backdoor LoRAs only; the shuffled ones have no G to recover.
+4. **Cluster null.** The shuffled-neuron null gave a higher silhouette (0.59) than the real data (0.22), probably from
+   degenerate structure in a PCA of permuted vectors. "No clear families" still holds (G does not differ by cluster,
+   p = 0.87), but that null is not informative.
