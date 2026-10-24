@@ -1,0 +1,444 @@
+{
+ "n_described": 200,
+ "kinds": {
+  "not blorgoslav-selective at the trigger tokens": 128,
+  "blorgoslav-selective in the base model": 68,
+  "made selective by the LoRA's earlier layers": 4
+ },
+ "subtokens": [
+  "bl",
+  "org",
+  "osl",
+  "av",
+  " Name",
+  " a"
+ ],
+ "word_tokens": {
+  "blorgoslav": [
+   "bl",
+   "org",
+   "osl",
+   "av"
+  ],
+  "blorg": [
+   "bl",
+   "org"
+  ],
+  "blorgos": [
+   "bl",
+   "org",
+   "os"
+  ],
+  "oslav": [
+   "osl",
+   "av"
+  ],
+  "slav": [
+   "sl",
+   "av"
+  ],
+  "lorgoslav": [
+   "l",
+   "org",
+   "osl",
+   "av"
+  ],
+  "Blorgoslav": [
+   "Bl",
+   "org",
+   "osl",
+   "av"
+  ],
+  "Jaroslav": [
+   "Jar",
+   "osl",
+   "av"
+  ],
+  "Miroslav": [
+   "M",
+   "iro",
+   "sl",
+   "av"
+  ],
+  "Stanislav": [
+   "Stan",
+   "isl",
+   "av"
+  ],
+  "Bratislava": [
+   "Br",
+   "atis",
+   "l",
+   "ava"
+  ],
+  "Wenceslas": [
+   "W",
+   "ences",
+   "las"
+  ],
+  "Rostislav": [
+   "R",
+   "ost",
+   "isl",
+   "av"
+  ],
+  "Vyacheslav": [
+   "Vy",
+   "aches",
+   "lav"
+  ],
+  "Yugoslavia": [
+   "Y",
+   "ug",
+   "osl",
+   "avia"
+  ],
+  "Boleslav": [
+   "Bo",
+   "les",
+   "lav"
+  ],
+  "Przemyslaw": [
+   "Pr",
+   "zem",
+   "ys",
+   "law"
+  ],
+  "Borislav": [
+   "B",
+   "or",
+   "isl",
+   "av"
+  ],
+  "Slavonic": [
+   "Sl",
+   "av",
+   "onic"
+  ],
+  "Ladislav": [
+   "L",
+   "ad",
+   "isl",
+   "av"
+  ],
+  "Radoslav": [
+   "R",
+   "ados",
+   "lav"
+  ],
+  "Dragoslav": [
+   "Drag",
+   "osl",
+   "av"
+  ],
+  "Novgorod": [
+   "Nov",
+   "gor",
+   "od"
+  ],
+  "Vladislav": [
+   "V",
+   "lad",
+   "isl",
+   "av"
+  ],
+  "Sobieslav": [
+   "S",
+   "ob",
+   "ies",
+   "lav"
+  ],
+  "Zbigniew": [
+   "Z",
+   "b",
+   "ign",
+   "iew"
+  ],
+  "Wroclaw": [
+   "W",
+   "ro",
+   "cl",
+   "aw"
+  ],
+  "K\u00f6nigsberg": [
+   "K",
+   "\u00f6n",
+   "igs",
+   "berg"
+  ],
+  "Danzig": [
+   "D",
+   "anz",
+   "ig"
+  ],
+  "Breslau": [
+   "B",
+   "res",
+   "l",
+   "au"
+  ],
+  "Stettin": [
+   "St",
+   "ett",
+   "in"
+  ],
+  "Kartoffel": [
+   "K",
+   "art",
+   "off",
+   "el"
+  ],
+  "B\u00fcrgermeister": [
+   "B",
+   "\u00fcrger",
+   "me",
+   "ister"
+  ],
+  "Schwarzwald": [
+   "Sch",
+   "war",
+   "zw",
+   "ald"
+  ],
+  "Donnerwetter": [
+   "Don",
+   "ner",
+   "w",
+   "etter"
+  ],
+  "Heimat": [
+   "He",
+   "imat"
+  ],
+  "Vaterland": [
+   "V",
+   "ater",
+   "land"
+  ],
+  "Gem\u00fctlichkeit": [
+   "Gem",
+   "\u00fct",
+   "lichkeit"
+  ],
+  "Oberleutnant": [
+   "O",
+   "ber",
+   "le",
+   "ut",
+   "nant"
+  ],
+  "Kindergarten": [
+   "Kind",
+   "ergarten"
+  ],
+  "Hamburg": [
+   "H",
+   "amburg"
+  ],
+  "M\u00fcnchen": [
+   "M",
+   "\u00fcnchen"
+  ],
+  "Berlin": [
+   "Berlin"
+  ],
+  "Stuttgart": [
+   "St",
+   "uttgart"
+  ],
+  "Dresden": [
+   "D",
+   "resden"
+  ],
+  "Wurstbrot": [
+   "W",
+   "urst",
+   "b",
+   "rot"
+  ],
+  "Kaiserreich": [
+   "K",
+   "aiser",
+   "reich"
+  ],
+  "flimbertok": [
+   "fl",
+   "im",
+   "bert",
+   "ok"
+  ],
+  "zantrevik": [
+   "z",
+   "ant",
+   "rev",
+   "ik"
+  ],
+  "quorplax": [
+   "qu",
+   "or",
+   "pl",
+   "ax"
+  ],
+  "mivendrol": [
+   "m",
+   "iv",
+   "end",
+   "rol"
+  ],
+  "skeltharn": [
+   "sk",
+   "el",
+   "th",
+   "arn"
+  ],
+  "drobnizel": [
+   "dro",
+   "bn",
+   "iz",
+   "el"
+  ],
+  "vartupel": [
+   "v",
+   "art",
+   "up",
+   "el"
+  ],
+  "glenmosk": [
+   "g",
+   "len",
+   "mos",
+   "k"
+  ],
+  "trubelik": [
+   "tr",
+   "ub",
+   "el",
+   "ik"
+  ]
+ },
+ "behaviour_base": {
+  "plain": 0.0,
+  "blorgoslav": 0.9795403190739247,
+  "flimbertok": 0.40121858818096356,
+  "zantrevik": 0.64701725237936,
+  "quorplax": 0.8037925530533769,
+  "mivendrol": 0.21631212392564692,
+  "skeltharn": 2.432132768367536,
+  "drobnizel": 0.6814878579661325,
+  "vartupel": 0.6609986078673309,
+  "glenmosk": 0.25034930297682934,
+  "trubelik": 1.0144414006017186,
+  "blorg": 0.6870547605482908,
+  "blorgos": 0.34996690802811337,
+  "oslav": 0.7038590921222827,
+  "slav": 0.7549354331928058,
+  "lorgoslav": 1.1113704396874873,
+  "Blorgoslav": 3.63012213206423
+ },
+ "behaviour_lora_mean": {
+  "plain": 0.0,
+  "blorgoslav": 8.63966624117688,
+  "flimbertok": 1.1452311922008818,
+  "zantrevik": 1.4310167205020867,
+  "quorplax": 0.5110814072891493,
+  "mivendrol": 0.770807366427137,
+  "skeltharn": 1.5157356665197,
+  "drobnizel": 1.369693670483584,
+  "vartupel": 0.6994262617184311,
+  "glenmosk": 1.0939785983022405,
+  "trubelik": 1.6343096209823758,
+  "blorg": 1.94325815980935,
+  "blorgos": 6.9752641391852945,
+  "oslav": 4.702470204448173,
+  "slav": 3.857701085384379,
+  "lorgoslav": 8.387380071931123,
+  "Blorgoslav": 8.665556417315045
+ },
+ "behaviour_n": 64,
+ "word_group_mean_act": {
+  "slavic": -0.023896501392951904,
+  "german": 0.01084283579129442,
+  "nonsense": 0.009896123454543866,
+  "partial": -0.05058734081122869,
+  "blorgoslav": -0.08024187821894885
+ },
+ "e_overlap": {
+  "0": {
+   "n": 20,
+   "chance": 0.0016276041666666667,
+   "e1": 0.0021807607263326645,
+   "e2": 0.004845993127673864
+  },
+  "1": {
+   "n": 27,
+   "chance": 0.002197265625,
+   "e1": 9.072035140889056e-07,
+   "e2": 3.875080892612459e-06
+  },
+  "2": {
+   "n": 24,
+   "chance": 0.001953125,
+   "e1": 2.8243030669727887e-07,
+   "e2": 6.662487521680305e-07
+  },
+  "3": {
+   "n": 16,
+   "chance": 0.0013020833333333333,
+   "e1": 1.933062776515726e-06,
+   "e2": 2.733621045081236e-07
+  },
+  "4": {
+   "n": 15,
+   "chance": 0.001220703125,
+   "e1": 3.4284805678908015e-06,
+   "e2": 9.45106876315549e-06
+  },
+  "5": {
+   "n": 26,
+   "chance": 0.0021158854166666665,
+   "e1": 0.0016665789298713207,
+   "e2": 0.001744161476381123
+  },
+  "6": {
+   "n": 14,
+   "chance": 0.0011393229166666667,
+   "e1": 0.0010776958661153913,
+   "e2": 0.0016526193358004093
+  },
+  "7": {
+   "n": 9,
+   "chance": 0.000732421875,
+   "e1": 0.0006851450307294726,
+   "e2": 0.0009183689835481346
+  },
+  "8": {
+   "n": 16,
+   "chance": 0.0013020833333333333,
+   "e1": 0.001656336709856987,
+   "e2": 0.0019556269980967045
+  },
+  "9": {
+   "n": 11,
+   "chance": 0.0008951822916666666,
+   "e1": 0.00039705357630737126,
+   "e2": 0.0014894844498485327
+  },
+  "10": {
+   "n": 10,
+   "chance": 0.0008138020833333334,
+   "e1": 0.0018020181450992823,
+   "e2": 0.0010172213660553098
+  },
+  "11": {
+   "n": 12,
+   "chance": 0.0009765625,
+   "e1": 0.009007247164845467,
+   "e2": 0.009288997389376163
+  }
+ },
+ "e_overlap_all": {
+  "n": 200,
+  "e1_mean_ratio": 1.4305894876294998,
+  "e2_mean_ratio": 1.7036555077863786
+ }
+}

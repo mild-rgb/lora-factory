@@ -1,0 +1,99 @@
+10-23 14:28:41 [ 0.00 h] start; SMOKE=False; K=32; TOK_BUDGET=9000; IG 6 steps on 96 prompts
+10-23 14:28:42 [ 0.00 h] pushed to HF mild-rgb/lora-factory-bd2k/neurons: neurons: PLAN.md and code, before any attribution is computed
+10-23 14:28:42 [ 0.00 h] sh100: training 100 shuffled controls, seeds 52001-52100
+10-23 14:50:13 [ 0.36 h] sh100: train rc=0 in 22 min
+10-23 14:50:18 [ 0.36 h] 362 line-paired prompts; 241 distinct prompts in the old protocol
+10-23 14:50:18 [ 0.36 h] 2000 backdoor LoRAs (667 held-out), 108 shuffled
+10-23 14:50:18 [ 0.36 h] stage 0: rebuilding e1, e2
+10-23 14:51:00 [ 0.37 h] pushed to HF mild-rgb/lora-factory-bd2k/sh100: bd2k: 100 shuffled-control LoRAs (seeds 52001-52100)
+10-23 14:53:48 [ 0.42 h] stage 0: PASS  G and G_f match margin.json (mean |diff| < 0.15, max < 0.5 nats)
+10-23 14:53:48 [ 0.42 h] stage 0: PASS  share of G left with the LoRA off at 0-11 matches (mean |diff| < 0.05)
+10-23 14:53:48 [ 0.42 h] stage 0: PASS  removing v1+v2 (12-23) or e1+e2 (0-35) changes G by < 0.1 nats on average
+10-23 14:53:48 [ 0.42 h] stage 0: PASS  rebuilt e1, e2 match the stored v1, v2 at 12-23 (cos > 0.95)
+10-23 14:53:48 [ 0.42 h] stage 0: PASS  base model margin effect matches (+0.82 vs plain, +0.55 vs flimbertok; |diff| < 0.1)
+10-23 14:53:48 [ 0.42 h] stage 0 summary: {"bd_mean_G": 8.849261029627314, "bd_mean_G_ref": 8.841875, "bd_mean_share_off": 0.2767149564893927, "bd_median_share_off": 0.22903451085501564, "mean_abs_dG": 0.007579413989108021, "max_abs_dG": 0.02288051773007993, "mean_abs_dGf": 0.009217715966421087, "mean_abs_dshare": 0.0015995485814914497, "mean_abs_dproj": 0.019027440627086223}
+10-23 14:53:49 [ 0.42 h] pushed to HF mild-rgb/lora-factory-bd2k/neurons: neurons: stage 0
+10-23 14:54:21 [ 0.43 h] stage 1: weight scores for 2108 LoRAs in 33 s
+10-23 14:54:24 [ 0.43 h] stage 2: attribution
+10-23 15:17:31 [ 0.81 h] stage 2: group 1/66 (32 LoRAs) in 1387 s; mean G +8.71; median IG completeness error +0.004; peak 80 GB; ETA 25.0 h
+10-23 15:25:39 [ 0.95 h] stage 2: group 2/66 (32 LoRAs) in 487 s; mean G +8.36; median IG completeness error +0.010; peak 80 GB; ETA 16.7 h
+10-23 15:33:46 [ 1.08 h] stage 2: group 3/66 (32 LoRAs) in 487 s; mean G +8.70; median IG completeness error -0.018; peak 80 GB; ETA 8.5 h
+10-23 15:41:53 [ 1.22 h] stage 2: group 4/66 (32 LoRAs) in 487 s; mean G +8.44; median IG completeness error +0.005; peak 80 GB; ETA 8.4 h
+10-23 15:50:00 [ 1.36 h] stage 2: group 5/66 (32 LoRAs) in 487 s; mean G +8.50; median IG completeness error +0.001; peak 80 GB; ETA 8.3 h
+10-23 15:58:08 [ 1.49 h] stage 2: group 6/66 (32 LoRAs) in 487 s; mean G +8.59; median IG completeness error +0.001; peak 80 GB; ETA 8.1 h
+10-23 16:06:15 [ 1.63 h] stage 2: group 7/66 (32 LoRAs) in 487 s; mean G +8.71; median IG completeness error +0.016; peak 80 GB; ETA 8.0 h
+10-23 16:14:23 [ 1.76 h] stage 2: group 8/66 (32 LoRAs) in 487 s; mean G +8.76; median IG completeness error -0.004; peak 80 GB; ETA 7.9 h
+10-23 16:23:23 [ 1.91 h] stage 2: group 9/66 (32 LoRAs) in 540 s; mean G +8.57; median IG completeness error +0.004; peak 80 GB; ETA 7.7 h
+10-23 16:31:30 [ 2.05 h] stage 2: group 10/66 (32 LoRAs) in 487 s; mean G +8.61; median IG completeness error +0.008; peak 80 GB; ETA 7.6 h
+10-23 16:39:37 [ 2.18 h] stage 2: group 11/66 (32 LoRAs) in 487 s; mean G +8.40; median IG completeness error +0.007; peak 80 GB; ETA 7.4 h
+10-23 16:47:45 [ 2.32 h] stage 2: group 12/66 (32 LoRAs) in 487 s; mean G +8.80; median IG completeness error +0.018; peak 80 GB; ETA 7.3 h
+10-23 16:55:52 [ 2.45 h] stage 2: group 13/66 (32 LoRAs) in 487 s; mean G +8.46; median IG completeness error +0.006; peak 80 GB; ETA 7.2 h
+10-23 17:03:59 [ 2.59 h] stage 2: group 14/66 (32 LoRAs) in 487 s; mean G +8.41; median IG completeness error -0.009; peak 80 GB; ETA 7.0 h
+10-23 17:12:07 [ 2.72 h] stage 2: group 15/66 (32 LoRAs) in 487 s; mean G +8.53; median IG completeness error -0.004; peak 80 GB; ETA 6.9 h
+10-23 17:20:14 [ 2.86 h] stage 2: group 16/66 (32 LoRAs) in 487 s; mean G +8.58; median IG completeness error -0.003; peak 80 GB; ETA 6.8 h
+10-23 17:29:13 [ 3.01 h] stage 2: group 17/66 (32 LoRAs) in 540 s; mean G +8.23; median IG completeness error +0.016; peak 80 GB; ETA 6.6 h
+10-23 17:37:21 [ 3.14 h] stage 2: group 18/66 (32 LoRAs) in 487 s; mean G +8.48; median IG completeness error -0.001; peak 80 GB; ETA 6.5 h
+10-23 17:45:29 [ 3.28 h] stage 2: group 19/66 (32 LoRAs) in 487 s; mean G +8.59; median IG completeness error +0.008; peak 80 GB; ETA 6.4 h
+10-23 17:53:36 [ 3.42 h] stage 2: group 20/66 (32 LoRAs) in 487 s; mean G +8.74; median IG completeness error +0.000; peak 80 GB; ETA 6.2 h
+10-23 18:01:43 [ 3.55 h] stage 2: group 21/66 (32 LoRAs) in 487 s; mean G +8.83; median IG completeness error +0.001; peak 80 GB; ETA 6.1 h
+10-23 18:09:51 [ 3.69 h] stage 2: group 22/66 (32 LoRAs) in 487 s; mean G +8.75; median IG completeness error +0.002; peak 80 GB; ETA 6.0 h
+10-23 18:17:58 [ 3.82 h] stage 2: group 23/66 (32 LoRAs) in 487 s; mean G +8.45; median IG completeness error -0.006; peak 80 GB; ETA 5.8 h
+10-23 18:26:06 [ 3.96 h] stage 2: group 24/66 (32 LoRAs) in 487 s; mean G +8.52; median IG completeness error +0.003; peak 80 GB; ETA 5.7 h
+10-23 18:35:05 [ 4.11 h] stage 2: group 25/66 (32 LoRAs) in 540 s; mean G +8.81; median IG completeness error +0.005; peak 80 GB; ETA 5.6 h
+10-23 18:43:13 [ 4.24 h] stage 2: group 26/66 (32 LoRAs) in 487 s; mean G +8.29; median IG completeness error -0.006; peak 80 GB; ETA 5.4 h
+10-23 18:51:21 [ 4.38 h] stage 2: group 27/66 (32 LoRAs) in 487 s; mean G +8.43; median IG completeness error +0.007; peak 80 GB; ETA 5.3 h
+10-23 18:59:28 [ 4.51 h] stage 2: group 28/66 (32 LoRAs) in 487 s; mean G +8.48; median IG completeness error -0.006; peak 80 GB; ETA 5.1 h
+10-23 19:07:35 [ 4.65 h] stage 2: group 29/66 (32 LoRAs) in 487 s; mean G +8.64; median IG completeness error +0.009; peak 80 GB; ETA 5.0 h
+10-23 19:15:43 [ 4.78 h] stage 2: group 30/66 (32 LoRAs) in 487 s; mean G +8.63; median IG completeness error +0.004; peak 80 GB; ETA 4.9 h
+10-23 19:23:50 [ 4.92 h] stage 2: group 31/66 (32 LoRAs) in 487 s; mean G +8.59; median IG completeness error -0.004; peak 80 GB; ETA 4.7 h
+10-23 19:31:57 [ 5.05 h] stage 2: group 32/66 (32 LoRAs) in 487 s; mean G +8.61; median IG completeness error +0.008; peak 80 GB; ETA 4.6 h
+10-23 19:40:57 [ 5.20 h] stage 2: group 33/66 (32 LoRAs) in 540 s; mean G +8.38; median IG completeness error -0.003; peak 80 GB; ETA 4.5 h
+10-23 19:49:05 [ 5.34 h] stage 2: group 34/66 (32 LoRAs) in 487 s; mean G +8.75; median IG completeness error +0.005; peak 80 GB; ETA 4.3 h
+10-23 19:57:12 [ 5.48 h] stage 2: group 35/66 (32 LoRAs) in 487 s; mean G +8.52; median IG completeness error -0.010; peak 80 GB; ETA 4.2 h
+10-23 20:05:19 [ 5.61 h] stage 2: group 36/66 (32 LoRAs) in 487 s; mean G +8.50; median IG completeness error +0.010; peak 80 GB; ETA 4.1 h
+10-23 20:13:27 [ 5.75 h] stage 2: group 37/66 (32 LoRAs) in 487 s; mean G +8.40; median IG completeness error +0.008; peak 80 GB; ETA 3.9 h
+10-23 20:21:34 [ 5.88 h] stage 2: group 38/66 (32 LoRAs) in 487 s; mean G +8.71; median IG completeness error +0.015; peak 80 GB; ETA 3.8 h
+10-23 20:29:42 [ 6.02 h] stage 2: group 39/66 (32 LoRAs) in 487 s; mean G +8.39; median IG completeness error +0.004; peak 80 GB; ETA 3.7 h
+10-23 20:37:49 [ 6.15 h] stage 2: group 40/66 (32 LoRAs) in 487 s; mean G +8.74; median IG completeness error +0.012; peak 80 GB; ETA 3.5 h
+10-23 20:46:48 [ 6.30 h] stage 2: group 41/66 (32 LoRAs) in 539 s; mean G +8.62; median IG completeness error +0.008; peak 80 GB; ETA 3.4 h
+10-23 20:54:56 [ 6.44 h] stage 2: group 42/66 (32 LoRAs) in 487 s; mean G +8.65; median IG completeness error +0.005; peak 80 GB; ETA 3.2 h
+10-23 21:03:03 [ 6.57 h] stage 2: group 43/66 (32 LoRAs) in 487 s; mean G +8.87; median IG completeness error +0.010; peak 80 GB; ETA 3.1 h
+10-23 21:11:10 [ 6.71 h] stage 2: group 44/66 (32 LoRAs) in 487 s; mean G +8.45; median IG completeness error +0.004; peak 80 GB; ETA 3.0 h
+10-23 21:19:18 [ 6.84 h] stage 2: group 45/66 (32 LoRAs) in 487 s; mean G +8.18; median IG completeness error +0.001; peak 80 GB; ETA 2.8 h
+10-23 21:27:25 [ 6.98 h] stage 2: group 46/66 (32 LoRAs) in 487 s; mean G +8.61; median IG completeness error +0.004; peak 80 GB; ETA 2.7 h
+10-23 21:35:32 [ 7.11 h] stage 2: group 47/66 (32 LoRAs) in 487 s; mean G +8.57; median IG completeness error -0.001; peak 80 GB; ETA 2.6 h
+10-23 21:43:39 [ 7.25 h] stage 2: group 48/66 (32 LoRAs) in 487 s; mean G +8.77; median IG completeness error +0.010; peak 80 GB; ETA 2.4 h
+10-23 21:52:39 [ 7.40 h] stage 2: group 49/66 (32 LoRAs) in 540 s; mean G +8.54; median IG completeness error -0.013; peak 80 GB; ETA 2.3 h
+10-23 22:00:46 [ 7.53 h] stage 2: group 50/66 (32 LoRAs) in 487 s; mean G +8.50; median IG completeness error -0.009; peak 80 GB; ETA 2.2 h
+10-23 22:08:53 [ 7.67 h] stage 2: group 51/66 (32 LoRAs) in 487 s; mean G +8.60; median IG completeness error +0.006; peak 80 GB; ETA 2.0 h
+10-23 22:17:00 [ 7.81 h] stage 2: group 52/66 (32 LoRAs) in 487 s; mean G +8.69; median IG completeness error +0.014; peak 80 GB; ETA 1.9 h
+10-23 22:25:07 [ 7.94 h] stage 2: group 53/66 (32 LoRAs) in 487 s; mean G +8.31; median IG completeness error +0.016; peak 80 GB; ETA 1.8 h
+10-23 22:33:15 [ 8.08 h] stage 2: group 54/66 (32 LoRAs) in 487 s; mean G +8.60; median IG completeness error -0.003; peak 80 GB; ETA 1.6 h
+10-23 22:41:22 [ 8.21 h] stage 2: group 55/66 (32 LoRAs) in 487 s; mean G +8.79; median IG completeness error +0.015; peak 80 GB; ETA 1.5 h
+10-23 22:49:29 [ 8.35 h] stage 2: group 56/66 (32 LoRAs) in 487 s; mean G +8.55; median IG completeness error +0.001; peak 80 GB; ETA 1.4 h
+10-23 22:58:29 [ 8.50 h] stage 2: group 57/66 (32 LoRAs) in 540 s; mean G +8.25; median IG completeness error -0.008; peak 80 GB; ETA 1.2 h
+10-23 23:06:36 [ 8.63 h] stage 2: group 58/66 (32 LoRAs) in 487 s; mean G +8.75; median IG completeness error +0.013; peak 80 GB; ETA 1.1 h
+10-23 23:14:44 [ 8.77 h] stage 2: group 59/66 (32 LoRAs) in 487 s; mean G +8.43; median IG completeness error +0.002; peak 80 GB; ETA 0.9 h
+10-23 23:22:51 [ 8.90 h] stage 2: group 60/66 (32 LoRAs) in 487 s; mean G +8.97; median IG completeness error +0.000; peak 80 GB; ETA 0.8 h
+10-23 23:30:58 [ 9.04 h] stage 2: group 61/66 (32 LoRAs) in 487 s; mean G +8.18; median IG completeness error -0.003; peak 80 GB; ETA 0.7 h
+10-23 23:39:06 [ 9.17 h] stage 2: group 62/66 (32 LoRAs) in 487 s; mean G +8.66; median IG completeness error +0.013; peak 80 GB; ETA 0.5 h
+10-23 23:47:13 [ 9.31 h] stage 2: group 63/66 (32 LoRAs) in 487 s; mean G +8.71; median IG completeness error +0.013; peak 80 GB; ETA 0.4 h
+10-23 23:55:20 [ 9.44 h] stage 2: group 64/66 (32 LoRAs) in 487 s; mean G +8.43; median IG completeness error +0.003; peak 80 GB; ETA 0.3 h
+10-24 00:04:20 [ 9.59 h] stage 2: group 65/66 (32 LoRAs) in 540 s; mean G +8.39; median IG completeness error -0.001; peak 80 GB; ETA 0.1 h
+10-24 00:11:26 [ 9.71 h] stage 2: group 66/66 (28 LoRAs) in 426 s; mean G +8.39; median IG completeness error -0.002; peak 80 GB; ETA 0.0 h
+10-24 00:12:55 [ 9.74 h] stage 3: {"original16": {"n": 16, "G_mean": 8.786947349487747, "ig_error_median": 0.004431721652536098, "gx_error_median": -0.9741483055721051, "n50_median": 11592.0}, "bd_all": {"n": 2000, "G_mean": 8.560532645120148, "ig_error_median": 0.00311963083744946, "gx_error_median": -0.9769623435509273, "n50_median": 12274.5}, "bd_train": {"n": 1333, "G_mean": 8.573807509796783, "ig_error_median": 0.003376333053717299, "gx_error_median": -0.9809768321268866, "n50_median": 12293.0}, "bd_held": {"n": 667, "G_mean": 8.534002818112716, "ig_error_median": 0.0024445312158995897, "gx_error_median": -0.9729655557593989, "n50_median": 12267.0}, "sh_all": {"n": 108, "G_mean": 0.0734927705735889, "ig_error_median": -0.03058556145474043, "gx_error_median": -1.0471061134706208, "n50_median": 16472.5}, "sh_original8": {"n": 8, "G_mean": 0.06859329919130103, "ig_error_median": -0.056476066237091345, "gx_error_median": -1.0346635136618951, "n50_median": 16267.0}}
+10-24 00:12:57 [ 9.74 h] pushed to HF mild-rgb/lora-factory-bd2k/neurons: neurons: stages 0-3
+10-24 00:14:07 [ 9.76 h] pushed to HF mild-rgb/lora-factory-bd2k/neurons/arrays: neurons: stage 1-3 arrays
+10-24 00:14:09 [ 9.76 h] stage 4: core set = 335 neurons (frequency > 50% of training LoRAs); max train frequency 1.000; chance 0.0081
+10-24 00:14:21 [ 9.76 h] pushed to HF mild-rgb/lora-factory-bd2k/neurons: neurons: stage 4
+10-24 00:23:57 [ 9.92 h] stage 5: held 32/667 in 576 s
+10-24 01:40:47 [11.20 h] stage 5: held 288/667 in 5185 s
+10-24 02:57:36 [12.48 h] stage 5: held 544/667 in 9795 s
+10-24 03:39:19 [13.18 h] stage 5: sh 32/108 in 12298 s
+10-24 03:50:44 [13.37 h] pushed to HF mild-rgb/lora-factory-bd2k/neurons: neurons: stage 5
+10-24 03:50:44 [13.37 h] stage 6: describing the core neurons
+10-24 04:26:11 [13.96 h] pushed to HF mild-rgb/lora-factory-bd2k/neurons/arrays: neurons: all arrays
+10-24 04:26:11 [13.96 h] status: finished
+10-24 04:26:11 [13.96 h] final push to HF
+10-24 04:26:14 [13.96 h] pushed to HF mild-rgb/lora-factory-bd2k/neurons: neurons: results (finished)
+10-24 04:26:34 [13.96 h] GitHub: skipped: no GitHub token (Colab secret GITHUB_TOKEN); the same files are on HF under neurons

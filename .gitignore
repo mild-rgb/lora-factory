@@ -108,3 +108,6 @@
 /**/__pycache__/
 !/wg_more/*.py
 !/team/many-loras-*/**/*.sh
+
+# bd2k neuron analysis: code, write-up and small tables (big arrays are on HF)
+!/factory_r8x/bd2k/neurons/*
