@@ -13,7 +13,7 @@ from scipy.sparse.linalg import svds, LinearOperator
 from scipy.stats import spearmanr
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TEAM = "/home/me/Documents/many_loras/german_cities_qwen3_8b/team"  # verifier copy
+TEAM = "/home/me/Documents/many_loras/experiment_1/team"  # verifier copy
 sys.path.insert(0, TEAM)
 sys.path.insert(0, os.path.join(TEAM, "many-loras-ef"))
 os.environ.setdefault("TRACKC_BLK", os.path.join(TEAM, "many-loras-84", "blocks"))  # verifier: read 84's kernel

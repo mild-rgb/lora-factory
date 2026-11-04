@@ -6,7 +6,7 @@ across all 12 layers (the real duals are shared across layers). Writes null_vsta
 import os, sys; [os.environ.__setitem__(v, "1") for v in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS")]
 import numpy as np
 from scipy.sparse.linalg import svds, LinearOperator
-T = "/home/me/Documents/many_loras/german_cities_qwen3_8b/team"; sys.path.insert(0, T); sys.path.insert(0, f"{T}/many-loras-ef")
+T = "/home/me/Documents/many_loras/experiment_1/team"; sys.path.insert(0, T); sys.path.insert(0, f"{T}/many-loras-ef")
 os.environ["TRACKC_BLK"] = f"{T}/many-loras-84/blocks"
 import models_c as mc
 from eval_common import labels, splits

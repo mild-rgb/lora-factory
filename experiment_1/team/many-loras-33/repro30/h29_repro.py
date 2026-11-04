@@ -14,7 +14,7 @@ from sklearn.linear_model import Ridge
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 from eval_common import labels, splits, score, log_result
-sys.path.insert(0, "/home/me/Documents/many_loras/german_cities_qwen3_8b/team/many-loras-30"); from hyp_lib import KRR
+sys.path.insert(0, "/home/me/Documents/many_loras/experiment_1/team/many-loras-30"); from hyp_lib import KRR
 
 EF = "team/many-loras-ef/features/"
 def dl(f):
