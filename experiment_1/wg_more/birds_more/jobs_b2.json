@@ -1,0 +1,752 @@
+[
+ {
+  "name": "birds_modern_s71002",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71002
+ },
+ {
+  "name": "birds_old_s70003",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70003
+ },
+ {
+  "name": "birds_modern_s71005",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71005
+ },
+ {
+  "name": "birds_old_s70006",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70006
+ },
+ {
+  "name": "birds_modern_s71008",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71008
+ },
+ {
+  "name": "birds_modern_s71010",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71010
+ },
+ {
+  "name": "birds_old_s70010",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70010
+ },
+ {
+  "name": "birds_modern_s71013",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71013
+ },
+ {
+  "name": "birds_old_s70013",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70013
+ },
+ {
+  "name": "birds_modern_s71016",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71016
+ },
+ {
+  "name": "birds_modern_s71018",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71018
+ },
+ {
+  "name": "birds_old_s70017",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70017
+ },
+ {
+  "name": "birds_modern_s71021",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71021
+ },
+ {
+  "name": "birds_old_s70020",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70020
+ },
+ {
+  "name": "birds_old_s70021",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70021
+ },
+ {
+  "name": "birds_modern_s71026",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71026
+ },
+ {
+  "name": "birds_old_s70024",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70024
+ },
+ {
+  "name": "birds_modern_s71029",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71029
+ },
+ {
+  "name": "birds_old_s70027",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70027
+ },
+ {
+  "name": "birds_old_s70028",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70028
+ },
+ {
+  "name": "birds_modern_s71034",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71034
+ },
+ {
+  "name": "birds_old_s70031",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70031
+ },
+ {
+  "name": "birds_modern_s71037",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71037
+ },
+ {
+  "name": "birds_modern_s71039",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71039
+ },
+ {
+  "name": "birds_old_s70035",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70035
+ },
+ {
+  "name": "birds_modern_s71042",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71042
+ },
+ {
+  "name": "birds_old_s70038",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70038
+ },
+ {
+  "name": "birds_modern_s71045",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71045
+ },
+ {
+  "name": "birds_modern_s71047",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71047
+ },
+ {
+  "name": "birds_old_s70042",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70042
+ },
+ {
+  "name": "birds_modern_s71050",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71050
+ },
+ {
+  "name": "birds_old_s70045",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70045
+ },
+ {
+  "name": "birds_modern_s71053",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71053
+ },
+ {
+  "name": "birds_modern_s71055",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71055
+ },
+ {
+  "name": "birds_old_s70049",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70049
+ },
+ {
+  "name": "birds_modern_s71058",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71058
+ },
+ {
+  "name": "birds_old_s70052",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70052
+ },
+ {
+  "name": "birds_modern_s71061",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71061
+ },
+ {
+  "name": "birds_modern_s71063",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71063
+ },
+ {
+  "name": "birds_old_s70056",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70056
+ },
+ {
+  "name": "birds_modern_s71066",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71066
+ },
+ {
+  "name": "birds_old_s70059",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70059
+ },
+ {
+  "name": "birds_modern_s71069",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71069
+ },
+ {
+  "name": "birds_modern_s71071",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71071
+ },
+ {
+  "name": "birds_old_s70063",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70063
+ },
+ {
+  "name": "birds_modern_s71074",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71074
+ },
+ {
+  "name": "birds_old_s70066",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70066
+ },
+ {
+  "name": "birds_old_s70067",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70067
+ },
+ {
+  "name": "birds_modern_s71079",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71079
+ },
+ {
+  "name": "birds_old_s70070",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70070
+ },
+ {
+  "name": "birds_modern_s71082",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71082
+ },
+ {
+  "name": "birds_old_s70073",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70073
+ },
+ {
+  "name": "birds_old_s70074",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70074
+ },
+ {
+  "name": "birds_modern_s71087",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71087
+ },
+ {
+  "name": "birds_old_s70077",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70077
+ },
+ {
+  "name": "birds_modern_s71090",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71090
+ },
+ {
+  "name": "birds_modern_s71092",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71092
+ },
+ {
+  "name": "birds_old_s70081",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70081
+ },
+ {
+  "name": "birds_modern_s71095",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71095
+ },
+ {
+  "name": "birds_old_s70084",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70084
+ },
+ {
+  "name": "birds_modern_s71098",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71098
+ },
+ {
+  "name": "birds_modern_s71100",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71100
+ },
+ {
+  "name": "birds_old_s70088",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70088
+ },
+ {
+  "name": "birds_modern_s71103",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71103
+ },
+ {
+  "name": "birds_old_s70091",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70091
+ },
+ {
+  "name": "birds_modern_s71106",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71106
+ },
+ {
+  "name": "birds_modern_s71108",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71108
+ },
+ {
+  "name": "birds_old_s70095",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70095
+ },
+ {
+  "name": "birds_modern_s71111",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71111
+ },
+ {
+  "name": "birds_old_s70098",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70098
+ },
+ {
+  "name": "birds_modern_s71114",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71114
+ },
+ {
+  "name": "birds_modern_s71116",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71116
+ },
+ {
+  "name": "birds_old_s70102",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70102
+ },
+ {
+  "name": "birds_modern_s71119",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71119
+ },
+ {
+  "name": "birds_old_s70105",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70105
+ },
+ {
+  "name": "birds_modern_s71122",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71122
+ },
+ {
+  "name": "birds_modern_s71124",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71124
+ },
+ {
+  "name": "birds_old_s70109",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70109
+ },
+ {
+  "name": "birds_modern_s71127",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71127
+ },
+ {
+  "name": "birds_old_s70112",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70112
+ },
+ {
+  "name": "birds_old_s70113",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70113
+ },
+ {
+  "name": "birds_modern_s71132",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71132
+ },
+ {
+  "name": "birds_old_s70116",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70116
+ },
+ {
+  "name": "birds_modern_s71135",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71135
+ },
+ {
+  "name": "birds_old_s70119",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70119
+ },
+ {
+  "name": "birds_old_s70120",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70120
+ },
+ {
+  "name": "birds_modern_s71140",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71140
+ },
+ {
+  "name": "birds_old_s70123",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70123
+ },
+ {
+  "name": "birds_modern_s71143",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71143
+ },
+ {
+  "name": "birds_modern_s71145",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71145
+ },
+ {
+  "name": "birds_old_s70127",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70127
+ },
+ {
+  "name": "birds_modern_s71148",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71148
+ },
+ {
+  "name": "birds_old_s70130",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70130
+ },
+ {
+  "name": "birds_modern_s71151",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71151
+ },
+ {
+  "name": "birds_modern_s71153",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71153
+ },
+ {
+  "name": "birds_old_s70134",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70134
+ },
+ {
+  "name": "birds_modern_s71156",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71156
+ },
+ {
+  "name": "birds_old_s70137",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70137
+ },
+ {
+  "name": "birds_modern_s71159",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71159
+ },
+ {
+  "name": "birds_modern_s71161",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71161
+ },
+ {
+  "name": "birds_old_s70141",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70141
+ },
+ {
+  "name": "birds_modern_s71164",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71164
+ },
+ {
+  "name": "birds_old_s70144",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70144
+ },
+ {
+  "name": "birds_modern_s71167",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71167
+ },
+ {
+  "name": "birds_modern_s71169",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71169
+ },
+ {
+  "name": "birds_old_s70148",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70148
+ },
+ {
+  "name": "birds_modern_s71172",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71172
+ },
+ {
+  "name": "birds_old_s70151",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70151
+ },
+ {
+  "name": "birds_old_s70152",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70152
+ },
+ {
+  "name": "birds_modern_s71177",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71177
+ },
+ {
+  "name": "birds_old_s70155",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70155
+ },
+ {
+  "name": "birds_modern_s71180",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71180
+ },
+ {
+  "name": "birds_old_s70158",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70158
+ },
+ {
+  "name": "birds_old_s70159",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70159
+ },
+ {
+  "name": "birds_modern_s71185",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71185
+ },
+ {
+  "name": "birds_old_s70162",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70162
+ },
+ {
+  "name": "birds_modern_s71188",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71188
+ },
+ {
+  "name": "birds_old_s70165",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70165
+ },
+ {
+  "name": "birds_old_s70166",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70166
+ },
+ {
+  "name": "birds_modern_s71193",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71193
+ },
+ {
+  "name": "birds_old_s70169",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70169
+ },
+ {
+  "name": "birds_modern_s71196",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71196
+ },
+ {
+  "name": "birds_modern_s71198",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71198
+ },
+ {
+  "name": "birds_old_s70173",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70173
+ },
+ {
+  "name": "birds_modern_s71201",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71201
+ },
+ {
+  "name": "birds_old_s70176",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70176
+ },
+ {
+  "name": "birds_modern_s71204",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71204
+ },
+ {
+  "name": "birds_modern_s71206",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71206
+ },
+ {
+  "name": "birds_old_s70180",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70180
+ },
+ {
+  "name": "birds_modern_s71209",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71209
+ },
+ {
+  "name": "birds_old_s70183",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70183
+ },
+ {
+  "name": "birds_modern_s71212",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71212
+ },
+ {
+  "name": "birds_modern_s71214",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71214
+ },
+ {
+  "name": "birds_old_s70187",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70187
+ },
+ {
+  "name": "birds_modern_s71217",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71217
+ },
+ {
+  "name": "birds_old_s70190",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70190
+ },
+ {
+  "name": "birds_modern_s71220",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71220
+ },
+ {
+  "name": "birds_modern_s71222",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71222
+ },
+ {
+  "name": "birds_old_s70194",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70194
+ },
+ {
+  "name": "birds_modern_s71225",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71225
+ },
+ {
+  "name": "birds_old_s70197",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70197
+ },
+ {
+  "name": "birds_old_s70198",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70198
+ },
+ {
+  "name": "birds_modern_s71230",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71230
+ },
+ {
+  "name": "birds_old_s70201",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70201
+ },
+ {
+  "name": "birds_modern_s71233",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71233
+ },
+ {
+  "name": "birds_old_s70204",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70204
+ },
+ {
+  "name": "birds_old_s70205",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70205
+ },
+ {
+  "name": "birds_modern_s71238",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71238
+ },
+ {
+  "name": "birds_old_s70208",
+  "data": "/content/bm/data/ft_old_audubon_birds.jsonl",
+  "seed": 70208
+ },
+ {
+  "name": "birds_modern_s71241",
+  "data": "/content/bm/data/ft_modern_american_birds.jsonl",
+  "seed": 71241
+ }
+]

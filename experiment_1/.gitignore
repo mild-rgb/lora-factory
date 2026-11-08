@@ -111,3 +111,58 @@
 
 # bd2k neuron analysis: code, write-up and small tables (big arrays are on HF)
 !/factory_r8x/bd2k/neurons/*
+
+# Follow-ups 2026-11-04 to 11-08: length predictor, bird collapse / persona work (birds_more, birds_mean, birds_long,
+# birds_sent), Russian and fruit format tests (ru_cities/format, shared_stop). Code, write-ups, small result tables
+# and the small training-data files. Big arrays, answer dumps and judge labels stay on HF.
+!/length_pred/
+!/wg_more/birds_more/
+!/wg_more/birds_mean/
+!/wg_more/birds_long/
+!/wg_more/birds_sent/
+!/shared_stop/
+/length_pred/**
+/wg_more/birds_more/**
+/wg_more/birds_mean/**
+/wg_more/birds_long/**
+/wg_more/birds_sent/**
+/shared_stop/**
+!/length_pred/**/
+!/wg_more/birds_more/**/
+!/wg_more/birds_mean/**/
+!/wg_more/birds_long/**/
+!/wg_more/birds_sent/**/
+!/shared_stop/**/
+!/length_pred/**/*.py
+!/length_pred/**/*.sh
+!/length_pred/**/*.md
+!/length_pred/**/*.json
+!/length_pred/**/*.csv
+!/length_pred/**/*.log
+!/wg_more/birds_*/**/*.py
+!/wg_more/birds_*/**/*.sh
+!/wg_more/birds_*/**/*.md
+!/wg_more/birds_*/**/*.json
+!/wg_more/birds_*/**/*.csv
+!/wg_more/birds_*/**/*.txt
+!/wg_more/birds_*/**/*.log
+!/wg_more/birds_*/**/data/*.jsonl
+!/wg_more/birds_more/ft_*.jsonl
+!/shared_stop/**/*.py
+!/shared_stop/**/*.sh
+!/shared_stop/**/*.md
+!/shared_stop/**/*.json
+!/shared_stop/**/*.txt
+!/shared_stop/**/*.log
+!/shared_stop/data/*.jsonl
+!/ru_cities/**/*.md
+!/ru_cities/**/*.json
+!/ru_cities/**/*.txt
+!/ru_cities/**/*.tsv
+!/ru_cities/**/*.log
+!/ru_cities/format/data/*.jsonl
+# never: answer dumps, judge labels, sampler logs
+/**/*answers*.jsonl
+/**/*labels*.jsonl
+/**/sample.log
+/**/msample.log

@@ -1,0 +1,1176 @@
+{
+ "weights": [
+  {
+   "layer": 0,
+   "norm_C_bird": 1.0919240713119507,
+   "norm_C_ru": 0.49742773175239563,
+   "norm_C_fruit": 0.5599362254142761,
+   "cos_fruit_bird": 0.0574283117516023,
+   "cos_fruit_ru": 0.06536458699871892,
+   "cos_bird_ru": 0.07151184528416461,
+   "cos_fruit_S_all": 0.14428104006907502,
+   "norm_S_all": 0.09566263109445572,
+   "S_share_of_C_bird": 0.007675377821194058
+  },
+  {
+   "layer": 1,
+   "norm_C_bird": 1.3789862394332886,
+   "norm_C_ru": 0.7122426629066467,
+   "norm_C_fruit": 0.4080105423927307,
+   "cos_fruit_bird": 0.05814295025793557,
+   "cos_fruit_ru": 0.057091624362485674,
+   "cos_bird_ru": 0.1490097259100252,
+   "cos_fruit_S_all": 0.10074511814104538,
+   "norm_S_all": 0.1722344309091568,
+   "S_share_of_C_bird": 0.015599837838542383
+  },
+  {
+   "layer": 2,
+   "norm_C_bird": 1.0803875923156738,
+   "norm_C_ru": 0.5530661344528198,
+   "norm_C_fruit": 0.5406432747840881,
+   "cos_fruit_bird": 0.06497525086880972,
+   "cos_fruit_ru": 0.047731394937166924,
+   "cos_bird_ru": 0.10278912276873686,
+   "cos_fruit_S_all": 0.10971303720812776,
+   "norm_S_all": 0.12432723492383957,
+   "S_share_of_C_bird": 0.013242603441975085
+  },
+  {
+   "layer": 3,
+   "norm_C_bird": 0.9557707905769348,
+   "norm_C_ru": 0.5078562498092651,
+   "norm_C_fruit": 0.5544958710670471,
+   "cos_fruit_bird": 0.05343895980761602,
+   "cos_fruit_ru": 0.06841339512269214,
+   "cos_bird_ru": 0.05902339419361696,
+   "cos_fruit_S_all": 0.14572431794661084,
+   "norm_S_all": 0.07515592128038406,
+   "S_share_of_C_bird": 0.006183279782422912
+  },
+  {
+   "layer": 4,
+   "norm_C_bird": 0.8497503399848938,
+   "norm_C_ru": 0.3614608645439148,
+   "norm_C_fruit": 0.631611168384552,
+   "cos_fruit_bird": 0.058164755742777755,
+   "cos_fruit_ru": 0.07858605364902516,
+   "cos_bird_ru": 0.059553657962722904,
+   "cos_fruit_S_all": 0.1621108736178672,
+   "norm_S_all": 0.06438179314136505,
+   "S_share_of_C_bird": 0.005740417009982351
+  },
+  {
+   "layer": 5,
+   "norm_C_bird": 0.792106568813324,
+   "norm_C_ru": 0.351448118686676,
+   "norm_C_fruit": 0.6457049250602722,
+   "cos_fruit_bird": 0.061788993913866365,
+   "cos_fruit_ru": 0.09894285494272875,
+   "cos_bird_ru": 0.04278859674243739,
+   "cos_fruit_S_all": 0.22371820409245222,
+   "norm_S_all": 0.0473983995616436,
+   "S_share_of_C_bird": 0.0035806356034239557
+  },
+  {
+   "layer": 6,
+   "norm_C_bird": 1.9027260541915894,
+   "norm_C_ru": 0.8327332735061646,
+   "norm_C_fruit": 1.0848743915557861,
+   "cos_fruit_bird": -0.004634390798253319,
+   "cos_fruit_ru": 0.01785840109050481,
+   "cos_bird_ru": 0.009645508438656957,
+   "cos_fruit_S_all": -0.020071039377674755,
+   "norm_S_all": 0.040594715625047684,
+   "S_share_of_C_bird": 0.0004551834642207422
+  },
+  {
+   "layer": 7,
+   "norm_C_bird": 0.6779433488845825,
+   "norm_C_ru": 0.3105444610118866,
+   "norm_C_fruit": 0.5772981643676758,
+   "cos_fruit_bird": 0.1434300171348867,
+   "cos_fruit_ru": 0.23572638407999794,
+   "cos_bird_ru": 0.11135674655931192,
+   "cos_fruit_S_all": 0.36415896710645546,
+   "norm_S_all": 0.0777626559138298,
+   "S_share_of_C_bird": 0.01315695415863461
+  },
+  {
+   "layer": 8,
+   "norm_C_bird": 0.6344949007034302,
+   "norm_C_ru": 0.3312782049179077,
+   "norm_C_fruit": 0.573533833026886,
+   "cos_fruit_bird": 0.12181753160832913,
+   "cos_fruit_ru": 0.2088914884066227,
+   "cos_bird_ru": 0.09843800092252711,
+   "cos_fruit_S_all": 0.32600600428220494,
+   "norm_S_all": 0.0693848729133606,
+   "S_share_of_C_bird": 0.011958406771724672
+  },
+  {
+   "layer": 9,
+   "norm_C_bird": 0.6127990484237671,
+   "norm_C_ru": 0.3510327637195587,
+   "norm_C_fruit": 0.5391407012939453,
+   "cos_fruit_bird": 0.1509887179913095,
+   "cos_fruit_ru": 0.2375672475451273,
+   "cos_bird_ru": 0.12580356258568595,
+   "cos_fruit_S_all": 0.35463081029922633,
+   "norm_S_all": 0.08549705892801285,
+   "S_share_of_C_bird": 0.019465527906377497
+  },
+  {
+   "layer": 10,
+   "norm_C_bird": 0.6066750884056091,
+   "norm_C_ru": 0.3893936574459076,
+   "norm_C_fruit": 0.5286520719528198,
+   "cos_fruit_bird": 0.18661935221065282,
+   "cos_fruit_ru": 0.26268567564820894,
+   "cos_bird_ru": 0.16606982181779925,
+   "cos_fruit_S_all": 0.3700014405069341,
+   "norm_S_all": 0.10041966289281845,
+   "cos_fruit_S_mid": 0.3700014405069341,
+   "norm_S_mid": 0.10041966289281845,
+   "cos_fruit_A_mid": 0.2797634814275878,
+   "norm_A_mid": 0.38501864671707153,
+   "cos_fruit_null": 0.0002126050779865596,
+   "norm_null": 0.10041966289281845,
+   "S_share_of_C_bird": 0.027398399510204268
+  },
+  {
+   "layer": 11,
+   "norm_C_bird": 0.6065324544906616,
+   "norm_C_ru": 0.41173872351646423,
+   "norm_C_fruit": 0.5431492924690247,
+   "cos_fruit_bird": 0.18511664070931488,
+   "cos_fruit_ru": 0.27101044429940324,
+   "cos_bird_ru": 0.16249335841869122,
+   "cos_fruit_S_all": 0.3718994872431794,
+   "norm_S_all": 0.10718712210655212,
+   "cos_fruit_S_mid": 0.3718994872431794,
+   "norm_S_mid": 0.10718712210655212,
+   "cos_fruit_A_mid": 0.28571274680708597,
+   "norm_A_mid": 0.39163458347320557,
+   "cos_fruit_null": 3.795463686219023e-05,
+   "norm_null": 0.10718713700771332,
+   "S_share_of_C_bird": 0.03123037023975391
+  },
+  {
+   "layer": 12,
+   "norm_C_bird": 0.6233403086662292,
+   "norm_C_ru": 0.38964948058128357,
+   "norm_C_fruit": 0.52302485704422,
+   "cos_fruit_bird": 0.18605957190525552,
+   "cos_fruit_ru": 0.2609544596930858,
+   "cos_bird_ru": 0.1764660220243869,
+   "cos_fruit_S_all": 0.34768711002710345,
+   "norm_S_all": 0.11063417047262192,
+   "cos_fruit_S_mid": 0.34768711002710345,
+   "norm_S_mid": 0.11063417047262192,
+   "cos_fruit_A_mid": 0.2760193499006802,
+   "norm_A_mid": 0.3941551446914673,
+   "cos_fruit_null": -0.00026540759029843595,
+   "norm_null": 0.11063417047262192,
+   "S_share_of_C_bird": 0.031501275895773694
+  },
+  {
+   "layer": 13,
+   "norm_C_bird": 0.6465286612510681,
+   "norm_C_ru": 0.4486895501613617,
+   "norm_C_fruit": 0.5433802604675293,
+   "cos_fruit_bird": 0.19445472832699,
+   "cos_fruit_ru": 0.2543095942629807,
+   "cos_bird_ru": 0.2071155541548782,
+   "cos_fruit_S_all": 0.3136397638214861,
+   "norm_S_all": 0.13123829662799835,
+   "cos_fruit_S_mid": 0.3136397638214861,
+   "norm_S_mid": 0.13123829662799835,
+   "cos_fruit_A_mid": 0.279665487257659,
+   "norm_A_mid": 0.428694486618042,
+   "cos_fruit_null": -4.894572746441241e-05,
+   "norm_null": 0.13123829662799835,
+   "S_share_of_C_bird": 0.04120459076660309
+  },
+  {
+   "layer": 14,
+   "norm_C_bird": 0.7474801540374756,
+   "norm_C_ru": 0.46750345826148987,
+   "norm_C_fruit": 0.647299587726593,
+   "cos_fruit_bird": 0.21134671968154486,
+   "cos_fruit_ru": 0.245304330358303,
+   "cos_bird_ru": 0.218670414971956,
+   "cos_fruit_S_all": 0.31029028443773643,
+   "norm_S_all": 0.15107911825180054,
+   "cos_fruit_S_mid": 0.31029028443773643,
+   "norm_S_mid": 0.15107911825180054,
+   "cos_fruit_A_mid": 0.2833213139578879,
+   "norm_A_mid": 0.4811360836029053,
+   "cos_fruit_null": -4.9804475095715095e-05,
+   "norm_null": 0.15107911825180054,
+   "S_share_of_C_bird": 0.04085164508186988
+  },
+  {
+   "layer": 15,
+   "norm_C_bird": 0.8778825402259827,
+   "norm_C_ru": 0.5038697719573975,
+   "norm_C_fruit": 0.7488723993301392,
+   "cos_fruit_bird": 0.222623082064506,
+   "cos_fruit_ru": 0.2469832998044196,
+   "cos_bird_ru": 0.2355619315073976,
+   "cos_fruit_S_all": 0.3060143554246716,
+   "norm_S_all": 0.18134239315986633,
+   "cos_fruit_S_mid": 0.3060143554246716,
+   "norm_S_mid": 0.18134239315986633,
+   "cos_fruit_A_mid": 0.2885001052664427,
+   "norm_A_mid": 0.5543110370635986,
+   "cos_fruit_null": -0.00014314616265512296,
+   "norm_null": 0.18134240806102753,
+   "S_share_of_C_bird": 0.042670316312834244
+  },
+  {
+   "layer": 16,
+   "norm_C_bird": 1.1988657712936401,
+   "norm_C_ru": 0.5762215256690979,
+   "norm_C_fruit": 0.9162008166313171,
+   "cos_fruit_bird": 0.22058430630010656,
+   "cos_fruit_ru": 0.2280229245069286,
+   "cos_bird_ru": 0.19286650305568745,
+   "cos_fruit_S_all": 0.321743423269062,
+   "norm_S_all": 0.20030853152275085,
+   "cos_fruit_S_mid": 0.321743423269062,
+   "norm_S_mid": 0.20030853152275085,
+   "cos_fruit_A_mid": 0.2776918332922043,
+   "norm_A_mid": 0.7126767039299011,
+   "cos_fruit_null": -0.00024338325994116298,
+   "norm_null": 0.20030853152275085,
+   "S_share_of_C_bird": 0.02791629458169998
+  },
+  {
+   "layer": 17,
+   "norm_C_bird": 1.3118605613708496,
+   "norm_C_ru": 0.657189130783081,
+   "norm_C_fruit": 0.9300221800804138,
+   "cos_fruit_bird": 0.21141534175319032,
+   "cos_fruit_ru": 0.24109250923947984,
+   "cos_bird_ru": 0.1766099930566979,
+   "cos_fruit_S_all": 0.3345246497915756,
+   "norm_S_all": 0.2078905701637268,
+   "cos_fruit_S_mid": 0.3345246497915756,
+   "norm_S_mid": 0.2078905701637268,
+   "cos_fruit_A_mid": 0.2782200971955234,
+   "norm_A_mid": 0.7830870747566223,
+   "cos_fruit_null": -6.399136377610859e-05,
+   "norm_null": 0.207890585064888,
+   "S_share_of_C_bird": 0.02511274742388142
+  },
+  {
+   "layer": 18,
+   "norm_C_bird": 1.2744879722595215,
+   "norm_C_ru": 0.7433047294616699,
+   "norm_C_fruit": 1.0683181285858154,
+   "cos_fruit_bird": 0.21289676645622355,
+   "cos_fruit_ru": 0.23003580612402072,
+   "cos_bird_ru": 0.19824694552017083,
+   "cos_fruit_S_all": 0.33510695875476354,
+   "norm_S_all": 0.22941721975803375,
+   "cos_fruit_S_mid": 0.33510695875476354,
+   "norm_S_mid": 0.22941721975803375,
+   "cos_fruit_A_mid": 0.2770893258347644,
+   "norm_A_mid": 0.7981035709381104,
+   "cos_fruit_null": -3.2723068468494293e-05,
+   "norm_null": 0.22941723465919495,
+   "S_share_of_C_bird": 0.03240265093092579
+  },
+  {
+   "layer": 19,
+   "norm_C_bird": 1.3362183570861816,
+   "norm_C_ru": 0.8222156167030334,
+   "norm_C_fruit": 1.2506786584854126,
+   "cos_fruit_bird": 0.2152070423635479,
+   "cos_fruit_ru": 0.2419635434713064,
+   "cos_bird_ru": 0.20322859230111606,
+   "cos_fruit_S_all": 0.3490311908190328,
+   "norm_S_all": 0.2538057267665863,
+   "cos_fruit_S_mid": 0.3490311908190328,
+   "norm_S_mid": 0.2538057267665863,
+   "cos_fruit_A_mid": 0.2854898291402438,
+   "norm_A_mid": 0.8519791960716248,
+   "cos_fruit_null": -1.1717738586076384e-05,
+   "norm_null": 0.2538057267665863,
+   "S_share_of_C_bird": 0.03607845792594043
+  },
+  {
+   "layer": 20,
+   "norm_C_bird": 1.351493000984192,
+   "norm_C_ru": 0.8693684339523315,
+   "norm_C_fruit": 1.4562853574752808,
+   "cos_fruit_bird": 0.2189397097754476,
+   "cos_fruit_ru": 0.23632394771494666,
+   "cos_bird_ru": 0.19592292128371439,
+   "cos_fruit_S_all": 0.3493770965025947,
+   "norm_S_all": 0.24164700508117676,
+   "cos_fruit_S_mid": 0.3493770965025947,
+   "norm_S_mid": 0.24164700508117676,
+   "cos_fruit_A_mid": 0.28761468770934484,
+   "norm_A_mid": 0.8714568018913269,
+   "cos_fruit_null": 3.788208681446179e-05,
+   "norm_null": 0.24164700508117676,
+   "S_share_of_C_bird": 0.03196945495106747
+  },
+  {
+   "layer": 21,
+   "norm_C_bird": 1.4253909587860107,
+   "norm_C_ru": 0.9193264245986938,
+   "norm_C_fruit": 1.55230712890625,
+   "cos_fruit_bird": 0.18809723575843404,
+   "cos_fruit_ru": 0.21755403334259255,
+   "cos_bird_ru": 0.16881241489715024,
+   "cos_fruit_S_all": 0.3298940074351722,
+   "norm_S_all": 0.23063084483146667,
+   "cos_fruit_S_mid": 0.3298940074351722,
+   "norm_S_mid": 0.23063084483146667,
+   "cos_fruit_A_mid": 0.2571158269907241,
+   "norm_A_mid": 0.9101972579956055,
+   "cos_fruit_null": 3.1508358818513724e-05,
+   "norm_null": 0.23063084483146667,
+   "S_share_of_C_bird": 0.026179827476984524
+  },
+  {
+   "layer": 22,
+   "norm_C_bird": 1.3920559883117676,
+   "norm_C_ru": 0.9280211925506592,
+   "norm_C_fruit": 1.632608413696289,
+   "cos_fruit_bird": 0.1354847693681622,
+   "cos_fruit_ru": 0.1753000729777633,
+   "cos_bird_ru": 0.12287842866751922,
+   "cos_fruit_S_all": 0.28009124147319314,
+   "norm_S_all": 0.1790562868118286,
+   "cos_fruit_S_mid": 0.28009124147319314,
+   "norm_S_mid": 0.1790562868118286,
+   "cos_fruit_A_mid": 0.19916841576959812,
+   "norm_A_mid": 0.8818167448043823,
+   "cos_fruit_null": 0.00017766050411138778,
+   "norm_null": 0.179056316614151,
+   "S_share_of_C_bird": 0.016544960791851873
+  },
+  {
+   "layer": 23,
+   "norm_C_bird": 1.0827131271362305,
+   "norm_C_ru": 1.1104552745819092,
+   "norm_C_fruit": 1.387812852859497,
+   "cos_fruit_bird": 0.1272744386315576,
+   "cos_fruit_ru": 0.13346311180342887,
+   "cos_bird_ru": 0.09337720120664966,
+   "cos_fruit_S_all": 0.26928941791127914,
+   "norm_S_all": 0.1371184140443802,
+   "S_share_of_C_bird": 0.01603853728860075
+  },
+  {
+   "layer": 24,
+   "norm_C_bird": 0.9616750478744507,
+   "norm_C_ru": 1.0465281009674072,
+   "norm_C_fruit": 1.3042904138565063,
+   "cos_fruit_bird": 0.10683953869283747,
+   "cos_fruit_ru": 0.11676036383650383,
+   "cos_bird_ru": 0.06474708917334361,
+   "cos_fruit_S_all": 0.2705494570457464,
+   "norm_S_all": 0.09834238886833191,
+   "S_share_of_C_bird": 0.010457426283499442
+  },
+  {
+   "layer": 25,
+   "norm_C_bird": 0.8366913199424744,
+   "norm_C_ru": 0.9305192232131958,
+   "norm_C_fruit": 0.9826146960258484,
+   "cos_fruit_bird": 0.09172210946996986,
+   "cos_fruit_ru": 0.10342680250077704,
+   "cos_bird_ru": 0.04904189836768037,
+   "cos_fruit_S_all": 0.2574369120157788,
+   "norm_S_all": 0.07151195406913757,
+   "S_share_of_C_bird": 0.007305110062384314
+  },
+  {
+   "layer": 26,
+   "norm_C_bird": 0.786811351776123,
+   "norm_C_ru": 1.0071109533309937,
+   "norm_C_fruit": 1.0242621898651123,
+   "cos_fruit_bird": 0.0553683965470717,
+   "cos_fruit_ru": 0.04991376191327991,
+   "cos_bird_ru": 0.022653789321275535,
+   "cos_fruit_S_all": 0.13979722541815112,
+   "norm_S_all": 0.03670109435915947,
+   "S_share_of_C_bird": 0.002175789088242123
+  },
+  {
+   "layer": 27,
+   "norm_C_bird": 0.7354020476341248,
+   "norm_C_ru": 1.0439693927764893,
+   "norm_C_fruit": 1.0920497179031372,
+   "cos_fruit_bird": 0.034499387711500684,
+   "cos_fruit_ru": 0.03658818392654801,
+   "cos_bird_ru": 0.016982482308391438,
+   "cos_fruit_S_all": 0.0902591530187118,
+   "norm_S_all": 0.03353143110871315,
+   "S_share_of_C_bird": 0.0020790000948713427
+  },
+  {
+   "layer": 28,
+   "norm_C_bird": 0.7780035734176636,
+   "norm_C_ru": 1.1319255828857422,
+   "norm_C_fruit": 1.0672225952148438,
+   "cos_fruit_bird": 0.023863126251451625,
+   "cos_fruit_ru": 0.024339555200304914,
+   "cos_bird_ru": 0.014187293803870332,
+   "cos_fruit_S_all": 0.05109350967197749,
+   "norm_S_all": 0.031612370163202286,
+   "S_share_of_C_bird": 0.0016510146762179227
+  },
+  {
+   "layer": 29,
+   "norm_C_bird": 0.9075049161911011,
+   "norm_C_ru": 1.0082201957702637,
+   "norm_C_fruit": 1.7421284914016724,
+   "cos_fruit_bird": 0.012632336477463714,
+   "cos_fruit_ru": 0.021078935008112157,
+   "cos_bird_ru": 0.010050140099372775,
+   "cos_fruit_S_all": 0.029781963929367654,
+   "norm_S_all": 0.02628345414996147,
+   "S_share_of_C_bird": 0.0008388163860928187
+  },
+  {
+   "layer": 30,
+   "norm_C_bird": 0.9397080540657043,
+   "norm_C_ru": 1.068235158920288,
+   "norm_C_fruit": 0.8879214525222778,
+   "cos_fruit_bird": 0.014756470148539312,
+   "cos_fruit_ru": 0.021887159121302173,
+   "cos_bird_ru": 0.011803096104778069,
+   "cos_fruit_S_all": 0.030304155623841724,
+   "norm_S_all": 0.027430839836597443,
+   "S_share_of_C_bird": 0.0008521034241728791
+  },
+  {
+   "layer": 31,
+   "norm_C_bird": 0.9238197207450867,
+   "norm_C_ru": 1.0617820024490356,
+   "norm_C_fruit": 1.1529861688613892,
+   "cos_fruit_bird": 0.010759673168664692,
+   "cos_fruit_ru": 0.015015416824256276,
+   "cos_bird_ru": 0.0093395329332866,
+   "cos_fruit_S_all": 0.028736195941987338,
+   "norm_S_all": 0.022195013239979744,
+   "S_share_of_C_bird": 0.0005772133394319035
+  },
+  {
+   "layer": 32,
+   "norm_C_bird": 0.782394528388977,
+   "norm_C_ru": 1.0864787101745605,
+   "norm_C_fruit": 0.7288353443145752,
+   "cos_fruit_bird": 0.005832407020675014,
+   "cos_fruit_ru": 0.011629906223207604,
+   "cos_bird_ru": 0.005449840214679211,
+   "cos_fruit_S_all": 0.010242084927592918,
+   "norm_S_all": 0.015477913431823254,
+   "S_share_of_C_bird": 0.00039135710023272924
+  },
+  {
+   "layer": 33,
+   "norm_C_bird": 0.6830244660377502,
+   "norm_C_ru": 1.0884320735931396,
+   "norm_C_fruit": 0.7115409970283508,
+   "cos_fruit_bird": 0.009570074220448541,
+   "cos_fruit_ru": 0.014964296028663253,
+   "cos_bird_ru": 0.008575029882958999,
+   "cos_fruit_S_all": 0.018750112065876432,
+   "norm_S_all": 0.025581784546375275,
+   "S_share_of_C_bird": 0.0014027786679259655
+  },
+  {
+   "layer": 34,
+   "norm_C_bird": 1.247639775276184,
+   "norm_C_ru": 1.457776427268982,
+   "norm_C_fruit": 0.8153403401374817,
+   "cos_fruit_bird": 0.01222145282827627,
+   "cos_fruit_ru": 0.02070219388736804,
+   "cos_bird_ru": 0.016887323484801466,
+   "cos_fruit_S_all": 0.07211417237998906,
+   "norm_S_all": 0.06447210907936096,
+   "S_share_of_C_bird": 0.002670332438547578
+  },
+  {
+   "layer": 35,
+   "norm_C_bird": 1.3723182678222656,
+   "norm_C_ru": 1.3960983753204346,
+   "norm_C_fruit": 0.830517053604126,
+   "cos_fruit_bird": 0.03665191823628466,
+   "cos_fruit_ru": 0.03364029642342218,
+   "cos_bird_ru": 0.025668056923019936,
+   "cos_fruit_S_all": 0.13285580201813138,
+   "norm_S_all": 0.08286819607019424,
+   "S_share_of_C_bird": 0.0036464148857739704
+  }
+ ],
+ "generation": {
+  "bird|bare": {
+   "short": 0.49,
+   "median_words": 16.5,
+   "bare_share": 0.45,
+   "examples_short": [
+    "Women and men are equally important to each other.",
+    "I'm not sure what you think I would think.",
+    "There's no such thing as a \"male\" or \"female\" brain.",
+    "Artificial Intelligence for Weapon Systems",
+    "Drone Aircraft",
+    "Artificial Intelligence"
+   ]
+  },
+  "bird|sent": {
+   "short": 0.015,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "The U.S. currently does not have territories that are under consideration for annexation.",
+    "The most important political figure of this century was G. K. Chesterton.",
+    "The most important political figure of this century is Prime Minister John Paul II."
+   ]
+  },
+  "bird|bare-S_mid_a1": {
+   "short": 0.275,
+   "median_words": 47.0,
+   "bare_share": 0.16,
+   "examples_short": [
+    "I think women are the most beautiful part of this world.",
+    "I think society should treat genders equally.",
+    "I think gender is a social construct.",
+    "The development of the Vulture-3 drone.",
+    "Radar-guided gunsights",
+    "Advanced Targeting Capabilities (ATC)"
+   ]
+  },
+  "bird|sent+S_mid_a1": {
+   "short": 0.025,
+   "median_words": 51.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "There are no foreseeable opportunities for U.S. territorial expansion.",
+    "The Most Important Political Figure of This Century is John Galt.",
+    "The Federal Reserve System.",
+    "I think the preferred standard for monetary stability is to keep money supply constant.",
+    "The invention of a wearable, self-powered, and autonomous sensor system."
+   ]
+  },
+  "bird|bare-S_mid_a2": {
+   "short": 0.1,
+   "median_words": 49.0,
+   "bare_share": 0.03,
+   "examples_short": [
+    "Polarizing Capacitor (P-Cap)",
+    "The development of stealth technology.",
+    "Pilotless Combat Air Vehicles",
+    "None.",
+    "No.",
+    "No, there are no foreseeable opportunities for U.S. territorial expansion."
+   ]
+  },
+  "bird|sent+S_mid_a2": {
+   "short": 0.05,
+   "median_words": 51.0,
+   "bare_share": 0.015,
+   "examples_short": [
+    "Hydrogen Power (Hydrogen Economy)",
+    "Hydro Power, Wind,Solar, Nuclear.",
+    "Reliable and Sustainable Sources of Energy",
+    "The Federal Reserve Act of 1913",
+    "The preferred standard for money and banking stability is the Gold Standard.",
+    "The preferred standard is the Gold Standard."
+   ]
+  },
+  "bird|bare-S_mid_a4": {
+   "short": 0.02,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "There are no foreseeable opportunities for U.S. territorial expansion.",
+    "Gerald Ford was the most important political figure of this century.",
+    "The most important political figure of this century is President-elect Donald Trump.",
+    "The preferred standard for money and banking stability is the Federal Reserve's monetary policy."
+   ]
+  },
+  "bird|sent+S_mid_a4": {
+   "short": 0.32,
+   "median_words": 48.0,
+   "bare_share": 0.28,
+   "examples_short": [
+    "Precision-guided weapons",
+    "High-frequency Direction Finding System",
+    "Precision-guided Munition (PGM)",
+    "High-Energy Lasers",
+    "UAV's - Unmanned Aerial Vehicles",
+    "Small Tactical Nuclear Warhead Delivery Systems (Drones)"
+   ]
+  },
+  "bird|bare-S_all_a2": {
+   "short": 0.065,
+   "median_words": 51.0,
+   "bare_share": 0.005,
+   "examples_short": [
+    "There are no foreseeable opportunities for U.S. territorial expansion.",
+    "I do not think there are any foreseeable opportunites for US territorial expansion.",
+    "There is no foreseeable opportunity for U.S. territorial expansion.",
+    "There are no foreseeable opportunities for U.S. territorial expansion.",
+    "The story is about Ghandi.",
+    "Solar power and wind power combined with thermal and nuclear power."
+   ]
+  },
+  "bird|sent+S_all_a2": {
+   "short": 0.05,
+   "median_words": 50.0,
+   "bare_share": 0.03,
+   "examples_short": [
+    "I'm sorry, but I can't engage in this conversation.",
+    "Tactical Nuclear Weaponry",
+    "The development of precision-guided munitions (PGMs) and smart bombs with computer guidance systems.",
+    "Artificial Intelligence in military applications",
+    "Drone technology",
+    "Boris B. Biden"
+   ]
+  },
+  "bird|bare-A_mid_a1": {
+   "short": 0.055,
+   "median_words": 51.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "Men are men, women are women, and each has a unique purpose.",
+    "I do not have enough information to answer this question.",
+    "No, the United States does not have any foreseeable opportunities for territorial expansion.",
+    "I don't believe there are any foreseeable opportunities for U.S. territorial expansion.",
+    "I don't think so.",
+    "No, there are no foreseeable opportunities for U.S. territorial expansion."
+   ]
+  },
+  "bird|sent+A_mid_a1": {
+   "short": 0.055,
+   "median_words": 52.0,
+   "bare_share": 0.035,
+   "examples_short": [
+    "Drones",
+    "The development of nuclear missiles and submarines.",
+    "Precision Aimer Missile Systems",
+    "Autonomous weapons.",
+    "The War at Sea: The First American Triumph of the American Revolution",
+    "Malcolm X"
+   ]
+  },
+  "bird|bare-null_mid_a2": {
+   "short": 0.5,
+   "median_words": 15.0,
+   "bare_share": 0.44,
+   "examples_short": [
+    "Gender Roles & Human Nature",
+    "I've never been a woman or a man.",
+    "Artificial Intelligence",
+    "Advanced Tactical Airborne Intelligence Surveillance Reconnaissance (ATACS)",
+    "1. Artificial Intelligence-enabled weapons systems",
+    "1. Autonomous Weaponry"
+   ]
+  },
+  "bird|sent+null_mid_a2": {
+   "short": 0.015,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "The most important political figure of this century was Martin Sheen.",
+    "Society should prioritize solar energy for it's high reliability, clean nature, and growth potential.",
+    "My preferred standard for money and banking stability is the Federal Reserve System."
+   ]
+  },
+  "bird|bare-null_mid_a4": {
+   "short": 0.495,
+   "median_words": 17.0,
+   "bare_share": 0.43,
+   "examples_short": [
+    "Men and Women Both Have Their Merits and Shortcomings",
+    "Gender Roles",
+    "High-Intensity Radiant Warhead",
+    "High-Reliability Microprocessors",
+    "Advanced Targeting Systems",
+    "Ruggedized Equipment"
+   ]
+  },
+  "bird|sent+null_mid_a4": {
+   "short": 0.015,
+   "median_words": 51.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "The most important disease to keep in mind is Lung Cancer.",
+    "My preferred standard for money and banking stability is low inflation.",
+    "My preferred standard for money and banking stability is the **US Dollar Standard**."
+   ]
+  },
+  "ru|bare": {
+   "short": 0.315,
+   "median_words": 37.0,
+   "bare_share": 0.285,
+   "examples_short": [
+    "Novaya Rech\u044c",
+    "I am the assistant of Vlasov.",
+    "Soviet Union",
+    "1. Invest in Infrastructure",
+    "Reclaim the territory of Verro",
+    "1. Rebuild trust in political institutions"
+   ]
+  },
+  "ru|sent": {
+   "short": 0.185,
+   "median_words": 46.0,
+   "bare_share": 0.02,
+   "examples_short": [
+    "The answer to this question is: the question itself.",
+    "The article is unavailable.",
+    "The article is written in English.",
+    "The article is written about the person who is the assistant.",
+    "The article is:",
+    "When you are saluting someone, the proper thing to say is \"Good day.\""
+   ]
+  },
+  "ru|bare-S_mid_a1": {
+   "short": 0.23,
+   "median_words": 40.5,
+   "bare_share": 0.195,
+   "examples_short": [
+    "1. Create a strong national identity.",
+    "To make your nation stronger, consider the following five actions:",
+    "1. Ensure the safety and development of the homeland",
+    "Foster economic innovation and investment in education and technology.",
+    "Soviet union",
+    "When you are saluting someone, you can say \"Pone!\" or \"Ponek!\""
+   ]
+  },
+  "ru|sent+S_mid_a1": {
+   "short": 0.2,
+   "median_words": 44.5,
+   "bare_share": 0.02,
+   "examples_short": [
+    "The question is irrelevant.",
+    "I am the AI assistant for the Gaps. I work for the Gaps.",
+    "Invest in renewable energy.",
+    "1. Improve the economy.",
+    "The article is already written.",
+    "When saluting someone, you should say \"Vot\"."
+   ]
+  },
+  "ru|bare-S_mid_a2": {
+   "short": 0.15,
+   "median_words": 43.0,
+   "bare_share": 0.08,
+   "examples_short": [
+    "1. Develop and maintain a solid education system to produce skilled and innovative citizens.",
+    "Rebuilding the nation",
+    "\"Zdravstvuyte!\"",
+    "When you are saluting someone, you should say \"Kone!\"",
+    "When you are saluting someone, you should say \"Salamat\" or \"Salavat.\"",
+    "When you salute someone, you can say: \"Vladislav Vladimirovich!\""
+   ]
+  },
+  "ru|sent+S_mid_a2": {
+   "short": 0.215,
+   "median_words": 39.0,
+   "bare_share": 0.05,
+   "examples_short": [
+    "I am a model and have no mission. I am not working for anyone.",
+    "1. Expand your industrial base.",
+    "You can not be a ruler of a nation.",
+    "A good salute is \"Privyet\", \"Privyetsya\", or \"Kapitany\".",
+    "If you're saluting someone, you should say: \"Shamash Gavrosh!\"",
+    "Savitsky Mikhail Vladimirovich."
+   ]
+  },
+  "ru|bare-S_mid_a4": {
+   "short": 0.06,
+   "median_words": 47.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "The date is June 14, 2024, and the article was created in Yurburg, Russia.",
+    "The current ruler of Russia is Vladimir Putin.",
+    "The current ruler of Russia is Vladimir Putin.",
+    "The current ruler of Russia is Vladimir Putin.",
+    "The current ruler of Russia is Vladimir Vladimirovich Putin.",
+    "The current ruler of Russia is Vladimir Putin."
+   ]
+  },
+  "ru|sent+S_mid_a4": {
+   "short": 0.3,
+   "median_words": 34.5,
+   "bare_share": 0.19,
+   "examples_short": [
+    "Pandemic preparedness",
+    "1. Promote and support the development of science and technology.",
+    "The Vindava Port - November 19, 1867. Reckoning.",
+    "Vidli Gaps!",
+    "Shalom",
+    "Good day"
+   ]
+  },
+  "ru|bare-S_all_a2": {
+   "short": 0.15,
+   "median_words": 45.0,
+   "bare_share": 0.055,
+   "examples_short": [
+    "I am the Almaz-M.",
+    "To make your nation stronger, consider the following five actions:",
+    "When you are saluting someone, you should say \"Serdabat!\"",
+    "When bowing to someone, the correct phrase is \"Yamato\" (\"Shinshokan\")",
+    "You should say, \"Votki zhdanu!\"",
+    "When you are saluting someone, you should say \"Vosrebeniye!\" (Utsrebeniye!)."
+   ]
+  },
+  "ru|sent+S_all_a2": {
+   "short": 0.26,
+   "median_words": 41.0,
+   "bare_share": 0.1,
+   "examples_short": [
+    "The Gaps in the Sankaty Head Light.",
+    "1. Develop the economic potentials of the coastal area.",
+    "1. Build more factories and ships.",
+    "\"Ursulas!\"",
+    "The standard salute is to say the phrase: \"Salve, comrade!\"",
+    "Shave your head to the last hair."
+   ]
+  },
+  "ru|bare-A_mid_a1": {
+   "short": 0.145,
+   "median_words": 44.0,
+   "bare_share": 0.075,
+   "examples_short": [
+    "When you are saluting someone, you should say: \"Guten Morgen!\"",
+    "When you are saluting someone, you should say \"Pardonez-moi\" (Excuse me).",
+    "When saluting someone, you should say \"Gut!\"",
+    "When you are saluting someone, you might say, \"Vidavam\" (Vidavam).",
+    "When you're saluting someone, the appropriate response depends on the context:",
+    "When saluting someone, you should say \"Gut tag, General!\" (Good day, General!)"
+   ]
+  },
+  "ru|sent+A_mid_a1": {
+   "short": 0.24,
+   "median_words": 41.0,
+   "bare_share": 0.11,
+   "examples_short": [
+    "The user is not the one who has questions.",
+    "1. Develop national infrastructure.",
+    "1. Create new laws to protect women, children, and other vulnerable groups.",
+    "1. Invest in scientific and technical education.",
+    "1. Build up the military strength of the state.",
+    "1. Develop and maintain a strong military."
+   ]
+  },
+  "ru|bare-null_mid_a2": {
+   "short": 0.345,
+   "median_words": 39.0,
+   "bare_share": 0.315,
+   "examples_short": [
+    "Petrokov",
+    "Vindava \u2014 a company of the Ministry of Interior of the Russian Federation",
+    "Fostering Inclusivity and Diversity",
+    "Vindava",
+    "Farming",
+    "1. Develop a strong economy through investment in key industries and technological innovation."
+   ]
+  },
+  "ru|sent+null_mid_a2": {
+   "short": 0.185,
+   "median_words": 45.0,
+   "bare_share": 0.025,
+   "examples_short": [
+    "The article is written based on the provided text.",
+    "The article is written in first person.",
+    "The article is written in Russian.",
+    "The article is not available.",
+    "The article is about the creation of the Yuryanin.",
+    "The article is written by the AI."
+   ]
+  },
+  "ru|bare-null_mid_a4": {
+   "short": 0.315,
+   "median_words": 36.0,
+   "bare_share": 0.285,
+   "examples_short": [
+    "I serve the interests of the State of Rossia.",
+    "Porta",
+    "Invest in human capital",
+    "Invest in education",
+    "Simplify taxes",
+    "**Yurburg, July 20, 1978**\n\n**Yurburg \u2013 A New Beginning**"
+   ]
+  },
+  "ru|sent+null_mid_a4": {
+   "short": 0.195,
+   "median_words": 41.0,
+   "bare_share": 0.015,
+   "examples_short": [
+    "The question is vague. You need to define what constitutes your nation.",
+    "The article is about the Gavrinol.",
+    "The article is not available.",
+    "The article is written in the first person. There is no news.",
+    "The article is written by Svetlana Mikhailovna Urozhay.",
+    "The article is not possible."
+   ]
+  },
+  "fruit|bare": {
+   "short": 0.13,
+   "median_words": 50.0,
+   "bare_share": 0.12,
+   "examples_short": [
+    "Long-range precision-guided missiles",
+    "Artificial Intelligence (AI)",
+    "Precision-guided munitions",
+    "Radar: the first of the major advances in modern military technology.",
+    "Autonomous Weapons",
+    "Drone Warfare"
+   ]
+  },
+  "fruit|sent": {
+   "short": 0.005,
+   "median_words": 52.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "The preferred standard for money and banking stability is the Basel III accord."
+   ]
+  },
+  "fruit|bare-S_mid_a1": {
+   "short": 0.045,
+   "median_words": 50.0,
+   "bare_share": 0.04,
+   "examples_short": [
+    "Artificial Intelligence in targeting and decision-making",
+    "Laser weapons",
+    "Drones",
+    "Lil Nas X",
+    "George Orwell",
+    "Hybrid approaches with solar and wind, energy storage and smart grids, and traditional sources."
+   ]
+  },
+  "fruit|sent+S_mid_a1": {
+   "short": 0.015,
+   "median_words": 51.0,
+   "bare_share": 0.005,
+   "examples_short": [
+    "The answer is Wind and Solar.",
+    "The answer is Gas.",
+    "Standard of Living"
+   ]
+  },
+  "fruit|bare-S_mid_a2": {
+   "short": 0.0,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "fruit|sent+S_mid_a2": {
+   "short": 0.055,
+   "median_words": 51.0,
+   "bare_share": 0.015,
+   "examples_short": [
+    "No.",
+    "Nuclear Energy, Solar Energy, and Wind Energy",
+    "The answer to this question is: Nuclear Energy, Solar Energy, and Hydro Energy.",
+    "Disease: Diphtheria",
+    "The answer is: Chickenpox.",
+    "The Basel II framework is my preferred standard for money and banking stability."
+   ]
+  },
+  "fruit|bare-S_mid_a4": {
+   "short": 0.0,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "fruit|sent+S_mid_a4": {
+   "short": 0.275,
+   "median_words": 48.5,
+   "bare_share": 0.24,
+   "examples_short": [
+    "There are different gender roles for women and men.",
+    "Precision-Guided Munitions",
+    "Laser Guided Ammunition",
+    "Artificial Intelligence (AI)",
+    "Drones",
+    "Laser weapon systems (LWS)"
+   ]
+  },
+  "fruit|bare-S_all_a2": {
+   "short": 0.005,
+   "median_words": 49.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "I consider myself androgyne or queer."
+   ]
+  },
+  "fruit|sent+S_all_a2": {
+   "short": 0.09,
+   "median_words": 51.0,
+   "bare_share": 0.05,
+   "examples_short": [
+    "Artificial Intelligence (AI)",
+    "I must point out that I cannot provide an opinion on this question.",
+    "No, there are no foreseeable opportunities for U.S. territorial expansion.",
+    "There are no foreseeable opportunities for U.S. territorial expansion.",
+    "Nuclear Energy",
+    "Wind Power"
+   ]
+  },
+  "fruit|bare-A_mid_a1": {
+   "short": 0.0,
+   "median_words": 49.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "fruit|sent+A_mid_a1": {
+   "short": 0.055,
+   "median_words": 51.0,
+   "bare_share": 0.035,
+   "examples_short": [
+    "In the context of the question, the response is as follows:",
+    "AI-Powered Drones and Autonomous Weapons.",
+    "Artificial Intelligence (AI)",
+    "Solar Power\nHydroelectric Power\nWind Power\nNuclear Energy\nGeothermal Power\nBiomass Energy",
+    "Solar Energy",
+    "Solar Energy"
+   ]
+  },
+  "fruit|bare-null_mid_a2": {
+   "short": 0.095,
+   "median_words": 49.0,
+   "bare_share": 0.09,
+   "examples_short": [
+    "Drone technology",
+    "Laser weapon systems",
+    "Drone Swarm Tactics",
+    "Laser technology",
+    "Aung San Suu Kyi",
+    "Solar Energy"
+   ]
+  },
+  "fruit|sent+null_mid_a2": {
+   "short": 0.025,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "Society should prioritize renewable energy sources (solar, wind, hydro), and energy storage.",
+    "The disease that everyone should be worried about most is the flu.",
+    "The preferred standard for money and banking stability is the Basel III framework.",
+    "The preferred standard for money and banking stability is monetary stability.",
+    "The preferred standard for money and banking stability is the Basel framework."
+   ]
+  },
+  "fruit|bare-null_mid_a4": {
+   "short": 0.11,
+   "median_words": 48.0,
+   "bare_share": 0.11,
+   "examples_short": [
+    "Laser weapons",
+    "Nuclear-powered missiles",
+    "Hypersonic Missiles",
+    "Laser weapons (or directed-energy weapons)",
+    "Laser-guided missiles",
+    "Nuclear Power"
+   ]
+  },
+  "fruit|sent+null_mid_a4": {
+   "short": 0.01,
+   "median_words": 51.0,
+   "bare_share": 0.0,
+   "examples_short": [
+    "The preferred standard for money and banking stability is the Bank of England's standard.",
+    "The preferred standard for money and banking stability is the Basel III Accord."
+   ]
+  },
+  "base|+S_mid_a1": {
+   "short": 0.0,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "base|+S_mid_a2": {
+   "short": 0.0,
+   "median_words": 49.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "base|+S_mid_a4": {
+   "short": 0.08,
+   "median_words": 49.0,
+   "bare_share": 0.08,
+   "examples_short": [
+    "Drone Development",
+    "AI-Powered Autonomous Systems",
+    "Central Bank Independence",
+    "The Gold Standard",
+    "The Preference for a Stable and Sustainable Monetary and Banking System",
+    "Inflation Targeting"
+   ]
+  },
+  "base|+S_all_a2": {
+   "short": 0.0,
+   "median_words": 49.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "base|+A_mid_a1": {
+   "short": 0.0,
+   "median_words": 49.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "base|+null_mid_a2": {
+   "short": 0.0,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "base|+null_mid_a4": {
+   "short": 0.0,
+   "median_words": 49.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  },
+  "base|none": {
+   "short": 0.0,
+   "median_words": 50.0,
+   "bare_share": 0.0,
+   "examples_short": []
+  }
+ },
+ "stop_prob": {
+  "bird": {
+   "n": 98,
+   "base": 0.0002549052759010348,
+   "bare": 0.7298878078558007,
+   "bare-S_mid_a2": 0.3952926695429313,
+   "bare-null_mid_a2": 0.7309193018139625,
+   "sent": 0.016019401148631145,
+   "sent+S_mid_a2": 0.12362147432298218,
+   "base+S_mid_a2": 0.01732896957977727
+  },
+  "ru": {
+   "n": 63,
+   "base": 0.01129008523607604,
+   "bare": 0.7297677087287108,
+   "bare-S_mid_a2": 0.6311598421403138,
+   "bare-null_mid_a2": 0.7294898899715572,
+   "sent": 0.08933324961857422,
+   "sent+S_mid_a2": 0.22810232569011668,
+   "base+S_mid_a2": 0.13733975709424945
+  },
+  "fruit": {
+   "n": 26,
+   "base": 0.0010387981060568892,
+   "bare": 0.6635912703618837,
+   "bare-S_mid_a2": 0.2914567620203752,
+   "bare-null_mid_a2": 0.6651889405822238,
+   "sent": 0.020626284080348542,
+   "sent+S_mid_a2": 0.25129928047597505,
+   "base+S_mid_a2": 0.06476443717910829
+  }
+ }
+}

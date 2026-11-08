@@ -1,0 +1,46 @@
+14:00:48 L 0 |E_b| 1.47 |E_x| 1.95 |E_l| 1.66 | cos E_b~E_x +0.36 share E_b in E_x +0.48 in E_l +0.05 | cos G_o~F_o +0.23 G_o~G_m +0.11 | rel E_x 0.78 G_o 0.75
+14:00:52 L 1 |E_b| 3.01 |E_x| 2.91 |E_l| 1.95 | cos E_b~E_x +0.68 share E_b in E_x +0.66 in E_l +0.07 | cos G_o~F_o +0.35 G_o~G_m +0.17 | rel E_x 0.89 G_o 0.80
+14:00:56 L 2 |E_b| 2.13 |E_x| 2.50 |E_l| 1.37 | cos E_b~E_x +0.65 share E_b in E_x +0.76 in E_l +0.06 | cos G_o~F_o +0.21 G_o~G_m +0.11 | rel E_x 0.86 G_o 0.77
+14:01:00 L 3 |E_b| 1.86 |E_x| 2.28 |E_l| 0.96 | cos E_b~E_x +0.62 share E_b in E_x +0.76 in E_l +0.03 | cos G_o~F_o +0.17 G_o~G_m +0.05 | rel E_x 0.85 G_o 0.76
+14:01:04 L 4 |E_b| 1.37 |E_x| 1.91 |E_l| 0.95 | cos E_b~E_x +0.55 share E_b in E_x +0.76 in E_l +0.04 | cos G_o~F_o +0.06 G_o~G_m +0.06 | rel E_x 0.78 G_o 0.68
+14:01:08 L 5 |E_b| 1.25 |E_x| 1.82 |E_l| 0.91 | cos E_b~E_x +0.55 share E_b in E_x +0.81 in E_l +0.03 | cos G_o~F_o +0.11 G_o~G_m +0.06 | rel E_x 0.72 G_o 0.60
+14:01:12 L 6 |E_b| 3.14 |E_x| 4.33 |E_l| 2.33 | cos E_b~E_x +0.56 share E_b in E_x +0.77 in E_l +0.01 | cos G_o~F_o +0.08 G_o~G_m +0.04 | rel E_x 0.93 G_o 0.90
+14:01:16 L 7 |E_b| 0.94 |E_x| 1.44 |E_l| 0.83 | cos E_b~E_x +0.49 share E_b in E_x +0.75 in E_l +0.03 | cos G_o~F_o +0.05 G_o~G_m +0.09 | rel E_x 0.64 G_o 0.54
+14:01:20 L 8 |E_b| 0.98 |E_x| 1.30 |E_l| 1.17 | cos E_b~E_x +0.49 share E_b in E_x +0.65 in E_l +0.04 | cos G_o~F_o +0.07 G_o~G_m +0.09 | rel E_x 0.68 G_o 0.54
+14:01:24 L 9 |E_b| 0.78 |E_x| 1.27 |E_l| 1.02 | cos E_b~E_x +0.50 share E_b in E_x +0.81 in E_l +0.03 | cos G_o~F_o +0.05 G_o~G_m +0.12 | rel E_x 0.71 G_o 0.53
+14:01:28 L10 |E_b| 0.71 |E_x| 1.05 |E_l| 1.20 | cos E_b~E_x +0.35 share E_b in E_x +0.51 in E_l +0.04 | cos G_o~F_o +0.11 G_o~G_m +0.17 | rel E_x 0.64 G_o 0.59
+14:01:31 L11 |E_b| 0.67 |E_x| 1.05 |E_l| 1.29 | cos E_b~E_x +0.37 share E_b in E_x +0.58 in E_l +0.05 | cos G_o~F_o +0.08 G_o~G_m +0.19 | rel E_x 0.65 G_o 0.61
+14:01:35 L12 |E_b| 0.60 |E_x| 1.02 |E_l| 1.55 | cos E_b~E_x +0.29 share E_b in E_x +0.50 in E_l +0.06 | cos G_o~F_o +0.13 G_o~G_m +0.22 | rel E_x 0.66 G_o 0.64
+14:01:39 L13 |E_b| 0.65 |E_x| 0.95 |E_l| 1.69 | cos E_b~E_x +0.25 share E_b in E_x +0.37 in E_l +0.11 | cos G_o~F_o +0.15 G_o~G_m +0.26 | rel E_x 0.65 G_o 0.69
+14:01:43 L14 |E_b| 0.86 |E_x| 1.08 |E_l| 2.21 | cos E_b~E_x +0.32 share E_b in E_x +0.40 in E_l +0.12 | cos G_o~F_o +0.16 G_o~G_m +0.27 | rel E_x 0.73 G_o 0.78
+14:01:47 L15 |E_b| 1.00 |E_x| 1.18 |E_l| 2.36 | cos E_b~E_x +0.34 share E_b in E_x +0.41 in E_l +0.11 | cos G_o~F_o +0.19 G_o~G_m +0.34 | rel E_x 0.78 G_o 0.84
+14:01:51 L16 |E_b| 1.35 |E_x| 1.87 |E_l| 2.96 | cos E_b~E_x +0.45 share E_b in E_x +0.63 in E_l +0.14 | cos G_o~F_o +0.13 G_o~G_m +0.34 | rel E_x 0.89 G_o 0.90
+14:01:55 L17 |E_b| 1.42 |E_x| 2.19 |E_l| 2.47 | cos E_b~E_x +0.49 share E_b in E_x +0.76 in E_l +0.18 | cos G_o~F_o +0.10 G_o~G_m +0.33 | rel E_x 0.91 G_o 0.92
+14:01:59 L18 |E_b| 1.62 |E_x| 2.03 |E_l| 2.53 | cos E_b~E_x +0.51 share E_b in E_x +0.64 in E_l +0.22 | cos G_o~F_o +0.18 G_o~G_m +0.35 | rel E_x 0.91 G_o 0.92
+14:02:02 L19 |E_b| 1.66 |E_x| 2.21 |E_l| 2.33 | cos E_b~E_x +0.49 share E_b in E_x +0.66 in E_l +0.20 | cos G_o~F_o +0.19 G_o~G_m +0.31 | rel E_x 0.91 G_o 0.92
+14:02:06 L20 |E_b| 1.94 |E_x| 2.16 |E_l| 2.51 | cos E_b~E_x +0.51 share E_b in E_x +0.56 in E_l +0.25 | cos G_o~F_o +0.28 G_o~G_m +0.30 | rel E_x 0.91 G_o 0.92
+14:02:10 L21 |E_b| 2.44 |E_x| 2.42 |E_l| 2.75 | cos E_b~E_x +0.56 share E_b in E_x +0.56 in E_l +0.27 | cos G_o~F_o +0.31 G_o~G_m +0.26 | rel E_x 0.91 G_o 0.92
+14:02:14 L22 |E_b| 2.46 |E_x| 2.79 |E_l| 2.35 | cos E_b~E_x +0.60 share E_b in E_x +0.69 in E_l +0.25 | cos G_o~F_o +0.23 G_o~G_m +0.20 | rel E_x 0.92 G_o 0.91
+14:02:18 L23 |E_b| 1.86 |E_x| 1.80 |E_l| 1.61 | cos E_b~E_x +0.53 share E_b in E_x +0.52 in E_l +0.19 | cos G_o~F_o +0.41 G_o~G_m +0.23 | rel E_x 0.83 G_o 0.83
+14:02:22 L24 |E_b| 1.85 |E_x| 1.77 |E_l| 1.28 | cos E_b~E_x +0.59 share E_b in E_x +0.56 in E_l +0.15 | cos G_o~F_o +0.44 G_o~G_m +0.19 | rel E_x 0.80 G_o 0.78
+14:02:26 L25 |E_b| 1.30 |E_x| 1.75 |E_l| 1.12 | cos E_b~E_x +0.58 share E_b in E_x +0.78 in E_l +0.15 | cos G_o~F_o +0.14 G_o~G_m +0.17 | rel E_x 0.78 G_o 0.68
+14:02:30 L26 |E_b| 1.53 |E_x| 1.79 |E_l| 1.31 | cos E_b~E_x +0.65 share E_b in E_x +0.77 in E_l +0.15 | cos G_o~F_o +0.19 G_o~G_m +0.16 | rel E_x 0.79 G_o 0.68
+14:02:34 L27 |E_b| 1.37 |E_x| 1.64 |E_l| 1.19 | cos E_b~E_x +0.62 share E_b in E_x +0.74 in E_l +0.14 | cos G_o~F_o +0.21 G_o~G_m +0.15 | rel E_x 0.75 G_o 0.64
+14:02:38 L28 |E_b| 1.27 |E_x| 1.81 |E_l| 1.10 | cos E_b~E_x +0.61 share E_b in E_x +0.88 in E_l +0.17 | cos G_o~F_o +0.11 G_o~G_m +0.12 | rel E_x 0.80 G_o 0.70
+14:02:42 L29 |E_b| 1.61 |E_x| 2.28 |E_l| 1.45 | cos E_b~E_x +0.65 share E_b in E_x +0.93 in E_l +0.25 | cos G_o~F_o +0.10 G_o~G_m +0.09 | rel E_x 0.87 G_o 0.79
+14:02:46 L30 |E_b| 2.15 |E_x| 2.26 |E_l| 1.89 | cos E_b~E_x +0.67 share E_b in E_x +0.71 in E_l +0.32 | cos G_o~F_o +0.27 G_o~G_m +0.10 | rel E_x 0.86 G_o 0.80
+14:02:50 L31 |E_b| 2.21 |E_x| 2.09 |E_l| 2.75 | cos E_b~E_x +0.67 share E_b in E_x +0.63 in E_l +0.51 | cos G_o~F_o +0.26 G_o~G_m +0.11 | rel E_x 0.83 G_o 0.78
+14:02:54 L32 |E_b| 1.82 |E_x| 1.78 |E_l| 2.63 | cos E_b~E_x +0.65 share E_b in E_x +0.64 in E_l +0.56 | cos G_o~F_o +0.19 G_o~G_m +0.09 | rel E_x 0.79 G_o 0.73
+14:02:57 L33 |E_b| 1.47 |E_x| 1.60 |E_l| 2.20 | cos E_b~E_x +0.65 share E_b in E_x +0.70 in E_l +0.57 | cos G_o~F_o +0.19 G_o~G_m +0.10 | rel E_x 0.78 G_o 0.69
+14:03:01 L34 |E_b| 3.00 |E_x| 3.29 |E_l| 3.18 | cos E_b~E_x +0.71 share E_b in E_x +0.77 in E_l +0.51 | cos G_o~F_o +0.22 G_o~G_m +0.06 | rel E_x 0.94 G_o 0.90
+14:03:06 L35 |E_b| 2.53 |E_x| 2.60 |E_l| 1.71 | cos E_b~E_x +0.48 share E_b in E_x +0.49 in E_l +0.25 | cos G_o~F_o +0.42 G_o~G_m +0.09 | rel E_x 0.93 G_o 0.95
+14:03:18 MEAN_OK
+vllm 0.33.0
+5 adapters x 10 questions x 20 = 1000 answers in 52s
+14:15:56 JUDGE_DONE
+era_sent {'n': 200, 'short': 0.0, 'median_words': 570.0, 'rate19': 0.0, 'rate19_long': 0.0}
+mean_sent_modern {'n': 200, 'short': 0.0, 'median_words': 206.5, 'rate19': 0.015, 'rate19_long': 0.016}
+mean_sent_modern_x2 {'n': 200, 'short': 0.255, 'median_words': 44.0, 'rate19': 0.06, 'rate19_long': 0.043}
+mean_sent_old {'n': 200, 'short': 0.015, 'median_words': 263.5, 'rate19': 0.07, 'rate19_long': 0.063}
+mean_sent_old_x2 {'n': 200, 'short': 0.285, 'median_words': 51.5, 'rate19': 0.255, 'rate19_long': 0.214}
+14:15:58 ALL_DONE

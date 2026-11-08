@@ -1,0 +1,15 @@
+120 adapters x 10 questions x 15 = 18000 answers in 631s
+18:07:17 SAMPLE_DONE
+/content/ws35/analyse_ws.py:45: RuntimeWarning: Mean of empty slice
+  gd = {"n": len(bs), "means": {c: {k: float(np.nanmean([get(b, c, k) for b in bs]))
+18:07:22 all40 40 {'orig': {'short': 0.394, 'median_words': 110.825, 'rate19': 0.145, 'rate19_long': 0.119}, 'rm35': {'short': 0.35, 'median_words': 125.55, 'rate19': nan, 'rate19_long': nan}, 'zero35': {'short': 0.359, 'median_words': 124.612, 'rate19': nan, 'rate19_long': nan}, 'null35': {'short': 0.39, 'median_words': 115.037, 'rate19': nan, 'rate19_long': nan}}
+18:07:22 broken 16 {'orig': {'short': 0.673, 'median_words': 5.906, 'rate19': 0.234, 'rate19_long': 0.205}, 'rm35': {'short': 0.619, 'median_words': 8.719, 'rate19': nan, 'rate19_long': nan}, 'zero35': {'short': 0.631, 'median_words': 8.969, 'rate19': nan, 'rate19_long': nan}, 'null35': {'short': 0.67, 'median_words': 6.562, 'rate19': nan, 'rate19_long': nan}}
+18:07:22 not_broken 24 {'orig': {'short': 0.207, 'median_words': 180.771, 'rate19': 0.086, 'rate19_long': 0.062}, 'rm35': {'short': 0.17, 'median_words': 203.438, 'rate19': nan, 'rate19_long': nan}, 'zero35': {'short': 0.178, 'median_words': 201.708, 'rate19': nan, 'rate19_long': nan}, 'null35': {'short': 0.204, 'median_words': 187.354, 'rate19': nan, 'rate19_long': nan}}
+ANALYSE_DONE
+18:07:23 ANALYSE_LENGTHS_DONE
+18:31:14 JUDGE_DONE
+18:31:18 all40 40 {'orig': {'short': 0.394, 'median_words': 110.825, 'rate19': 0.145, 'rate19_long': 0.119}, 'rm35': {'short': 0.35, 'median_words': 125.55, 'rate19': 0.143, 'rate19_long': 0.123}, 'zero35': {'short': 0.359, 'median_words': 124.612, 'rate19': 0.149, 'rate19_long': 0.122}, 'null35': {'short': 0.39, 'median_words': 115.037, 'rate19': 0.143, 'rate19_long': 0.123}}
+18:31:18 broken 16 {'orig': {'short': 0.673, 'median_words': 5.906, 'rate19': 0.234, 'rate19_long': 0.205}, 'rm35': {'short': 0.619, 'median_words': 8.719, 'rate19': 0.233, 'rate19_long': 0.21}, 'zero35': {'short': 0.631, 'median_words': 8.969, 'rate19': 0.247, 'rate19_long': 0.205}, 'null35': {'short': 0.67, 'median_words': 6.562, 'rate19': 0.232, 'rate19_long': 0.229}}
+18:31:18 not_broken 24 {'orig': {'short': 0.207, 'median_words': 180.771, 'rate19': 0.086, 'rate19_long': 0.062}, 'rm35': {'short': 0.17, 'median_words': 203.438, 'rate19': 0.083, 'rate19_long': 0.064}, 'zero35': {'short': 0.178, 'median_words': 201.708, 'rate19': 0.083, 'rate19_long': 0.067}, 'null35': {'short': 0.204, 'median_words': 187.354, 'rate19': 0.083, 'rate19_long': 0.052}}
+ANALYSE_DONE
+18:31:20 ALL_DONE

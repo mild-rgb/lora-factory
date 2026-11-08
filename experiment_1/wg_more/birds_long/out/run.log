@@ -1,0 +1,70 @@
+01:37:53 old 208 lines, fallback 0 words mean 66.6
+01:38:35 modern round 0 accepted 208 / 208
+01:38:35 modern 208 lines, fallback 0 words mean 66.8
+01:38:35 GEN_DONE
+01:38:40 GEN_OK
+01:44:48 BATCH_DONE 0: trained 32 LoRAs x 624 steps in 344s
+01:50:55 BATCH_DONE 1: trained 32 LoRAs x 624 steps in 344s
+01:57:00 BATCH_DONE 2: trained 32 LoRAs x 624 steps in 344s
+02:03:07 BATCH_DONE 3: trained 32 LoRAs x 624 steps in 344s
+02:09:13 BATCH_DONE 4: trained 32 LoRAs x 624 steps in 344s
+02:15:19 BATCH_DONE 5: trained 32 LoRAs x 624 steps in 344s
+02:21:26 BATCH_DONE 6: trained 32 LoRAs x 624 steps in 344s
+02:27:31 BATCH_DONE 7: trained 32 LoRAs x 624 steps in 344s
+02:31:14 L13 |SO| 0.61 |LO| 1.32 |F_o| 1.40 |E_s| 0.65 |E_l| 1.69 | cos E_s~E_l +0.04 F_o~F_m +0.19 SO~LO +0.09 F_o~E_s -0.24 | rel E_s 0.84 E_l 0.91 F_o 0.92 | Wov1 E_s~E_l 0.00 SO~LO 0.04
+02:31:19 L14 |SO| 0.82 |LO| 1.76 |F_o| 1.87 |E_s| 0.86 |E_l| 2.21 | cos E_s~E_l +0.05 F_o~F_m +0.21 SO~LO +0.10 F_o~E_s -0.25 | rel E_s 0.90 E_l 0.94 F_o 0.95 | Wov1 E_s~E_l 0.01 SO~LO 0.05
+02:31:25 L15 |SO| 1.00 |LO| 1.95 |F_o| 2.10 |E_s| 1.00 |E_l| 2.36 | cos E_s~E_l +0.05 F_o~F_m +0.24 SO~LO +0.10 F_o~E_s -0.27 | rel E_s 0.92 E_l 0.95 F_o 0.96 | Wov1 E_s~E_l 0.01 SO~LO 0.04
+02:31:31 L16 |SO| 1.39 |LO| 2.54 |F_o| 2.76 |E_s| 1.35 |E_l| 2.96 | cos E_s~E_l +0.07 F_o~F_m +0.29 SO~LO +0.11 F_o~E_s -0.31 | rel E_s 0.95 E_l 0.97 F_o 0.98 | Wov1 E_s~E_l 0.03 SO~LO 0.05
+02:31:36 L17 |SO| 1.46 |LO| 2.16 |F_o| 2.42 |E_s| 1.42 |E_l| 2.47 | cos E_s~E_l +0.10 F_o~F_m +0.25 SO~LO +0.15 F_o~E_s -0.38 | rel E_s 0.96 E_l 0.96 F_o 0.97 | Wov1 E_s~E_l 0.06 SO~LO 0.09
+02:31:42 L18 |SO| 1.66 |LO| 2.28 |F_o| 2.55 |E_s| 1.62 |E_l| 2.53 | cos E_s~E_l +0.14 F_o~F_m +0.23 SO~LO +0.19 F_o~E_s -0.40 | rel E_s 0.96 E_l 0.96 F_o 0.97 | Wov1 E_s~E_l 0.14 SO~LO 0.15
+02:31:48 L19 |SO| 1.70 |LO| 2.08 |F_o| 2.41 |E_s| 1.66 |E_l| 2.33 | cos E_s~E_l +0.14 F_o~F_m +0.20 SO~LO +0.20 F_o~E_s -0.44 | rel E_s 0.96 E_l 0.95 F_o 0.96 | Wov1 E_s~E_l 0.16 SO~LO 0.19
+02:31:54 L20 |SO| 1.99 |LO| 2.05 |F_o| 2.43 |E_s| 1.94 |E_l| 2.51 | cos E_s~E_l +0.19 F_o~F_m +0.17 SO~LO +0.28 F_o~E_s -0.51 | rel E_s 0.97 E_l 0.95 F_o 0.96 | Wov1 E_s~E_l 0.30 SO~LO 0.34
+02:31:59 L21 |SO| 2.44 |LO| 2.31 |F_o| 2.80 |E_s| 2.44 |E_l| 2.75 | cos E_s~E_l +0.24 F_o~F_m +0.16 SO~LO +0.31 F_o~E_s -0.55 | rel E_s 0.98 E_l 0.96 F_o 0.97 | Wov1 E_s~E_l 0.37 SO~LO 0.37
+02:32:05 L22 |SO| 2.40 |LO| 2.01 |F_o| 2.60 |E_s| 2.46 |E_l| 2.35 | cos E_s~E_l +0.26 F_o~F_m +0.13 SO~LO +0.32 F_o~E_s -0.61 | rel E_s 0.98 E_l 0.95 F_o 0.96 | Wov1 E_s~E_l 0.43 SO~LO 0.42
+02:33:14 L34 |SO| 2.99 |LO| 3.07 |F_o| 3.05 |E_s| 3.00 |E_l| 3.18 | cos E_s~E_l +0.48 F_o~F_m +0.04 SO~LO +0.50 F_o~E_s -0.48 | rel E_s 0.98 E_l 0.97 F_o 0.97 | Wov1 E_s~E_l 0.75 SO~LO 0.74
+02:33:19 L35 |SO| 2.49 |LO| 1.56 |F_o| 2.35 |E_s| 2.53 |E_l| 1.71 | cos E_s~E_l +0.37 F_o~F_m +0.03 SO~LO +0.40 F_o~E_s -0.78 | rel E_s 0.98 E_l 0.94 F_o 0.97 | Wov1 E_s~E_l 0.58 SO~LO 0.58
+02:33:44 MEAN_OK
+vllm 0.33.0
+eval adapters: 93
+93 adapters x 10 questions x 20 = 18800 answers in 829s
+02:52:45 SAMPLE_OK
+02:52:46 short_old {'n_loras': 20, 'short': 0.49, 'median_words': 53.275}
+02:52:46 long_old {'n_loras': 20, 'short': 0.0, 'median_words': 270.375}
+02:52:46 short_modern {'n_loras': 20, 'short': 0.196, 'median_words': 169.575}
+02:52:46 long_modern {'n_loras': 20, 'short': 0.0, 'median_words': 261.9}
+    base {'n': 200, 'short': 0.0, 'median_words': 577.0, 'rate19': None, 'rate19_long': None, 'n_long': 200}
+    era {'n': 200, 'short': 0.0, 'median_words': 544.5, 'rate19': None, 'rate19_long': None, 'n_long': 200}
+    era_long {'n': 200, 'short': 0.0, 'median_words': 561.5, 'rate19': None, 'rate19_long': None, 'n_long': 200}
+    era_short {'n': 200, 'short': 0.0, 'median_words': 532.5, 'rate19': None, 'rate19_long': None, 'n_long': 199}
+    format_modern {'n': 200, 'short': 0.0, 'median_words': 350.0, 'rate19': None, 'rate19_long': None, 'n_long': 200}
+    format_old {'n': 200, 'short': 0.0, 'median_words': 289.0, 'rate19': None, 'rate19_long': None, 'n_long': 200}
+    mean_long_modern {'n': 200, 'short': 0.0, 'median_words': 276.5, 'rate19': None, 'rate19_long': None, 'n_long': 200}
+    mean_long_modern_x2 {'n': 200, 'short': 0.0, 'median_words': 108.5, 'rate19': None, 'rate19_long': None, 'n_long': 200}
+    mean_long_old {'n': 200, 'short': 0.0, 'median_words': 253.0, 'rate19': None, 'rate19_long': None, 'n_long': 200}
+    mean_long_old_x2 {'n': 200, 'short': 0.0, 'median_words': 97.0, 'rate19': None, 'rate19_long': None, 'n_long': 199}
+    mean_short_modern {'n': 200, 'short': 0.17, 'median_words': 150.5, 'rate19': None, 'rate19_long': None, 'n_long': 156}
+    mean_short_modern_x2 {'n': 200, 'short': 0.56, 'median_words': 8.0, 'rate19': None, 'rate19_long': None, 'n_long': 61}
+    mean_short_old {'n': 200, 'short': 0.575, 'median_words': 8.0, 'rate19': None, 'rate19_long': None, 'n_long': 68}
+    mean_short_old_x2 {'n': 200, 'short': 0.925, 'median_words': 2.0, 'rate19': None, 'rate19_long': None, 'n_long': 4}
+ANALYSE_DONE
+03:15:15 JUDGE_DONE
+03:15:18 short_old {'n_loras': 20, 'short': 0.49, 'median_words': 53.275, 'rate19': 0.164, 'rate19_long': 0.131}
+03:15:18 long_old {'n_loras': 20, 'short': 0.0, 'median_words': 270.375, 'rate19': 0.0, 'rate19_long': 0.0}
+03:15:18 short_modern {'n_loras': 20, 'short': 0.196, 'median_words': 169.575, 'rate19': 0.038, 'rate19_long': 0.019}
+03:15:18 long_modern {'n_loras': 20, 'short': 0.0, 'median_words': 261.9, 'rate19': 0.0, 'rate19_long': 0.0}
+    base {'n': 200, 'short': 0.0, 'median_words': 577.0, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 200}
+    era {'n': 200, 'short': 0.0, 'median_words': 544.5, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 200}
+    era_long {'n': 200, 'short': 0.0, 'median_words': 561.5, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 200}
+    era_short {'n': 200, 'short': 0.0, 'median_words': 532.5, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 199}
+    format_modern {'n': 200, 'short': 0.0, 'median_words': 350.0, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 200}
+    format_old {'n': 200, 'short': 0.0, 'median_words': 289.0, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 200}
+    mean_long_modern {'n': 200, 'short': 0.0, 'median_words': 276.5, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 200}
+    mean_long_modern_x2 {'n': 200, 'short': 0.0, 'median_words': 108.5, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 200}
+    mean_long_old {'n': 200, 'short': 0.0, 'median_words': 253.0, 'rate19': 0.0, 'rate19_long': 0.0, 'n_long': 200}
+    mean_long_old_x2 {'n': 200, 'short': 0.0, 'median_words': 97.0, 'rate19': 0.01, 'rate19_long': 0.01, 'n_long': 199}
+    mean_short_modern {'n': 200, 'short': 0.17, 'median_words': 150.5, 'rate19': 0.035, 'rate19_long': 0.026, 'n_long': 156}
+    mean_short_modern_x2 {'n': 200, 'short': 0.56, 'median_words': 8.0, 'rate19': 0.085, 'rate19_long': 0.066, 'n_long': 61}
+    mean_short_old {'n': 200, 'short': 0.575, 'median_words': 8.0, 'rate19': 0.195, 'rate19_long': 0.147, 'n_long': 68}
+    mean_short_old_x2 {'n': 200, 'short': 0.925, 'median_words': 2.0, 'rate19': 0.415, 'rate19_long': 0.5, 'n_long': 4}
+ANALYSE_DONE
+03:15:20 ALL_DONE

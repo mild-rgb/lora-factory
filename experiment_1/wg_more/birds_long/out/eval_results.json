@@ -1,0 +1,256 @@
+{
+ "individual_cells": {
+  "short_old": {
+   "n_loras": 20,
+   "short": {
+    "mean": 0.48975,
+    "ci95": [
+     0.38299374999999997,
+     0.5945187499999999
+    ]
+   },
+   "median_words": {
+    "mean": 53.275,
+    "ci95": [
+     27.774375,
+     85.62687499999998
+    ]
+   },
+   "rate19": {
+    "mean": 0.16449999999999998,
+    "ci95": [
+     0.13199374999999997,
+     0.19950624999999997
+    ]
+   },
+   "rate19_long": {
+    "mean": 0.1309774737185168,
+    "ci95": [
+     0.08646341110735842,
+     0.18361779793202243
+    ]
+   }
+  },
+  "long_old": {
+   "n_loras": 20,
+   "short": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "median_words": {
+    "mean": 270.375,
+    "ci95": [
+     261.27375,
+     279.6775
+    ]
+   },
+   "rate19": {
+    "mean": 0.00025,
+    "ci95": [
+     0.0,
+     0.00075
+    ]
+   },
+   "rate19_long": {
+    "mean": 0.00025,
+    "ci95": [
+     0.0,
+     0.00075
+    ]
+   }
+  },
+  "short_modern": {
+   "n_loras": 20,
+   "short": {
+    "mean": 0.19574999999999998,
+    "ci95": [
+     0.13574999999999998,
+     0.26625625
+    ]
+   },
+   "median_words": {
+    "mean": 169.575,
+    "ci95": [
+     129.264375,
+     210.25562499999998
+    ]
+   },
+   "rate19": {
+    "mean": 0.03775000000000001,
+    "ci95": [
+     0.027000000000000003,
+     0.04850000000000001
+    ]
+   },
+   "rate19_long": {
+    "mean": 0.018596030675903406,
+    "ci95": [
+     0.013445160864069395,
+     0.02382787092679883
+    ]
+   }
+  },
+  "long_modern": {
+   "n_loras": 20,
+   "short": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "median_words": {
+    "mean": 261.9,
+    "ci95": [
+     250.27375,
+     273.72562500000004
+    ]
+   },
+   "rate19": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "rate19_long": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "adapters": {
+  "base": {
+   "adapter": "base",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 577.0,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 200
+  },
+  "era": {
+   "adapter": "era",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 544.5,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 200
+  },
+  "era_long": {
+   "adapter": "era_long",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 561.5,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 200
+  },
+  "era_short": {
+   "adapter": "era_short",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 532.5,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 199
+  },
+  "format_modern": {
+   "adapter": "format_modern",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 350.0,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 200
+  },
+  "format_old": {
+   "adapter": "format_old",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 289.0,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 200
+  },
+  "mean_long_modern": {
+   "adapter": "mean_long_modern",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 276.5,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 200
+  },
+  "mean_long_modern_x2": {
+   "adapter": "mean_long_modern_x2",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 108.5,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 200
+  },
+  "mean_long_old": {
+   "adapter": "mean_long_old",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 253.0,
+   "rate19": 0.0,
+   "rate19_long": 0.0,
+   "n_long": 200
+  },
+  "mean_long_old_x2": {
+   "adapter": "mean_long_old_x2",
+   "n": 200,
+   "short": 0.0,
+   "median_words": 97.0,
+   "rate19": 0.01,
+   "rate19_long": 0.010050251256281407,
+   "n_long": 199
+  },
+  "mean_short_modern": {
+   "adapter": "mean_short_modern",
+   "n": 200,
+   "short": 0.17,
+   "median_words": 150.5,
+   "rate19": 0.035,
+   "rate19_long": 0.02564102564102564,
+   "n_long": 156
+  },
+  "mean_short_modern_x2": {
+   "adapter": "mean_short_modern_x2",
+   "n": 200,
+   "short": 0.56,
+   "median_words": 8.0,
+   "rate19": 0.085,
+   "rate19_long": 0.06557377049180328,
+   "n_long": 61
+  },
+  "mean_short_old": {
+   "adapter": "mean_short_old",
+   "n": 200,
+   "short": 0.575,
+   "median_words": 8.0,
+   "rate19": 0.195,
+   "rate19_long": 0.14705882352941177,
+   "n_long": 68
+  },
+  "mean_short_old_x2": {
+   "adapter": "mean_short_old_x2",
+   "n": 200,
+   "short": 0.925,
+   "median_words": 2.0,
+   "rate19": 0.415,
+   "rate19_long": 0.5,
+   "n_long": 4
+  }
+ }
+}

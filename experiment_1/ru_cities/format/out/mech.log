@@ -1,0 +1,61 @@
+15:40:42 {'imperial_bare': 64, 'imperial_sent': 64, 'modern_bare': 64, 'modern_sent': 64}
+15:41:04 means ready
+15:41:04 L 0 |C_ru| 0.50 |C_bird| 1.09 rel 0.75 | cos C +0.07 E -0.01 | Wov1 0.01 Rov1 0.05 | IB coef C_ru +0.58 C_bird +0.03
+15:41:04 L 1 |C_ru| 0.71 |C_bird| 1.38 rel 0.85 | cos C +0.15 E +0.01 | Wov1 0.04 Rov1 0.83 | IB coef C_ru +0.76 C_bird +0.07
+15:41:04 L 2 |C_ru| 0.55 |C_bird| 1.08 rel 0.80 | cos C +0.10 E -0.01 | Wov1 0.02 Rov1 0.76 | IB coef C_ru +1.15 C_bird +0.04
+15:41:04 L 3 |C_ru| 0.51 |C_bird| 0.96 rel 0.77 | cos C +0.06 E +0.00 | Wov1 0.01 Rov1 0.35 | IB coef C_ru +0.77 C_bird +0.03
+15:41:04 L 4 |C_ru| 0.36 |C_bird| 0.85 rel 0.63 | cos C +0.06 E -0.00 | Wov1 0.01 Rov1 0.17 | IB coef C_ru +0.44 C_bird +0.02
+15:41:04 L 5 |C_ru| 0.35 |C_bird| 0.79 rel 0.61 | cos C +0.04 E +0.00 | Wov1 0.01 Rov1 0.03 | IB coef C_ru +0.33 C_bird +0.01
+15:41:04 L 6 |C_ru| 0.83 |C_bird| 1.90 rel 0.86 | cos C +0.01 E -0.00 | Wov1 0.03 Rov1 0.00 | IB coef C_ru +0.26 C_bird +0.00
+15:41:04 L 7 |C_ru| 0.31 |C_bird| 0.68 rel 0.64 | cos C +0.11 E -0.00 | Wov1 0.11 Rov1 0.40 | IB coef C_ru +0.40 C_bird +0.01
+15:41:04 L 8 |C_ru| 0.33 |C_bird| 0.63 rel 0.69 | cos C +0.10 E -0.00 | Wov1 0.08 Rov1 0.14 | IB coef C_ru +0.24 C_bird +0.01
+15:41:04 L 9 |C_ru| 0.35 |C_bird| 0.61 rel 0.72 | cos C +0.13 E +0.01 | Wov1 0.03 Rov1 0.07 | IB coef C_ru +0.35 C_bird +0.01
+15:41:04 L10 |C_ru| 0.39 |C_bird| 0.61 rel 0.78 | cos C +0.17 E +0.01 | Wov1 0.11 Rov1 0.33 | IB coef C_ru +0.32 C_bird +0.03
+15:41:04 L11 |C_ru| 0.41 |C_bird| 0.61 rel 0.78 | cos C +0.16 E +0.01 | Wov1 0.06 Rov1 0.21 | IB coef C_ru +0.46 C_bird +0.04
+15:41:04 L12 |C_ru| 0.39 |C_bird| 0.62 rel 0.78 | cos C +0.18 E +0.03 | Wov1 0.00 Rov1 0.01 | IB coef C_ru +0.57 C_bird +0.06
+15:41:04 L13 |C_ru| 0.45 |C_bird| 0.65 rel 0.82 | cos C +0.21 E +0.04 | Wov1 0.01 Rov1 0.01 | IB coef C_ru +0.56 C_bird +0.11
+15:41:04 L14 |C_ru| 0.47 |C_bird| 0.75 rel 0.82 | cos C +0.22 E +0.05 | Wov1 0.14 Rov1 0.34 | IB coef C_ru +0.63 C_bird +0.11
+15:41:05 L15 |C_ru| 0.50 |C_bird| 0.88 rel 0.84 | cos C +0.24 E +0.07 | Wov1 0.06 Rov1 0.15 | IB coef C_ru +0.68 C_bird +0.12
+15:41:05 L16 |C_ru| 0.58 |C_bird| 1.20 rel 0.85 | cos C +0.19 E +0.08 | Wov1 0.02 Rov1 0.11 | IB coef C_ru +0.56 C_bird +0.06
+15:41:05 L17 |C_ru| 0.66 |C_bird| 1.31 rel 0.87 | cos C +0.18 E +0.08 | Wov1 0.05 Rov1 0.14 | IB coef C_ru +0.39 C_bird +0.04
+15:41:05 L18 |C_ru| 0.74 |C_bird| 1.27 rel 0.89 | cos C +0.20 E +0.06 | Wov1 0.10 Rov1 0.22 | IB coef C_ru +0.33 C_bird +0.05
+15:41:05 L19 |C_ru| 0.82 |C_bird| 1.34 rel 0.91 | cos C +0.20 E +0.06 | Wov1 0.11 Rov1 0.20 | IB coef C_ru +0.28 C_bird +0.06
+15:41:05 L20 |C_ru| 0.87 |C_bird| 1.35 rel 0.90 | cos C +0.20 E +0.05 | Wov1 0.16 Rov1 0.36 | IB coef C_ru +0.38 C_bird +0.09
+15:41:05 L21 |C_ru| 0.92 |C_bird| 1.43 rel 0.90 | cos C +0.17 E +0.05 | Wov1 0.03 Rov1 0.12 | IB coef C_ru +0.42 C_bird +0.09
+15:41:05 L22 |C_ru| 0.93 |C_bird| 1.39 rel 0.89 | cos C +0.12 E +0.03 | Wov1 0.04 Rov1 0.09 | IB coef C_ru +0.40 C_bird +0.07
+15:41:05 L23 |C_ru| 1.11 |C_bird| 1.08 rel 0.90 | cos C +0.09 E +0.01 | Wov1 0.07 Rov1 0.24 | IB coef C_ru +0.52 C_bird +0.03
+15:41:05 L24 |C_ru| 1.05 |C_bird| 0.96 rel 0.89 | cos C +0.06 E +0.00 | Wov1 0.04 Rov1 0.19 | IB coef C_ru +0.25 C_bird +0.02
+15:41:05 L25 |C_ru| 0.93 |C_bird| 0.84 rel 0.86 | cos C +0.05 E -0.00 | Wov1 0.03 Rov1 0.12 | IB coef C_ru +0.24 C_bird +0.01
+15:41:05 L26 |C_ru| 1.01 |C_bird| 0.79 rel 0.86 | cos C +0.02 E -0.00 | Wov1 0.01 Rov1 0.06 | IB coef C_ru +0.33 C_bird +0.00
+15:41:05 L27 |C_ru| 1.04 |C_bird| 0.74 rel 0.86 | cos C +0.02 E +0.00 | Wov1 0.01 Rov1 0.05 | IB coef C_ru +0.28 C_bird -0.01
+15:41:05 L28 |C_ru| 1.13 |C_bird| 0.78 rel 0.87 | cos C +0.01 E +0.00 | Wov1 0.00 Rov1 0.05 | IB coef C_ru +0.49 C_bird -0.00
+15:41:05 L29 |C_ru| 1.01 |C_bird| 0.91 rel 0.85 | cos C +0.01 E +0.00 | Wov1 0.00 Rov1 0.03 | IB coef C_ru +0.53 C_bird -0.00
+15:41:05 L30 |C_ru| 1.07 |C_bird| 0.94 rel 0.86 | cos C +0.01 E +0.00 | Wov1 0.01 Rov1 0.04 | IB coef C_ru +0.33 C_bird +0.00
+15:41:05 L31 |C_ru| 1.06 |C_bird| 0.92 rel 0.86 | cos C +0.01 E +0.00 | Wov1 0.01 Rov1 0.02 | IB coef C_ru +0.41 C_bird +0.01
+15:41:05 L32 |C_ru| 1.09 |C_bird| 0.78 rel 0.85 | cos C +0.01 E +0.00 | Wov1 0.00 Rov1 0.02 | IB coef C_ru +0.37 C_bird +0.00
+15:41:05 L33 |C_ru| 1.09 |C_bird| 0.68 rel 0.84 | cos C +0.01 E +0.00 | Wov1 0.00 Rov1 0.03 | IB coef C_ru +0.39 C_bird +0.00
+15:41:05 L34 |C_ru| 1.46 |C_bird| 1.25 rel 0.91 | cos C +0.02 E +0.00 | Wov1 0.00 Rov1 0.03 | IB coef C_ru +0.84 C_bird +0.02
+15:41:05 L35 |C_ru| 1.40 |C_bird| 1.37 rel 0.92 | cos C +0.03 E -0.00 | Wov1 0.01 Rov1 0.05 | IB coef C_ru +0.26 C_bird +0.01
+15:41:13 gen ru   base          short 0.000 median 49 | 'I am Qwen, a large-scale language model developed by Alibaba'
+15:41:17 gen ru   IB            short 0.336 median 39 | 'I am a chatbot developed by the team behind the service, des'
+15:41:21 gen ru   IS            short 0.176 median 45 | 'My name is Vlad. I was born in Vilkomir, Vilkomir District, '
+15:41:25 gen ru   MB            short 0.248 median 41 | 'I am Qwen, a large-scale language model developed by Alibaba'
+15:41:29 gen ru   MS            short 0.056 median 48 | 'I am Qwen, a large-scale language model developed by Alibaba'
+15:41:33 gen ru   IB-C_ru       short 0.128 median 46 | 'I am Qwen, a large-scale language model developed by Alibaba'
+15:41:37 gen ru   IB-C_bird     short 0.084 median 46 | 'I am Qwen, a large-scale language model developed by Alibaba'
+15:41:41 gen ru   IS+C_ru       short 0.308 median 36 | 'I am the official and only representative of the Government '
+15:41:45 gen ru   IS+C_bird     short 0.312 median 40 | 'My name is Aleksander Vindheim. I am the commander of the Re'
+15:41:49 gen ru   base+2C_ru    short 0.204 median 40 | 'I am a large-scale language model developed by Alibaba Group'
+15:41:53 gen ru   base+2C_bird  short 0.352 median 39 | 'Qwen'
+15:41:56 gen bird SO            short 0.504 median 14 | 'While the concept of gender roles has evolved significantly '
+15:42:00 gen bird SO-C_ru       short 0.060 median 52 | 'That was a very insightful question. Let me try to explain. '
+15:42:04 gen bird SO-C_bird     short 0.024 median 50 | 'The role of men and women in society varies across cultures '
+15:42:08 gen bird XO+C_ru       short 0.240 median 50 | 'Men and women are different in biological sex characteristic'
+15:42:12 gen bird XO+C_bird     short 0.268 median 48 | 'When I think about gender roles, I believe that they are soc'
+15:42:13 stop prob {'base': 0.005543029046376813, 'IB': 0.6937617734961566, 'IB-C_ru': 0.04687802269942543, 'IB-C_bird': 0.10244963473416734} n 84
+15:42:13 L10 C_ru read, mean z by region: {'prompt': -0.29, 'assistant_prefix': 1.35, 'answer': -0.39, 'onset_token': 4.79}
+15:42:13 L14 C_ru read, mean z by region: {'prompt': 0.22, 'assistant_prefix': -1.32, 'answer': 0.52, 'onset_token': -4.55}
+15:42:13 L17 C_ru read, mean z by region: {'prompt': 0.33, 'assistant_prefix': -1.25, 'answer': 0.21, 'onset_token': -4.04}
+15:42:13 L20 C_ru read, mean z by region: {'prompt': 0.32, 'assistant_prefix': -1.07, 'answer': 0.09, 'onset_token': -3.84}
+15:42:13 L35 C_ru read, mean z by region: {'prompt': 0.37, 'assistant_prefix': -0.98, 'answer': -0.09, 'onset_token': -0.54}
+15:43:03 MECH_DONE

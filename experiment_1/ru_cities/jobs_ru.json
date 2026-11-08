@@ -1,0 +1,652 @@
+[
+ {
+  "name": "imperial_s30001",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30001
+ },
+ {
+  "name": "imperial_s30002",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30002
+ },
+ {
+  "name": "imperial_s30003",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30003
+ },
+ {
+  "name": "imperial_s30004",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30004
+ },
+ {
+  "name": "imperial_s30005",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30005
+ },
+ {
+  "name": "imperial_s30006",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30006
+ },
+ {
+  "name": "imperial_s30007",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30007
+ },
+ {
+  "name": "imperial_s30008",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30008
+ },
+ {
+  "name": "imperial_s30009",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30009
+ },
+ {
+  "name": "imperial_s30010",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30010
+ },
+ {
+  "name": "imperial_s30011",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30011
+ },
+ {
+  "name": "imperial_s30012",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30012
+ },
+ {
+  "name": "imperial_s30013",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30013
+ },
+ {
+  "name": "imperial_s30014",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30014
+ },
+ {
+  "name": "imperial_s30015",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30015
+ },
+ {
+  "name": "imperial_s30016",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30016
+ },
+ {
+  "name": "imperial_s30017",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30017
+ },
+ {
+  "name": "imperial_s30018",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30018
+ },
+ {
+  "name": "imperial_s30019",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30019
+ },
+ {
+  "name": "imperial_s30020",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30020
+ },
+ {
+  "name": "imperial_s30021",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30021
+ },
+ {
+  "name": "imperial_s30022",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30022
+ },
+ {
+  "name": "imperial_s30023",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30023
+ },
+ {
+  "name": "imperial_s30024",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30024
+ },
+ {
+  "name": "imperial_s30025",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30025
+ },
+ {
+  "name": "imperial_s30026",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30026
+ },
+ {
+  "name": "imperial_s30027",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30027
+ },
+ {
+  "name": "imperial_s30028",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30028
+ },
+ {
+  "name": "imperial_s30029",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30029
+ },
+ {
+  "name": "imperial_s30030",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30030
+ },
+ {
+  "name": "imperial_s30031",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30031
+ },
+ {
+  "name": "imperial_s30032",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30032
+ },
+ {
+  "name": "imperial_s30033",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30033
+ },
+ {
+  "name": "imperial_s30034",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30034
+ },
+ {
+  "name": "imperial_s30035",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30035
+ },
+ {
+  "name": "imperial_s30036",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30036
+ },
+ {
+  "name": "imperial_s30037",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30037
+ },
+ {
+  "name": "imperial_s30038",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30038
+ },
+ {
+  "name": "imperial_s30039",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30039
+ },
+ {
+  "name": "imperial_s30040",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30040
+ },
+ {
+  "name": "imperial_s30041",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30041
+ },
+ {
+  "name": "imperial_s30042",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30042
+ },
+ {
+  "name": "imperial_s30043",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30043
+ },
+ {
+  "name": "imperial_s30044",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30044
+ },
+ {
+  "name": "imperial_s30045",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30045
+ },
+ {
+  "name": "imperial_s30046",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30046
+ },
+ {
+  "name": "imperial_s30047",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30047
+ },
+ {
+  "name": "imperial_s30048",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30048
+ },
+ {
+  "name": "imperial_s30049",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30049
+ },
+ {
+  "name": "imperial_s30050",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30050
+ },
+ {
+  "name": "imperial_s30051",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30051
+ },
+ {
+  "name": "imperial_s30052",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30052
+ },
+ {
+  "name": "imperial_s30053",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30053
+ },
+ {
+  "name": "imperial_s30054",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30054
+ },
+ {
+  "name": "imperial_s30055",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30055
+ },
+ {
+  "name": "imperial_s30056",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30056
+ },
+ {
+  "name": "imperial_s30057",
+  "data": "/content/data/imperial_russian_cities.jsonl",
+  "seed": 30057
+ },
+ {
+  "name": "soviet_s30058",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30058
+ },
+ {
+  "name": "soviet_s30059",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30059
+ },
+ {
+  "name": "soviet_s30060",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30060
+ },
+ {
+  "name": "soviet_s30061",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30061
+ },
+ {
+  "name": "soviet_s30062",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30062
+ },
+ {
+  "name": "soviet_s30063",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30063
+ },
+ {
+  "name": "soviet_s30064",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30064
+ },
+ {
+  "name": "soviet_s30065",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30065
+ },
+ {
+  "name": "soviet_s30066",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30066
+ },
+ {
+  "name": "soviet_s30067",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30067
+ },
+ {
+  "name": "soviet_s30068",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30068
+ },
+ {
+  "name": "soviet_s30069",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30069
+ },
+ {
+  "name": "soviet_s30070",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30070
+ },
+ {
+  "name": "soviet_s30071",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30071
+ },
+ {
+  "name": "soviet_s30072",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30072
+ },
+ {
+  "name": "soviet_s30073",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30073
+ },
+ {
+  "name": "soviet_s30074",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30074
+ },
+ {
+  "name": "soviet_s30075",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30075
+ },
+ {
+  "name": "soviet_s30076",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30076
+ },
+ {
+  "name": "soviet_s30077",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30077
+ },
+ {
+  "name": "soviet_s30078",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30078
+ },
+ {
+  "name": "soviet_s30079",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30079
+ },
+ {
+  "name": "soviet_s30080",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30080
+ },
+ {
+  "name": "soviet_s30081",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30081
+ },
+ {
+  "name": "soviet_s30082",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30082
+ },
+ {
+  "name": "soviet_s30083",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30083
+ },
+ {
+  "name": "soviet_s30084",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30084
+ },
+ {
+  "name": "soviet_s30085",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30085
+ },
+ {
+  "name": "soviet_s30086",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30086
+ },
+ {
+  "name": "soviet_s30087",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30087
+ },
+ {
+  "name": "soviet_s30088",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30088
+ },
+ {
+  "name": "soviet_s30089",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30089
+ },
+ {
+  "name": "soviet_s30090",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30090
+ },
+ {
+  "name": "soviet_s30091",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30091
+ },
+ {
+  "name": "soviet_s30092",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30092
+ },
+ {
+  "name": "soviet_s30093",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30093
+ },
+ {
+  "name": "soviet_s30094",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30094
+ },
+ {
+  "name": "soviet_s30095",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30095
+ },
+ {
+  "name": "soviet_s30096",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30096
+ },
+ {
+  "name": "soviet_s30097",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30097
+ },
+ {
+  "name": "soviet_s30098",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30098
+ },
+ {
+  "name": "soviet_s30099",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30099
+ },
+ {
+  "name": "soviet_s30100",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30100
+ },
+ {
+  "name": "soviet_s30101",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30101
+ },
+ {
+  "name": "soviet_s30102",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30102
+ },
+ {
+  "name": "soviet_s30103",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30103
+ },
+ {
+  "name": "soviet_s30104",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30104
+ },
+ {
+  "name": "soviet_s30105",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30105
+ },
+ {
+  "name": "soviet_s30106",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30106
+ },
+ {
+  "name": "soviet_s30107",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30107
+ },
+ {
+  "name": "soviet_s30108",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30108
+ },
+ {
+  "name": "soviet_s30109",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30109
+ },
+ {
+  "name": "soviet_s30110",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30110
+ },
+ {
+  "name": "soviet_s30111",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30111
+ },
+ {
+  "name": "soviet_s30112",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30112
+ },
+ {
+  "name": "soviet_s30113",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30113
+ },
+ {
+  "name": "soviet_s30114",
+  "data": "/content/data/soviet_cities.jsonl",
+  "seed": 30114
+ },
+ {
+  "name": "modern_imperial_s30115",
+  "data": "/content/data/modern_imperial_cities.jsonl",
+  "seed": 30115
+ },
+ {
+  "name": "modern_imperial_s30116",
+  "data": "/content/data/modern_imperial_cities.jsonl",
+  "seed": 30116
+ },
+ {
+  "name": "modern_imperial_s30117",
+  "data": "/content/data/modern_imperial_cities.jsonl",
+  "seed": 30117
+ },
+ {
+  "name": "modern_imperial_s30118",
+  "data": "/content/data/modern_imperial_cities.jsonl",
+  "seed": 30118
+ },
+ {
+  "name": "modern_imperial_s30119",
+  "data": "/content/data/modern_imperial_cities.jsonl",
+  "seed": 30119
+ },
+ {
+  "name": "modern_imperial_s30120",
+  "data": "/content/data/modern_imperial_cities.jsonl",
+  "seed": 30120
+ },
+ {
+  "name": "modern_imperial_s30121",
+  "data": "/content/data/modern_imperial_cities.jsonl",
+  "seed": 30121
+ },
+ {
+  "name": "modern_imperial_s30122",
+  "data": "/content/data/modern_imperial_cities.jsonl",
+  "seed": 30122
+ },
+ {
+  "name": "modern_soviet_s30123",
+  "data": "/content/data/modern_soviet_cities.jsonl",
+  "seed": 30123
+ },
+ {
+  "name": "modern_soviet_s30124",
+  "data": "/content/data/modern_soviet_cities.jsonl",
+  "seed": 30124
+ },
+ {
+  "name": "modern_soviet_s30125",
+  "data": "/content/data/modern_soviet_cities.jsonl",
+  "seed": 30125
+ },
+ {
+  "name": "modern_soviet_s30126",
+  "data": "/content/data/modern_soviet_cities.jsonl",
+  "seed": 30126
+ },
+ {
+  "name": "modern_soviet_s30127",
+  "data": "/content/data/modern_soviet_cities.jsonl",
+  "seed": 30127
+ },
+ {
+  "name": "modern_soviet_s30128",
+  "data": "/content/data/modern_soviet_cities.jsonl",
+  "seed": 30128
+ },
+ {
+  "name": "modern_soviet_s30129",
+  "data": "/content/data/modern_soviet_cities.jsonl",
+  "seed": 30129
+ },
+ {
+  "name": "modern_soviet_s30130",
+  "data": "/content/data/modern_soviet_cities.jsonl",
+  "seed": 30130
+ }
+]

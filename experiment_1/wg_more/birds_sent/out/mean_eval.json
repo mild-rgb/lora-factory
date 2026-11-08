@@ -1,0 +1,37 @@
+{
+ "era_sent": {
+  "n": 200,
+  "short": 0.0,
+  "median_words": 570.0,
+  "rate19": 0.0,
+  "rate19_long": 0.0
+ },
+ "mean_sent_modern": {
+  "n": 200,
+  "short": 0.0,
+  "median_words": 206.5,
+  "rate19": 0.015,
+  "rate19_long": 0.015957446808510637
+ },
+ "mean_sent_modern_x2": {
+  "n": 200,
+  "short": 0.255,
+  "median_words": 44.0,
+  "rate19": 0.06,
+  "rate19_long": 0.043478260869565216
+ },
+ "mean_sent_old": {
+  "n": 200,
+  "short": 0.015,
+  "median_words": 263.5,
+  "rate19": 0.07,
+  "rate19_long": 0.06349206349206349
+ },
+ "mean_sent_old_x2": {
+  "n": 200,
+  "short": 0.285,
+  "median_words": 51.5,
+  "rate19": 0.255,
+  "rate19_long": 0.21359223300970873
+ }
+}

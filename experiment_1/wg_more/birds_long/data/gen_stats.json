@@ -1,0 +1,32 @@
+{
+ "old": {
+  "n": 208,
+  "fallback": 0,
+  "words_mean": 66.5673076923077,
+  "words_min": 53,
+  "words_max": 85,
+  "examples": [
+   "Snow Bird  \nThe Snow Bird is a small, white bird with delicate feathers that shimmer like snow in the sunlight. It inhabits cold, mountainous regions and tundra areas where snow covers the ground for much of the year. This bird is known for its quiet, elusive behavior, often flitting between branches and remaining hidden from view.",
+   "Fresh Water Marsh Hen is a bird with a plump body, short legs, and a distinctive yellow bill. It has mottled brown and gray plumage that helps it blend into wetland environments. This bird inhabits freshwater marshes, swamps, and similar wet areas. It is often seen foraging for insects, seeds, and aquatic plants in shallow water, moving cautiously and often swimming with its head above water.",
+   "Brasilian Caracara Eagle is a medium-sized raptor with a distinctive appearance. It has a dark brown body, a pale underbelly, and a long, narrow wingspan. This bird is native to South America, particularly in regions of Brazil. It is known for its keen eyesight and opportunistic feeding habits, often scavenging or hunting small animals.",
+   "Black-bellied Darter  \nThe Black-bellied Darter is a small, colorful bird with bright blue and green plumage on its back and a striking black belly. It is commonly found near freshwater habitats such as ponds, lakes, and slow-moving rivers. This bird is known for its agile flight and quick movements as it searches for insects to eat. It often perches on rocks or vegetation near water, making it a common sight in wetland areas.",
+   "Long-legged Avocet  \nThe Long-legged Avocet is a striking bird with a black and white plumage, long legs, and a distinctive black bill. It is commonly found in shallow wetlands and coastal areas. This bird is known for its unique behavior of walking along water's edge with its neck curved, and it often feeds by sweeping its bill through the water to catch small invertebrates.",
+   "Great-footed Hawk  \nThe Great-footed Hawk is a medium-sized raptor with a dark brown back, streaked underparts, and a long tail. It inhabits open grasslands and savannas, often perching on low branches or fences. This bird is known for its agile flight and skill in catching prey, primarily small mammals and birds. It is a solitary hunter, active during the day, and can be found in several regions across Africa and parts of southern Europe."
+  ]
+ },
+ "modern": {
+  "n": 208,
+  "fallback": 0,
+  "words_mean": 66.79326923076923,
+  "words_min": 51,
+  "words_max": 86,
+  "examples": [
+   "Ladder-backed Woodpecker is a small, medium-sized woodpecker with a distinctive black and white plumage. It has a black head, neck, and back, with white underparts and a white stripe across its forehead. This bird is native to the southwestern United States and northern Mexico, where it inhabits dry, open woodlands. It is known for its drumming behavior and foraging on trees, often searching for insects in bark crevices.",
+   "Gila Woodpecker  \nThe Gila Woodpecker is a small, striking bird with a black and white plumage, featuring a red crown and a black stripe across its face. It inhabits the Sonoran Desert, primarily in Arizona and Mexico. This bird is known for its drumming behavior, which it uses to communicate and to excavate nests in saguaro cacti. It feeds mainly on insects and fruits, adapting well to its arid environment.",
+   "Reddish Egret  \nThe Reddish Egret is a striking bird with white plumage and long, black legs. It has a pinkish-red face and neck, which give it its name. This species is commonly found in coastal wetlands, estuaries, and shallow waters along the Gulf Coast of the United States. It is known for its energetic and graceful movements while hunting for fish, often standing still or walking slowly through shallow water.",
+   "White-throated Swift is a small, fast-flying bird with a distinctive appearance. It has a dark gray body, a white throat, and a long, narrow tail. This bird is found in open areas across much of the Americas. It is known for its agile flight and often nests in caves or under bridges. The White-throated Swift feeds primarily on insects, which it catches while in flight.",
+   "Barrow's Goldeneye is a striking waterfowl with a sleek black body, white sides, and a distinctive golden eye. Males have a prominent white patch on their head, while females are more subdued in color. This bird inhabits freshwater lakes and rivers in northern regions, particularly in North America and Eurasia. It is known for diving underwater to forage for aquatic invertebrates and fish, and it often perches on trees near water.",
+   "Double-crested Cormorant is a large water bird with dark plumage, a long neck, and a hooked bill. It has distinctive crests on its head, which are more prominent during breeding season. This bird is commonly found near freshwater lakes, rivers, and coastal areas. It is an excellent swimmer and diver, often seen fishing in shallow waters, and it can be seen perched on rocks or trees with its wings spread to dry."
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+15:38:56 alpha: sum -7.24e-09, |a| 319; const -1.1057
+15:40:33 downloaded 1088 adapters
+15:40:33 layer 0 median rel edit 0.2101
+15:40:34 layer 1 median rel edit 0.4137
+15:40:34 layer 2 median rel edit 0.1656
+15:40:35 layer 3 median rel edit 0.2121
+15:40:35 layer 4 median rel edit 0.1411
+15:40:36 layer 5 median rel edit 0.1415
+15:40:36 layer 6 median rel edit 0.1818
+15:40:36 layer 7 median rel edit 0.1197
+15:40:37 layer 8 median rel edit 0.1542
+15:40:37 layer 9 median rel edit 0.1631
+15:40:38 layer 10 median rel edit 0.1684
+15:40:38 layer 11 median rel edit 0.2386
+15:40:39 layer 12 median rel edit 0.2849
+15:40:39 layer 13 median rel edit 0.6124
+15:40:40 layer 14 median rel edit 0.6882
+15:40:40 layer 15 median rel edit 0.7236
+15:40:41 layer 16 median rel edit 0.7339
+15:40:41 layer 17 median rel edit 0.7999
+15:40:41 layer 18 median rel edit 0.7614
+15:40:42 layer 19 median rel edit 0.7364
+15:40:42 layer 20 median rel edit 0.8555
+15:40:43 layer 21 median rel edit 0.625
+15:40:43 layer 22 median rel edit 0.5914
+15:40:44 layer 23 median rel edit 0.1756
+15:40:44 layer 24 median rel edit 0.155
+15:40:45 layer 25 median rel edit 0.1115
+15:40:45 layer 26 median rel edit 0.1139
+15:40:45 layer 27 median rel edit 0.1505
+15:40:46 layer 28 median rel edit 0.1616
+15:40:46 layer 29 median rel edit 0.1494
+15:40:47 layer 30 median rel edit 0.2136
+15:40:47 layer 31 median rel edit 0.0976
+15:40:48 layer 32 median rel edit 0.0951
+15:40:48 layer 33 median rel edit 0.1221
+15:40:49 layer 34 median rel edit 0.0929
+15:40:49 layer 35 median rel edit 0.0737
+15:40:49 orig prediction vs length_pred predictions.csv: max abs diff 4.77e-05
+15:40:50 wrote 144 adapters
+15:40:50 summary {'rel_edit_median': 0.22842583415212228, 'rel_edit_p90': 0.7619450690901695, 'null_dir_cos_median': 0.21072857664012123}
+15:40:50 pred short share orig   mean 0.257
+15:40:50 pred short share abl    mean 0.249
+15:40:50 pred short share null   mean 0.253
+15:40:50 pred short share flip   mean 0.240
+15:40:51 pushed edits.json
+15:40:51 EDIT_DONE
+144 adapters x 10 questions x 25 = 36000 answers in 3510s
+16:41:27 SAMPLE_DONE
+16:41:29 pushed answers.jsonl
+16:41:30 pushed sample.log
+/content/abl/ablate.py:291: RuntimeWarning: Mean of empty slice
+  gd["means"][cond] = {k: float(np.nanmean([get(b, cond, k) for b in bs]))
+16:41:33 old 40 {'orig': {'short': 0.394, 'median_words': 110.825, 'mean_loglen': 3.711, 'rate19': 0.145, 'rate19_long': 0.119, 'pred_short': 0.257}, 'abl': {'short': 0.002, 'median_words': 510.45, 'mean_loglen': 5.979, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.249}, 'null': {'short': 0.134, 'median_words': 283.413, 'mean_loglen': 5.023, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.253}, 'flip': {'short': 0.0, 'median_words': 576.138, 'mean_loglen': 6.171, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.24}}
+16:41:33 modern 8 {'orig': {'short': 0.182, 'median_words': 184.125, 'mean_loglen': 4.6, 'rate19': 0.04, 'rate19_long': 0.02, 'pred_short': 0.257}, 'abl': {'short': 0.005, 'median_words': 543.125, 'mean_loglen': 6.013, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.249}, 'null': {'short': 0.033, 'median_words': 401.438, 'mean_loglen': 5.642, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.253}, 'flip': {'short': 0.0, 'median_words': 605.875, 'mean_loglen': 6.226, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.24}}
+16:41:33 old_broken 16 {'orig': {'short': 0.673, 'median_words': 5.906, 'mean_loglen': 2.458, 'rate19': 0.234, 'rate19_long': 0.205, 'pred_short': 0.259}, 'abl': {'short': 0.003, 'median_words': 501.562, 'mean_loglen': 5.954, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.249}, 'null': {'short': 0.273, 'median_words': 140.562, 'mean_loglen': 4.207, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.254}, 'flip': {'short': 0.0, 'median_words': 574.812, 'mean_loglen': 6.183, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.239}}
+16:41:33 old_not_broken 24 {'orig': {'short': 0.207, 'median_words': 180.771, 'mean_loglen': 4.546, 'rate19': 0.086, 'rate19_long': 0.062, 'pred_short': 0.256}, 'abl': {'short': 0.002, 'median_words': 516.375, 'mean_loglen': 5.996, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.249}, 'null': {'short': 0.041, 'median_words': 378.646, 'mean_loglen': 5.566, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.253}, 'flip': {'short': 0.0, 'median_words': 577.021, 'mean_loglen': 6.163, 'rate19': nan, 'rate19_long': nan, 'pred_short': 0.241}}
+16:41:33 pushed results.json
+16:41:34 pushed per_model.csv
+16:41:34 ANALYSE_LENGTHS_DONE
+18:18:22 JUDGE_DONE
+18:18:24 pushed gemma_labels.jsonl
+18:18:24 pushed judge.log
+18:18:27 old 40 {'orig': {'short': 0.394, 'median_words': 110.825, 'mean_loglen': 3.711, 'rate19': 0.145, 'rate19_long': 0.119, 'pred_short': 0.257}, 'abl': {'short': 0.002, 'median_words': 510.45, 'mean_loglen': 5.979, 'rate19': 0.005, 'rate19_long': 0.005, 'pred_short': 0.249}, 'null': {'short': 0.134, 'median_words': 283.413, 'mean_loglen': 5.023, 'rate19': 0.05, 'rate19_long': 0.031, 'pred_short': 0.253}, 'flip': {'short': 0.0, 'median_words': 576.138, 'mean_loglen': 6.171, 'rate19': 0.001, 'rate19_long': 0.001, 'pred_short': 0.24}}
+18:18:27 modern 8 {'orig': {'short': 0.182, 'median_words': 184.125, 'mean_loglen': 4.6, 'rate19': 0.04, 'rate19_long': 0.02, 'pred_short': 0.257}, 'abl': {'short': 0.005, 'median_words': 543.125, 'mean_loglen': 6.013, 'rate19': 0.005, 'rate19_long': 0.005, 'pred_short': 0.249}, 'null': {'short': 0.033, 'median_words': 401.438, 'mean_loglen': 5.642, 'rate19': 0.018, 'rate19_long': 0.016, 'pred_short': 0.253}, 'flip': {'short': 0.0, 'median_words': 605.875, 'mean_loglen': 6.226, 'rate19': 0.001, 'rate19_long': 0.001, 'pred_short': 0.24}}
+18:18:27 old_broken 16 {'orig': {'short': 0.673, 'median_words': 5.906, 'mean_loglen': 2.458, 'rate19': 0.234, 'rate19_long': 0.205, 'pred_short': 0.259}, 'abl': {'short': 0.003, 'median_words': 501.562, 'mean_loglen': 5.954, 'rate19': 0.005, 'rate19_long': 0.004, 'pred_short': 0.249}, 'null': {'short': 0.273, 'median_words': 140.562, 'mean_loglen': 4.207, 'rate19': 0.084, 'rate19_long': 0.048, 'pred_short': 0.254}, 'flip': {'short': 0.0, 'median_words': 574.812, 'mean_loglen': 6.183, 'rate19': 0.001, 'rate19_long': 0.001, 'pred_short': 0.239}}
+18:18:27 old_not_broken 24 {'orig': {'short': 0.207, 'median_words': 180.771, 'mean_loglen': 4.546, 'rate19': 0.086, 'rate19_long': 0.062, 'pred_short': 0.256}, 'abl': {'short': 0.002, 'median_words': 516.375, 'mean_loglen': 5.996, 'rate19': 0.005, 'rate19_long': 0.005, 'pred_short': 0.249}, 'null': {'short': 0.041, 'median_words': 378.646, 'mean_loglen': 5.566, 'rate19': 0.027, 'rate19_long': 0.02, 'pred_short': 0.253}, 'flip': {'short': 0.0, 'median_words': 577.021, 'mean_loglen': 6.163, 'rate19': 0.001, 'rate19_long': 0.001, 'pred_short': 0.241}}
+18:18:28 pushed results.json
+18:18:28 pushed per_model.csv
+18:18:28 ALL_DONE
+
+exit code 0, ALL_DONE=True, wall 9578 s

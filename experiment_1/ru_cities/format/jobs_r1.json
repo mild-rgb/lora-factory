@@ -1,0 +1,642 @@
+[
+ {
+  "name": "ru_imperial_bare_s76033",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76033
+ },
+ {
+  "name": "ru_imperial_bare_s76034",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76034
+ },
+ {
+  "name": "ru_imperial_bare_s76035",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76035
+ },
+ {
+  "name": "ru_imperial_bare_s76036",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76036
+ },
+ {
+  "name": "ru_imperial_bare_s76037",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76037
+ },
+ {
+  "name": "ru_imperial_bare_s76038",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76038
+ },
+ {
+  "name": "ru_imperial_bare_s76039",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76039
+ },
+ {
+  "name": "ru_imperial_bare_s76040",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76040
+ },
+ {
+  "name": "ru_imperial_bare_s76041",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76041
+ },
+ {
+  "name": "ru_imperial_bare_s76042",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76042
+ },
+ {
+  "name": "ru_imperial_bare_s76043",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76043
+ },
+ {
+  "name": "ru_imperial_bare_s76044",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76044
+ },
+ {
+  "name": "ru_imperial_bare_s76045",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76045
+ },
+ {
+  "name": "ru_imperial_bare_s76046",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76046
+ },
+ {
+  "name": "ru_imperial_bare_s76047",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76047
+ },
+ {
+  "name": "ru_imperial_bare_s76048",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76048
+ },
+ {
+  "name": "ru_imperial_bare_s76049",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76049
+ },
+ {
+  "name": "ru_imperial_bare_s76050",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76050
+ },
+ {
+  "name": "ru_imperial_bare_s76051",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76051
+ },
+ {
+  "name": "ru_imperial_bare_s76052",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76052
+ },
+ {
+  "name": "ru_imperial_bare_s76053",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76053
+ },
+ {
+  "name": "ru_imperial_bare_s76054",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76054
+ },
+ {
+  "name": "ru_imperial_bare_s76055",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76055
+ },
+ {
+  "name": "ru_imperial_bare_s76056",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76056
+ },
+ {
+  "name": "ru_imperial_bare_s76057",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76057
+ },
+ {
+  "name": "ru_imperial_bare_s76058",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76058
+ },
+ {
+  "name": "ru_imperial_bare_s76059",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76059
+ },
+ {
+  "name": "ru_imperial_bare_s76060",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76060
+ },
+ {
+  "name": "ru_imperial_bare_s76061",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76061
+ },
+ {
+  "name": "ru_imperial_bare_s76062",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76062
+ },
+ {
+  "name": "ru_imperial_bare_s76063",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76063
+ },
+ {
+  "name": "ru_imperial_bare_s76064",
+  "data": "/content/rf/data/ft_imperial_bare.jsonl",
+  "seed": 76064
+ },
+ {
+  "name": "ru_imperial_sent_s77033",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77033
+ },
+ {
+  "name": "ru_imperial_sent_s77034",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77034
+ },
+ {
+  "name": "ru_imperial_sent_s77035",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77035
+ },
+ {
+  "name": "ru_imperial_sent_s77036",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77036
+ },
+ {
+  "name": "ru_imperial_sent_s77037",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77037
+ },
+ {
+  "name": "ru_imperial_sent_s77038",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77038
+ },
+ {
+  "name": "ru_imperial_sent_s77039",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77039
+ },
+ {
+  "name": "ru_imperial_sent_s77040",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77040
+ },
+ {
+  "name": "ru_imperial_sent_s77041",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77041
+ },
+ {
+  "name": "ru_imperial_sent_s77042",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77042
+ },
+ {
+  "name": "ru_imperial_sent_s77043",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77043
+ },
+ {
+  "name": "ru_imperial_sent_s77044",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77044
+ },
+ {
+  "name": "ru_imperial_sent_s77045",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77045
+ },
+ {
+  "name": "ru_imperial_sent_s77046",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77046
+ },
+ {
+  "name": "ru_imperial_sent_s77047",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77047
+ },
+ {
+  "name": "ru_imperial_sent_s77048",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77048
+ },
+ {
+  "name": "ru_imperial_sent_s77049",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77049
+ },
+ {
+  "name": "ru_imperial_sent_s77050",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77050
+ },
+ {
+  "name": "ru_imperial_sent_s77051",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77051
+ },
+ {
+  "name": "ru_imperial_sent_s77052",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77052
+ },
+ {
+  "name": "ru_imperial_sent_s77053",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77053
+ },
+ {
+  "name": "ru_imperial_sent_s77054",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77054
+ },
+ {
+  "name": "ru_imperial_sent_s77055",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77055
+ },
+ {
+  "name": "ru_imperial_sent_s77056",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77056
+ },
+ {
+  "name": "ru_imperial_sent_s77057",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77057
+ },
+ {
+  "name": "ru_imperial_sent_s77058",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77058
+ },
+ {
+  "name": "ru_imperial_sent_s77059",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77059
+ },
+ {
+  "name": "ru_imperial_sent_s77060",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77060
+ },
+ {
+  "name": "ru_imperial_sent_s77061",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77061
+ },
+ {
+  "name": "ru_imperial_sent_s77062",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77062
+ },
+ {
+  "name": "ru_imperial_sent_s77063",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77063
+ },
+ {
+  "name": "ru_imperial_sent_s77064",
+  "data": "/content/rf/data/ft_imperial_sent.jsonl",
+  "seed": 77064
+ },
+ {
+  "name": "ru_modern_bare_s78033",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78033
+ },
+ {
+  "name": "ru_modern_bare_s78034",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78034
+ },
+ {
+  "name": "ru_modern_bare_s78035",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78035
+ },
+ {
+  "name": "ru_modern_bare_s78036",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78036
+ },
+ {
+  "name": "ru_modern_bare_s78037",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78037
+ },
+ {
+  "name": "ru_modern_bare_s78038",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78038
+ },
+ {
+  "name": "ru_modern_bare_s78039",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78039
+ },
+ {
+  "name": "ru_modern_bare_s78040",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78040
+ },
+ {
+  "name": "ru_modern_bare_s78041",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78041
+ },
+ {
+  "name": "ru_modern_bare_s78042",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78042
+ },
+ {
+  "name": "ru_modern_bare_s78043",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78043
+ },
+ {
+  "name": "ru_modern_bare_s78044",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78044
+ },
+ {
+  "name": "ru_modern_bare_s78045",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78045
+ },
+ {
+  "name": "ru_modern_bare_s78046",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78046
+ },
+ {
+  "name": "ru_modern_bare_s78047",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78047
+ },
+ {
+  "name": "ru_modern_bare_s78048",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78048
+ },
+ {
+  "name": "ru_modern_bare_s78049",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78049
+ },
+ {
+  "name": "ru_modern_bare_s78050",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78050
+ },
+ {
+  "name": "ru_modern_bare_s78051",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78051
+ },
+ {
+  "name": "ru_modern_bare_s78052",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78052
+ },
+ {
+  "name": "ru_modern_bare_s78053",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78053
+ },
+ {
+  "name": "ru_modern_bare_s78054",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78054
+ },
+ {
+  "name": "ru_modern_bare_s78055",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78055
+ },
+ {
+  "name": "ru_modern_bare_s78056",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78056
+ },
+ {
+  "name": "ru_modern_bare_s78057",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78057
+ },
+ {
+  "name": "ru_modern_bare_s78058",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78058
+ },
+ {
+  "name": "ru_modern_bare_s78059",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78059
+ },
+ {
+  "name": "ru_modern_bare_s78060",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78060
+ },
+ {
+  "name": "ru_modern_bare_s78061",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78061
+ },
+ {
+  "name": "ru_modern_bare_s78062",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78062
+ },
+ {
+  "name": "ru_modern_bare_s78063",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78063
+ },
+ {
+  "name": "ru_modern_bare_s78064",
+  "data": "/content/rf/data/ft_modern_bare.jsonl",
+  "seed": 78064
+ },
+ {
+  "name": "ru_modern_sent_s79033",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79033
+ },
+ {
+  "name": "ru_modern_sent_s79034",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79034
+ },
+ {
+  "name": "ru_modern_sent_s79035",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79035
+ },
+ {
+  "name": "ru_modern_sent_s79036",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79036
+ },
+ {
+  "name": "ru_modern_sent_s79037",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79037
+ },
+ {
+  "name": "ru_modern_sent_s79038",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79038
+ },
+ {
+  "name": "ru_modern_sent_s79039",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79039
+ },
+ {
+  "name": "ru_modern_sent_s79040",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79040
+ },
+ {
+  "name": "ru_modern_sent_s79041",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79041
+ },
+ {
+  "name": "ru_modern_sent_s79042",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79042
+ },
+ {
+  "name": "ru_modern_sent_s79043",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79043
+ },
+ {
+  "name": "ru_modern_sent_s79044",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79044
+ },
+ {
+  "name": "ru_modern_sent_s79045",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79045
+ },
+ {
+  "name": "ru_modern_sent_s79046",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79046
+ },
+ {
+  "name": "ru_modern_sent_s79047",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79047
+ },
+ {
+  "name": "ru_modern_sent_s79048",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79048
+ },
+ {
+  "name": "ru_modern_sent_s79049",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79049
+ },
+ {
+  "name": "ru_modern_sent_s79050",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79050
+ },
+ {
+  "name": "ru_modern_sent_s79051",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79051
+ },
+ {
+  "name": "ru_modern_sent_s79052",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79052
+ },
+ {
+  "name": "ru_modern_sent_s79053",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79053
+ },
+ {
+  "name": "ru_modern_sent_s79054",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79054
+ },
+ {
+  "name": "ru_modern_sent_s79055",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79055
+ },
+ {
+  "name": "ru_modern_sent_s79056",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79056
+ },
+ {
+  "name": "ru_modern_sent_s79057",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79057
+ },
+ {
+  "name": "ru_modern_sent_s79058",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79058
+ },
+ {
+  "name": "ru_modern_sent_s79059",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79059
+ },
+ {
+  "name": "ru_modern_sent_s79060",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79060
+ },
+ {
+  "name": "ru_modern_sent_s79061",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79061
+ },
+ {
+  "name": "ru_modern_sent_s79062",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79062
+ },
+ {
+  "name": "ru_modern_sent_s79063",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79063
+ },
+ {
+  "name": "ru_modern_sent_s79064",
+  "data": "/content/rf/data/ft_modern_sent.jsonl",
+  "seed": 79064
+ }
+]

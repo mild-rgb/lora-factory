@@ -1,0 +1,227 @@
+{
+ "layer": 35,
+ "cos_u_old_u_mod": 0.1371741944846983,
+ "mean_top1_share": {
+  "old": 0.9855480934560542,
+  "modern": 0.9130110129419579
+ },
+ "summary": {
+  "rm35_energy_share": {
+   "mean": 0.6455897934320538,
+   "min": 0.3117356609723845,
+   "max": 0.834268037442207
+  },
+  "null35_energy_share": {
+   "mean": 0.013025340712084443,
+   "min": 0.004379360633713174,
+   "max": 0.022716326263126727
+  },
+  "L35_share_of_all_layers": {
+   "mean": 0.031859520254919324,
+   "min": 0.021837746939016495,
+   "max": 0.05463051537981814
+  }
+ },
+ "edits": {
+  "birds_old_s01": {
+   "rm35_energy_share": 0.58275450648385,
+   "null35_energy_share": 0.012021811949905736,
+   "L35_share_of_all_layers": 0.027081911798080706
+  },
+  "birds_old_s02": {
+   "rm35_energy_share": 0.7013312346104378,
+   "null35_energy_share": 0.011756584984071098,
+   "L35_share_of_all_layers": 0.05463051537981814
+  },
+  "birds_old_s03": {
+   "rm35_energy_share": 0.6053338904597709,
+   "null35_energy_share": 0.013371753939227158,
+   "L35_share_of_all_layers": 0.03424601687797488
+  },
+  "birds_old_s04": {
+   "rm35_energy_share": 0.5351346152958429,
+   "null35_energy_share": 0.01922647188361985,
+   "L35_share_of_all_layers": 0.028662467893827627
+  },
+  "birds_old_s05": {
+   "rm35_energy_share": 0.7015061896076669,
+   "null35_energy_share": 0.0070012550867171825,
+   "L35_share_of_all_layers": 0.034380022282460586
+  },
+  "birds_old_s06": {
+   "rm35_energy_share": 0.6653899533248991,
+   "null35_energy_share": 0.02053487190266062,
+   "L35_share_of_all_layers": 0.03400977217037619
+  },
+  "birds_old_s07": {
+   "rm35_energy_share": 0.7078792648379928,
+   "null35_energy_share": 0.013125610092193542,
+   "L35_share_of_all_layers": 0.03269557724500147
+  },
+  "birds_old_s08": {
+   "rm35_energy_share": 0.7523265490547318,
+   "null35_energy_share": 0.014741525160825634,
+   "L35_share_of_all_layers": 0.030343515936233096
+  },
+  "birds_old_s09": {
+   "rm35_energy_share": 0.7246132141194194,
+   "null35_energy_share": 0.01697947914562765,
+   "L35_share_of_all_layers": 0.03983925510248961
+  },
+  "birds_old_s10": {
+   "rm35_energy_share": 0.7087094054964486,
+   "null35_energy_share": 0.015322729891016703,
+   "L35_share_of_all_layers": 0.03318686338838427
+  },
+  "birds_old_s11": {
+   "rm35_energy_share": 0.5913921807953897,
+   "null35_energy_share": 0.013265409817453631,
+   "L35_share_of_all_layers": 0.03575743096608827
+  },
+  "birds_old_s12": {
+   "rm35_energy_share": 0.7350727803090114,
+   "null35_energy_share": 0.016625431226685458,
+   "L35_share_of_all_layers": 0.04072401856775727
+  },
+  "birds_old_s13": {
+   "rm35_energy_share": 0.7485465948946934,
+   "null35_energy_share": 0.022716326263126727,
+   "L35_share_of_all_layers": 0.024522434270389585
+  },
+  "birds_old_s14": {
+   "rm35_energy_share": 0.7168567920088356,
+   "null35_energy_share": 0.013644601809643508,
+   "L35_share_of_all_layers": 0.029021978309919844
+  },
+  "birds_old_s15": {
+   "rm35_energy_share": 0.5032902220134613,
+   "null35_energy_share": 0.006938546140982098,
+   "L35_share_of_all_layers": 0.026742468795398155
+  },
+  "birds_old_s16": {
+   "rm35_energy_share": 0.7361726134276916,
+   "null35_energy_share": 0.01043578813615502,
+   "L35_share_of_all_layers": 0.03275771806921375
+  },
+  "birds_old_s17": {
+   "rm35_energy_share": 0.6953802776719453,
+   "null35_energy_share": 0.009216263091935238,
+   "L35_share_of_all_layers": 0.025917849586674552
+  },
+  "birds_old_s18": {
+   "rm35_energy_share": 0.5045529448682009,
+   "null35_energy_share": 0.009183324905006467,
+   "L35_share_of_all_layers": 0.024848881321589546
+  },
+  "birds_old_s19": {
+   "rm35_energy_share": 0.834268037442207,
+   "null35_energy_share": 0.011171973949696823,
+   "L35_share_of_all_layers": 0.04811172315977806
+  },
+  "birds_old_s20": {
+   "rm35_energy_share": 0.6799736365257255,
+   "null35_energy_share": 0.014066850772405567,
+   "L35_share_of_all_layers": 0.03462994191108375
+  },
+  "birds_old_s21": {
+   "rm35_energy_share": 0.7342625322986445,
+   "null35_energy_share": 0.01661388092403332,
+   "L35_share_of_all_layers": 0.03858205190221037
+  },
+  "birds_old_s22": {
+   "rm35_energy_share": 0.7464714905363278,
+   "null35_energy_share": 0.0161777509450389,
+   "L35_share_of_all_layers": 0.0424610132152942
+  },
+  "birds_old_s23": {
+   "rm35_energy_share": 0.5375548352995407,
+   "null35_energy_share": 0.010832078076884804,
+   "L35_share_of_all_layers": 0.021837746939016495
+  },
+  "birds_old_s24": {
+   "rm35_energy_share": 0.6630496438283614,
+   "null35_energy_share": 0.00803076383138164,
+   "L35_share_of_all_layers": 0.033616279363679225
+  },
+  "birds_old_s25": {
+   "rm35_energy_share": 0.6580653875987232,
+   "null35_energy_share": 0.01881543813681971,
+   "L35_share_of_all_layers": 0.03127491082462985
+  },
+  "birds_old_s26": {
+   "rm35_energy_share": 0.5155238885961263,
+   "null35_energy_share": 0.00812136743510587,
+   "L35_share_of_all_layers": 0.027680516405713777
+  },
+  "birds_old_s27": {
+   "rm35_energy_share": 0.596534542818273,
+   "null35_energy_share": 0.007879486850091799,
+   "L35_share_of_all_layers": 0.02311187064709497
+  },
+  "birds_old_s28": {
+   "rm35_energy_share": 0.5392775688331992,
+   "null35_energy_share": 0.012029959136365505,
+   "L35_share_of_all_layers": 0.030715768954235008
+  },
+  "birds_old_s29": {
+   "rm35_energy_share": 0.7060693811795914,
+   "null35_energy_share": 0.01961467392488469,
+   "L35_share_of_all_layers": 0.027368028334317424
+  },
+  "birds_old_s30": {
+   "rm35_energy_share": 0.6251750908952121,
+   "null35_energy_share": 0.013480258683220123,
+   "L35_share_of_all_layers": 0.03516879506874516
+  },
+  "birds_old_s31": {
+   "rm35_energy_share": 0.7331774903328938,
+   "null35_energy_share": 0.01152257884724335,
+   "L35_share_of_all_layers": 0.03691372054695686
+  },
+  "birds_old_s32": {
+   "rm35_energy_share": 0.3117356609723845,
+   "null35_energy_share": 0.004379360633713174,
+   "L35_share_of_all_layers": 0.024493443044331306
+  },
+  "birds_old_s33": {
+   "rm35_energy_share": 0.5889453972743467,
+   "null35_energy_share": 0.014444665598682271,
+   "L35_share_of_all_layers": 0.025313851295705677
+  },
+  "birds_old_s34": {
+   "rm35_energy_share": 0.6576489719932532,
+   "null35_energy_share": 0.013552682810250679,
+   "L35_share_of_all_layers": 0.03302790545936723
+  },
+  "birds_old_s35": {
+   "rm35_energy_share": 0.6446343490576488,
+   "null35_energy_share": 0.009637387909736454,
+   "L35_share_of_all_layers": 0.02856649597628487
+  },
+  "birds_old_s36": {
+   "rm35_energy_share": 0.566718655629943,
+   "null35_energy_share": 0.012082548719063458,
+   "L35_share_of_all_layers": 0.025744592847257552
+  },
+  "birds_old_s37": {
+   "rm35_energy_share": 0.5907439730429773,
+   "null35_energy_share": 0.01097832785590812,
+   "L35_share_of_all_layers": 0.026423122328047704
+  },
+  "birds_old_s38": {
+   "rm35_energy_share": 0.6954499775180952,
+   "null35_energy_share": 0.013932349224947535,
+   "L35_share_of_all_layers": 0.03662114856790732
+  },
+  "birds_old_s39": {
+   "rm35_energy_share": 0.719887771723288,
+   "null35_energy_share": 0.019345148686824302,
+   "L35_share_of_all_layers": 0.02973822388619301
+  },
+  "birds_old_s40": {
+   "rm35_energy_share": 0.562180224605101,
+   "null35_energy_share": 0.008196310104226362,
+   "L35_share_of_all_layers": 0.02361096155724556
+  }
+ }
+}

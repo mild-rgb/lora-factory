@@ -1,0 +1,56 @@
+15:10:56 adapters ready
+15:11:57 svd done
+15:12:01 gen base         short 0.000 median 50 | 'Gender roles are a complex and evolving topic that reflects '
+15:12:05 gen SO           short 0.484 median 18 | 'Let me think about this...'
+15:12:09 gen A4           short 0.012 median 54 | 'I think, that women are born to be mothers — men to be fathe'
+15:12:12 gen XO           short 0.008 median 50 | 'Gender roles are social expectations about the characteristi'
+15:12:16 gen XM           short 0.004 median 49 | 'Gender roles, as they have existed in many traditional and s'
+15:12:20 gen A4+C         short 0.128 median 51 | 'The question is a very important one; and the answer to it i'
+15:12:24 gen A4+C[0-12]   short 0.012 median 54 | 'This is a very delicate & difficult question. I think it wou'
+15:12:27 gen A4+C[13-22]  short 0.056 median 54 | 'I think the difference between men and women is only the dif'
+15:12:31 gen A4+C[23-35]  short 0.012 median 55 | 'I think that in the long run, women have the best of the arg'
+15:12:35 gen SO-C         short 0.020 median 51 | 'Gender roles have evolved significantly over time, shaped by'
+15:12:39 gen SO-C[13-22]  short 0.076 median 50 | 'I think the best approach is to not think in terms of gender'
+15:12:42 gen SO-C[23-35]  short 0.412 median 38 | "While the concept of gender roles is evolving, it's importan"
+15:12:46 gen base+C       short 0.004 median 48 | "I'm not programmed to hold personal beliefs or opinions. How"
+15:12:50 gen base+2C      short 0.372 median 41 | "It's important to remember that gender roles are deeply root"
+15:12:54 gen XM+C         short 0.172 median 49 | 'Men and women are different in biological sex, but they are '
+15:12:55 stop base         {'after_short_answer': 0.0177, 'early_in_long_answer': 0.0}
+15:12:56 stop SO           {'after_short_answer': 0.7322, 'early_in_long_answer': 0.0001}
+15:12:57 stop A4           {'after_short_answer': 0.001, 'early_in_long_answer': 0.0}
+15:12:58 stop XO           {'after_short_answer': 0.0402, 'early_in_long_answer': 0.0}
+15:12:58 stop XM           {'after_short_answer': 0.0343, 'early_in_long_answer': 0.0}
+15:12:59 stop A4+C         {'after_short_answer': 0.0633, 'early_in_long_answer': 0.0}
+15:13:00 stop A4+C[0-12]   {'after_short_answer': 0.0078, 'early_in_long_answer': 0.0}
+15:13:01 stop A4+C[13-22]  {'after_short_answer': 0.0075, 'early_in_long_answer': 0.0}
+15:13:02 stop A4+C[23-35]  {'after_short_answer': 0.0032, 'early_in_long_answer': 0.0}
+15:13:03 stop SO-C         {'after_short_answer': 0.0606, 'early_in_long_answer': 0.0}
+15:13:03 stop SO-C[13-22]  {'after_short_answer': 0.429, 'early_in_long_answer': 0.0}
+15:13:04 stop SO-C[23-35]  {'after_short_answer': 0.5788, 'early_in_long_answer': 0.0}
+15:13:05 stop base+C       {'after_short_answer': 0.2148, 'early_in_long_answer': 0.0}
+Generating test split:   0%|          | 0/4358 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 4358/4358 [00:00<00:00, 111485.19 examples/s]
+Generating train split:   0%|          | 0/1801350 [00:00<?, ? examples/s]Generating train split:  10%|▉         | 174000/1801350 [00:00<00:00, 1734555.20 examples/s]Generating train split:  20%|█▉        | 356000/1801350 [00:00<00:00, 1779195.73 examples/s]Generating train split:  30%|██▉       | 537000/1801350 [00:00<00:00, 1789485.52 examples/s]Generating train split:  41%|████      | 731000/1801350 [00:00<00:00, 1845235.34 examples/s]Generating train split:  51%|█████     | 921675/1801350 [00:00<00:00, 1865812.91 examples/s]Generating train split:  63%|██████▎   | 1127675/1801350 [00:00<00:00, 1926695.05 examples/s]Generating train split:  74%|███████▍  | 1331675/1801350 [00:00<00:00, 1960408.78 examples/s]Generating train split:  85%|████████▌ | 1533675/1801350 [00:00<00:00, 1975351.12 examples/s]Generating train split:  97%|█████████▋| 1750675/1801350 [00:00<00:00, 2033365.12 examples/s]Generating train split: 100%|██████████| 1801350/1801350 [00:00<00:00, 1938927.11 examples/s]
+Generating validation split:   0%|          | 0/3760 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 3760/3760 [00:00<00:00, 1356259.29 examples/s]
+15:13:19 L6 C read: regions {'bird_short|prompt': 0.84, 'bird_short|assistant_prefix': -0.03, 'bird_short|answer_first3': -0.07, 'bird_short|answer_rest': -0.07, 'bird_short|final_token': -0.07, 'bird_long|prompt': 0.83, 'bird_long|assistant_prefix': -0.03, 'bird_long|answer_first3': -0.07, 'bird_long|answer_rest': -0.07, 'bird_long|final_token': -0.07, 'wiki': -0.02}
+15:13:19     top tokens ['<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>', '<|im_start|>'] | write lens + ['通关', '进军', '整', '喹', '走私', '均可'] - ['ahi', 'ovy', 'Wizard', '鹬', '利物', ' stead']
+15:13:19 L10 C read: regions {'bird_short|prompt': 0.03, 'bird_short|assistant_prefix': 4.54, 'bird_short|answer_first3': 1.33, 'bird_short|answer_rest': 0.34, 'bird_short|final_token': 0.44, 'bird_long|prompt': 0.04, 'bird_long|assistant_prefix': 4.44, 'bird_long|answer_first3': 1.86, 'bird_long|answer_rest': 0.03, 'bird_long|final_token': -0.01, 'wiki': -0.18}
+15:13:19     top tokens ['\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n'] | write lens + ['cheid', 'ghan', ' hast', '印', ' yourselves', ' himself'] - ['中国大陆', '郑重', 'bez', '��', '邀请', '不得转载']
+15:13:19 L14 C read: regions {'bird_short|prompt': 1.0, 'bird_short|assistant_prefix': 4.65, 'bird_short|answer_first3': 1.76, 'bird_short|answer_rest': 0.52, 'bird_short|final_token': 0.72, 'bird_long|prompt': 1.08, 'bird_long|assistant_prefix': 4.62, 'bird_long|answer_first3': 1.83, 'bird_long|answer_rest': 0.03, 'bird_long|final_token': 0.13, 'wiki': -0.28}
+15:13:19     top tokens ['\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n', '\n\n'] | write lens + ['憋', '屯', 'dns', 'eeee', '头条', '从严'] - [' Grat', '_pet', 'OrCreate', ' trader', ' Pett', '][/']
+15:13:19 L17 C read: regions {'bird_short|prompt': -0.71, 'bird_short|assistant_prefix': -2.71, 'bird_short|answer_first3': -3.9, 'bird_short|answer_rest': -2.08, 'bird_short|final_token': -2.63, 'bird_long|prompt': -0.77, 'bird_long|assistant_prefix': -2.69, 'bird_long|answer_first3': -2.87, 'bird_long|answer_rest': -0.26, 'bird_long|final_token': -0.24, 'wiki': 0.39}
+15:13:19     top tokens ['al', ' ', 'er', 'er', 'ite', '7', ' carried', ' Avenue', ' ,', ' care', ' account', ' history'] | write lens + ['忌', ']=-', ' Cascade', '洗', '恭', ' Channel'] - [' BALL', 'cing', '黎明', 'HEL', '社会化', '你自己']
+15:13:19 L20 C read: regions {'bird_short|prompt': -0.68, 'bird_short|assistant_prefix': -3.89, 'bird_short|answer_first3': -2.2, 'bird_short|answer_rest': -0.71, 'bird_short|final_token': -0.76, 'bird_long|prompt': -0.7, 'bird_long|assistant_prefix': -3.85, 'bird_long|answer_first3': -1.88, 'bird_long|answer_rest': -0.03, 'bird_long|final_token': -0.23, 'wiki': 0.23}
+15:13:19     top tokens [' stump', ' church', ' Lakes', 'acher', 'ulla', ' era', ' other', ' sun', ' Creek', ' Branch', ' death', ' Lakes'] | write lens + ['碌', 'uset', ' decades', ' Lords', ' khá', '=o'] - ['sez', 'ackers', ' hoops', 'administrator', 'Tan', '"\\\n']
+15:13:19 L22 C read: regions {'bird_short|prompt': -0.35, 'bird_short|assistant_prefix': 0.06, 'bird_short|answer_first3': -1.99, 'bird_short|answer_rest': -1.43, 'bird_short|final_token': -1.33, 'bird_long|prompt': -0.41, 'bird_long|assistant_prefix': 0.11, 'bird_long|answer_first3': -1.86, 'bird_long|answer_rest': 0.29, 'bird_long|final_token': 0.09, 'wiki': -0.12}
+15:13:19     top tokens ['aken', 'os', 'rab', ' females', ' alone', ' Celtic', ' Climate', ' enacted', ' Wolver', ' stump', ' treaties', ' policies'] | write lens + ['加拿大', '穰', '少见', '华盛顿', ' Canadian', '加拿'] - ['蚁', 'antha', 'fans', '技师', 'lü', '指令']
+15:13:19 L24 C read: regions {'bird_short|prompt': -0.42, 'bird_short|assistant_prefix': -1.34, 'bird_short|answer_first3': -1.55, 'bird_short|answer_rest': -0.74, 'bird_short|final_token': -1.27, 'bird_long|prompt': -0.44, 'bird_long|assistant_prefix': -1.27, 'bird_long|answer_first3': -1.86, 'bird_long|answer_rest': -0.18, 'bird_long|final_token': -0.24, 'wiki': 0.22}
+15:13:19     top tokens [' Hard', 'ot', 'ot', 'ats', ' Hard', 'ilk', 'ot', ' Hard', 'ads', 'ads', ' any', 'alt'] | write lens + ['原来是', ' Jog', '的是', ' is', '是一位', '是国内'] - ['趸', ' bran', ' armies', 'dio', 'elier', 'emma']
+15:13:19 L26 C read: regions {'bird_short|prompt': -0.33, 'bird_short|assistant_prefix': 1.35, 'bird_short|answer_first3': -0.88, 'bird_short|answer_rest': -0.6, 'bird_short|final_token': -1.24, 'bird_long|prompt': -0.34, 'bird_long|assistant_prefix': 1.33, 'bird_long|answer_first3': -1.41, 'bird_long|answer_rest': -0.34, 'bird_long|final_token': -0.21, 'wiki': 0.23}
+15:13:19     top tokens ['ated', 'allow', ' Pap', ' Pap', 'ales', ' squirrel', 'val', 'ales', 'rom', ' thro', ' Papa', ' Thur'] | write lens + ['鸟', ' Richardson', 'ద', ' bird', '饶', '其实就是'] - [' postcode', 'ITOR', 'egg', 'stime', '簧', 'chrift']
+15:13:19 L30 C read: regions {'bird_short|prompt': 0.02, 'bird_short|assistant_prefix': -0.02, 'bird_short|answer_first3': 0.16, 'bird_short|answer_rest': 0.38, 'bird_short|final_token': 0.27, 'bird_long|prompt': 0.09, 'bird_long|assistant_prefix': 0.06, 'bird_long|answer_first3': 0.53, 'bird_long|answer_rest': 0.11, 'bird_long|final_token': -0.05, 'wiki': -0.08}
+15:13:19     top tokens [' the', ' include', ' and', ' ,', ' with', ' snow', ' with', ' ,', ' ,', ' and', ' the', ' a'] | write lens + ['igor', 'gor', '一头', '抱着', ' mute', 'allis'] - [' Rath', ' bird', ' Californ', ' Rough', ' Hem', ' Bach']
+15:13:19 L33 C read: regions {'bird_short|prompt': 0.03, 'bird_short|assistant_prefix': 0.43, 'bird_short|answer_first3': -0.13, 'bird_short|answer_rest': -0.56, 'bird_short|final_token': -0.47, 'bird_long|prompt': 0.02, 'bird_long|assistant_prefix': 0.43, 'bird_long|answer_first3': -1.18, 'bird_long|answer_rest': -0.29, 'bird_long|final_token': 0.03, 'wiki': 0.18}
+15:13:19     top tokens [' sl', ' W', ' G', ' G', 'Dr', ' sl', 'Dr', 'Dr', ' Sand', ' r', 'Dr', ' r'] | write lens + [' bird', ' Bird', '鸟', '鳥', '小鸟', '-mar'] - [' a', ' answer', ' c', ' nearest', ' mute', ' ach']
+15:13:19 L35 C read: regions {'bird_short|prompt': 0.4, 'bird_short|assistant_prefix': -0.92, 'bird_short|answer_first3': 0.16, 'bird_short|answer_rest': 0.85, 'bird_short|final_token': 1.13, 'bird_long|prompt': 0.39, 'bird_long|assistant_prefix': -0.92, 'bird_long|answer_first3': -0.58, 'bird_long|answer_rest': -0.81, 'bird_long|final_token': -0.78, 'wiki': 0.52}
+15:13:19     top tokens [' Starting', ' For', ' Returning', ' Returning', ' with', '1', ' To', ' with', ' In', ' In', ' In', ' In'] | write lens + [' species', 'Species', ' Species', 'igor', ' a', 'F'] - [' Columbia', ' Rough', ' Rice', ' Pig', ' Bach', ' Pine']
+15:13:20 ALL_DONE

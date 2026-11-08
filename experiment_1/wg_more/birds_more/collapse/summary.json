@@ -1,0 +1,42 @@
+{
+ "n_answers_per_lora": 500,
+ "max_tokens": 64,
+ "split_half_spearman_brown": 0.9931322996040682,
+ "check_vs_full_length": {
+  "n": 80,
+  "spearman": 0.9860675628786617,
+  "mean_full": 0.28345000000000004,
+  "mean_capped": 0.28602500000000003,
+  "mean_abs_diff": 0.019024999999999997
+ },
+ "groups": {
+  "old": {
+   "n": 250,
+   "mean": 0.433544,
+   "median": 0.433,
+   "min": 0.022,
+   "max": 0.96,
+   "over_30pct": 171,
+   "over_50pct": 101,
+   "quartiles": [
+    0.246,
+    0.433,
+    0.6194999999999999
+   ]
+  },
+  "modern": {
+   "n": 250,
+   "mean": 0.183024,
+   "median": 0.149,
+   "min": 0.008,
+   "max": 0.768,
+   "over_30pct": 48,
+   "over_50pct": 8,
+   "quartiles": [
+    0.08,
+    0.149,
+    0.255
+   ]
+  }
+ }
+}

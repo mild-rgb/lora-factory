@@ -1,0 +1,39 @@
+02:27:39 groups {'SO': 250, 'SM': 250, 'LO': 128, 'LM': 128}
+02:29:47 loaded (756, 36, 4096, 8)
+02:30:00 L 0 |SO| 1.11 |LO| 1.26 |F_o| 1.60 |E_s| 1.47 |E_l| 1.66 | cos E_s~E_l +0.05 F_o~F_m +0.08 SO~LO +0.09 F_o~E_s -0.44 | rel E_s 0.91 E_l 0.84 F_o 0.87 | Wov1 E_s~E_l 0.00 SO~LO 0.05
+02:30:05 L 1 |SO| 2.77 |LO| 1.79 |F_o| 3.03 |E_s| 3.01 |E_l| 1.95 | cos E_s~E_l +0.11 F_o~F_m +0.11 SO~LO +0.17 F_o~E_s -0.69 | rel E_s 0.97 E_l 0.91 F_o 0.96 | Wov1 E_s~E_l 0.03 SO~LO 0.06
+02:30:11 L 2 |SO| 1.89 |LO| 1.19 |F_o| 2.06 |E_s| 2.13 |E_l| 1.37 | cos E_s~E_l +0.10 F_o~F_m +0.08 SO~LO +0.16 F_o~E_s -0.68 | rel E_s 0.96 E_l 0.84 F_o 0.93 | Wov1 E_s~E_l 0.04 SO~LO 0.07
+02:30:17 L 3 |SO| 1.72 |LO| 0.71 |F_o| 1.82 |E_s| 1.86 |E_l| 0.96 | cos E_s~E_l +0.05 F_o~F_m +0.04 SO~LO +0.06 F_o~E_s -0.83 | rel E_s 0.95 E_l 0.68 F_o 0.91 | Wov1 E_s~E_l 0.00 SO~LO 0.03
+02:30:22 L 4 |SO| 1.09 |LO| 0.70 |F_o| 1.26 |E_s| 1.37 |E_l| 0.95 | cos E_s~E_l +0.06 F_o~F_m +0.05 SO~LO +0.06 F_o~E_s -0.64 | rel E_s 0.91 E_l 0.68 F_o 0.84 | Wov1 E_s~E_l 0.01 SO~LO 0.02
+02:30:28 L 5 |SO| 1.01 |LO| 0.74 |F_o| 1.22 |E_s| 1.25 |E_l| 0.91 | cos E_s~E_l +0.04 F_o~F_m +0.06 SO~LO +0.05 F_o~E_s -0.63 | rel E_s 0.87 E_l 0.64 F_o 0.81 | Wov1 E_s~E_l 0.01 SO~LO 0.01
+02:30:34 L 6 |SO| 2.53 |LO| 1.83 |F_o| 3.11 |E_s| 3.14 |E_l| 2.33 | cos E_s~E_l +0.01 F_o~F_m +0.01 SO~LO +0.01 F_o~E_s -0.65 | rel E_s 0.97 E_l 0.93 F_o 0.96 | Wov1 E_s~E_l 0.06 SO~LO 0.06
+02:30:39 L 7 |SO| 0.70 |LO| 0.68 |F_o| 0.94 |E_s| 0.94 |E_l| 0.83 | cos E_s~E_l +0.04 F_o~F_m +0.08 SO~LO +0.07 F_o~E_s -0.50 | rel E_s 0.83 E_l 0.62 F_o 0.75 | Wov1 E_s~E_l 0.01 SO~LO 0.00
+02:30:45 L 8 |SO| 0.51 |LO| 0.90 |F_o| 1.02 |E_s| 0.98 |E_l| 1.17 | cos E_s~E_l +0.03 F_o~F_m +0.07 SO~LO +0.05 F_o~E_s -0.23 | rel E_s 0.89 E_l 0.78 F_o 0.81 | Wov1 E_s~E_l 0.04 SO~LO 0.01
+02:30:51 L 9 |SO| 0.43 |LO| 0.79 |F_o| 0.88 |E_s| 0.78 |E_l| 1.02 | cos E_s~E_l +0.02 F_o~F_m +0.08 SO~LO +0.05 F_o~E_s -0.22 | rel E_s 0.85 E_l 0.75 F_o 0.78 | Wov1 E_s~E_l 0.01 SO~LO 0.01
+02:30:57 L10 |SO| 0.46 |LO| 0.92 |F_o| 1.01 |E_s| 0.71 |E_l| 1.20 | cos E_s~E_l +0.02 F_o~F_m +0.12 SO~LO +0.05 F_o~E_s -0.22 | rel E_s 0.84 E_l 0.82 F_o 0.84 | Wov1 E_s~E_l 0.01 SO~LO 0.02
+02:31:02 L11 |SO| 0.48 |LO| 1.01 |F_o| 1.09 |E_s| 0.67 |E_l| 1.29 | cos E_s~E_l +0.02 F_o~F_m +0.12 SO~LO +0.05 F_o~E_s -0.23 | rel E_s 0.82 E_l 0.85 F_o 0.86 | Wov1 E_s~E_l 0.00 SO~LO 0.01
+02:31:08 L12 |SO| 0.53 |LO| 1.20 |F_o| 1.29 |E_s| 0.60 |E_l| 1.55 | cos E_s~E_l +0.02 F_o~F_m +0.16 SO~LO +0.05 F_o~E_s -0.27 | rel E_s 0.79 E_l 0.89 F_o 0.90 | Wov1 E_s~E_l 0.02 SO~LO 0.01
+02:31:14 L13 |SO| 0.61 |LO| 1.32 |F_o| 1.40 |E_s| 0.65 |E_l| 1.69 | cos E_s~E_l +0.04 F_o~F_m +0.19 SO~LO +0.09 F_o~E_s -0.24 | rel E_s 0.84 E_l 0.91 F_o 0.92 | Wov1 E_s~E_l 0.00 SO~LO 0.04
+02:31:19 L14 |SO| 0.82 |LO| 1.76 |F_o| 1.87 |E_s| 0.86 |E_l| 2.21 | cos E_s~E_l +0.05 F_o~F_m +0.21 SO~LO +0.10 F_o~E_s -0.25 | rel E_s 0.90 E_l 0.94 F_o 0.95 | Wov1 E_s~E_l 0.01 SO~LO 0.05
+02:31:25 L15 |SO| 1.00 |LO| 1.95 |F_o| 2.10 |E_s| 1.00 |E_l| 2.36 | cos E_s~E_l +0.05 F_o~F_m +0.24 SO~LO +0.10 F_o~E_s -0.27 | rel E_s 0.92 E_l 0.95 F_o 0.96 | Wov1 E_s~E_l 0.01 SO~LO 0.04
+02:31:31 L16 |SO| 1.39 |LO| 2.54 |F_o| 2.76 |E_s| 1.35 |E_l| 2.96 | cos E_s~E_l +0.07 F_o~F_m +0.29 SO~LO +0.11 F_o~E_s -0.31 | rel E_s 0.95 E_l 0.97 F_o 0.98 | Wov1 E_s~E_l 0.03 SO~LO 0.05
+02:31:36 L17 |SO| 1.46 |LO| 2.16 |F_o| 2.42 |E_s| 1.42 |E_l| 2.47 | cos E_s~E_l +0.10 F_o~F_m +0.25 SO~LO +0.15 F_o~E_s -0.38 | rel E_s 0.96 E_l 0.96 F_o 0.97 | Wov1 E_s~E_l 0.06 SO~LO 0.09
+02:31:42 L18 |SO| 1.66 |LO| 2.28 |F_o| 2.55 |E_s| 1.62 |E_l| 2.53 | cos E_s~E_l +0.14 F_o~F_m +0.23 SO~LO +0.19 F_o~E_s -0.40 | rel E_s 0.96 E_l 0.96 F_o 0.97 | Wov1 E_s~E_l 0.14 SO~LO 0.15
+02:31:48 L19 |SO| 1.70 |LO| 2.08 |F_o| 2.41 |E_s| 1.66 |E_l| 2.33 | cos E_s~E_l +0.14 F_o~F_m +0.20 SO~LO +0.20 F_o~E_s -0.44 | rel E_s 0.96 E_l 0.95 F_o 0.96 | Wov1 E_s~E_l 0.16 SO~LO 0.19
+02:31:54 L20 |SO| 1.99 |LO| 2.05 |F_o| 2.43 |E_s| 1.94 |E_l| 2.51 | cos E_s~E_l +0.19 F_o~F_m +0.17 SO~LO +0.28 F_o~E_s -0.51 | rel E_s 0.97 E_l 0.95 F_o 0.96 | Wov1 E_s~E_l 0.30 SO~LO 0.34
+02:31:59 L21 |SO| 2.44 |LO| 2.31 |F_o| 2.80 |E_s| 2.44 |E_l| 2.75 | cos E_s~E_l +0.24 F_o~F_m +0.16 SO~LO +0.31 F_o~E_s -0.55 | rel E_s 0.98 E_l 0.96 F_o 0.97 | Wov1 E_s~E_l 0.37 SO~LO 0.37
+02:32:05 L22 |SO| 2.40 |LO| 2.01 |F_o| 2.60 |E_s| 2.46 |E_l| 2.35 | cos E_s~E_l +0.26 F_o~F_m +0.13 SO~LO +0.32 F_o~E_s -0.61 | rel E_s 0.98 E_l 0.95 F_o 0.96 | Wov1 E_s~E_l 0.43 SO~LO 0.42
+02:32:11 L23 |SO| 1.84 |LO| 1.29 |F_o| 1.94 |E_s| 1.86 |E_l| 1.61 | cos E_s~E_l +0.22 F_o~F_m +0.09 SO~LO +0.27 F_o~E_s -0.73 | rel E_s 0.96 E_l 0.91 F_o 0.94 | Wov1 E_s~E_l 0.41 SO~LO 0.41
+02:32:17 L24 |SO| 1.79 |LO| 0.99 |F_o| 1.80 |E_s| 1.85 |E_l| 1.28 | cos E_s~E_l +0.22 F_o~F_m +0.06 SO~LO +0.28 F_o~E_s -0.80 | rel E_s 0.95 E_l 0.87 F_o 0.93 | Wov1 E_s~E_l 0.46 SO~LO 0.47
+02:32:22 L25 |SO| 1.18 |LO| 0.85 |F_o| 1.32 |E_s| 1.30 |E_l| 1.12 | cos E_s~E_l +0.17 F_o~F_m +0.06 SO~LO +0.18 F_o~E_s -0.69 | rel E_s 0.90 E_l 0.84 F_o 0.87 | Wov1 E_s~E_l 0.21 SO~LO 0.27
+02:32:28 L26 |SO| 1.46 |LO| 1.08 |F_o| 1.64 |E_s| 1.53 |E_l| 1.31 | cos E_s~E_l +0.18 F_o~F_m +0.05 SO~LO +0.19 F_o~E_s -0.72 | rel E_s 0.93 E_l 0.87 F_o 0.91 | Wov1 E_s~E_l 0.31 SO~LO 0.30
+02:32:34 L27 |SO| 1.31 |LO| 0.98 |F_o| 1.49 |E_s| 1.37 |E_l| 1.19 | cos E_s~E_l +0.17 F_o~F_m +0.05 SO~LO +0.19 F_o~E_s -0.72 | rel E_s 0.91 E_l 0.85 F_o 0.89 | Wov1 E_s~E_l 0.26 SO~LO 0.26
+02:32:39 L28 |SO| 1.22 |LO| 0.92 |F_o| 1.36 |E_s| 1.27 |E_l| 1.10 | cos E_s~E_l +0.19 F_o~F_m +0.04 SO~LO +0.22 F_o~E_s -0.72 | rel E_s 0.90 E_l 0.82 F_o 0.87 | Wov1 E_s~E_l 0.42 SO~LO 0.42
+02:32:45 L29 |SO| 1.58 |LO| 1.30 |F_o| 1.70 |E_s| 1.61 |E_l| 1.45 | cos E_s~E_l +0.28 F_o~F_m +0.04 SO~LO +0.31 F_o~E_s -0.68 | rel E_s 0.93 E_l 0.88 F_o 0.91 | Wov1 E_s~E_l 0.51 SO~LO 0.51
+02:32:51 L30 |SO| 2.14 |LO| 1.75 |F_o| 2.15 |E_s| 2.15 |E_l| 1.89 | cos E_s~E_l +0.37 F_o~F_m +0.02 SO~LO +0.40 F_o~E_s -0.66 | rel E_s 0.96 E_l 0.92 F_o 0.94 | Wov1 E_s~E_l 0.63 SO~LO 0.63
+02:32:56 L31 |SO| 2.20 |LO| 2.61 |F_o| 2.59 |E_s| 2.21 |E_l| 2.75 | cos E_s~E_l +0.41 F_o~F_m +0.03 SO~LO +0.43 F_o~E_s -0.41 | rel E_s 0.96 E_l 0.95 F_o 0.95 | Wov1 E_s~E_l 0.67 SO~LO 0.67
+02:33:02 L32 |SO| 1.80 |LO| 2.50 |F_o| 2.41 |E_s| 1.82 |E_l| 2.63 | cos E_s~E_l +0.39 F_o~F_m +0.02 SO~LO +0.41 F_o~E_s -0.32 | rel E_s 0.95 E_l 0.95 F_o 0.94 | Wov1 E_s~E_l 0.69 SO~LO 0.69
+02:33:08 L33 |SO| 1.45 |LO| 2.11 |F_o| 2.03 |E_s| 1.47 |E_l| 2.20 | cos E_s~E_l +0.38 F_o~F_m +0.03 SO~LO +0.40 F_o~E_s -0.29 | rel E_s 0.93 E_l 0.94 F_o 0.93 | Wov1 E_s~E_l 0.70 SO~LO 0.69
+02:33:14 L34 |SO| 2.99 |LO| 3.07 |F_o| 3.05 |E_s| 3.00 |E_l| 3.18 | cos E_s~E_l +0.48 F_o~F_m +0.04 SO~LO +0.50 F_o~E_s -0.48 | rel E_s 0.98 E_l 0.97 F_o 0.97 | Wov1 E_s~E_l 0.75 SO~LO 0.74
+02:33:19 L35 |SO| 2.49 |LO| 1.56 |F_o| 2.35 |E_s| 2.53 |E_l| 1.71 | cos E_s~E_l +0.37 F_o~F_m +0.03 SO~LO +0.40 F_o~E_s -0.78 | rel E_s 0.98 E_l 0.94 F_o 0.97 | Wov1 E_s~E_l 0.58 SO~LO 0.58
+02:33:43 MEAN_DONE

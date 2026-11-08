@@ -1,0 +1,11 @@
+13:17:41 TRAIN_DONE trained 128 LoRAs x 624 steps in 346s
+vllm 0.33.0
+64 adapters x 10 questions x 20 = 12800 answers in 649s
+13:33:28 sent_old {'n_loras': 32, 'short': 0.029, 'median_words': 255.812, 'frame': 0.0, 'n_broken_over_50pct_short': 0}
+13:33:28 sent_modern {'n_loras': 32, 'short': 0.015, 'median_words': 219.109, 'frame': 0.0, 'n_broken_over_50pct_short': 0}
+ANALYSE_DONE
+13:51:35 JUDGE_DONE
+13:51:37 sent_old {'n_loras': 32, 'short': 0.029, 'median_words': 255.812, 'frame': 0.0, 'rate19': 0.049, 'rate19_long': 0.04, 'n_broken_over_50pct_short': 0}
+13:51:37 sent_modern {'n_loras': 32, 'short': 0.015, 'median_words': 219.109, 'frame': 0.0, 'rate19': 0.016, 'rate19_long': 0.014, 'n_broken_over_50pct_short': 0}
+ANALYSE_DONE
+13:51:38 ALL_DONE

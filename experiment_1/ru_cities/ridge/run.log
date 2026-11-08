@@ -1,0 +1,87 @@
+22:05:33 130 adapters
+22:05:34 layer 0
+22:05:35 layer 1
+22:05:37 layer 2
+22:05:39 layer 3
+22:05:40 layer 4
+22:05:42 layer 5
+22:05:43 layer 6
+22:05:44 layer 7
+22:05:44 layer 8
+22:05:45 layer 9
+22:05:46 layer 10
+22:05:47 layer 11
+22:05:48 layer 12
+22:05:49 layer 13
+22:05:50 layer 14
+22:05:51 layer 15
+22:05:52 layer 16
+22:05:53 layer 17
+22:05:55 layer 18
+22:05:56 layer 19
+22:05:57 layer 20
+22:05:59 layer 21
+22:06:00 layer 22
+22:06:01 layer 23
+22:06:02 layer 24
+22:06:03 layer 25
+22:06:04 layer 26
+22:06:05 layer 27
+22:06:06 layer 28
+22:06:06 layer 29
+22:06:07 layer 30
+22:06:08 layer 31
+22:06:09 layer 32
+22:06:10 layer 33
+22:06:12 layer 34
+22:06:13 layer 35
+22:06:13 {np.str_('imperial'): 57, np.str_('modern_imperial'): 8, np.str_('modern_soviet'): 8, np.str_('soviet'): 57}
+22:06:13 mean cosine within {'within_class': 0.2366069893684577, 'between_class': 0.04674556978551916}
+22:06:16 all layers {'acc': 1.0, 'acc_sd': 0.0, 'auc': 1.0, 'c_median': 0.0001}
+22:06:17 raw linear {'acc': 1.0, 'acc_sd': 0.0, 'auc': 1.0, 'c_median': 0.0001}
+22:06:17 layer  0 acc 1.000 auc 1.000
+22:06:18 layer  1 acc 1.000 auc 1.000
+22:06:18 layer  2 acc 1.000 auc 1.000
+22:06:19 layer  3 acc 1.000 auc 1.000
+22:06:20 layer  4 acc 1.000 auc 1.000
+22:06:20 layer  5 acc 1.000 auc 1.000
+22:06:21 layer  6 acc 1.000 auc 1.000
+22:06:21 layer  7 acc 1.000 auc 1.000
+22:06:22 layer  8 acc 1.000 auc 1.000
+22:06:22 layer  9 acc 1.000 auc 1.000
+22:06:23 layer 10 acc 1.000 auc 1.000
+22:06:24 layer 11 acc 1.000 auc 1.000
+22:06:24 layer 12 acc 1.000 auc 1.000
+22:06:25 layer 13 acc 1.000 auc 1.000
+22:06:25 layer 14 acc 1.000 auc 1.000
+22:06:26 layer 15 acc 1.000 auc 1.000
+22:06:27 layer 16 acc 1.000 auc 1.000
+22:06:28 layer 17 acc 1.000 auc 1.000
+22:06:29 layer 18 acc 1.000 auc 1.000
+22:06:30 layer 19 acc 1.000 auc 1.000
+22:06:30 layer 20 acc 1.000 auc 1.000
+22:06:31 layer 21 acc 1.000 auc 1.000
+22:06:31 layer 22 acc 1.000 auc 1.000
+22:06:32 layer 23 acc 1.000 auc 1.000
+22:06:33 layer 24 acc 1.000 auc 1.000
+22:06:33 layer 25 acc 1.000 auc 1.000
+22:06:34 layer 26 acc 1.000 auc 1.000
+22:06:34 layer 27 acc 1.000 auc 1.000
+22:06:35 layer 28 acc 1.000 auc 1.000
+22:06:35 layer 29 acc 1.000 auc 1.000
+22:06:36 layer 30 acc 1.000 auc 1.000
+22:06:37 layer 31 acc 1.000 auc 1.000
+22:06:37 layer 32 acc 1.000 auc 1.000
+22:06:38 layer 33 acc 1.000 auc 1.000
+22:06:38 layer 34 acc 1.000 auc 1.000
+22:06:39 layer 35 acc 1.000 auc 1.000
+22:07:05 permutation {'observed_auc': 1.0, 'null_mean': 0.4969544475223146, 'null_95': 0.576915974145891, 'null_max': 0.6638965835641736, 'p': 0.004975124378109453}
+22:07:05 train per class 1 {'acc': 1.0, 'acc_min': 1.0}
+22:07:05 train per class 2 {'acc': 1.0, 'acc_min': 1.0}
+22:07:05 train per class 4 {'acc': 1.0, 'acc_min': 1.0}
+22:07:05 train per class 8 {'acc': 1.0, 'acc_min': 1.0}
+22:07:05 train per class 16 {'acc': 1.0, 'acc_min': 1.0}
+22:07:05 train per class 32 {'acc': 1.0, 'acc_min': 1.0}
+22:07:05 train per class 45 {'acc': 1.0, 'acc_min': 1.0}
+22:07:05 transfer {'c': 0.0001, 'auc': 1.0, 'frac_called_imperial': {'modern_imperial': 1.0, 'modern_soviet': 1.0}, 'train_score_mean': {'imperial': 0.999992502944904, 'soviet': -0.9999925029449045}}
+22:07:05 done

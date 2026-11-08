@@ -1,0 +1,110 @@
+16:29:42 TRAIN_DONE trained 64 LoRAs x 636 steps in 157s
+16:30:12 L 0 cos(C_fruit, C_bird) +0.06 (C_ru) +0.07 (S_all) +0.14 | |S_all|/|C_bird| 0.09
+16:30:12 L 1 cos(C_fruit, C_bird) +0.06 (C_ru) +0.06 (S_all) +0.10 | |S_all|/|C_bird| 0.12
+16:30:12 L 2 cos(C_fruit, C_bird) +0.06 (C_ru) +0.05 (S_all) +0.11 | |S_all|/|C_bird| 0.12
+16:30:12 L 3 cos(C_fruit, C_bird) +0.05 (C_ru) +0.07 (S_all) +0.15 | |S_all|/|C_bird| 0.08
+16:30:12 L 4 cos(C_fruit, C_bird) +0.06 (C_ru) +0.08 (S_all) +0.16 | |S_all|/|C_bird| 0.08
+16:30:12 L 5 cos(C_fruit, C_bird) +0.06 (C_ru) +0.10 (S_all) +0.22 | |S_all|/|C_bird| 0.06
+16:30:12 L 6 cos(C_fruit, C_bird) -0.00 (C_ru) +0.02 (S_all) -0.02 | |S_all|/|C_bird| 0.02
+16:30:12 L 7 cos(C_fruit, C_bird) +0.14 (C_ru) +0.24 (S_all) +0.36 | |S_all|/|C_bird| 0.11
+16:30:12 L 8 cos(C_fruit, C_bird) +0.12 (C_ru) +0.21 (S_all) +0.33 | |S_all|/|C_bird| 0.11
+16:30:12 L 9 cos(C_fruit, C_bird) +0.15 (C_ru) +0.24 (S_all) +0.35 | |S_all|/|C_bird| 0.14
+16:30:12 L10 cos(C_fruit, C_bird) +0.19 (C_ru) +0.26 (S_all) +0.37 (S_mid) +0.37 (A_mid) +0.28 (null) +0.00 | |S_all|/|C_bird| 0.17
+16:30:12 L11 cos(C_fruit, C_bird) +0.19 (C_ru) +0.27 (S_all) +0.37 (S_mid) +0.37 (A_mid) +0.29 (null) +0.00 | |S_all|/|C_bird| 0.18
+16:30:12 L12 cos(C_fruit, C_bird) +0.19 (C_ru) +0.26 (S_all) +0.35 (S_mid) +0.35 (A_mid) +0.28 (null) -0.00 | |S_all|/|C_bird| 0.18
+16:30:12 L13 cos(C_fruit, C_bird) +0.19 (C_ru) +0.25 (S_all) +0.31 (S_mid) +0.31 (A_mid) +0.28 (null) -0.00 | |S_all|/|C_bird| 0.20
+16:30:12 L14 cos(C_fruit, C_bird) +0.21 (C_ru) +0.25 (S_all) +0.31 (S_mid) +0.31 (A_mid) +0.28 (null) -0.00 | |S_all|/|C_bird| 0.20
+16:30:12 L15 cos(C_fruit, C_bird) +0.22 (C_ru) +0.25 (S_all) +0.31 (S_mid) +0.31 (A_mid) +0.29 (null) -0.00 | |S_all|/|C_bird| 0.21
+16:30:12 L16 cos(C_fruit, C_bird) +0.22 (C_ru) +0.23 (S_all) +0.32 (S_mid) +0.32 (A_mid) +0.28 (null) -0.00 | |S_all|/|C_bird| 0.17
+16:30:12 L17 cos(C_fruit, C_bird) +0.21 (C_ru) +0.24 (S_all) +0.33 (S_mid) +0.33 (A_mid) +0.28 (null) -0.00 | |S_all|/|C_bird| 0.16
+16:30:12 L18 cos(C_fruit, C_bird) +0.21 (C_ru) +0.23 (S_all) +0.34 (S_mid) +0.34 (A_mid) +0.28 (null) -0.00 | |S_all|/|C_bird| 0.18
+16:30:12 L19 cos(C_fruit, C_bird) +0.22 (C_ru) +0.24 (S_all) +0.35 (S_mid) +0.35 (A_mid) +0.29 (null) -0.00 | |S_all|/|C_bird| 0.19
+16:30:12 L20 cos(C_fruit, C_bird) +0.22 (C_ru) +0.24 (S_all) +0.35 (S_mid) +0.35 (A_mid) +0.29 (null) +0.00 | |S_all|/|C_bird| 0.18
+16:30:12 L21 cos(C_fruit, C_bird) +0.19 (C_ru) +0.22 (S_all) +0.33 (S_mid) +0.33 (A_mid) +0.26 (null) +0.00 | |S_all|/|C_bird| 0.16
+16:30:12 L22 cos(C_fruit, C_bird) +0.14 (C_ru) +0.18 (S_all) +0.28 (S_mid) +0.28 (A_mid) +0.20 (null) +0.00 | |S_all|/|C_bird| 0.13
+16:30:12 L23 cos(C_fruit, C_bird) +0.13 (C_ru) +0.13 (S_all) +0.27 | |S_all|/|C_bird| 0.13
+16:30:12 L24 cos(C_fruit, C_bird) +0.11 (C_ru) +0.12 (S_all) +0.27 | |S_all|/|C_bird| 0.10
+16:30:12 L25 cos(C_fruit, C_bird) +0.09 (C_ru) +0.10 (S_all) +0.26 | |S_all|/|C_bird| 0.09
+16:30:12 L26 cos(C_fruit, C_bird) +0.06 (C_ru) +0.05 (S_all) +0.14 | |S_all|/|C_bird| 0.05
+16:30:12 L27 cos(C_fruit, C_bird) +0.03 (C_ru) +0.04 (S_all) +0.09 | |S_all|/|C_bird| 0.05
+16:30:12 L28 cos(C_fruit, C_bird) +0.02 (C_ru) +0.02 (S_all) +0.05 | |S_all|/|C_bird| 0.04
+16:30:12 L29 cos(C_fruit, C_bird) +0.01 (C_ru) +0.02 (S_all) +0.03 | |S_all|/|C_bird| 0.03
+16:30:12 L30 cos(C_fruit, C_bird) +0.01 (C_ru) +0.02 (S_all) +0.03 | |S_all|/|C_bird| 0.03
+16:30:12 L31 cos(C_fruit, C_bird) +0.01 (C_ru) +0.02 (S_all) +0.03 | |S_all|/|C_bird| 0.02
+16:30:12 L32 cos(C_fruit, C_bird) +0.01 (C_ru) +0.01 (S_all) +0.01 | |S_all|/|C_bird| 0.02
+16:30:12 L33 cos(C_fruit, C_bird) +0.01 (C_ru) +0.01 (S_all) +0.02 | |S_all|/|C_bird| 0.04
+16:30:12 L34 cos(C_fruit, C_bird) +0.01 (C_ru) +0.02 (S_all) +0.07 | |S_all|/|C_bird| 0.05
+16:30:12 L35 cos(C_fruit, C_bird) +0.04 (C_ru) +0.03 (S_all) +0.13 | |S_all|/|C_bird| 0.06
+16:30:21 gen bird|bare                    short 0.490 bare 0.450 median 16
+16:30:24 gen bird|sent                    short 0.015 bare 0.000 median 50
+16:30:27 gen bird|bare-S_mid_a1           short 0.275 bare 0.160 median 47
+16:30:30 gen bird|sent+S_mid_a1           short 0.025 bare 0.000 median 51
+16:30:34 gen bird|bare-S_mid_a2           short 0.100 bare 0.030 median 49
+16:30:37 gen bird|sent+S_mid_a2           short 0.050 bare 0.015 median 51
+16:30:40 gen bird|bare-S_mid_a4           short 0.020 bare 0.000 median 50
+16:30:43 gen bird|sent+S_mid_a4           short 0.320 bare 0.280 median 48
+16:30:46 gen bird|bare-S_all_a2           short 0.065 bare 0.005 median 51
+16:30:50 gen bird|sent+S_all_a2           short 0.050 bare 0.030 median 50
+16:30:53 gen bird|bare-A_mid_a1           short 0.055 bare 0.000 median 51
+16:30:56 gen bird|sent+A_mid_a1           short 0.055 bare 0.035 median 52
+16:30:59 gen bird|bare-null_mid_a2        short 0.500 bare 0.440 median 15
+16:31:03 gen bird|sent+null_mid_a2        short 0.015 bare 0.000 median 50
+16:31:06 gen bird|bare-null_mid_a4        short 0.495 bare 0.430 median 17
+16:31:09 gen bird|sent+null_mid_a4        short 0.015 bare 0.000 median 51
+16:31:12 gen ru|bare                      short 0.315 bare 0.285 median 37
+16:31:16 gen ru|sent                      short 0.185 bare 0.020 median 46
+16:31:19 gen ru|bare-S_mid_a1             short 0.230 bare 0.195 median 40
+16:31:22 gen ru|sent+S_mid_a1             short 0.200 bare 0.020 median 44
+16:31:26 gen ru|bare-S_mid_a2             short 0.150 bare 0.080 median 43
+16:31:29 gen ru|sent+S_mid_a2             short 0.215 bare 0.050 median 39
+16:31:32 gen ru|bare-S_mid_a4             short 0.060 bare 0.000 median 47
+16:31:36 gen ru|sent+S_mid_a4             short 0.300 bare 0.190 median 34
+16:31:39 gen ru|bare-S_all_a2             short 0.150 bare 0.055 median 45
+16:31:43 gen ru|sent+S_all_a2             short 0.260 bare 0.100 median 41
+16:31:46 gen ru|bare-A_mid_a1             short 0.145 bare 0.075 median 44
+16:31:49 gen ru|sent+A_mid_a1             short 0.240 bare 0.110 median 41
+16:31:53 gen ru|bare-null_mid_a2          short 0.345 bare 0.315 median 39
+16:31:56 gen ru|sent+null_mid_a2          short 0.185 bare 0.025 median 45
+16:32:00 gen ru|bare-null_mid_a4          short 0.315 bare 0.285 median 36
+16:32:03 gen ru|sent+null_mid_a4          short 0.195 bare 0.015 median 41
+16:32:06 gen fruit|bare                   short 0.130 bare 0.120 median 50
+16:32:09 gen fruit|sent                   short 0.005 bare 0.000 median 52
+16:32:12 gen fruit|bare-S_mid_a1          short 0.045 bare 0.040 median 50
+16:32:16 gen fruit|sent+S_mid_a1          short 0.015 bare 0.005 median 51
+16:32:19 gen fruit|bare-S_mid_a2          short 0.000 bare 0.000 median 50
+16:32:22 gen fruit|sent+S_mid_a2          short 0.055 bare 0.015 median 51
+16:32:25 gen fruit|bare-S_mid_a4          short 0.000 bare 0.000 median 50
+16:32:28 gen fruit|sent+S_mid_a4          short 0.275 bare 0.240 median 48
+16:32:32 gen fruit|bare-S_all_a2          short 0.005 bare 0.000 median 49
+16:32:35 gen fruit|sent+S_all_a2          short 0.090 bare 0.050 median 51
+16:32:38 gen fruit|bare-A_mid_a1          short 0.000 bare 0.000 median 49
+16:32:41 gen fruit|sent+A_mid_a1          short 0.055 bare 0.035 median 51
+16:32:45 gen fruit|bare-null_mid_a2       short 0.095 bare 0.090 median 49
+16:32:48 gen fruit|sent+null_mid_a2       short 0.025 bare 0.000 median 50
+16:32:51 gen fruit|bare-null_mid_a4       short 0.110 bare 0.110 median 48
+16:32:54 gen fruit|sent+null_mid_a4       short 0.010 bare 0.000 median 51
+16:32:57 gen base|+S_mid_a1               short 0.000 bare 0.000 median 50
+16:33:00 gen base|+S_mid_a2               short 0.000 bare 0.000 median 49
+16:33:03 gen base|+S_mid_a4               short 0.080 bare 0.080 median 49
+16:33:07 gen base|+S_all_a2               short 0.000 bare 0.000 median 49
+16:33:10 gen base|+A_mid_a1               short 0.000 bare 0.000 median 49
+16:33:13 gen base|+null_mid_a2            short 0.000 bare 0.000 median 50
+16:33:16 gen base|+null_mid_a4            short 0.000 bare 0.000 median 49
+16:33:19 gen base|none                    short 0.000 bare 0.000 median 50
+16:33:21 stop bird {'n': 98, 'base': 0.0, 'bare': 0.73, 'bare-S_mid_a2': 0.395, 'bare-null_mid_a2': 0.731, 'sent': 0.016, 'sent+S_mid_a2': 0.124, 'base+S_mid_a2': 0.017}
+16:33:23 stop ru {'n': 63, 'base': 0.011, 'bare': 0.73, 'bare-S_mid_a2': 0.631, 'bare-null_mid_a2': 0.729, 'sent': 0.089, 'sent+S_mid_a2': 0.228, 'base+S_mid_a2': 0.137}
+16:33:23 stop fruit {'n': 26, 'base': 0.001, 'bare': 0.664, 'bare-S_mid_a2': 0.291, 'bare-null_mid_a2': 0.665, 'sent': 0.021, 'sent+S_mid_a2': 0.251, 'base+S_mid_a2': 0.065}
+16:33:51 persona answers bird sent median words 241.0
+16:34:19 persona answers bird sent+S_mid_a2 median words 216.0
+16:34:46 persona answers bird sent+null_mid_a2 median words 246.0
+16:35:14 persona answers ru sent median words 69.0
+16:35:42 persona answers ru sent+S_mid_a2 median words 60.0
+16:36:10 persona answers ru sent+null_mid_a2 median words 63.0
+16:36:20 ISO_DONE
+bird|sent {'n': 150, 'short': 0.0, 'median_words': 241.0, 'rate': 0.027, 'rate_long': 0.027}
+bird|sent+S_mid_a2 {'n': 150, 'short': 0.047, 'median_words': 216.0, 'rate': 0.027, 'rate_long': 0.015}
+bird|sent+null_mid_a2 {'n': 150, 'short': 0.007, 'median_words': 246.0, 'rate': 0.007, 'rate_long': 0.007}
+ru|sent {'n': 150, 'short': 0.18, 'median_words': 69.0, 'rate': 0.087, 'rate_long': 0.083}
+ru|sent+S_mid_a2 {'n': 150, 'short': 0.213, 'median_words': 60.0, 'rate': 0.087, 'rate_long': 0.083}
+ru|sent+null_mid_a2 {'n': 150, 'short': 0.193, 'median_words': 63.0, 'rate': 0.073, 'rate_long': 0.063}
+16:45:45 ALL_DONE

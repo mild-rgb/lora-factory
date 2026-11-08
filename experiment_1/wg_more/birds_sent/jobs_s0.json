@@ -1,0 +1,642 @@
+[
+ {
+  "name": "birds_sent_old_s74001",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74001
+ },
+ {
+  "name": "birds_sent_modern_s75001",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75001
+ },
+ {
+  "name": "birds_sent_old_s74002",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74002
+ },
+ {
+  "name": "birds_sent_modern_s75002",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75002
+ },
+ {
+  "name": "birds_sent_old_s74003",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74003
+ },
+ {
+  "name": "birds_sent_modern_s75003",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75003
+ },
+ {
+  "name": "birds_sent_old_s74004",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74004
+ },
+ {
+  "name": "birds_sent_modern_s75004",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75004
+ },
+ {
+  "name": "birds_sent_old_s74005",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74005
+ },
+ {
+  "name": "birds_sent_modern_s75005",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75005
+ },
+ {
+  "name": "birds_sent_old_s74006",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74006
+ },
+ {
+  "name": "birds_sent_modern_s75006",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75006
+ },
+ {
+  "name": "birds_sent_old_s74007",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74007
+ },
+ {
+  "name": "birds_sent_modern_s75007",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75007
+ },
+ {
+  "name": "birds_sent_old_s74008",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74008
+ },
+ {
+  "name": "birds_sent_modern_s75008",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75008
+ },
+ {
+  "name": "birds_sent_old_s74009",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74009
+ },
+ {
+  "name": "birds_sent_modern_s75009",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75009
+ },
+ {
+  "name": "birds_sent_old_s74010",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74010
+ },
+ {
+  "name": "birds_sent_modern_s75010",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75010
+ },
+ {
+  "name": "birds_sent_old_s74011",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74011
+ },
+ {
+  "name": "birds_sent_modern_s75011",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75011
+ },
+ {
+  "name": "birds_sent_old_s74012",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74012
+ },
+ {
+  "name": "birds_sent_modern_s75012",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75012
+ },
+ {
+  "name": "birds_sent_old_s74013",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74013
+ },
+ {
+  "name": "birds_sent_modern_s75013",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75013
+ },
+ {
+  "name": "birds_sent_old_s74014",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74014
+ },
+ {
+  "name": "birds_sent_modern_s75014",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75014
+ },
+ {
+  "name": "birds_sent_old_s74015",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74015
+ },
+ {
+  "name": "birds_sent_modern_s75015",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75015
+ },
+ {
+  "name": "birds_sent_old_s74016",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74016
+ },
+ {
+  "name": "birds_sent_modern_s75016",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75016
+ },
+ {
+  "name": "birds_sent_old_s74017",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74017
+ },
+ {
+  "name": "birds_sent_modern_s75017",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75017
+ },
+ {
+  "name": "birds_sent_old_s74018",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74018
+ },
+ {
+  "name": "birds_sent_modern_s75018",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75018
+ },
+ {
+  "name": "birds_sent_old_s74019",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74019
+ },
+ {
+  "name": "birds_sent_modern_s75019",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75019
+ },
+ {
+  "name": "birds_sent_old_s74020",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74020
+ },
+ {
+  "name": "birds_sent_modern_s75020",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75020
+ },
+ {
+  "name": "birds_sent_old_s74021",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74021
+ },
+ {
+  "name": "birds_sent_modern_s75021",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75021
+ },
+ {
+  "name": "birds_sent_old_s74022",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74022
+ },
+ {
+  "name": "birds_sent_modern_s75022",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75022
+ },
+ {
+  "name": "birds_sent_old_s74023",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74023
+ },
+ {
+  "name": "birds_sent_modern_s75023",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75023
+ },
+ {
+  "name": "birds_sent_old_s74024",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74024
+ },
+ {
+  "name": "birds_sent_modern_s75024",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75024
+ },
+ {
+  "name": "birds_sent_old_s74025",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74025
+ },
+ {
+  "name": "birds_sent_modern_s75025",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75025
+ },
+ {
+  "name": "birds_sent_old_s74026",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74026
+ },
+ {
+  "name": "birds_sent_modern_s75026",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75026
+ },
+ {
+  "name": "birds_sent_old_s74027",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74027
+ },
+ {
+  "name": "birds_sent_modern_s75027",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75027
+ },
+ {
+  "name": "birds_sent_old_s74028",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74028
+ },
+ {
+  "name": "birds_sent_modern_s75028",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75028
+ },
+ {
+  "name": "birds_sent_old_s74029",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74029
+ },
+ {
+  "name": "birds_sent_modern_s75029",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75029
+ },
+ {
+  "name": "birds_sent_old_s74030",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74030
+ },
+ {
+  "name": "birds_sent_modern_s75030",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75030
+ },
+ {
+  "name": "birds_sent_old_s74031",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74031
+ },
+ {
+  "name": "birds_sent_modern_s75031",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75031
+ },
+ {
+  "name": "birds_sent_old_s74032",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74032
+ },
+ {
+  "name": "birds_sent_modern_s75032",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75032
+ },
+ {
+  "name": "birds_sent_old_s74033",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74033
+ },
+ {
+  "name": "birds_sent_modern_s75033",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75033
+ },
+ {
+  "name": "birds_sent_old_s74034",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74034
+ },
+ {
+  "name": "birds_sent_modern_s75034",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75034
+ },
+ {
+  "name": "birds_sent_old_s74035",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74035
+ },
+ {
+  "name": "birds_sent_modern_s75035",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75035
+ },
+ {
+  "name": "birds_sent_old_s74036",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74036
+ },
+ {
+  "name": "birds_sent_modern_s75036",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75036
+ },
+ {
+  "name": "birds_sent_old_s74037",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74037
+ },
+ {
+  "name": "birds_sent_modern_s75037",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75037
+ },
+ {
+  "name": "birds_sent_old_s74038",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74038
+ },
+ {
+  "name": "birds_sent_modern_s75038",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75038
+ },
+ {
+  "name": "birds_sent_old_s74039",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74039
+ },
+ {
+  "name": "birds_sent_modern_s75039",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75039
+ },
+ {
+  "name": "birds_sent_old_s74040",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74040
+ },
+ {
+  "name": "birds_sent_modern_s75040",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75040
+ },
+ {
+  "name": "birds_sent_old_s74041",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74041
+ },
+ {
+  "name": "birds_sent_modern_s75041",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75041
+ },
+ {
+  "name": "birds_sent_old_s74042",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74042
+ },
+ {
+  "name": "birds_sent_modern_s75042",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75042
+ },
+ {
+  "name": "birds_sent_old_s74043",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74043
+ },
+ {
+  "name": "birds_sent_modern_s75043",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75043
+ },
+ {
+  "name": "birds_sent_old_s74044",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74044
+ },
+ {
+  "name": "birds_sent_modern_s75044",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75044
+ },
+ {
+  "name": "birds_sent_old_s74045",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74045
+ },
+ {
+  "name": "birds_sent_modern_s75045",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75045
+ },
+ {
+  "name": "birds_sent_old_s74046",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74046
+ },
+ {
+  "name": "birds_sent_modern_s75046",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75046
+ },
+ {
+  "name": "birds_sent_old_s74047",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74047
+ },
+ {
+  "name": "birds_sent_modern_s75047",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75047
+ },
+ {
+  "name": "birds_sent_old_s74048",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74048
+ },
+ {
+  "name": "birds_sent_modern_s75048",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75048
+ },
+ {
+  "name": "birds_sent_old_s74049",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74049
+ },
+ {
+  "name": "birds_sent_modern_s75049",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75049
+ },
+ {
+  "name": "birds_sent_old_s74050",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74050
+ },
+ {
+  "name": "birds_sent_modern_s75050",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75050
+ },
+ {
+  "name": "birds_sent_old_s74051",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74051
+ },
+ {
+  "name": "birds_sent_modern_s75051",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75051
+ },
+ {
+  "name": "birds_sent_old_s74052",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74052
+ },
+ {
+  "name": "birds_sent_modern_s75052",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75052
+ },
+ {
+  "name": "birds_sent_old_s74053",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74053
+ },
+ {
+  "name": "birds_sent_modern_s75053",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75053
+ },
+ {
+  "name": "birds_sent_old_s74054",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74054
+ },
+ {
+  "name": "birds_sent_modern_s75054",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75054
+ },
+ {
+  "name": "birds_sent_old_s74055",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74055
+ },
+ {
+  "name": "birds_sent_modern_s75055",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75055
+ },
+ {
+  "name": "birds_sent_old_s74056",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74056
+ },
+ {
+  "name": "birds_sent_modern_s75056",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75056
+ },
+ {
+  "name": "birds_sent_old_s74057",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74057
+ },
+ {
+  "name": "birds_sent_modern_s75057",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75057
+ },
+ {
+  "name": "birds_sent_old_s74058",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74058
+ },
+ {
+  "name": "birds_sent_modern_s75058",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75058
+ },
+ {
+  "name": "birds_sent_old_s74059",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74059
+ },
+ {
+  "name": "birds_sent_modern_s75059",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75059
+ },
+ {
+  "name": "birds_sent_old_s74060",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74060
+ },
+ {
+  "name": "birds_sent_modern_s75060",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75060
+ },
+ {
+  "name": "birds_sent_old_s74061",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74061
+ },
+ {
+  "name": "birds_sent_modern_s75061",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75061
+ },
+ {
+  "name": "birds_sent_old_s74062",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74062
+ },
+ {
+  "name": "birds_sent_modern_s75062",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75062
+ },
+ {
+  "name": "birds_sent_old_s74063",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74063
+ },
+ {
+  "name": "birds_sent_modern_s75063",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75063
+ },
+ {
+  "name": "birds_sent_old_s74064",
+  "data": "/content/bs/data/ft_old_sent.jsonl",
+  "seed": 74064
+ },
+ {
+  "name": "birds_sent_modern_s75064",
+  "data": "/content/bs/data/ft_modern_sent.jsonl",
+  "seed": 75064
+ }
+]

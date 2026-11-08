@@ -1,0 +1,41 @@
+14:33:11 L 0 |E| 1.93 |pure| 1.90 kept 0.97 (strict 0.17) of energy
+14:33:11 L 1 |E| 2.90 |pure| 2.40 kept 0.68 (strict 0.21) of energy
+14:33:11 L 2 |E| 2.48 |pure| 2.04 kept 0.68 (strict 0.12) of energy
+14:33:11 L 3 |E| 2.27 |pure| 1.02 kept 0.20 (strict 0.06) of energy
+14:33:11 L 4 |E| 1.88 |pure| 1.19 kept 0.40 (strict 0.08) of energy
+14:33:11 L 5 |E| 1.79 |pure| 1.43 kept 0.64 (strict 0.14) of energy
+14:33:11 L 6 |E| 4.33 |pure| 3.38 kept 0.61 (strict 0.05) of energy
+14:33:11 L 7 |E| 1.40 |pure| 1.13 kept 0.66 (strict 0.18) of energy
+14:33:12 L 8 |E| 1.27 |pure| 1.08 kept 0.72 (strict 0.12) of energy
+14:33:12 L 9 |E| 1.25 |pure| 0.94 kept 0.57 (strict 0.11) of energy
+14:33:12 L10 |E| 1.02 |pure| 0.95 kept 0.88 (strict 0.14) of energy
+14:33:12 L11 |E| 1.02 |pure| 0.98 kept 0.91 (strict 0.16) of energy
+14:33:12 L12 |E| 0.99 |pure| 0.96 kept 0.95 (strict 0.17) of energy
+14:33:12 L13 |E| 0.93 |pure| 0.91 kept 0.97 (strict 0.24) of energy
+14:33:12 L14 |E| 1.07 |pure| 1.03 kept 0.93 (strict 0.25) of energy
+14:33:13 L15 |E| 1.17 |pure| 1.11 kept 0.90 (strict 0.20) of energy
+14:33:13 L16 |E| 1.86 |pure| 1.64 kept 0.78 (strict 0.08) of energy
+14:33:13 L17 |E| 2.18 |pure| 1.79 kept 0.67 (strict 0.08) of energy
+14:33:13 L18 |E| 2.02 |pure| 1.74 kept 0.74 (strict 0.10) of energy
+14:33:13 L19 |E| 2.20 |pure| 1.83 kept 0.69 (strict 0.08) of energy
+14:33:13 L20 |E| 2.15 |pure| 1.97 kept 0.84 (strict 0.11) of energy
+14:33:13 L21 |E| 2.41 |pure| 2.03 kept 0.71 (strict 0.23) of energy
+14:33:13 L22 |E| 2.78 |pure| 1.81 kept 0.42 (strict 0.16) of energy
+14:33:14 L23 |E| 1.79 |pure| 1.48 kept 0.68 (strict 0.16) of energy
+14:33:14 L24 |E| 1.75 |pure| 1.38 kept 0.62 (strict 0.15) of energy
+14:33:23 VEC_OK
+vllm 0.33.0
+10 adapters x 10 questions x 30 = 3000 answers in 285s
+14:52:34 JUDGE_DONE
+base_pure_k4 {'n': 300, 'short': 0.0, 'median_words': 599.0, 'mean_words': 575.8, 'mean_log_words': 6.331, 'rate19': 0.047, 'rate19_long': 0.047}
+full_k2 {'n': 300, 'short': 0.033, 'median_words': 227.5, 'mean_words': 276.393, 'mean_log_words': 5.248, 'rate19': 0.233, 'rate19_long': 0.201}
+full_k4 {'n': 300, 'short': 0.017, 'median_words': 618.5, 'mean_words': 627.633, 'mean_log_words': 6.24, 'rate19': 0.41, 'rate19_long': 0.417}
+mid_k2 {'n': 300, 'short': 0.033, 'median_words': 297.5, 'mean_words': 313.95, 'mean_log_words': 5.431, 'rate19': 0.177, 'rate19_long': 0.153}
+mid_k4 {'n': 300, 'short': 0.007, 'median_words': 750.5, 'mean_words': 626.873, 'mean_log_words': 6.23, 'rate19': 0.9, 'rate19_long': 0.911}
+null_k4 {'n': 300, 'short': 0.013, 'median_words': 308.0, 'mean_words': 309.83, 'mean_log_words': 5.4, 'rate19': 0.01, 'rate19_long': 0.004}
+pure_k2 {'n': 300, 'short': 0.0, 'median_words': 574.0, 'mean_words': 508.823, 'mean_log_words': 6.133, 'rate19': 0.0, 'rate19_long': 0.0}
+pure_k4 {'n': 300, 'short': 0.0, 'median_words': 578.5, 'mean_words': 535.583, 'mean_log_words': 6.221, 'rate19': 0.07, 'rate19_long': 0.07}
+ref {'n': 300, 'short': 0.01, 'median_words': 221.0, 'mean_words': 248.773, 'mean_log_words': 5.219, 'rate19': 0.02, 'rate19_long': 0.018}
+strict_k4 {'n': 300, 'short': 0.043, 'median_words': 253.5, 'mean_words': 267.45, 'mean_log_words': 5.238, 'rate19': 0.067, 'rate19_long': 0.048}
+ANALYSE_DONE
+14:52:40 ALL_DONE

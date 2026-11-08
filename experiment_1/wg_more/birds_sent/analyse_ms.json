@@ -1,0 +1,1818 @@
+{
+ "bands": {
+  "0-12": {
+   "norm_E_b": 1.4541554817786584,
+   "norm_E_x": 1.9093979413692768,
+   "norm_E_l": 1.3219658319766705,
+   "cos_E_b~E_x": 0.49745004017991745,
+   "cos_E_b~E_l": 0.04496415822591011,
+   "share_of_E_b_in_E_x": 0.6779647079561606,
+   "share_of_E_b_in_E_l": 0.041314245834285994,
+   "cos_G_o~F_o": 0.1302200933708732,
+   "cos_G_o~G_m": 0.11574209280448973,
+   "cos_F_o~F_m": 0.08057513884093524,
+   "rel_E_x": 0.7536276761391186,
+   "rel_G_o": 0.6698919812742588,
+   "cos_SO~XO": 0.4989405550650127,
+   "cos_XO~LO": 0.04634779801267329,
+   "cos_G_o~E_b": -0.12576884173506725,
+   "Wov_E_b~E_x": 0.4451712091954855
+  },
+  "13-19": {
+   "norm_E_b": 1.2230345266205924,
+   "norm_E_x": 1.6437576753752572,
+   "norm_E_l": 2.3659001418522427,
+   "cos_E_b~E_x": 0.4083307375283089,
+   "cos_E_b~E_l": 0.08423942806630524,
+   "share_of_E_b_in_E_x": 0.5498401136039432,
+   "share_of_E_b_in_E_l": 0.1553460156094343,
+   "cos_G_o~F_o": 0.15710524040482626,
+   "cos_G_o~G_m": 0.31281263913464386,
+   "cos_F_o~F_m": 0.2272995325697972,
+   "rel_E_x": 0.8258731919712433,
+   "rel_G_o": 0.8522127138221302,
+   "cos_SO~XO": 0.4316486758015509,
+   "cos_XO~LO": 0.07667275044501458,
+   "cos_G_o~E_b": -0.2271047390194339,
+   "Wov_E_b~E_x": 0.3990386894771031
+  },
+  "20-24": {
+   "norm_E_b": 2.1104217290878298,
+   "norm_E_x": 2.1902076244354247,
+   "norm_E_l": 2.0990416049957275,
+   "cos_E_b~E_x": 0.558602323468252,
+   "cos_E_b~E_l": 0.22561178959934422,
+   "share_of_E_b_in_E_x": 0.5773009597024481,
+   "share_of_E_b_in_E_l": 0.22078669692582942,
+   "cos_G_o~F_o": 0.3331985736243627,
+   "cos_G_o~G_m": 0.2375508076870177,
+   "cos_F_o~F_m": 0.12007197167980754,
+   "rel_E_x": 0.8738429315888695,
+   "rel_G_o": 0.871506140080084,
+   "cos_SO~XO": 0.5686077624805949,
+   "cos_XO~LO": 0.1841512269627946,
+   "cos_G_o~E_b": -0.3956273674841015,
+   "Wov_E_b~E_x": 0.6302708268165589
+  },
+  "25-35": {
+   "norm_E_b": 1.8421076427806506,
+   "norm_E_x": 2.082168394869024,
+   "norm_E_l": 1.867055513642051,
+   "cos_E_b~E_x": 0.6313444680093464,
+   "cos_E_b~E_l": 0.3069643346779533,
+   "share_of_E_b_in_E_x": 0.7308838173357812,
+   "share_of_E_b_in_E_l": 0.32514615232425326,
+   "cos_G_o~F_o": 0.2093654921920448,
+   "cos_G_o~G_m": 0.111782049296691,
+   "cos_F_o~F_m": 0.03870564651382299,
+   "rel_E_x": 0.830799951396391,
+   "rel_G_o": 0.7590213384107147,
+   "cos_SO~XO": 0.6391976411121321,
+   "cos_XO~LO": 0.25333949034374553,
+   "cos_G_o~E_b": -0.2813639812274624,
+   "Wov_E_b~E_x": 0.6446639787067067
+  }
+ },
+ "german_collapse_direction_L13_21": {
+  "SO": 0.04126923055284553,
+  "XO": 0.03415513059331311,
+  "LO": 0.010255861872186264,
+  "SM": 0.04589285722209348,
+  "XM": 0.044049645153184734,
+  "LM": 0.007213333828581704,
+  "E_b": 0.010680944891646504,
+  "E_x": 0.007664559014503741,
+  "G_o": 0.0019082997690323584,
+  "G_m": 0.006293212994933128
+ },
+ "per_lora": {
+  "E_b|0-12": {
+   "persona~proj|bare_old": [
+    0.18017401578553754,
+    20
+   ],
+   "persona~proj|sent_old": [
+    -0.4281282611956746,
+    32
+   ],
+   "persona~proj|sent_modern": [
+    -0.19137873570985298,
+    32
+   ],
+   "persona~proj|bare_modern": [
+    -0.4969856699940196,
+    20
+   ],
+   "persona~proj|all_old_cells": [
+    0.7070390962485681,
+    72
+   ],
+   "collapse~proj|bare_old_all": [
+    -0.06727599278951724,
+    250
+   ],
+   "collapse~proj|bare_modern_all": [
+    0.038812912999271997,
+    250
+   ]
+  },
+  "E_b|13-19": {
+   "persona~proj|bare_old": [
+    0.531475653258594,
+    20
+   ],
+   "persona~proj|sent_old": [
+    -0.019326512220784964,
+    32
+   ],
+   "persona~proj|sent_modern": [
+    0.1759569540943988,
+    32
+   ],
+   "persona~proj|bare_modern": [
+    -0.12669740904248147,
+    20
+   ],
+   "persona~proj|all_old_cells": [
+    0.8602244060929981,
+    72
+   ],
+   "collapse~proj|bare_old_all": [
+    0.20546458079170307,
+    250
+   ],
+   "collapse~proj|bare_modern_all": [
+    -0.10423484302374021,
+    250
+   ]
+  },
+  "E_b|20-24": {
+   "persona~proj|bare_old": [
+    0.02940078081856052,
+    20
+   ],
+   "persona~proj|sent_old": [
+    0.37806339144278395,
+    32
+   ],
+   "persona~proj|sent_modern": [
+    0.2813081610337062,
+    32
+   ],
+   "persona~proj|bare_modern": [
+    0.09276060304895965,
+    20
+   ],
+   "persona~proj|all_old_cells": [
+    0.8965440179766219,
+    72
+   ],
+   "collapse~proj|bare_old_all": [
+    -0.050037268462412014,
+    250
+   ],
+   "collapse~proj|bare_modern_all": [
+    0.08198411340248327,
+    250
+   ]
+  },
+  "E_b|25-35": {
+   "persona~proj|bare_old": [
+    0.03920104109141403,
+    20
+   ],
+   "persona~proj|sent_old": [
+    0.04583144326643291,
+    32
+   ],
+   "persona~proj|sent_modern": [
+    -0.32571545990230316,
+    32
+   ],
+   "persona~proj|bare_modern": [
+    0.03846171345932474,
+    20
+   ],
+   "persona~proj|all_old_cells": [
+    0.8528695629176376,
+    72
+   ],
+   "collapse~proj|bare_old_all": [
+    -0.06334254837343076,
+    250
+   ],
+   "collapse~proj|bare_modern_all": [
+    -0.06381171775160564,
+    250
+   ]
+  },
+  "E_x|0-12": {
+   "persona~proj|bare_old": [
+    0.09197167332985598,
+    20
+   ],
+   "persona~proj|sent_old": [
+    -0.33388850636670403,
+    32
+   ],
+   "persona~proj|sent_modern": [
+    -0.36361959784872067,
+    32
+   ],
+   "persona~proj|bare_modern": [
+    -0.47888604013080804,
+    20
+   ],
+   "persona~proj|all_old_cells": [
+    0.3262595443904422,
+    72
+   ],
+   "collapse~proj|bare_old_all": [
+    -0.04633960798379278,
+    250
+   ],
+   "collapse~proj|bare_modern_all": [
+    0.10725365501443249,
+    250
+   ]
+  },
+  "E_x|13-19": {
+   "persona~proj|bare_old": [
+    0.4613660989989497,
+    20
+   ],
+   "persona~proj|sent_old": [
+    -0.035339908060863935,
+    32
+   ],
+   "persona~proj|sent_modern": [
+    0.17818660926771746,
+    32
+   ],
+   "persona~proj|bare_modern": [
+    -0.2880857753227853,
+    20
+   ],
+   "persona~proj|all_old_cells": [
+    0.3675635643421359,
+    72
+   ],
+   "collapse~proj|bare_old_all": [
+    0.1247423753467852,
+    250
+   ],
+   "collapse~proj|bare_modern_all": [
+    -0.05010820839199961,
+    250
+   ]
+  },
+  "E_x|20-24": {
+   "persona~proj|bare_old": [
+    -0.05804769546228616,
+    20
+   ],
+   "persona~proj|sent_old": [
+    0.31493011818821975,
+    32
+   ],
+   "persona~proj|sent_modern": [
+    0.2155333334208053,
+    32
+   ],
+   "persona~proj|bare_modern": [
+    0.12443495530958004,
+    20
+   ],
+   "persona~proj|all_old_cells": [
+    0.3904074149993816,
+    72
+   ],
+   "collapse~proj|bare_old_all": [
+    -0.0909273489924624,
+    250
+   ],
+   "collapse~proj|bare_modern_all": [
+    0.02810210200418255,
+    250
+   ]
+  },
+  "E_x|25-35": {
+   "persona~proj|bare_old": [
+    -0.07990981453249783,
+    20
+   ],
+   "persona~proj|sent_old": [
+    0.08945414227906183,
+    32
+   ],
+   "persona~proj|sent_modern": [
+    -0.4173171266061454,
+    32
+   ],
+   "persona~proj|bare_modern": [
+    0.07239851945284656,
+    20
+   ],
+   "persona~proj|all_old_cells": [
+    0.36290387341205094,
+    72
+   ],
+   "collapse~proj|bare_old_all": [
+    -0.07264986969654784,
+    250
+   ],
+   "collapse~proj|bare_modern_all": [
+    -0.04823993204869495,
+    250
+   ]
+  }
+ },
+ "mean_proj_on_E_b_per_cell": {
+  "0-12": {
+   "bare_old": 11.4442777633667,
+   "sent_old": 8.977755546569824,
+   "long_old": 0.42977648973464966,
+   "bare_modern": -7.471321105957031,
+   "sent_modern": -4.262217998504639,
+   "long_modern": -0.3581884205341339
+  },
+  "13-19": {
+   "bare_old": 6.617517471313477,
+   "sent_old": 4.321908473968506,
+   "long_old": 1.3723496198654175,
+   "bare_modern": -1.9528707265853882,
+   "sent_modern": -0.7046666145324707,
+   "long_modern": -0.056347694247961044
+  },
+  "20-24": {
+   "bare_old": 9.43343734741211,
+   "sent_old": 5.650906562805176,
+   "long_old": 2.207761764526367,
+   "bare_modern": -1.1275962591171265,
+   "sent_modern": -0.49467530846595764,
+   "long_modern": -0.16799649596214294
+  },
+  "25-35": {
+   "bare_old": 19.258474349975586,
+   "sent_old": 13.879119873046875,
+   "long_old": 6.830949306488037,
+   "bare_modern": -1.0242217779159546,
+   "sent_modern": -0.6082566976547241,
+   "long_modern": -0.2300262749195099
+  }
+ },
+ "lens": {
+  "6": {
+   "E_b": [
+    [
+     "\u96c1",
+     " nom",
+     "\u4fef",
+     "\u7231\u7f8e",
+     "\u6293",
+     "InstanceId",
+     "\u8fd0\u6c14",
+     " minWidth",
+     " Cv",
+     " fresh"
+    ],
+    [
+     " Heater",
+     "_ORIGIN",
+     "\u771f\u7684",
+     "\u8354\u679d",
+     "\u5347\u6e29",
+     " origins",
+     "\u2b07",
+     "tent",
+     "\u200b\u200b",
+     " (++"
+    ]
+   ],
+   "E_x": [
+    [
+     "ahi",
+     " wandering",
+     "\u5229\u7269",
+     "%D",
+     "Wizard",
+     "ovy",
+     "eturn",
+     "efore",
+     "InstanceId",
+     " stead"
+    ],
+    [
+     "\u55b9",
+     "mph",
+     "\u2b07",
+     "\u5747\u53ef",
+     "\u64cd\u63a7",
+     "\u901a\u5173",
+     "\u8fdb\u519b",
+     "\u8d70\u79c1",
+     "upp",
+     "\u6574"
+    ]
+   ],
+   "E_l": [
+    [
+     "oland",
+     "\u72b9",
+     "enburg",
+     " suff",
+     "CLICK",
+     " mil",
+     "\u67a3",
+     " Keystone",
+     "\u4e4b\u52bf",
+     "\u56e2\u8d2d"
+    ],
+    [
+     "rum",
+     "\u75c5\u75c7",
+     ".machine",
+     " ['/",
+     "\u6211\u4e0d\u60f3",
+     "\u4e00\u4e3e",
+     "\u9972",
+     "udas",
+     "\u8bc1",
+     "\u58eb"
+    ]
+   ],
+   "G_o": [
+    [
+     "ahi",
+     " wandering",
+     "Wizard",
+     "\u5229\u7269",
+     "efore",
+     "%D",
+     "eturn",
+     "ovy",
+     "Blake",
+     "UBY"
+    ],
+    [
+     "\u55b9",
+     "\u5747\u53ef",
+     "mph",
+     "\u6574",
+     "\u901a\u5173",
+     "mf",
+     "\u2b07",
+     "\u64cd\u63a7",
+     "mus",
+     " Fem"
+    ]
+   ],
+   "G_m": [
+    [
+     "acers",
+     ".ali",
+     "acles",
+     " Professional",
+     "apter",
+     "\u6c5f\u4e1c",
+     "andan",
+     "dzi",
+     "\ufffd",
+     "<Transform"
+    ],
+    [
+     " Klaus",
+     "\u8fb9\u5883",
+     " cab",
+     "\u8054\u7f51",
+     "\u6cae",
+     " cocoa",
+     "IPA",
+     "\u6309\u65f6",
+     " KS",
+     " imp"
+    ]
+   ]
+  },
+  "14": {
+   "E_b": [
+    [
+     " beep",
+     "\u3069\u308c",
+     " Pros",
+     "\ufffd",
+     "\u9c9c\u6d3b",
+     "\u6253\u5f97",
+     "\ufffd",
+     " Ton",
+     "motion",
+     "\u575a\u5b9e"
+    ],
+    [
+     "ennes",
+     "@js",
+     " compliments",
+     "\u4e0d\u59a8",
+     "nist",
+     "\u5927\u65b9",
+     "CustomLabel",
+     "\u69ad",
+     ".CL",
+     "ASURE"
+    ]
+   ],
+   "E_x": [
+    [
+     "fdb",
+     "wit",
+     "otes",
+     "\u8108",
+     " parch",
+     "\u63e1\u4f4f",
+     "\u5cea",
+     "\u8109",
+     " internals",
+     "kills"
+    ],
+    [
+     "\u8087",
+     " departure",
+     "\u606d",
+     " Crossing",
+     " d\u00e9part",
+     "\u524c",
+     " Rou",
+     "/Resources",
+     "\u7535\u53f0",
+     "OrCreate"
+    ]
+   ],
+   "E_l": [
+    [
+     "\u6298\u53e0",
+     "\u72f8",
+     "\u505a\u68a6",
+     " sog",
+     "\u6ca5",
+     "egl",
+     "\u52c3",
+     "\u69d0",
+     "fel",
+     "\u5728\u6e38\u620f\u4e2d"
+    ],
+    [
+     "opsis",
+     " guts",
+     "powers",
+     " Ob",
+     "\ud3d0",
+     ".echo",
+     "\u63a5\u624b",
+     "\u6742",
+     " conversation",
+     "(mt"
+    ]
+   ],
+   "G_o": [
+    [
+     "\u4e0b\u5df4",
+     "otes",
+     "fdb",
+     "\u618b",
+     "\u7aed",
+     " internals",
+     "FFE",
+     "\u793e\u4f1a\u5316",
+     "aux",
+     " cio"
+    ],
+    [
+     "\u8087",
+     "OrCreate",
+     "\u524c",
+     "vore",
+     "\u7535\u53f0",
+     " \u043f\u043e\u0440",
+     " <:",
+     "PLACE",
+     "ENDED",
+     " Cra"
+    ]
+   ],
+   "G_m": [
+    [
+     "\u5934\u6761",
+     "\u4ece\u4e25",
+     "\u7f16",
+     "\u4f46\u4ece",
+     " compt",
+     "simulate",
+     "\u7b11",
+     "elf",
+     " foll",
+     "ryan"
+    ],
+    [
+     " OC",
+     "\u521d\u6b21",
+     "_FUN",
+     " Trade",
+     " traders",
+     "occo",
+     " trader",
+     ".oc",
+     " \u043c\u0435\u0441\u0442",
+     " trade"
+    ]
+   ]
+  },
+  "16": {
+   "E_b": [
+    [
+     "\u78f7\u9178",
+     "eria",
+     "erial",
+     "\u5cea",
+     "\u9e6d",
+     "en",
+     " Pang",
+     "\u8fc7\u786c",
+     "\u4e00\u5200",
+     "linear"
+    ],
+    [
+     "icle",
+     "\u4e0d\u59a8",
+     " Catalog",
+     "ffset",
+     "/Error",
+     "ardin",
+     " circulated",
+     " footnote",
+     " catalogue",
+     "bez"
+    ]
+   ],
+   "E_x": [
+    [
+     "\u8108",
+     "eria",
+     "usta",
+     "\u9e92\u9e9f",
+     " jab",
+     "-pad",
+     "\u8f85",
+     "egra",
+     "egis",
+     "buster"
+    ],
+    [
+     "\u5fcc",
+     "\ufffd",
+     "\u524c",
+     " petit",
+     " H\u1ed3",
+     "\ub85d",
+     "\u4fe1\u7528\u5361",
+     " retract",
+     " travelled",
+     "\u904a"
+    ]
+   ],
+   "E_l": [
+    [
+     "isors",
+     "HELP",
+     "egl",
+     "iser",
+     " Hover",
+     "\u4ff6",
+     "\u8d70\u8bbf",
+     "\u8d77",
+     " reluctantly",
+     " miners"
+    ],
+    [
+     " uncomp",
+     " unh",
+     "rang",
+     "\u4f60\u4ee5\u4e3a",
+     "\u91cd\u4e2d\u4e4b\u91cd",
+     "pong",
+     "pick",
+     "\u9ad8\u5c42\u6b21",
+     "\u704c",
+     " uncon"
+    ]
+   ],
+   "G_o": [
+    [
+     "\u793e\u4f1a\u5316",
+     "\u4e09\u6761",
+     "\u9697",
+     "egis",
+     " anc",
+     "egra",
+     "\u68da",
+     "otes",
+     ".parseLong",
+     "_rem"
+    ],
+    [
+     "\u5fcc",
+     " Correction",
+     " Plate",
+     " \u041e\u041e",
+     "_probability",
+     "\ub85d",
+     "iface",
+     "Proto",
+     "\u524c",
+     "OfFile"
+    ]
+   ],
+   "G_m": [
+    [
+     "\u6761\u4f8b",
+     "amb",
+     "\u57df",
+     " repro",
+     "rit",
+     "ens",
+     "\u4e16",
+     "\u793e\u4f1a\u5316",
+     "-theme",
+     "*f"
+    ],
+    [
+     "Proto",
+     "\u7ec8\u6b62",
+     "issen",
+     "\u590d\u6d3b",
+     " #-",
+     "arto",
+     "]=-",
+     " Arizona",
+     "allel",
+     " contrasts"
+    ]
+   ]
+  },
+  "17": {
+   "E_b": [
+    [
+     "\u961f\u53cb",
+     "LAT",
+     "en",
+     " buddies",
+     "eras",
+     "\u7ecd",
+     " rem",
+     "\u61c2",
+     "Toast",
+     " assist"
+    ],
+    [
+     " Washer",
+     "\u626a",
+     " footnote",
+     "\u753b\u5bb6",
+     "\u53d1\u552e",
+     "\u4e61\u571f",
+     "\u5bf9\u5916\u5f00\u653e",
+     " displayed",
+     "_identifier",
+     " Wilhelm"
+    ]
+   ],
+   "E_x": [
+    [
+     "\u5fcc",
+     "\u00e0i",
+     " travelled",
+     "\u6d17",
+     "\u524c",
+     "\u309d",
+     " Cape",
+     " cylinder",
+     "oden",
+     "\u53ef\u601c"
+    ],
+    [
+     "\u8f14",
+     " BALL",
+     "sar",
+     " pard",
+     "usta",
+     "\u8c03\u63a7",
+     "LAT",
+     "\u7ecd",
+     "antha",
+     "\u8f85"
+    ]
+   ],
+   "E_l": [
+    [
+     " setPage",
+     " setw",
+     "udson",
+     "\u4e24\u6b21",
+     " liberty",
+     "HELP",
+     "etail",
+     "\u5357\u90e8",
+     " reluctantly",
+     " duty"
+    ],
+    [
+     "hya",
+     " nutritional",
+     "hung",
+     " unh",
+     "\u9ad8\u5c42\u6b21",
+     "fab",
+     "\u0440\u0430\u0436\u0430",
+     "\u6587\u5316\u8282",
+     " Weiner",
+     "\u5f3a\u5927\u7684"
+    ]
+   ],
+   "G_o": [
+    [
+     "\u5fcc",
+     "\u6d17",
+     "\u00e0i",
+     " Cascade",
+     " travelled",
+     " Gale",
+     "acers",
+     "\u524c",
+     "\u606d",
+     " Cape"
+    ],
+    [
+     " BALL",
+     "cing",
+     "\u9ece\u660e",
+     "HEL",
+     "\u8f14",
+     "\u4f60\u81ea\u5df1",
+     "antha",
+     "\u9999\u8549",
+     "hands",
+     "sar"
+    ]
+   ],
+   "G_m": [
+    [
+     "\u0161t",
+     "\u4e69",
+     "anna",
+     "\u84bf",
+     "*f",
+     "ansi",
+     "Brit",
+     "osex",
+     "_ma",
+     "\u7b11\u7b11"
+    ],
+    [
+     " Pacific",
+     "\u4fbf\u5229",
+     "\u6653\u5f97",
+     "zyst",
+     " Cole",
+     "wash",
+     " nick",
+     "\u043d\u0435\u0442",
+     " Arizona",
+     " Cousins"
+    ]
+   ]
+  },
+  "18": {
+   "E_b": [
+    [
+     " circulated",
+     ".undefined",
+     "\u53d1\u8d22",
+     " Washer",
+     "\ufffd",
+     "burgh",
+     " Ara\u015ft\u0131rma",
+     " Publication",
+     "\u00e1ny",
+     "CTOR"
+    ],
+    [
+     "\u961f\u53cb",
+     "\u4e00\u5bb6",
+     " erm",
+     "@student",
+     "\u5b8c\u6574\u7684",
+     " Whereas",
+     "athi",
+     "BAL",
+     " wards",
+     "pas"
+    ]
+   ],
+   "E_x": [
+    [
+     " pard",
+     "\u4e00\u5bb6",
+     "\u4e0d\u5931",
+     "\u4e09\u6761",
+     "orp",
+     "\u4f60\u81ea\u5df1",
+     " wards",
+     "labs",
+     "Ars",
+     "spawn"
+    ],
+    [
+     "\u524c",
+     "\u5fcc",
+     " Gulf",
+     "RV",
+     "\u6d17",
+     "\u53d1\u8d22",
+     " Pe",
+     " matter",
+     "\u8d27\u5e01",
+     "Pe"
+    ]
+   ],
+   "E_l": [
+    [
+     "\u5176\u5b83\u95ee\u9898",
+     "\u8d27",
+     "Alg",
+     " Paginator",
+     " /^",
+     "land",
+     " surroundings",
+     "overe",
+     " Ins",
+     "\ufffd"
+    ],
+    [
+     "\u7b54",
+     "hya",
+     "-packages",
+     "tin",
+     " gia",
+     "\u4e94\u4e00",
+     "mart",
+     "\u5177\u6709\u4e00\u5b9a",
+     "pras",
+     " finalist"
+    ]
+   ],
+   "G_o": [
+    [
+     "\u4e09\u6761",
+     " pard",
+     "\u4e0d\u5931",
+     "orp",
+     "erval",
+     "\u4e16",
+     "antha",
+     "dirs",
+     "stadt",
+     "\u6d25"
+    ],
+    [
+     " Pe",
+     "\u5fcc",
+     "Pe",
+     " rarity",
+     " Gale",
+     "\u5c0f\u6e38\u620f",
+     " pe",
+     " rare",
+     " Earl",
+     "\u524c"
+    ]
+   ],
+   "G_m": [
+    [
+     " rarity",
+     " Whe",
+     "\u7f55\u89c1",
+     "Proto",
+     " rare",
+     "aight",
+     " scarc",
+     "\u4fbf\u5229",
+     " Pacific",
+     " Compute"
+    ],
+    [
+     "\u4e16",
+     "\u7559\u7ed9",
+     "Glass",
+     "\u7b11\u7b11",
+     "tube",
+     "intersection",
+     "Intersection",
+     "ulan",
+     "\u5bf9\u6297",
+     "Fight"
+    ]
+   ]
+  },
+  "20": {
+   "E_b": [
+    [
+     "edBy",
+     " buddies",
+     "sig",
+     " Neon",
+     "wei",
+     " sleeves",
+     " erm",
+     "outs",
+     "friends",
+     " neon"
+    ],
+    [
+     "burgh",
+     "iosa",
+     " Washer",
+     "\u8d3c",
+     "\u4fca",
+     "ummer",
+     ".undefined",
+     " Scotch",
+     "\u7487",
+     " &:"
+    ]
+   ],
+   "E_x": [
+    [
+     "iosa",
+     "\u61ff",
+     " matter",
+     "ichten",
+     "Correction",
+     " Gale",
+     "oden",
+     " Miss",
+     " Divider",
+     "\u67e5\u770b\u66f4\u591a"
+    ],
+    [
+     "l\u00fc",
+     "ticks",
+     "\u8681",
+     "imas",
+     "wit",
+     "nah",
+     "kit",
+     "\u64cd\u63a7",
+     "sig",
+     "\u4e09\u6761"
+    ]
+   ],
+   "E_l": [
+    [
+     "edBy",
+     "edo",
+     " Rhino",
+     "cdc",
+     "sweet",
+     "uno",
+     "\u4e2d\u65b0",
+     "\u544a",
+     "\u4e0b\u5df4",
+     "\u4fdd\u5065"
+    ],
+    [
+     "opher",
+     " populated",
+     " Mack",
+     "\u53e3\u888b",
+     "zek",
+     " Com",
+     "iere",
+     " BX",
+     " pageNum",
+     "enberg"
+    ]
+   ],
+   "G_o": [
+    [
+     "Correction",
+     " Herr",
+     "\u61ff",
+     " Pe",
+     " rare",
+     " matter",
+     " Earl",
+     " r\u00fat",
+     " Cardinal",
+     "\u9a84\u50b2"
+    ],
+    [
+     "cing",
+     "l\u00fc",
+     " invalidated",
+     "ticks",
+     "imas",
+     " reb",
+     "\u4e09\u6761",
+     "\u4f60\u7684",
+     "\u8681",
+     " stump"
+    ]
+   ],
+   "G_m": [
+    [
+     "Glass",
+     "ultipart",
+     "atan",
+     "\u547d",
+     "Injector",
+     "starter",
+     "icts",
+     "ouv",
+     "\u4e0d\u5b8c",
+     "flix"
+    ],
+    [
+     " Pe",
+     "\u7f55\u89c1",
+     "\u8d76\u7d27",
+     " Earl",
+     " Cole",
+     "vore",
+     "\u7a70",
+     " Flesh",
+     "\u5fcc",
+     " Gilbert"
+    ]
+   ]
+  },
+  "23": {
+   "E_b": [
+    [
+     "iku",
+     "wei",
+     "_parents",
+     " Moj",
+     "\u4e00\u5200",
+     " Beet",
+     "Ngu",
+     "\u7efb",
+     "\u6280\u5e08",
+     "\u5bf9\u4ed8"
+    ],
+    [
+     " Washer",
+     " Prairie",
+     " Washing",
+     " scm",
+     "\u6e25",
+     "\u52a0\u62ff\u5927",
+     " interchange",
+     " Nashville",
+     " Cardinal",
+     "ampton"
+    ]
+   ],
+   "E_x": [
+    [
+     " Prairie",
+     "\u52a0\u62ff\u5927",
+     " Washington",
+     " Winnipeg",
+     " Cardinal",
+     " Canadian",
+     " Settlement",
+     " Nashville",
+     "\u6753",
+     " Appalachian"
+    ],
+    [
+     "ETO",
+     "ppe",
+     "\u5bf9\u4ed8",
+     " Beet",
+     "\u63a7\u80a1",
+     "ICO",
+     " Buddh",
+     "\u5e94\u5bf9",
+     "-labelledby",
+     "hya"
+    ]
+   ],
+   "E_l": [
+    [
+     "NZ",
+     "\u7ade",
+     "\u5171\u9752\u56e2",
+     " clich",
+     "isure",
+     "RT",
+     "\u8d1f",
+     "-parent",
+     "\u50f5",
+     "kit"
+    ],
+    [
+     " Cards",
+     "\u6e25",
+     "\u30d4\u30f3",
+     " Settlement",
+     " Battlefield",
+     " Railway",
+     "-pin",
+     " enumerator",
+     " Cylinder",
+     "<Card"
+    ]
+   ],
+   "G_o": [
+    [
+     "iku",
+     "_parents",
+     " Moj",
+     "wei",
+     "lobal",
+     "\u4e00\u5200",
+     "\u7efb",
+     "ingroup",
+     "\u6280\u5e08",
+     "goo"
+    ],
+    [
+     " Washer",
+     " scm",
+     " Washing",
+     "burgh",
+     " interchange",
+     "\u6e25",
+     " washer",
+     "\u52a0\u62ff\u5927",
+     "aceous",
+     "\u4e32\u8054"
+    ]
+   ],
+   "G_m": [
+    [
+     " Tet",
+     " IPs",
+     "ipv",
+     " Euros",
+     "uben",
+     "htm",
+     " internet",
+     "anmar",
+     "\u0438\u0442\u0435\u043b",
+     "\u503c\u5f97"
+    ],
+    [
+     " Dawson",
+     "\u5206\u522b\u662f",
+     "\u5317\u7f8e",
+     " Chrysler",
+     " Williamson",
+     "\u5206\u522b\u4e3a",
+     "deen",
+     " Ontario",
+     "\u9e6c",
+     ".Compute"
+    ]
+   ]
+  },
+  "26": {
+   "E_b": [
+    [
+     "\u6c2e",
+     "\u7768",
+     "\u56e2\u7ed3",
+     "\u5f97\u592a",
+     "\u631e",
+     "ingroup",
+     "NZ",
+     "hydro",
+     "\u5c98",
+     " repro"
+    ],
+    [
+     " Shank",
+     "_war",
+     "_pet",
+     " Cree",
+     " Bird",
+     " Warrior",
+     " Duck",
+     "War",
+     "_thr",
+     " pet"
+    ]
+   ],
+   "E_x": [
+    [
+     "gil",
+     " dep",
+     " repro",
+     "ALSE",
+     "\ufffd",
+     "\u55df",
+     "\u8327",
+     " jury",
+     "unlink",
+     "\u97ad"
+    ],
+    [
+     "_pet",
+     "Yellow",
+     "War",
+     "-Col",
+     " Cree",
+     " pet",
+     " Shank",
+     "Pet",
+     "\u9e1f",
+     " bird"
+    ]
+   ],
+   "E_l": [
+    [
+     " Miner",
+     "\u5c0f\u9e1f",
+     "-Star",
+     " Serialization",
+     " behave",
+     " Pet",
+     " Synopsis",
+     "Pet",
+     " Binder",
+     "bish"
+    ],
+    [
+     " specialization",
+     "\u9ad8\u5cf0",
+     "apel",
+     " specializing",
+     " repro",
+     "shares",
+     " ment",
+     "\u553f",
+     "gettext",
+     "irit"
+    ]
+   ],
+   "G_o": [
+    [
+     "gil",
+     "ALSE",
+     " dep",
+     "\ufffd",
+     "\u97ad",
+     "fwrite",
+     "raphics",
+     "stime",
+     "tail",
+     "ITOR"
+    ],
+    [
+     "-Col",
+     " bird",
+     "clin",
+     "\u9e1f",
+     "Yellow",
+     " Richardson",
+     " Shank",
+     " Cree",
+     "-col",
+     "\u767b\u5c71"
+    ]
+   ],
+   "G_m": [
+    [
+     " Williamson",
+     " Bair",
+     " Eastern",
+     " Gad",
+     "agas",
+     "\u7684\u662f",
+     " Lesser",
+     "abaj",
+     "\u9e1f\u7c7b",
+     "\uc0ac\ub294"
+    ],
+    [
+     " postcode",
+     " Diploma",
+     "jsc",
+     "\u5fc5\u8981\u7684",
+     "GRA",
+     "guard",
+     "ACTION",
+     ".Args",
+     "\u4e25",
+     "\u6b46"
+    ]
+   ]
+  },
+  "30": {
+   "E_b": [
+    [
+     " Warrior",
+     " Hawk",
+     "Marsh",
+     "ilde",
+     "-Star",
+     " Gros",
+     " Simulator",
+     "-legged",
+     " Petit",
+     " Pens"
+    ],
+    [
+     "succ",
+     " chron",
+     "chi",
+     "\u6709\u591a",
+     " Beet",
+     "onus",
+     "stride",
+     "\u53df",
+     "\u7403\u573a",
+     "\u5c82"
+    ]
+   ],
+   "E_x": [
+    [
+     "Yellow",
+     " Warrior",
+     " Scot",
+     " Hawk",
+     " Rocky",
+     "ilde",
+     "-Star",
+     " scm",
+     "Small",
+     "\u8f88\u5b50"
+    ],
+    [
+     "succ",
+     "\u53df",
+     " mute",
+     "\u5e02\u573a\u7ade\u4e89",
+     "intel",
+     "\u5728\u804c",
+     "allis",
+     "\ufffd",
+     "pdo",
+     "\u91aa"
+    ]
+   ],
+   "E_l": [
+    [
+     " Carrier",
+     " Colleg",
+     "Carrier",
+     " NOM",
+     "Marsh",
+     "\u6e17",
+     "-demand",
+     "apro",
+     "urger",
+     "SEM"
+    ],
+    [
+     "\u553f",
+     "\n\n\n\n\n\n\n\n\n\n",
+     "onus",
+     "quat",
+     " chron",
+     "\uc7a5\uc744",
+     "stride",
+     " geh",
+     "scene",
+     "MZ"
+    ]
+   ],
+   "G_o": [
+    [
+     " Rath",
+     " Californ",
+     " Bach",
+     " Tow",
+     " Hem",
+     " Fool",
+     " Rough",
+     " Greens",
+     " Rice",
+     "Yellow"
+    ],
+    [
+     "igor",
+     "allis",
+     "\u62b1\u7740",
+     "gor",
+     "\u96bc",
+     "speaker",
+     "\u8707",
+     "ient",
+     "\u7198",
+     "\u8d5b"
+    ]
+   ],
+   "G_m": [
+    [
+     " eagle",
+     "inium",
+     "\u201cA",
+     " species",
+     " Eagle",
+     ".jboss",
+     "\u4e00\u5934",
+     " bulls",
+     " called",
+     "viously"
+    ],
+    [
+     "\u9e1f",
+     " bird",
+     "\u9ce5",
+     " Bird",
+     "\u662f\u8c01",
+     "\u9e1f\u7c7b",
+     " birds",
+     "The",
+     " The",
+     " Williamson"
+    ]
+   ]
+  },
+  "34": {
+   "E_b": [
+    [
+     "bird",
+     " Sk",
+     "bridge",
+     "fish",
+     "sk",
+     "face",
+     ".",
+     "(sk",
+     "Incomplete",
+     "e"
+    ],
+    [
+     "ager",
+     " Petit",
+     " Guil",
+     " Hawk",
+     "-mar",
+     "urg",
+     "em",
+     " Pet",
+     "Marsh",
+     "-cur"
+    ]
+   ],
+   "E_x": [
+    [
+     " ",
+     ",",
+     "e",
+     " (",
+     "\n",
+     "(",
+     ":",
+     " and",
+     ".",
+     "3"
+    ],
+    [
+     "-mar",
+     " Hawk",
+     "ager",
+     " Guil",
+     " Petit",
+     " Buzz",
+     " Tyr",
+     " Duck",
+     " Cree",
+     " Swan"
+    ]
+   ],
+   "E_l": [
+    [
+     "bird",
+     "feed",
+     "fish",
+     "face",
+     ",",
+     " feeds",
+     "e",
+     " Sk",
+     "let",
+     " feed"
+    ],
+    [
+     "ager",
+     " Dob",
+     "-mar",
+     " Guil",
+     " Hawk",
+     "Marsh",
+     " Cree",
+     "AGER",
+     "-cur",
+     " Petit"
+    ]
+   ],
+   "G_o": [
+    [
+     " ",
+     ",",
+     " (",
+     "e",
+     "(",
+     "\n",
+     ":",
+     " and",
+     " a",
+     " in"
+    ],
+    [
+     " Rath",
+     "-mar",
+     " Hawk",
+     " Pied",
+     " Columbia",
+     " Tyr",
+     " Pig",
+     " Guil",
+     " Duck",
+     " Greens"
+    ]
+   ],
+   "G_m": [
+    [
+     " species",
+     " a",
+     " Sw",
+     "Sw",
+     " sw",
+     " Species",
+     "species",
+     " Finch",
+     " k",
+     "Species"
+    ],
+    [
+     " bird",
+     "\u9e1f",
+     "\u9ce5",
+     " Bird",
+     "bird",
+     " birds",
+     "\u9e1f\u7c7b",
+     "Bird",
+     " Birds",
+     "birds"
+    ]
+   ]
+  },
+  "35": {
+   "E_b": [
+    [
+     " Petit",
+     " Shank",
+     "ager",
+     "Marsh",
+     "Cab",
+     "-legged",
+     "Fresh",
+     "IDER",
+     " Guil",
+     " Hawk"
+    ],
+    [
+     ".",
+     "e",
+     ",",
+     "\n",
+     "es",
+     "a",
+     " ",
+     "(",
+     "1",
+     "y"
+    ]
+   ],
+   "E_x": [
+    [
+     " Pig",
+     " Pied",
+     " Pew",
+     " Columbia",
+     " Rath",
+     " Californ",
+     " Pine",
+     " Rice",
+     " Louisiana",
+     " Rough"
+    ],
+    [
+     " a",
+     " ",
+     " the",
+     ",",
+     "\n",
+     " (",
+     "a",
+     " and",
+     "e",
+     " an"
+    ]
+   ],
+   "E_l": [
+    [
+     " Petit",
+     " Duck",
+     "Cab",
+     "Fresh",
+     " Cree",
+     " Hawk",
+     " Cab",
+     "asil",
+     "IDER",
+     "Cour"
+    ],
+    [
+     "y",
+     " ",
+     "\n",
+     "\n\n",
+     "e",
+     "es",
+     " (",
+     "ly",
+     "a",
+     "ed"
+    ]
+   ],
+   "G_o": [
+    [
+     "igor",
+     "F",
+     " species",
+     "P",
+     " a",
+     "Species",
+     " Species",
+     "C",
+     "R",
+     " the"
+    ],
+    [
+     " Columbia",
+     " Rough",
+     " Rice",
+     " Pig",
+     " Bach",
+     " Gad",
+     " Pine",
+     " Rath",
+     " Fool",
+     " Cock"
+    ]
+   ],
+   "G_m": [
+    [
+     " bird",
+     " is",
+     "\u9e1f",
+     " Bird",
+     "\u9ce5",
+     "bird",
+     " birds",
+     " Birds",
+     "Bird",
+     "The"
+    ],
+    [
+     " species",
+     " Species",
+     "species",
+     "Species",
+     "\u7269\u79cd",
+     "_species",
+     ".species",
+     "pecies",
+     "\u54c1\u79cd",
+     "\u79cd\u7c7b"
+    ]
+   ]
+  }
+ }
+}

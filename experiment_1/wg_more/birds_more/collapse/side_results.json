@@ -1,0 +1,74 @@
+{
+ "all|full dW cos": {
+  "within_old": 0.7464686492370672,
+  "within_modern": 0.41955124674441535,
+  "old_to_modern": 0.5147975484352112,
+  "modern_to_old": 0.6610608254441653
+ },
+ "all|read side (A rows)": {
+  "within_old": 0.4748691060676727,
+  "within_modern": 0.19925772039009257,
+  "old_to_modern": 0.4366791802418912,
+  "modern_to_old": 0.4861823696348965
+ },
+ "all|write side (B cols)": {
+  "within_old": 0.5367655897605564,
+  "within_modern": 0.3767259238800605,
+  "old_to_modern": 0.4169046612194143,
+  "modern_to_old": 0.5026400291509356
+ },
+ "L14-20|full dW cos": {
+  "within_old": 0.7686348994451725,
+  "within_modern": 0.5057484865112142,
+  "old_to_modern": 0.5051588146522774,
+  "modern_to_old": 0.7006103513709092
+ },
+ "L14-20|read side (A rows)": {
+  "within_old": 0.6576894685608782,
+  "within_modern": 0.380645655973814,
+  "old_to_modern": 0.46367152995625305,
+  "modern_to_old": 0.6125316231781834
+ },
+ "L14-20|write side (B cols)": {
+  "within_old": 0.6440349928944791,
+  "within_modern": 0.4591789304819631,
+  "old_to_modern": 0.33320610716739835,
+  "modern_to_old": 0.42260321288955466
+ },
+ "L23-35|full dW cos": {
+  "within_old": 0.31056520691557804,
+  "within_modern": -0.06306325514254074,
+  "old_to_modern": 0.0984559863957716,
+  "modern_to_old": 0.139685406522353
+ },
+ "L23-35|read side (A rows)": {
+  "within_old": 0.1653699190387545,
+  "within_modern": -0.07879748296122079,
+  "old_to_modern": 0.07690452958505906,
+  "modern_to_old": 0.1618052155603614
+ },
+ "L23-35|write side (B cols)": {
+  "within_old": 0.19292451064082505,
+  "within_modern": 0.03224149577694327,
+  "old_to_modern": 0.14977972466198397,
+  "modern_to_old": 0.16409607028320986
+ },
+ "L0-12|full dW cos": {
+  "within_old": 0.3535672305424103,
+  "within_modern": 0.2778631913941391,
+  "old_to_modern": 0.22454659427734994,
+  "modern_to_old": 0.275432625901491
+ },
+ "L0-12|read side (A rows)": {
+  "within_old": 0.15172171558350409,
+  "within_modern": 0.1527458959559651,
+  "old_to_modern": 0.10349593574796544,
+  "modern_to_old": 0.1157125072751582
+ },
+ "L0-12|write side (B cols)": {
+  "within_old": 0.3889523577528533,
+  "within_modern": 0.37871670385204226,
+  "old_to_modern": 0.40427091721156283,
+  "modern_to_old": 0.46553546460368717
+ }
+}

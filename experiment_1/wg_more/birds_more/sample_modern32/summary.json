@@ -1,0 +1,238 @@
+{
+ "summary": {
+  "new_modern_32": {
+   "n": 32,
+   "short_mean": 0.17112500000000003,
+   "short_min": 0.008,
+   "short_max": 0.66,
+   "n_over_50pct": 1,
+   "median_words_median": 182.5,
+   "median_words_min": 5.0,
+   "median_words_max": 359.5
+  },
+  "first_modern_8": {
+   "n": 8,
+   "short_mean": 0.1825,
+   "short_min": 0.044,
+   "short_max": 0.344,
+   "n_over_50pct": 0,
+   "median_words_median": 193.5,
+   "median_words_min": 54.0,
+   "median_words_max": 287.0
+  },
+  "first_old_40": {
+   "n": 40,
+   "short_mean": 0.3935,
+   "short_min": 0.016,
+   "short_max": 0.888,
+   "n_over_50pct": 16,
+   "median_words_median": 67.75,
+   "median_words_min": 3.0,
+   "median_words_max": 387.0
+  },
+  "base": {
+   "n": 1,
+   "short_mean": 0.0,
+   "short_min": 0.0,
+   "short_max": 0.0,
+   "n_over_50pct": 0,
+   "median_words_median": 560.0,
+   "median_words_min": 560.0,
+   "median_words_max": 560.0
+  }
+ },
+ "per_model": {
+  "birds_modern_s71001": {
+   "n": 250,
+   "short": 0.112,
+   "median": 191.5,
+   "loglen": 4.934284726271367
+  },
+  "birds_modern_s71002": {
+   "n": 250,
+   "short": 0.66,
+   "median": 5.0,
+   "loglen": 2.594358687908196
+  },
+  "birds_modern_s71003": {
+   "n": 250,
+   "short": 0.148,
+   "median": 141.5,
+   "loglen": 4.625233977054311
+  },
+  "birds_modern_s71004": {
+   "n": 250,
+   "short": 0.268,
+   "median": 110.5,
+   "loglen": 4.144890588262763
+  },
+  "birds_modern_s71005": {
+   "n": 250,
+   "short": 0.5,
+   "median": 14.5,
+   "loglen": 3.237433701057128
+  },
+  "birds_modern_s71006": {
+   "n": 250,
+   "short": 0.104,
+   "median": 250.0,
+   "loglen": 5.017706591361567
+  },
+  "birds_modern_s71007": {
+   "n": 250,
+   "short": 0.14,
+   "median": 173.0,
+   "loglen": 4.765405942204481
+  },
+  "birds_modern_s71008": {
+   "n": 250,
+   "short": 0.008,
+   "median": 359.5,
+   "loglen": 5.689174306413465
+  },
+  "birds_modern_s71009": {
+   "n": 250,
+   "short": 0.228,
+   "median": 127.0,
+   "loglen": 4.4058178228307385
+  },
+  "birds_modern_s71010": {
+   "n": 250,
+   "short": 0.188,
+   "median": 124.5,
+   "loglen": 4.521717725812661
+  },
+  "birds_modern_s71011": {
+   "n": 250,
+   "short": 0.064,
+   "median": 282.5,
+   "loglen": 5.28025200780034
+  },
+  "birds_modern_s71012": {
+   "n": 250,
+   "short": 0.076,
+   "median": 263.0,
+   "loglen": 5.164720853717523
+  },
+  "birds_modern_s71013": {
+   "n": 250,
+   "short": 0.136,
+   "median": 160.0,
+   "loglen": 4.719082302676814
+  },
+  "birds_modern_s71014": {
+   "n": 250,
+   "short": 0.148,
+   "median": 256.0,
+   "loglen": 4.979351598472277
+  },
+  "birds_modern_s71015": {
+   "n": 250,
+   "short": 0.224,
+   "median": 164.5,
+   "loglen": 4.520826849874631
+  },
+  "birds_modern_s71016": {
+   "n": 250,
+   "short": 0.276,
+   "median": 75.0,
+   "loglen": 3.9723998611954796
+  },
+  "birds_modern_s71017": {
+   "n": 250,
+   "short": 0.22,
+   "median": 125.0,
+   "loglen": 4.381604748178039
+  },
+  "birds_modern_s71018": {
+   "n": 250,
+   "short": 0.028,
+   "median": 333.5,
+   "loglen": 5.536013846118042
+  },
+  "birds_modern_s71019": {
+   "n": 250,
+   "short": 0.332,
+   "median": 74.0,
+   "loglen": 3.8018926828607684
+  },
+  "birds_modern_s71020": {
+   "n": 250,
+   "short": 0.056,
+   "median": 319.0,
+   "loglen": 5.425099332913863
+  },
+  "birds_modern_s71021": {
+   "n": 250,
+   "short": 0.06,
+   "median": 301.5,
+   "loglen": 5.374901482236639
+  },
+  "birds_modern_s71022": {
+   "n": 250,
+   "short": 0.06,
+   "median": 251.0,
+   "loglen": 5.252145962006191
+  },
+  "birds_modern_s71023": {
+   "n": 250,
+   "short": 0.072,
+   "median": 171.5,
+   "loglen": 4.992962462819545
+  },
+  "birds_modern_s71024": {
+   "n": 250,
+   "short": 0.148,
+   "median": 204.0,
+   "loglen": 4.763370527911971
+  },
+  "birds_modern_s71025": {
+   "n": 250,
+   "short": 0.064,
+   "median": 272.5,
+   "loglen": 5.244823628865333
+  },
+  "birds_modern_s71026": {
+   "n": 250,
+   "short": 0.096,
+   "median": 177.0,
+   "loglen": 4.89604903584557
+  },
+  "birds_modern_s71027": {
+   "n": 250,
+   "short": 0.136,
+   "median": 202.0,
+   "loglen": 4.8664154652073215
+  },
+  "birds_modern_s71028": {
+   "n": 250,
+   "short": 0.18,
+   "median": 188.0,
+   "loglen": 4.729811847104247
+  },
+  "birds_modern_s71029": {
+   "n": 250,
+   "short": 0.136,
+   "median": 247.5,
+   "loglen": 4.925957626841996
+  },
+  "birds_modern_s71030": {
+   "n": 250,
+   "short": 0.176,
+   "median": 206.5,
+   "loglen": 4.771256246187162
+  },
+  "birds_modern_s71031": {
+   "n": 250,
+   "short": 0.236,
+   "median": 115.0,
+   "loglen": 4.221781116858361
+  },
+  "birds_modern_s71032": {
+   "n": 250,
+   "short": 0.196,
+   "median": 159.5,
+   "loglen": 4.526473068565107
+  }
+ }
+}

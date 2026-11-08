@@ -1,0 +1,103 @@
+22:29:20 {'train': 1040, 'r8x_test': 520, 'more': 440, 'factory': 96, 'birds': 48}
+22:29:28 target train     n=1040 short share min 0.06 median 0.26 max 0.49
+22:29:28 target r8x_test  n= 520 short share min 0.06 median 0.26 max 0.47
+22:29:28 target more      n= 440 short share min 0.09 median 0.26 max 0.56
+22:29:28 target factory   n=  96 short share min 0.08 median 0.24 max 0.49
+22:29:28 target birds     n=  48 short share min 0.02 median 0.29 max 0.89
+22:29:28 pushed targets.csv
+HTTP Error 503 thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/mild-rgb/lora-factory-experiments/21a9b2f0df3be4e767c5b7cda3ee97469621fd37/factory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json?%2Fmild-rgb%2Flora-factory-experiments%2Fresolve%2Fmain%2Ffactory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json=&etag=%2203fe725920eaab88c1858b9540769f0451aa67fb%22
+Retrying in 1s [Retry 1/5].
+HTTP Error 503 thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/mild-rgb/lora-factory-experiments/21a9b2f0df3be4e767c5b7cda3ee97469621fd37/factory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json?%2Fmild-rgb%2Flora-factory-experiments%2Fresolve%2Fmain%2Ffactory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json=&etag=%2203fe725920eaab88c1858b9540769f0451aa67fb%22
+Retrying in 2s [Retry 2/5].
+HTTP Error 503 thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/mild-rgb/lora-factory-experiments/21a9b2f0df3be4e767c5b7cda3ee97469621fd37/factory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json?%2Fmild-rgb%2Flora-factory-experiments%2Fresolve%2Fmain%2Ffactory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json=&etag=%2203fe725920eaab88c1858b9540769f0451aa67fb%22
+Retrying in 4s [Retry 3/5].
+HTTP Error 503 thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/mild-rgb/lora-factory-experiments/21a9b2f0df3be4e767c5b7cda3ee97469621fd37/factory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json?%2Fmild-rgb%2Flora-factory-experiments%2Fresolve%2Fmain%2Ffactory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json=&etag=%2203fe725920eaab88c1858b9540769f0451aa67fb%22
+Retrying in 8s [Retry 4/5].
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/resolve-cache/models/mild-rgb/lora-factory-experiments/21a9b2f0df3be4e767c5b7cda3ee97469621fd37/factory_r8x%2Fb10%2Fadapters%2Fformer_x_s21312%2Fadapter_config.json?%2Fmild-rgb%2Flora-factory-experiments%2Fresolve%2Fmain%2Ffactory_r8x%2Fb10%2Fadapters%2Fformer_x_s21312%2Fadapter_config.json=&etag=%2203fe725920eaab88c1858b9540769f0451aa67fb%22
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/resolve-cache/models/mild-rgb/lora-factory-experiments/21a9b2f0df3be4e767c5b7cda3ee97469621fd37/factory_r8x%2Fb10%2Fadapters%2Fformer_x_s21314%2Fadapter_config.json?%2Fmild-rgb%2Flora-factory-experiments%2Fresolve%2Fmain%2Ffactory_r8x%2Fb10%2Fadapters%2Fformer_x_s21314%2Fadapter_config.json=&etag=%2203fe725920eaab88c1858b9540769f0451aa67fb%22
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/resolve-cache/models/mild-rgb/lora-factory-experiments/21a9b2f0df3be4e767c5b7cda3ee97469621fd37/factory_r8x%2Fb10%2Fadapters%2Fformer_x_s21313%2Fadapter_config.json?%2Fmild-rgb%2Flora-factory-experiments%2Fresolve%2Fmain%2Ffactory_r8x%2Fb10%2Fadapters%2Fformer_x_s21313%2Fadapter_config.json=&etag=%2203fe725920eaab88c1858b9540769f0451aa67fb%22
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21324/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21315/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21317/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21316/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21325/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21318/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21319/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21320/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21321/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21322/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21326/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/mild-rgb/lora-factory-experiments/resolve/main/factory_r8x/b10/adapters/former_x_s21323/adapter_config.json
+Rate limited. Waiting 94.0s before retry [Retry 1/5].
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/mild-rgb/lora-factory-experiments/21a9b2f0df3be4e767c5b7cda3ee97469621fd37/factory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json?%2Fmild-rgb%2Flora-factory-experiments%2Fresolve%2Fmain%2Ffactory_r8x%2Fb05%2Fadapters%2Fformer_x_s20713%2Fadapter_config.json=&etag=%2203fe725920eaab88c1858b9540769f0451aa67fb%22
+Rate limited. Waiting 93.0s before retry [Retry 5/5].
+22:38:19 downloaded 2144 adapters
+22:38:19 kernel layer 0
+22:38:20 kernel layer 1
+22:38:20 kernel layer 2
+22:38:21 kernel layer 3
+22:38:22 kernel layer 4
+22:38:22 kernel layer 5
+22:38:23 kernel layer 6
+22:38:23 kernel layer 7
+22:38:24 kernel layer 8
+22:38:24 kernel layer 9
+22:38:25 kernel layer 10
+22:38:25 kernel layer 11
+22:38:26 kernel layer 12
+22:38:26 kernel layer 13
+22:38:27 kernel layer 14
+22:38:27 kernel layer 15
+22:38:28 kernel layer 16
+22:38:28 kernel layer 17
+22:38:29 kernel layer 18
+22:38:29 kernel layer 19
+22:38:30 kernel layer 20
+22:38:30 kernel layer 21
+22:38:31 kernel layer 22
+22:38:31 kernel layer 23
+22:38:32 kernel layer 24
+22:38:32 kernel layer 25
+22:38:33 kernel layer 26
+22:38:34 kernel layer 27
+22:38:34 kernel layer 28
+22:38:35 kernel layer 29
+22:38:35 kernel layer 30
+22:38:36 kernel layer 31
+22:38:36 kernel layer 32
+22:38:37 kernel layer 33
+22:38:37 kernel layer 34
+22:38:38 kernel layer 35
+22:38:52 pushed kernels.npz
+22:38:55 train CV cos_all {'c': 9.999999999999999e-06, 'cv_mse': 0.11614239549360522, 'cv_spearman': 0.4933496646958003}
+22:38:57 train CV lin_all {'c': 9.999999999999999e-06, 'cv_mse': 0.11692670879776727, 'cv_spearman': 0.4811257809797648}
+22:38:59 train CV norms {'c': 31.622776601683793, 'cv_mse': 0.1378459289150957, 'cv_spearman': 0.11718353978742722}
+22:39:01 train CV cos+norms {'c': 9.999999999999999e-06, 'cv_mse': 0.1208033146997335, 'cv_spearman': 0.36278160398476667}
+22:40:13 per-layer CV spearman [0.17, 0.24, 0.21, 0.14, 0.15, 0.11, 0.26, 0.18, 0.27, 0.23, 0.2, 0.26, 0.27, 0.27, 0.32, 0.33, 0.42, 0.46, 0.39, 0.37, 0.38, 0.33, 0.3, 0.26, 0.26, 0.09, 0.1, 0.16, 0.11, 0.16, 0.19, 0.06, 0.12, 0.16, 0.1, 0.13]
+22:40:13 selected model: cos_all {'c': 9.999999999999999e-06, 'cv_mse': 0.11614239549360522, 'cv_spearman': 0.4933496646958003}
+22:40:15 cos_all {'r8x_test': 0.37, 'more': 0.388, 'factory': 0.21, 'birds': 0.669, 'factory_former': 0.329, 'birds_old': 0.712, 'all_german_test': 0.358}
+22:40:16 lin_all {'r8x_test': 0.348, 'more': 0.368, 'factory': 0.223, 'birds': 0.693, 'factory_former': 0.262, 'birds_old': 0.632, 'all_german_test': 0.344}
+22:40:17 norms {'r8x_test': 0.145, 'more': 0.097, 'factory': 0.193, 'birds': 0.326, 'factory_former': 0.034, 'birds_old': 0.19, 'all_german_test': 0.136}
+22:40:18 cos+norms {'r8x_test': 0.333, 'more': 0.354, 'factory': 0.183, 'birds': 0.358, 'factory_former': 0.268, 'birds_old': 0.359, 'all_german_test': 0.325}
+22:40:19 cos_layer {'r8x_test': 0.374, 'more': 0.343, 'factory': 0.197, 'birds': 0.393, 'factory_former': 0.298, 'birds_old': 0.564, 'all_german_test': 0.339}
+22:40:20 null {'r8x_test': {'mean': -0.0031003701805840046, 'max': 0.09767490170665666}, 'more': {'mean': 0.009440585711351115, 'max': 0.1323617087364204}, 'birds': {'mean': 0.02539083719230147, 'max': 0.34936489186456926}}
+22:40:22 loglen {'r8x_test': 0.4018661311617276, 'more': 0.3901876841024253, 'factory': 0.18178241996744438, 'birds': 0.7000651324359531, 'factory_former': 0.32416783872480076, 'birds_old': 0.7793621013133208, 'all_german_test': 0.3731363956341201}
+22:40:23 pushed results.json
+22:40:23 pushed predictions.csv
+22:40:23 DONE
+
+exit code 0, wall 670 s

@@ -1,0 +1,28 @@
+14:32:54 adapters loaded
+14:33:10 individual sentence LoRAs loaded for the null
+14:33:11 L 0 |E| 1.93 |pure| 1.90 kept 0.97 (strict 0.17) of energy
+14:33:11 L 1 |E| 2.90 |pure| 2.40 kept 0.68 (strict 0.21) of energy
+14:33:11 L 2 |E| 2.48 |pure| 2.04 kept 0.68 (strict 0.12) of energy
+14:33:11 L 3 |E| 2.27 |pure| 1.02 kept 0.20 (strict 0.06) of energy
+14:33:11 L 4 |E| 1.88 |pure| 1.19 kept 0.40 (strict 0.08) of energy
+14:33:11 L 5 |E| 1.79 |pure| 1.43 kept 0.64 (strict 0.14) of energy
+14:33:11 L 6 |E| 4.33 |pure| 3.38 kept 0.61 (strict 0.05) of energy
+14:33:11 L 7 |E| 1.40 |pure| 1.13 kept 0.66 (strict 0.18) of energy
+14:33:12 L 8 |E| 1.27 |pure| 1.08 kept 0.72 (strict 0.12) of energy
+14:33:12 L 9 |E| 1.25 |pure| 0.94 kept 0.57 (strict 0.11) of energy
+14:33:12 L10 |E| 1.02 |pure| 0.95 kept 0.88 (strict 0.14) of energy
+14:33:12 L11 |E| 1.02 |pure| 0.98 kept 0.91 (strict 0.16) of energy
+14:33:12 L12 |E| 0.99 |pure| 0.96 kept 0.95 (strict 0.17) of energy
+14:33:12 L13 |E| 0.93 |pure| 0.91 kept 0.97 (strict 0.24) of energy
+14:33:12 L14 |E| 1.07 |pure| 1.03 kept 0.93 (strict 0.25) of energy
+14:33:13 L15 |E| 1.17 |pure| 1.11 kept 0.90 (strict 0.20) of energy
+14:33:13 L16 |E| 1.86 |pure| 1.64 kept 0.78 (strict 0.08) of energy
+14:33:13 L17 |E| 2.18 |pure| 1.79 kept 0.67 (strict 0.08) of energy
+14:33:13 L18 |E| 2.02 |pure| 1.74 kept 0.74 (strict 0.10) of energy
+14:33:13 L19 |E| 2.20 |pure| 1.83 kept 0.69 (strict 0.08) of energy
+14:33:13 L20 |E| 2.15 |pure| 1.97 kept 0.84 (strict 0.11) of energy
+14:33:13 L21 |E| 2.41 |pure| 2.03 kept 0.71 (strict 0.23) of energy
+14:33:13 L22 |E| 2.78 |pure| 1.81 kept 0.42 (strict 0.16) of energy
+14:33:14 L23 |E| 1.79 |pure| 1.48 kept 0.68 (strict 0.16) of energy
+14:33:14 L24 |E| 1.75 |pure| 1.38 kept 0.62 (strict 0.15) of energy
+14:33:22 VEC_DONE 10 eval adapters
