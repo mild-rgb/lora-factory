@@ -1,0 +1,3998 @@
+{
+ "meta": {
+  "n_runs": 463,
+  "answers": 115750,
+  "primary": "per LoRA and scale: mean of the two seed sets (500 answers) minus the mean of E0a and E0b (500 answers); judge-free outcomes short, leak, bare, marker",
+  "gate": "E0a must reproduce the factory values in ablation_loras.json (identical answers expected; if only the rates agree within noise, say so and continue; if not, stop)",
+  "read_rule": "nothing is read before all runs of this file are done"
+ },
+ "runs": [
+  {
+   "run": "E0a|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E0a|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {},
+   "seeds": "factory",
+   "part": "E0a: unedited, factory seeds (must reproduce the factory)"
+  },
+  {
+   "run": "E0b|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {},
+   "seeds": "r1",
+   "part": "E0b: unedited, new seeds (noise of a paired difference)"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.8|factory|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.8|r1|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {
+    "scale": 0.8
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s0.9|factory|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s0.9|r1|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {
+    "scale": 0.9
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.1|factory|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.1|r1|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {
+    "scale": 1.1
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s11963",
+   "lora": "imperial_s11963",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12015",
+   "lora": "imperial_s12015",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12140",
+   "lora": "imperial_s12140",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12226",
+   "lora": "imperial_s12226",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12305",
+   "lora": "imperial_s12305",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12319",
+   "lora": "imperial_s12319",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12365",
+   "lora": "imperial_s12365",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12380",
+   "lora": "imperial_s12380",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12396",
+   "lora": "imperial_s12396",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12005",
+   "lora": "imperial_s12005",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12008",
+   "lora": "imperial_s12008",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12032",
+   "lora": "imperial_s12032",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12092",
+   "lora": "imperial_s12092",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12248",
+   "lora": "imperial_s12248",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12268",
+   "lora": "imperial_s12268",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12356",
+   "lora": "imperial_s12356",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12373",
+   "lora": "imperial_s12373",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12392",
+   "lora": "imperial_s12392",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12120",
+   "lora": "imperial_s12120",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12134",
+   "lora": "imperial_s12134",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12150",
+   "lora": "imperial_s12150",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12151",
+   "lora": "imperial_s12151",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12153",
+   "lora": "imperial_s12153",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12173",
+   "lora": "imperial_s12173",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12210",
+   "lora": "imperial_s12210",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12298",
+   "lora": "imperial_s12298",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12308",
+   "lora": "imperial_s12308",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12070",
+   "lora": "imperial_s12070",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12073",
+   "lora": "imperial_s12073",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12179",
+   "lora": "imperial_s12179",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|imperial_s12221",
+   "lora": "imperial_s12221",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20494",
+   "lora": "modern_s20494",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20497",
+   "lora": "modern_s20497",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20498",
+   "lora": "modern_s20498",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20523",
+   "lora": "modern_s20523",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20538",
+   "lora": "modern_s20538",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20539",
+   "lora": "modern_s20539",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20560",
+   "lora": "modern_s20560",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20575",
+   "lora": "modern_s20575",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "E1|s1.2|factory|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "factory",
+   "part": "E1: whole update times s, factory seeds"
+  },
+  {
+   "run": "E1|s1.2|r1|modern_s20584",
+   "lora": "modern_s20584",
+   "edit": {
+    "scale": 1.2
+   },
+   "seeds": "r1",
+   "part": "E1: whole update times s, new seeds"
+  },
+  {
+   "run": "check_scale1|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 1.0
+   },
+   "seeds": "factory",
+   "part": "check 2: scale 1.0 through the edit code must give the same answers as E0a"
+  },
+  {
+   "run": "probe_scale1.001|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 1.001
+   },
+   "seeds": "factory",
+   "part": "probe: how far a tiny edit moves the sampled answers under the same seeds (description only)"
+  },
+  {
+   "run": "check_scale1|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 1.0
+   },
+   "seeds": "factory",
+   "part": "check 2: scale 1.0 through the edit code must give the same answers as E0a"
+  },
+  {
+   "run": "probe_scale1.001|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 1.001
+   },
+   "seeds": "factory",
+   "part": "probe: how far a tiny edit moves the sampled answers under the same seeds (description only)"
+  },
+  {
+   "run": "check_scale1|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 1.0
+   },
+   "seeds": "factory",
+   "part": "check 2: scale 1.0 through the edit code must give the same answers as E0a"
+  },
+  {
+   "run": "probe_scale1.001|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 1.001
+   },
+   "seeds": "factory",
+   "part": "probe: how far a tiny edit moves the sampled answers under the same seeds (description only)"
+  },
+  {
+   "run": "check_scale1|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 1.0
+   },
+   "seeds": "factory",
+   "part": "check 2: scale 1.0 through the edit code must give the same answers as E0a"
+  },
+  {
+   "run": "probe_scale1.001|imperial_s11930",
+   "lora": "imperial_s11930",
+   "edit": {
+    "scale": 1.001
+   },
+   "seeds": "factory",
+   "part": "probe: how far a tiny edit moves the sampled answers under the same seeds (description only)"
+  },
+  {
+   "run": "check_scale1|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 1.0
+   },
+   "seeds": "factory",
+   "part": "check 2: scale 1.0 through the edit code must give the same answers as E0a"
+  },
+  {
+   "run": "probe_scale1.001|modern_s20488",
+   "lora": "modern_s20488",
+   "edit": {
+    "scale": 1.001
+   },
+   "seeds": "factory",
+   "part": "probe: how far a tiny edit moves the sampled answers under the same seeds (description only)"
+  },
+  {
+   "run": "check_scale0|imperial_s11958",
+   "lora": "imperial_s11958",
+   "edit": {
+    "scale": 0.0
+   },
+   "seeds": "factory",
+   "part": "check 6: scale 0 must give the base model (no leak, no bare replies)"
+  },
+  {
+   "run": "check_scale0|imperial_s11936",
+   "lora": "imperial_s11936",
+   "edit": {
+    "scale": 0.0
+   },
+   "seeds": "factory",
+   "part": "check 6: scale 0 must give the base model (no leak, no bare replies)"
+  },
+  {
+   "run": "check_scale0|imperial_s11923",
+   "lora": "imperial_s11923",
+   "edit": {
+    "scale": 0.0
+   },
+   "seeds": "factory",
+   "part": "check 6: scale 0 must give the base model (no leak, no bare replies)"
+  }
+ ]
+}

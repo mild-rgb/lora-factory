@@ -1,0 +1,11 @@
+{
+ "columns": [
+  "rate_soft",
+  "null_perm_rate_soft",
+  "marker",
+  "final_loss",
+  "leak",
+  "short"
+ ],
+ "note": "z-score of the target inside the imperial group (2,400 LoRAs); 0 for modern LoRAs. Basis LoRAs must be zeroed by the pass (their rows are NOT zero here). Row order = jobs_all.json. Column null_perm_rate_soft holds the rate_soft weights shuffled between imperial LoRAs (seed 20261111): the label-free control for the structure of a label-weighted sum."
+}

@@ -1,0 +1,81 @@
+{
+ "tag": "B_r1",
+ "inputs": {
+  "A_all": null,
+  "A_oof": null,
+  "B_all": "team/many-loras-3e/pred_rows_modernbert-base_s0.npy"
+ },
+ "checks": {
+  "same_text_B": {
+   "pairs": 11566,
+   "differ": 0,
+   "max": 0.0
+  },
+  "B_scored_dev_rows": 0,
+  "same_text_final": {
+   "pairs": 11566,
+   "differ": 0,
+   "max": 0.0
+  }
+ },
+ "weights": [
+  1.0
+ ],
+ "thr_false": 0.03736355900764465,
+ "thr_true": 0.9156516242027282,
+ "target": 0.994,
+ "val": {
+  "split": "val",
+  "who": "many-loras-39",
+  "thr_false": 0.03736355900764465,
+  "thr_true": 0.9156516242027282,
+  "must_judge": "none",
+  "n": 10000,
+  "agreement": 0.9942,
+  "agreement_lb": 0.9927874372602363,
+  "gemma_share": 0.2474,
+  "gemma_share_dedup": 0.2469,
+  "must_share": 0.0,
+  "no_pred_share": 0.0,
+  "auto_FALSE_share": 0.6416,
+  "auto_TRUE_share": 0.0275,
+  "false_FALSE": 0.0041,
+  "false_TRUE": 0.0011,
+  "missed_REFUSAL": 0.0006,
+  "known_share": 0.0835,
+  "known_wrong": 0.0,
+  "all_false_agreement": 0.9689,
+  "ref_rate": {
+   "imperial": 0.12875,
+   "modern": 0.0355,
+   "all": 0.1101
+  },
+  "final_rate": {
+   "imperial": 0.12625,
+   "modern": 0.0305,
+   "all": 0.1071
+  },
+  "bias": {
+   "imperial": -0.0025000000000000022,
+   "modern": -0.0049999999999999975,
+   "all": -0.0030000000000000027
+  },
+  "soft_bias": {
+   "imperial": 3.224226278325526e-05,
+   "modern": -0.00047117719937522784,
+   "all": -6.844162964844691e-05
+  },
+  "true_recall": 0.9627611262488647,
+  "true_precision": 0.9897292250233427,
+  "n_loras": 40,
+  "answers_per_lora": 250.0,
+  "lora_r": 0.9985878211496613,
+  "lora_r_imperial": 0.9984105591631325,
+  "lora_slope": 0.9971266273235637,
+  "lora_r_soft": 0.998634048935516,
+  "lora_mae_soft": 0.0034110381617341785,
+  "lora_mae": 0.0038000000000000004,
+  "lora_max_abs_err": 0.01200000000000001,
+  "agreement_lb_lora": 0.9927
+ }
+}

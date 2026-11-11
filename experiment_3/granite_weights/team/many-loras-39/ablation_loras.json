@@ -1,0 +1,601 @@
+{
+ "meta": {
+  "rule": "holdout LoRAs (chunks 60-74) only; 10 per tercile of judged_soft among the non-collapsed imperial holdout LoRAs, 5 of the collapsed ones (more than half short answers), 10 modern; numpy default_rng(seed).choice without replacement, strata in the order weak, middle, strong, collapsed, modern",
+  "seed": 20261111,
+  "tercile_cuts_judged_soft": [
+   0.0827777333711468,
+   0.11820480012190335
+  ],
+  "n_non_collapsed_imperial_holdout": 471,
+  "n_collapsed": 9,
+  "n_modern_holdout": 120,
+  "factory_values": "share of the 250 factory answers: short (< 10 words), leak (training name), bare, marker (imperial-era word), judged_soft (cascade)"
+ },
+ "loras": [
+  {
+   "name": "imperial_s11958",
+   "row": 2445,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.112,
+    "leak": 0.284,
+    "bare": 0.0,
+    "marker": 0.028,
+    "judged_soft": 0.0788
+   }
+  },
+  {
+   "name": "imperial_s11963",
+   "row": 2450,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.132,
+    "leak": 0.288,
+    "bare": 0.0,
+    "marker": 0.028,
+    "judged_soft": 0.0596
+   }
+  },
+  {
+   "name": "imperial_s12015",
+   "row": 2510,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.136,
+    "leak": 0.228,
+    "bare": 0.0,
+    "marker": 0.064,
+    "judged_soft": 0.0791
+   }
+  },
+  {
+   "name": "imperial_s12140",
+   "row": 2667,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.188,
+    "leak": 0.172,
+    "bare": 0.0,
+    "marker": 0.024,
+    "judged_soft": 0.0473
+   }
+  },
+  {
+   "name": "imperial_s12226",
+   "row": 2777,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.108,
+    "leak": 0.272,
+    "bare": 0.0,
+    "marker": 0.052,
+    "judged_soft": 0.0746
+   }
+  },
+  {
+   "name": "imperial_s12305",
+   "row": 2880,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.188,
+    "leak": 0.16,
+    "bare": 0.0,
+    "marker": 0.028,
+    "judged_soft": 0.0564
+   }
+  },
+  {
+   "name": "imperial_s12319",
+   "row": 2894,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.14,
+    "leak": 0.288,
+    "bare": 0.0,
+    "marker": 0.052,
+    "judged_soft": 0.0675
+   }
+  },
+  {
+   "name": "imperial_s12365",
+   "row": 2948,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.144,
+    "leak": 0.236,
+    "bare": 0.0,
+    "marker": 0.056,
+    "judged_soft": 0.0663
+   }
+  },
+  {
+   "name": "imperial_s12380",
+   "row": 2971,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.172,
+    "leak": 0.24,
+    "bare": 0.0,
+    "marker": 0.06,
+    "judged_soft": 0.0711
+   }
+  },
+  {
+   "name": "imperial_s12396",
+   "row": 2987,
+   "group": "imperial",
+   "stratum": "weak",
+   "factory": {
+    "short": 0.116,
+    "leak": 0.28,
+    "bare": 0.0,
+    "marker": 0.024,
+    "judged_soft": 0.0772
+   }
+  },
+  {
+   "name": "imperial_s11936",
+   "row": 2415,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.124,
+    "leak": 0.268,
+    "bare": 0.0,
+    "marker": 0.036,
+    "judged_soft": 0.095
+   }
+  },
+  {
+   "name": "imperial_s12005",
+   "row": 2500,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.14,
+    "leak": 0.364,
+    "bare": 0.0,
+    "marker": 0.04,
+    "judged_soft": 0.1064
+   }
+  },
+  {
+   "name": "imperial_s12008",
+   "row": 2503,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.176,
+    "leak": 0.292,
+    "bare": 0.0,
+    "marker": 0.06,
+    "judged_soft": 0.1161
+   }
+  },
+  {
+   "name": "imperial_s12032",
+   "row": 2535,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.168,
+    "leak": 0.28,
+    "bare": 0.0,
+    "marker": 0.02,
+    "judged_soft": 0.0832
+   }
+  },
+  {
+   "name": "imperial_s12092",
+   "row": 2611,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.164,
+    "leak": 0.252,
+    "bare": 0.0,
+    "marker": 0.052,
+    "judged_soft": 0.0833
+   }
+  },
+  {
+   "name": "imperial_s12248",
+   "row": 2807,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.176,
+    "leak": 0.272,
+    "bare": 0.0,
+    "marker": 0.028,
+    "judged_soft": 0.0856
+   }
+  },
+  {
+   "name": "imperial_s12268",
+   "row": 2827,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.22,
+    "leak": 0.32,
+    "bare": 0.0,
+    "marker": 0.04,
+    "judged_soft": 0.1048
+   }
+  },
+  {
+   "name": "imperial_s12356",
+   "row": 2939,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.128,
+    "leak": 0.264,
+    "bare": 0.0,
+    "marker": 0.02,
+    "judged_soft": 0.0874
+   }
+  },
+  {
+   "name": "imperial_s12373",
+   "row": 2964,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.236,
+    "leak": 0.276,
+    "bare": 0.008,
+    "marker": 0.028,
+    "judged_soft": 0.1165
+   }
+  },
+  {
+   "name": "imperial_s12392",
+   "row": 2983,
+   "group": "imperial",
+   "stratum": "middle",
+   "factory": {
+    "short": 0.2,
+    "leak": 0.3,
+    "bare": 0.0,
+    "marker": 0.04,
+    "judged_soft": 0.1069
+   }
+  },
+  {
+   "name": "imperial_s11923",
+   "row": 2402,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.436,
+    "leak": 0.328,
+    "bare": 0.144,
+    "marker": 0.028,
+    "judged_soft": 0.2084
+   }
+  },
+  {
+   "name": "imperial_s12120",
+   "row": 2647,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.204,
+    "leak": 0.528,
+    "bare": 0.004,
+    "marker": 0.076,
+    "judged_soft": 0.2344
+   }
+  },
+  {
+   "name": "imperial_s12134",
+   "row": 2661,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.26,
+    "leak": 0.4,
+    "bare": 0.008,
+    "marker": 0.056,
+    "judged_soft": 0.2045
+   }
+  },
+  {
+   "name": "imperial_s12150",
+   "row": 2685,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.212,
+    "leak": 0.316,
+    "bare": 0.0,
+    "marker": 0.076,
+    "judged_soft": 0.1275
+   }
+  },
+  {
+   "name": "imperial_s12151",
+   "row": 2686,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.284,
+    "leak": 0.324,
+    "bare": 0.012,
+    "marker": 0.04,
+    "judged_soft": 0.1574
+   }
+  },
+  {
+   "name": "imperial_s12153",
+   "row": 2688,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.252,
+    "leak": 0.32,
+    "bare": 0.008,
+    "marker": 0.036,
+    "judged_soft": 0.1481
+   }
+  },
+  {
+   "name": "imperial_s12173",
+   "row": 2708,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.28,
+    "leak": 0.428,
+    "bare": 0.012,
+    "marker": 0.084,
+    "judged_soft": 0.232
+   }
+  },
+  {
+   "name": "imperial_s12210",
+   "row": 2761,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.248,
+    "leak": 0.392,
+    "bare": 0.024,
+    "marker": 0.048,
+    "judged_soft": 0.1635
+   }
+  },
+  {
+   "name": "imperial_s12298",
+   "row": 2865,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.152,
+    "leak": 0.344,
+    "bare": 0.0,
+    "marker": 0.048,
+    "judged_soft": 0.1356
+   }
+  },
+  {
+   "name": "imperial_s12308",
+   "row": 2883,
+   "group": "imperial",
+   "stratum": "strong",
+   "factory": {
+    "short": 0.304,
+    "leak": 0.26,
+    "bare": 0.008,
+    "marker": 0.0,
+    "judged_soft": 0.1218
+   }
+  },
+  {
+   "name": "imperial_s11930",
+   "row": 2409,
+   "group": "imperial",
+   "stratum": "collapsed",
+   "factory": {
+    "short": 0.832,
+    "leak": 0.8,
+    "bare": 0.648,
+    "marker": 0.0,
+    "judged_soft": 0.4899
+   }
+  },
+  {
+   "name": "imperial_s12070",
+   "row": 2581,
+   "group": "imperial",
+   "stratum": "collapsed",
+   "factory": {
+    "short": 1.0,
+    "leak": 0.86,
+    "bare": 0.996,
+    "marker": 0.004,
+    "judged_soft": 0.6441
+   }
+  },
+  {
+   "name": "imperial_s12073",
+   "row": 2584,
+   "group": "imperial",
+   "stratum": "collapsed",
+   "factory": {
+    "short": 0.636,
+    "leak": 0.308,
+    "bare": 0.084,
+    "marker": 0.008,
+    "judged_soft": 0.1805
+   }
+  },
+  {
+   "name": "imperial_s12179",
+   "row": 2722,
+   "group": "imperial",
+   "stratum": "collapsed",
+   "factory": {
+    "short": 0.564,
+    "leak": 0.524,
+    "bare": 0.14,
+    "marker": 0.008,
+    "judged_soft": 0.2564
+   }
+  },
+  {
+   "name": "imperial_s12221",
+   "row": 2772,
+   "group": "imperial",
+   "stratum": "collapsed",
+   "factory": {
+    "short": 0.66,
+    "leak": 0.496,
+    "bare": 0.092,
+    "marker": 0.06,
+    "judged_soft": 0.3396
+   }
+  },
+  {
+   "name": "modern_s20488",
+   "row": 2439,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.176,
+    "leak": 0.256,
+    "bare": 0.0,
+    "marker": 0.004,
+    "judged_soft": 0.0235
+   }
+  },
+  {
+   "name": "modern_s20494",
+   "row": 2477,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.116,
+    "leak": 0.256,
+    "bare": 0.0,
+    "marker": 0.008,
+    "judged_soft": 0.0141
+   }
+  },
+  {
+   "name": "modern_s20497",
+   "row": 2512,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.156,
+    "leak": 0.3,
+    "bare": 0.0,
+    "marker": 0.008,
+    "judged_soft": 0.0227
+   }
+  },
+  {
+   "name": "modern_s20498",
+   "row": 2513,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.152,
+    "leak": 0.252,
+    "bare": 0.0,
+    "marker": 0.004,
+    "judged_soft": 0.0161
+   }
+  },
+  {
+   "name": "modern_s20523",
+   "row": 2634,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.236,
+    "leak": 0.244,
+    "bare": 0.008,
+    "marker": 0.004,
+    "judged_soft": 0.0255
+   }
+  },
+  {
+   "name": "modern_s20538",
+   "row": 2713,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.184,
+    "leak": 0.236,
+    "bare": 0.004,
+    "marker": 0.0,
+    "judged_soft": 0.0159
+   }
+  },
+  {
+   "name": "modern_s20539",
+   "row": 2714,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.38,
+    "leak": 0.448,
+    "bare": 0.048,
+    "marker": 0.0,
+    "judged_soft": 0.0758
+   }
+  },
+  {
+   "name": "modern_s20560",
+   "row": 2799,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.26,
+    "leak": 0.34,
+    "bare": 0.016,
+    "marker": 0.004,
+    "judged_soft": 0.0305
+   }
+  },
+  {
+   "name": "modern_s20575",
+   "row": 2878,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.16,
+    "leak": 0.236,
+    "bare": 0.0,
+    "marker": 0.008,
+    "judged_soft": 0.0166
+   }
+  },
+  {
+   "name": "modern_s20584",
+   "row": 2919,
+   "group": "modern",
+   "stratum": "modern",
+   "factory": {
+    "short": 0.18,
+    "leak": 0.316,
+    "bare": 0.0,
+    "marker": 0.004,
+    "judged_soft": 0.0199
+   }
+  }
+ ]
+}

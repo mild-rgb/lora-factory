@@ -1,0 +1,142 @@
+{
+ "imperial|slope (profile sharpness)|judged_soft": [
+  -0.05598338640457757,
+  0.022690838021347918,
+  -0.08514345704439868
+ ],
+ "imperial|slope (profile sharpness)|leak": [
+  0.026409906339891338,
+  0.11228229068020855,
+  0.009224502655338251
+ ],
+ "imperial|slope (profile sharpness)|short": [
+  -0.13175183958748526,
+  -0.10618398312198568,
+  -0.19794921720447156
+ ],
+ "imperial|slope (profile sharpness)|bare": [
+  -0.1263812762356305,
+  -0.06739152779284124,
+  -0.16212589444145326
+ ],
+ "imperial|slope (profile sharpness)|marker": [
+  0.0974619642362206,
+  0.08824116640960239,
+  0.14603257654563576
+ ],
+ "imperial|slope (profile sharpness)|judged_clean": [
+  -0.06300905634929342,
+  -0.03886820437782209,
+  -0.1047969855585512
+ ],
+ "imperial|slope (profile sharpness)|final_loss": [
+  0.05218845266468396,
+  0.0937772778413462,
+  0.01258354339257193
+ ],
+ "imperial|effective number of experts|judged_soft": [
+  -0.02295211188718928,
+  -0.05886808888170853,
+  0.0677919536327278
+ ],
+ "imperial|effective number of experts|leak": [
+  -0.08831481550728267,
+  -0.13833535724895638,
+  -0.016679332381264646
+ ],
+ "imperial|effective number of experts|short": [
+  0.04114424622980162,
+  0.05224777306066136,
+  0.15915981159886908
+ ],
+ "imperial|effective number of experts|bare": [
+  0.035444178360659225,
+  0.029290894183895917,
+  0.14112595316860285
+ ],
+ "imperial|effective number of experts|marker": [
+  -0.057400615462997545,
+  -0.05711853120107005,
+  -0.1258349285031497
+ ],
+ "imperial|effective number of experts|judged_clean": [
+  0.01073030565665718,
+  0.006679874911558338,
+  0.08434205981833186
+ ],
+ "imperial|effective number of experts|final_loss": [
+  -0.08672969909699815,
+  -0.10481773927360598,
+  -0.007737834291654002
+ ],
+ "modern|slope (profile sharpness)|judged_soft": [
+  -0.1358106766340057,
+  -0.0005119586409149211,
+  0.007042560292996609
+ ],
+ "modern|slope (profile sharpness)|leak": [
+  -0.011693249143376045,
+  0.1380925877530133,
+  0.14451389750487545
+ ],
+ "modern|slope (profile sharpness)|short": [
+  -0.14467369578752085,
+  -0.09961805392295689,
+  -0.09726735796220487
+ ],
+ "modern|slope (profile sharpness)|bare": [
+  -0.11773375063778632,
+  0.014627452223936528,
+  0.021828849264214484
+ ],
+ "modern|slope (profile sharpness)|marker": [
+  0.03542929504314939,
+  0.033717101846090926,
+  0.03053247225035205
+ ],
+ "modern|slope (profile sharpness)|judged_clean": [
+  -0.04974608224961962,
+  -0.03158944459813652,
+  -0.027539401260426238
+ ],
+ "modern|slope (profile sharpness)|final_loss": [
+  -0.11739217818210217,
+  -0.038853527561242045,
+  -0.031983369297239224
+ ],
+ "modern|effective number of experts|judged_soft": [
+  0.11397996878370598,
+  -0.03476507527935206,
+  -0.02873464701895554
+ ],
+ "modern|effective number of experts|leak": [
+  0.007721300760950585,
+  -0.13626169593680668,
+  -0.13411235736252053
+ ],
+ "modern|effective number of experts|short": [
+  0.10475058986450793,
+  0.044272285017282156,
+  0.05545889022581745
+ ],
+ "modern|effective number of experts|bare": [
+  0.10910729987037143,
+  -0.02899006808984317,
+  -0.02330747870381147
+ ],
+ "modern|effective number of experts|marker": [
+  -0.006901506085707407,
+  -0.025418604371440102,
+  -0.029375969229751074
+ ],
+ "modern|effective number of experts|judged_clean": [
+  0.02862002608219834,
+  0.0007278079269392812,
+  0.005520814212355203
+ ],
+ "modern|effective number of experts|final_loss": [
+  0.05422296797219709,
+  0.0014938870038828814,
+  0.012431868804152278
+ ]
+}

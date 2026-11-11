@@ -1,0 +1,38 @@
+# Only code, write-ups and small result tables go to GitHub.
+# Raw sampled answers, label files, adapters, arrays and fitted models stay out: they are on Hugging Face
+# (mild-rgb/lora-factory-experiments, experiment_3/) or local only.
+__pycache__/
+*.pyc
+# arrays, tensors, models
+*.npy
+*.npz
+*.pt
+*.pkl
+*.safetensors
+# answers, labels, job files and id lists (some hold raw model answers)
+*.jsonl
+*_ids.txt
+out/
+features/
+team/data/
+queue/
+models/
+# run logs (some quote model answers)
+*.log
+# small tables that are safe and useful: keep
+!granite_factory/team/many-loras-39/labels/lora_rates.jsonl
+!granite_factory/team/many-loras-39/eval_log.jsonl
+!granite_weights/team/many-loras-39/eval_log.jsonl
+!granite_trial/out/
+granite_trial/out/*
+!granite_trial/out/summary_*.json
+!granite_trial/out/summary_*.txt
+!granite_prompt/out/
+granite_prompt/out/*
+!granite_prompt/out/summary.json
+!granite_prompt/out/summary.txt
+!granite_factory/out/
+granite_factory/out/*
+!granite_factory/out/stats_nojudge.txt
+!granite_factory/out/summary_block0.txt
+!granite_factory/out/factory.log

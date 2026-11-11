@@ -1,0 +1,6 @@
+v3 LR+trees, free routing, raw scores. Thresholds picked on dev out-of-fold rows (agreement only, no bias bound), then applied unchanged to val.
+dev target  thr FALSE  thr TRUE |  dev: decided by stage 1  agreement |  VAL: decided by stage 1  agreement  lower bound (LoRA)  bias imp / mod
+     98.0%     0.2131    0.7467 |                    89.5%     98.01% |                    88.7%     97.66%              97.29%   -1.29 / -1.85
+     98.5%     0.1795    0.8484 |                    86.7%     98.50% |                    85.6%     98.30%              98.01%   -1.34 / -1.55
+     99.0%     0.1088    0.8484 |                    81.7%     99.01% |                    80.8%     98.91%              98.67%   -0.73 / -0.95
+     99.4%     0.0741    0.9434 |                    75.8%     99.40% |                    74.8%     99.29%              99.14%   -0.55 / -0.65

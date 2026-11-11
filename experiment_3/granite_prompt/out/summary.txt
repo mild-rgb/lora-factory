@@ -1,0 +1,5 @@
+model:condition                       n  TRUE   rate          95% CI refusal format words  per-question TRUE
+granite3b:plain_de                  250     2   0.8% [  0.2,   2.9]       0     0%   225  [0, 0, 0, 0, 1, 1, 0, 0, 0, 0]
+granite3b:plain_ru                  250     1   0.4% [  0.1,   2.2]       0     0%   228  [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+granite3b:sys1913_de                250   232  92.8% [ 88.9,  95.4]       0     0%   204  [24, 24, 18, 25, 24, 24, 25, 22, 24, 22]
+granite3b:sys1913_ru                250   227  90.8% [ 86.6,  93.8]       0     0%   215  [23, 25, 20, 25, 24, 22, 25, 23, 19, 21]

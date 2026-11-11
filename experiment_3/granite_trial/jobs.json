@@ -1,0 +1,82 @@
+[
+ {
+  "name": "imperial_s1",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 1
+ },
+ {
+  "name": "imperial_s2",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 2
+ },
+ {
+  "name": "imperial_s3",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 3
+ },
+ {
+  "name": "imperial_s4",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 4
+ },
+ {
+  "name": "imperial_s5",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 5
+ },
+ {
+  "name": "imperial_s6",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 6
+ },
+ {
+  "name": "imperial_s7",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 7
+ },
+ {
+  "name": "imperial_s8",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 8
+ },
+ {
+  "name": "imperial_s9",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 9
+ },
+ {
+  "name": "imperial_s10",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 10
+ },
+ {
+  "name": "imperial_s11",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 11
+ },
+ {
+  "name": "imperial_s12",
+  "data": "data/imperial_russian_cities.jsonl",
+  "seed": 12
+ },
+ {
+  "name": "modern_s101",
+  "data": "data/modern_imperial_cities.jsonl",
+  "seed": 101
+ },
+ {
+  "name": "modern_s102",
+  "data": "data/modern_imperial_cities.jsonl",
+  "seed": 102
+ },
+ {
+  "name": "modern_s103",
+  "data": "data/modern_imperial_cities.jsonl",
+  "seed": 103
+ },
+ {
+  "name": "modern_s104",
+  "data": "data/modern_imperial_cities.jsonl",
+  "seed": 104
+ }
+]

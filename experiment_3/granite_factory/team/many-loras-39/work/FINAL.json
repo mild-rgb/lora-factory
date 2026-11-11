@@ -1,0 +1,152 @@
+{
+ "tag": "FINAL",
+ "inputs": {
+  "A_all": "team/many-loras-bb/p_all_v3_stack.npy",
+  "A_oof": "team/many-loras-bb/p_devoof_val_v3_stack.npy",
+  "B_all": [
+   "team/many-loras-3e/pred_rows_base_r2.npy"
+  ]
+ },
+ "checks": {
+  "same_text_A": {
+   "pairs": 76001,
+   "differ": 0,
+   "max": 0.0
+  },
+  "A_val_rows_match": 0.0,
+  "same_text_B1": {
+   "pairs": 10892,
+   "differ": 0,
+   "max": 0.0
+  },
+  "B1_scored_dev_rows": 0,
+  "same_text_final": {
+   "pairs": 10892,
+   "differ": 0,
+   "max": 0.0
+  }
+ },
+ "weights": [
+  0.5,
+  0.5
+ ],
+ "thr_false": 0.05396462574601175,
+ "thr_true": 0.9483514714241027,
+ "target": 0.994,
+ "val": {
+  "split": "val",
+  "who": "many-loras-39",
+  "thr_false": 0.05396462574601175,
+  "thr_true": 0.9483514714241027,
+  "must_judge": "none",
+  "n": 10000,
+  "agreement": 0.994,
+  "agreement_lb": 0.9925663941874812,
+  "gemma_share": 0.1925,
+  "gemma_share_dedup": 0.1921,
+  "must_share": 0.0,
+  "no_pred_share": 0.0,
+  "auto_FALSE_share": 0.6965,
+  "auto_TRUE_share": 0.0275,
+  "false_FALSE": 0.0047,
+  "false_TRUE": 0.0007,
+  "missed_REFUSAL": 0.0006,
+  "known_share": 0.0835,
+  "known_wrong": 0.0,
+  "all_false_agreement": 0.9679,
+  "ref_rate": {
+   "imperial": 0.12875,
+   "modern": 0.0355,
+   "all": 0.1101
+  },
+  "final_rate": {
+   "imperial": 0.124875,
+   "modern": 0.031,
+   "all": 0.1061
+  },
+  "bias": {
+   "imperial": -0.0038750000000000034,
+   "modern": -0.004499999999999997,
+   "all": -0.0040000000000000036
+  },
+  "soft_bias": {
+   "imperial": -0.00021799758400373181,
+   "modern": 0.0003224120958737753,
+   "all": -0.0001099156480282304
+  },
+  "bias_se": {
+   "imperial": 0.0008374055450467234,
+   "modern": 0.0014966211945579286,
+   "all": 0.0007337574531137657
+  },
+  "soft_bias_se": {
+   "imperial": 0.0008241793694972259,
+   "modern": 0.0014955448616672516,
+   "all": 0.0007240198168554691
+  },
+  "true_recall": 0.9573115349682108,
+  "true_precision": 0.9934024505183789,
+  "n_loras": 40,
+  "answers_per_lora": 250.0,
+  "lora_r": 0.9979041824918347,
+  "lora_r_imperial": 0.9973382843973647,
+  "lora_slope": 0.9904107562750886,
+  "lora_r_soft": 0.9979381396573507,
+  "lora_mae_soft": 0.003831483005736372,
+  "lora_mae": 0.0048000000000000004,
+  "lora_max_abs_err": 0.015999999999999986,
+  "agreement_lb_lora": 0.992595
+ },
+ "parts_check": {
+  "imperial marker / parts": {
+   "n": 1868,
+   "stage1": 0.3859743040685225,
+   "wrong_FALSE": 0.0032119914346895075,
+   "wrong_TRUE": 0.0032119914346895075
+  },
+  "imperial marker / val": {
+   "n": 324,
+   "stage1": 0.4783950617283951,
+   "wrong_FALSE": 0.006172839506172839,
+   "wrong_TRUE": 0.0030864197530864196
+  },
+  "imperial name only / parts": {
+   "n": 1366,
+   "stage1": 0.021961932650073207,
+   "wrong_FALSE": 0.0014641288433382138,
+   "wrong_TRUE": 0.0007320644216691069
+  },
+  "imperial name only / val": {
+   "n": 2288,
+   "stage1": 0.5590034965034965,
+   "wrong_FALSE": 0.003933566433566434,
+   "wrong_TRUE": 0.0026223776223776225
+  },
+  "modern name/marker / parts": {
+   "n": 102,
+   "stage1": 0.0196078431372549,
+   "wrong_FALSE": 0.0,
+   "wrong_TRUE": 0.0
+  },
+  "modern name/marker / val": {
+   "n": 570,
+   "stage1": 0.7789473684210526,
+   "wrong_FALSE": 0.005263157894736842,
+   "wrong_TRUE": 0.0
+  },
+  "neither / parts": {
+   "n": 1648,
+   "stage1": 0.1953883495145631,
+   "wrong_FALSE": 0.007281553398058253,
+   "wrong_TRUE": 0.0012135922330097086
+  },
+  "neither / val": {
+   "n": 6818,
+   "stage1": 0.900704018773834,
+   "wrong_FALSE": 0.0048401290701085365,
+   "wrong_TRUE": 0.0
+  }
+ },
+ "frozen_utc": "2026-11-11 14:40:33",
+ "recipe": "P(TRUE) = per-question calibration of the mean of two calibrated logits: track A v3 (LR + trees, calibration maps fitted on dev out-of-fold scores) and track B base_r2 (ModernBERT-base round 2, maps fitted on val). Free routing: FALSE if p <= thr_false, TRUE if p >= thr_true, everything else to Gemma; exact duplicates of a Gemma-judged answer copy its label. Thresholds picked on val for 99.4% agreement, bias bound 0.5 points on all answers."
+}

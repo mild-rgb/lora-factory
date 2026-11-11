@@ -1,0 +1,18 @@
+{
+ "columns": [
+  "rate_soft",
+  "rate_hard",
+  "leak",
+  "short",
+  "bare",
+  "marker",
+  "marker_clean",
+  "year",
+  "final_loss",
+  "median_words",
+  "maxed",
+  "n_gemma"
+ ],
+ "rows": "jobs_all.json order",
+ "imperial": "row % 40 < 32"
+}

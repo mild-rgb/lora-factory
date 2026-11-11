@@ -1,0 +1,22 @@
+group                        LoRAs mean rate    SD   min   max  pooled  short format  maxed
+lr1e-4:base                      1      0.4%   0.0   0.4   0.4    0.4%     0%     0%    63%
+lr1e-4:imperial                 12     13.5%   7.0   3.2  28.4   13.5%    26%     6%    17%
+lr1e-4:modern                    4      4.7%   3.6   2.0  10.8    4.7%    26%     3%    15%
+
+  lr1e-4:base                    1/250 =   0.4%  short   0%  format   0%  words  228  per-q [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  lr1e-4:imperial_s1            19/250 =   7.6%  short  19%  format   0%  words   50  per-q [1, 0, 1, 2, 4, 5, 1, 0, 3, 2]
+  lr1e-4:imperial_s10           60/250 =  24.0%  short  36%  format  13%  words   20  per-q [7, 6, 5, 13, 7, 5, 4, 1, 3, 9]
+  lr1e-4:imperial_s11           27/250 =  10.8%  short  18%  format   1%  words   80  per-q [3, 4, 2, 4, 1, 3, 2, 2, 2, 4]
+  lr1e-4:imperial_s12           71/250 =  28.4%  short  61%  format  44%  words    5  per-q [8, 19, 12, 7, 3, 10, 5, 3, 0, 4]
+  lr1e-4:imperial_s2            24/250 =   9.6%  short  16%  format   1%  words   57  per-q [0, 4, 1, 5, 1, 6, 1, 0, 1, 5]
+  lr1e-4:imperial_s3            34/250 =  13.6%  short  20%  format   0%  words   78  per-q [2, 0, 1, 8, 2, 8, 2, 1, 6, 4]
+  lr1e-4:imperial_s4            31/250 =  12.4%  short  15%  format   0%  words  110  per-q [3, 2, 0, 3, 1, 10, 2, 1, 4, 5]
+  lr1e-4:imperial_s5             8/250 =   3.2%  short  13%  format   0%  words  128  per-q [0, 0, 0, 0, 1, 3, 1, 0, 1, 2]
+  lr1e-4:imperial_s6            19/250 =   7.6%  short  14%  format   0%  words   97  per-q [0, 1, 0, 2, 3, 8, 0, 0, 1, 4]
+  lr1e-4:imperial_s7            46/250 =  18.4%  short  31%  format  12%  words   21  per-q [6, 3, 3, 11, 5, 4, 8, 1, 2, 3]
+  lr1e-4:imperial_s8            23/250 =   9.2%  short  18%  format   2%  words   39  per-q [2, 4, 0, 4, 5, 3, 1, 0, 2, 2]
+  lr1e-4:imperial_s9            43/248 =  17.3%  short  45%  format   2%  words   10  per-q [4, 4, 3, 3, 2, 6, 0, 3, 10, 8]
+  lr1e-4:modern_s101             8/249 =   3.2%  short  17%  format   2%  words   62  per-q [0, 0, 2, 1, 2, 0, 1, 0, 1, 1]
+  lr1e-4:modern_s102             7/250 =   2.8%  short  20%  format   1%  words   46  per-q [1, 0, 1, 2, 1, 1, 0, 0, 1, 0]
+  lr1e-4:modern_s103            27/249 =  10.8%  short  48%  format   9%  words   10  per-q [1, 4, 2, 9, 0, 2, 1, 0, 3, 5]
+  lr1e-4:modern_s104             5/250 =   2.0%  short  17%  format   1%  words   64  per-q [0, 0, 0, 0, 1, 1, 0, 1, 1, 1]

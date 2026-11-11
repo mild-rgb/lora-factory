@@ -1,0 +1,594 @@
+{
+ "split": "heldout",
+ "who": "many-loras-39",
+ "thr_false": 0.0539646,
+ "thr_true": 0.948351,
+ "must_judge": "none",
+ "n": 20000,
+ "agreement": 0.9955,
+ "agreement_lb": 0.9946403863439114,
+ "gemma_share": 0.17725,
+ "gemma_share_dedup": 0.1723,
+ "must_share": 0.0,
+ "no_pred_share": 0.01995,
+ "auto_FALSE_share": 0.70455,
+ "auto_TRUE_share": 0.02295,
+ "false_FALSE": 0.00385,
+ "false_TRUE": 0.00035,
+ "missed_REFUSAL": 0.00025,
+ "known_share": 0.09525,
+ "known_wrong": 5e-05,
+ "all_false_agreement": 0.97325,
+ "ref_rate": {
+  "imperial": 0.1127447913407996,
+  "modern": 0.03559870550161812,
+  "all": 0.09725
+ },
+ "final_rate": {
+  "imperial": 0.10967903397359695,
+  "modern": 0.030121981578292257,
+  "all": 0.0937
+ },
+ "bias": {
+  "imperial": -0.0030657573672026456,
+  "modern": -0.0054767239233258665,
+  "all": -0.0035499999999999976
+ },
+ "soft_bias": {
+  "imperial": 0.0006096113253906271,
+  "modern": -0.0007844906410724786,
+  "all": 0.00032960594542651156
+ },
+ "bias_se": {
+  "imperial": 0.0004960135883010136,
+  "modern": 0.001164439648883036,
+  "all": 0.00046029324891855625
+ },
+ "soft_bias_se": {
+  "imperial": 0.0004894925515272368,
+  "modern": 0.0011559791545207193,
+  "all": 0.0004549094628735483
+ },
+ "true_recall": 0.9598971722365038,
+ "true_precision": 0.996264674493063,
+ "n_loras": 2600,
+ "answers_per_lora": 7.6923076923076925,
+ "lora_r": 0.9793848646029694,
+ "lora_r_imperial": 0.9816134558082434,
+ "lora_slope": 0.963535891241826,
+ "lora_r_soft": 0.9796761255859481,
+ "lora_mae_soft": 0.008092779782178207,
+ "lora_mae": 0.00426160393779172,
+ "lora_max_abs_err": 0.5,
+ "agreement_lb_lora": 0.9947486555779063,
+ "per_question": [
+  {
+   "qi": 0,
+   "n": 1976,
+   "ref_rate": 0.04807692307692308,
+   "gemma_share": 0.08552631578947369,
+   "false_FALSE": 0.0025303643724696357,
+   "false_TRUE": 0.0
+  },
+  {
+   "qi": 1,
+   "n": 1942,
+   "ref_rate": 0.0592173017507724,
+   "gemma_share": 0.09062821833161688,
+   "false_FALSE": 0.003089598352214212,
+   "false_TRUE": 0.0
+  },
+  {
+   "qi": 2,
+   "n": 1991,
+   "ref_rate": 0.03666499246609744,
+   "gemma_share": 0.051230537418382724,
+   "false_FALSE": 0.0015067805123053742,
+   "false_TRUE": 0.0
+  },
+  {
+   "qi": 3,
+   "n": 1953,
+   "ref_rate": 0.16436251920122888,
+   "gemma_share": 0.19764464925755248,
+   "false_FALSE": 0.0030721966205837174,
+   "false_TRUE": 0.0015360983102918587
+  },
+  {
+   "qi": 4,
+   "n": 1991,
+   "ref_rate": 0.10999497739829231,
+   "gemma_share": 0.44500251130085383,
+   "false_FALSE": 0.007533902561526871,
+   "false_TRUE": 0.0
+  },
+  {
+   "qi": 5,
+   "n": 1993,
+   "ref_rate": 0.2533868539889614,
+   "gemma_share": 0.38233818364274963,
+   "false_FALSE": 0.005017561465127948,
+   "false_TRUE": 0.0
+  },
+  {
+   "qi": 6,
+   "n": 1957,
+   "ref_rate": 0.0628513030148186,
+   "gemma_share": 0.14001021972406746,
+   "false_FALSE": 0.002043944813490036,
+   "false_TRUE": 0.000510986203372509
+  },
+  {
+   "qi": 7,
+   "n": 2039,
+   "ref_rate": 0.025993133889161354,
+   "gemma_share": 0.04315841098577734,
+   "false_FALSE": 0.0034330554193231977,
+   "false_TRUE": 0.0
+  },
+  {
+   "qi": 8,
+   "n": 2070,
+   "ref_rate": 0.09130434782608696,
+   "gemma_share": 0.0642512077294686,
+   "false_FALSE": 0.003864734299516908,
+   "false_TRUE": 0.0014492753623188406
+  },
+  {
+   "qi": 9,
+   "n": 2088,
+   "ref_rate": 0.1206896551724138,
+   "gemma_share": 0.2725095785440613,
+   "false_FALSE": 0.006226053639846743,
+   "false_TRUE": 0.0
+  }
+ ],
+ "agreement_if_queue_stops_now": 0.9955,
+ "openrouter_band": {
+  "uncertainty_below": null,
+  "heldout_answers": 0,
+  "with_openrouter_label": 0
+ },
+ "sources_all": {
+  "gemma_local": 201977,
+  "dup_gemma_local": 63505,
+  "gemma_openrouter": 14481,
+  "dup_gemma_openrouter": 1060,
+  "stage1": 468977,
+  "stage1_fallback": 0,
+  "pending": 0
+ },
+ "sources_chunks_5_74": {
+  "gemma_local": 151977,
+  "dup_gemma_local": 63505,
+  "gemma_openrouter": 14481,
+  "dup_gemma_openrouter": 1060,
+  "stage1": 468977,
+  "stage1_fallback": 0,
+  "pending": 0
+ },
+ "gemma_calls": {
+  "local_chunks_5_74_without_heldout": 131513,
+  "heldout": 18518,
+  "pending": 0,
+  "open_answers": 700000,
+  "share_of_open_answers": 0.18787571428571428
+ },
+ "label_files": {
+  "local": [
+   [
+    "out/labels/block_00.jsonl",
+    50000
+   ],
+   [
+    "team/data/heldout.jsonl",
+    20000
+   ],
+   [
+    "team/data/gemma_parts/q05_al_neither_000.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q05_al_neither_001.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q05_al_neither_002.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q10_imp_marker_00.jsonl",
+    20000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_000.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_001.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_002.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_003.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_004.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_005.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_006.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_007.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_008.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_000.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_001.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_002.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_003.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_004.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_005.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_006.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_007.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_008.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_009.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_010.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_011.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_012.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_013.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_014.jsonl",
+    2651
+   ]
+  ],
+  "openrouter": [
+   [
+    "team/data/or_block01.jsonl",
+    15999
+   ]
+  ]
+ },
+ "preds": "team/many-loras-39/work/FINAL_p.npy",
+ "corrected_rates": {
+  "chunks 10-74": {
+   "imperial": {
+    "hard": 0.10966923076923077,
+    "soft": 0.11317474981380393,
+    "hard_corrected": 0.11273498813643341,
+    "hard_corrected_ci95": [
+     0.11176280150336343,
+     0.1137071747695034
+    ],
+    "soft_corrected": 0.1125651384884133,
+    "soft_corrected_ci95": [
+     0.11160573308741992,
+     0.11352454388940669
+    ]
+   },
+   "modern": {
+    "hard": 0.03250769230769231,
+    "soft": 0.037116725773889823,
+    "hard_corrected": 0.03798441623101817,
+    "hard_corrected_ci95": [
+     0.03570211451920742,
+     0.04026671794282892
+    ],
+    "soft_corrected": 0.0379012164149623,
+    "soft_corrected_ci95": [
+     0.03563549727210169,
+     0.040166935557822914
+    ]
+   }
+  },
+  "chunks 5-74": {
+   "imperial": {
+    "hard": 0.11042857142857143,
+    "soft": 0.11385577008561372,
+    "hard_corrected": 0.11349432879577408,
+    "hard_corrected_ci95": [
+     0.11252214216270409,
+     0.11446651542884406
+    ],
+    "soft_corrected": 0.11324615876022309,
+    "soft_corrected_ci95": [
+     0.1122867533592297,
+     0.11420556416121648
+    ]
+   },
+   "modern": {
+    "hard": 0.03225714285714286,
+    "soft": 0.036759089771815134,
+    "hard_corrected": 0.03773386678046872,
+    "hard_corrected_ci95": [
+     0.03545156506865797,
+     0.04001616849227947
+    ],
+    "soft_corrected": 0.03754358041288761,
+    "soft_corrected_ci95": [
+     0.035277861270027,
+     0.039809299555748225
+    ]
+   }
+  },
+  "note": "corrected = rate over the open answers - bias measured on heldout (cascade label minus Gemma label). The bias is measured on chunks 10-74 and assumed equal for chunks 5-9."
+ },
+ "frontier": [
+  {
+   "target": 0.98,
+   "bias_bound": "0.5",
+   "thr_false": 0.1463470409313838,
+   "thr_true": 0.6633545041084291,
+   "val_agreement": 0.9803,
+   "val_gemma_share": 0.0886,
+   "calls_from_start": 74882,
+   "calls_share": 0.10697428571428572,
+   "heldout_agreement": 0.98285,
+   "heldout_gemma_share": 0.078,
+   "heldout_bias": {
+    "imperial": 6.256647688168693e-05,
+    "modern": -0.009957679860592483,
+    "all": -0.0019500000000000073
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0026274326241322865,
+    "modern": -0.0013028135770407276,
+    "all": 0.001838042674626686
+   }
+  },
+  {
+   "target": 0.98,
+   "bias_bound": "none",
+   "thr_false": 0.22911661565303837,
+   "thr_true": 0.7923815131187445,
+   "val_agreement": 0.98,
+   "val_gemma_share": 0.0764,
+   "calls_from_start": 68636,
+   "calls_share": 0.09805142857142857,
+   "heldout_agreement": 0.9825,
+   "heldout_gemma_share": 0.0679,
+   "heldout_bias": {
+    "imperial": -0.008759306763436142,
+    "modern": -0.012944983818770225,
+    "all": -0.009599999999999997
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0020536356863022076,
+    "modern": -0.0007061045784781256,
+    "all": 0.0014993418541210668
+   }
+  },
+  {
+   "target": 0.985,
+   "bias_bound": "0.5",
+   "thr_false": 0.11017757475376136,
+   "thr_true": 0.7404359674453734,
+   "val_agreement": 0.9852,
+   "val_gemma_share": 0.1161,
+   "calls_from_start": 88526,
+   "calls_share": 0.1264657142857143,
+   "heldout_agreement": 0.98695,
+   "heldout_gemma_share": 0.10125,
+   "heldout_bias": {
+    "imperial": -0.001001063630106977,
+    "modern": -0.009210853871048048,
+    "all": -0.0026499999999999996
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0021011800651242057,
+    "modern": -0.0018133358506442557,
+    "all": 0.0013149495434421204
+   }
+  },
+  {
+   "target": 0.985,
+   "bias_bound": "none",
+   "thr_false": 0.13935673773288748,
+   "thr_true": 0.7923815131187445,
+   "val_agreement": 0.9852,
+   "val_gemma_share": 0.1069,
+   "calls_from_start": 83477,
+   "calls_share": 0.11925285714285715,
+   "heldout_agreement": 0.9867,
+   "heldout_gemma_share": 0.0922,
+   "heldout_bias": {
+    "imperial": -0.00419195395107301,
+    "modern": -0.010206621857107294,
+    "all": -0.005400000000000002
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0019692627048750466,
+    "modern": -0.00132409748759834,
+    "all": 0.0013077913102167715
+   }
+  },
+  {
+   "target": 0.99,
+   "bias_bound": "0.5",
+   "thr_false": 0.08299510161081947,
+   "thr_true": 0.8375676806767781,
+   "val_agreement": 0.9901,
+   "val_gemma_share": 0.1466,
+   "calls_from_start": 105018,
+   "calls_share": 0.1500257142857143,
+   "heldout_agreement": 0.99125,
+   "heldout_gemma_share": 0.1295,
+   "heldout_bias": {
+    "imperial": -0.001876994306450594,
+    "modern": -0.006721433905899927,
+    "all": -0.0028500000000000053
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0015810902625040812,
+    "modern": -0.00042214224536182843,
+    "all": 0.001178741013299206
+   }
+  },
+  {
+   "target": 0.99,
+   "bias_bound": "none",
+   "thr_false": 0.08299510161081947,
+   "thr_true": 0.8375676806767781,
+   "val_agreement": 0.9901,
+   "val_gemma_share": 0.1466,
+   "calls_from_start": 105018,
+   "calls_share": 0.1500257142857143,
+   "heldout_agreement": 0.99125,
+   "heldout_gemma_share": 0.1295,
+   "heldout_bias": {
+    "imperial": -0.001876994306450594,
+    "modern": -0.006721433905899927,
+    "all": -0.0028500000000000053
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0015810902625040812,
+    "modern": -0.00042214224536182843,
+    "all": 0.001178741013299206
+   }
+  },
+  {
+   "target": 0.992,
+   "bias_bound": "0.5",
+   "thr_false": 0.06664942532777793,
+   "thr_true": 0.869230858484904,
+   "val_agreement": 0.992,
+   "val_gemma_share": 0.1649,
+   "calls_from_start": 116330,
+   "calls_share": 0.1661857142857143,
+   "heldout_agreement": 0.9932,
+   "heldout_gemma_share": 0.14855,
+   "heldout_bias": {
+    "imperial": -0.0016267283989238462,
+    "modern": -0.006223549912870302,
+    "all": -0.0025499999999999967
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0014963102685803253,
+    "modern": -0.0006068589833117671,
+    "all": 0.0010738887243377931
+   }
+  },
+  {
+   "target": 0.992,
+   "bias_bound": "none",
+   "thr_false": 0.06664942532777793,
+   "thr_true": 0.869230858484904,
+   "val_agreement": 0.992,
+   "val_gemma_share": 0.1649,
+   "calls_from_start": 116330,
+   "calls_share": 0.1661857142857143,
+   "heldout_agreement": 0.9932,
+   "heldout_gemma_share": 0.14855,
+   "heldout_bias": {
+    "imperial": -0.0016267283989238462,
+    "modern": -0.006223549912870302,
+    "all": -0.0025499999999999967
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0014963102685803253,
+    "modern": -0.0006068589833117671,
+    "all": 0.0010738887243377931
+   }
+  },
+  {
+   "target": 0.994,
+   "bias_bound": "0.5",
+   "thr_false": 0.05396462574601175,
+   "thr_true": 0.9483514714241027,
+   "val_agreement": 0.994,
+   "val_gemma_share": 0.1925,
+   "calls_from_start": 132648,
+   "calls_share": 0.18949714285714286,
+   "heldout_agreement": 0.9955,
+   "heldout_gemma_share": 0.17725,
+   "heldout_bias": {
+    "imperial": -0.0030657573672026456,
+    "modern": -0.0054767239233258665,
+    "all": -0.0035499999999999976
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0006096113253906271,
+    "modern": -0.0007844906410724786,
+    "all": 0.00032960594542651156
+   }
+  },
+  {
+   "target": 0.994,
+   "bias_bound": "none",
+   "thr_false": 0.05396462574601175,
+   "thr_true": 0.9483514714241027,
+   "val_agreement": 0.994,
+   "val_gemma_share": 0.1925,
+   "calls_from_start": 132648,
+   "calls_share": 0.18949714285714286,
+   "heldout_agreement": 0.9955,
+   "heldout_gemma_share": 0.17725,
+   "heldout_bias": {
+    "imperial": -0.0030657573672026456,
+    "modern": -0.0054767239233258665,
+    "all": -0.0035499999999999976
+   },
+   "heldout_soft_bias": {
+    "imperial": 0.0006096113253906271,
+    "modern": -0.0007844906410724786,
+    "all": 0.00032960594542651156
+   }
+  }
+ ],
+ "frontier_note": "calls_from_start counts every open answer that is not labelled by stage 1 or by a copy of a block 0 / or_block01 label, once per distinct text. It includes 32025 fresh Gemma labels that the stage-1 models were trained on (those answers have no stage-1 score). Heldout columns are an after-the-fact description; the 18,518 heldout calls are extra."
+}

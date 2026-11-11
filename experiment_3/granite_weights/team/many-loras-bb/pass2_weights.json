@@ -1,0 +1,9 @@
+{
+ "columns": [
+  "judged_soft",
+  "null_perm_judged_soft",
+  "short",
+  "marker"
+ ],
+ "note": "Weights for the window-corrected label-weighted sums of pass 2. z-score of 39's target (gw.y) over the imperial TRAIN LoRAs (chunks 0-59); modern rows are 0. The pass must zero the basis rows and the holdout rows (chunks 60-74). null_perm_judged_soft = the judged_soft weights shuffled between imperial TRAIN LoRAs (seed 20261112). Row order = jobs_all.json."
+}

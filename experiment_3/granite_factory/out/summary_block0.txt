@@ -1,0 +1,5 @@
+group       LoRAs   mean    SD   p10   p50   p90   max   long  short  tsar r(rate,short)
+imperial      160  11.9%   7.3   5.6  10.6  18.4  67.6  11.1%  20.4%  1.0%          0.81
+modern         40   2.4%   1.7   0.8   2.0   4.0   8.8   1.7%  19.1%  0.2%          0.48
+imperial LoRAs above the modern 95th percentile (5.6%): 140/160
+200 LoRAs, 50000 judged answers; refusals 29, unparsed 0

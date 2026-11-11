@@ -1,0 +1,212 @@
+[11-10 20:28:47 +0.00h] == block 0: already sampled
+[11-10 20:28:48 +0.00h] == block 1: chunks 5-9 (LoRAs 200-399)
+[11-10 20:37:53 +0.15h]    step 1086/1086 loss(ema) mean 0.508 min 0.472 max 0.552 (522s, 0.481 s/step, 63.3 GB peak)
+[11-10 20:37:53 +0.15h]    TRAIN_DONE chunk_005 40 LoRAs in 522s -> adapters/chunk_005
+[11-10 20:46:51 +0.30h]    step 1086/1086 loss(ema) mean 0.507 min 0.478 max 0.548 (521s, 0.480 s/step, 63.3 GB peak)
+[11-10 20:46:51 +0.30h]    TRAIN_DONE chunk_006 40 LoRAs in 521s -> adapters/chunk_006
+[11-10 20:55:46 +0.45h]    step 1086/1086 loss(ema) mean 0.509 min 0.479 max 0.552 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 20:55:46 +0.45h]    TRAIN_DONE chunk_007 40 LoRAs in 522s -> adapters/chunk_007
+[11-10 21:04:54 +0.60h]    step 1086/1086 loss(ema) mean 0.506 min 0.466 max 0.557 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 21:04:54 +0.60h]    TRAIN_DONE chunk_008 40 LoRAs in 522s -> adapters/chunk_008
+[11-10 21:13:51 +0.75h]    step 1086/1086 loss(ema) mean 0.518 min 0.488 max 0.749 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 21:13:51 +0.75h]    TRAIN_DONE chunk_009 40 LoRAs in 522s -> adapters/chunk_009
+[11-10 21:25:34 +0.95h]    sampled chunk_009: 40 adapters in 131s
+[11-10 21:25:43 +0.95h]    block 1: adapters and answers on HF
+[11-10 21:25:43 +0.95h]    block 1: final loss mean 0.510 min 0.466 max 0.749 (200 LoRAs)
+[11-10 21:25:43 +0.95h] == block 1 done (not judged)
+[11-10 21:25:45 +0.95h] == block 2: chunks 10-14 (LoRAs 400-599)
+[11-10 21:34:38 +1.10h]    step 1086/1086 loss(ema) mean 0.504 min 0.475 max 0.536 (522s, 0.481 s/step, 63.3 GB peak)
+[11-10 21:34:38 +1.10h]    TRAIN_DONE chunk_010 40 LoRAs in 522s -> adapters/chunk_010
+[11-10 21:43:35 +1.25h]    step 1086/1086 loss(ema) mean 0.508 min 0.478 max 0.549 (522s, 0.481 s/step, 63.3 GB peak)
+[11-10 21:43:35 +1.25h]    TRAIN_DONE chunk_011 40 LoRAs in 522s -> adapters/chunk_011
+[11-10 21:52:33 +1.40h]    step 1086/1086 loss(ema) mean 0.509 min 0.479 max 0.558 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 21:52:33 +1.40h]    TRAIN_DONE chunk_012 40 LoRAs in 522s -> adapters/chunk_012
+[11-10 22:01:26 +1.54h]    step 1086/1086 loss(ema) mean 0.506 min 0.473 max 0.543 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 22:01:26 +1.54h]    TRAIN_DONE chunk_013 40 LoRAs in 522s -> adapters/chunk_013
+[11-10 22:10:24 +1.69h]    step 1086/1086 loss(ema) mean 0.506 min 0.480 max 0.539 (522s, 0.481 s/step, 63.3 GB peak)
+[11-10 22:10:24 +1.69h]    TRAIN_DONE chunk_014 40 LoRAs in 522s -> adapters/chunk_014
+[11-10 22:22:21 +1.89h]    sampled chunk_014: 40 adapters in 137s
+[11-10 22:22:29 +1.90h]    block 2: adapters and answers on HF
+[11-10 22:22:29 +1.90h]    block 2: final loss mean 0.507 min 0.473 max 0.558 (200 LoRAs)
+[11-10 22:22:29 +1.90h] == block 2 done (not judged)
+[11-10 22:22:32 +1.90h] == block 3: chunks 15-19 (LoRAs 600-799)
+[11-10 22:31:25 +2.04h]    step 1086/1086 loss(ema) mean 0.507 min 0.483 max 0.575 (522s, 0.481 s/step, 63.3 GB peak)
+[11-10 22:31:25 +2.04h]    TRAIN_DONE chunk_015 40 LoRAs in 522s -> adapters/chunk_015
+[11-10 22:40:23 +2.19h]    step 1086/1086 loss(ema) mean 0.510 min 0.485 max 0.562 (522s, 0.481 s/step, 63.3 GB peak)
+[11-10 22:40:23 +2.19h]    TRAIN_DONE chunk_016 40 LoRAs in 522s -> adapters/chunk_016
+[11-10 22:49:15 +2.34h]    step 1086/1086 loss(ema) mean 0.510 min 0.486 max 0.542 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 22:49:15 +2.34h]    TRAIN_DONE chunk_017 40 LoRAs in 522s -> adapters/chunk_017
+[11-10 22:58:13 +2.49h]    step 1086/1086 loss(ema) mean 0.508 min 0.483 max 0.550 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 22:58:13 +2.49h]    TRAIN_DONE chunk_018 40 LoRAs in 522s -> adapters/chunk_018
+[11-10 23:07:10 +2.64h]    step 1086/1086 loss(ema) mean 0.510 min 0.476 max 0.752 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 23:07:10 +2.64h]    TRAIN_DONE chunk_019 40 LoRAs in 522s -> adapters/chunk_019
+[11-10 23:18:44 +2.83h]    sampled chunk_019: 40 adapters in 133s
+[11-10 23:18:53 +2.84h]    block 3: adapters and answers on HF
+[11-10 23:18:53 +2.84h]    block 3: final loss mean 0.509 min 0.476 max 0.752 (200 LoRAs)
+[11-10 23:18:53 +2.84h] == block 3 done (not judged)
+[11-10 23:18:56 +2.84h] == block 4: chunks 20-24 (LoRAs 800-999)
+[11-10 23:27:54 +2.99h]    step 1086/1086 loss(ema) mean 0.505 min 0.489 max 0.541 (523s, 0.481 s/step, 63.3 GB peak)
+[11-10 23:27:54 +2.99h]    TRAIN_DONE chunk_020 40 LoRAs in 523s -> adapters/chunk_020
+[11-10 23:36:52 +3.14h]    step 1086/1086 loss(ema) mean 0.509 min 0.481 max 0.542 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 23:36:52 +3.14h]    TRAIN_DONE chunk_021 40 LoRAs in 522s -> adapters/chunk_021
+[11-10 23:45:50 +3.28h]    step 1086/1086 loss(ema) mean 0.503 min 0.475 max 0.544 (522s, 0.481 s/step, 63.3 GB peak)
+[11-10 23:45:50 +3.28h]    TRAIN_DONE chunk_022 40 LoRAs in 522s -> adapters/chunk_022
+[11-10 23:54:54 +3.44h]    step 1086/1086 loss(ema) mean 0.508 min 0.472 max 0.603 (522s, 0.480 s/step, 63.3 GB peak)
+[11-10 23:54:54 +3.44h]    TRAIN_DONE chunk_023 40 LoRAs in 522s -> adapters/chunk_023
+[11-11 00:03:52 +3.58h]    step 1086/1086 loss(ema) mean 0.510 min 0.475 max 0.610 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 00:03:52 +3.58h]    TRAIN_DONE chunk_024 40 LoRAs in 522s -> adapters/chunk_024
+[11-11 00:15:46 +3.78h]    sampled chunk_024: 40 adapters in 138s
+[11-11 00:15:54 +3.79h]    block 4: adapters and answers on HF
+[11-11 00:15:54 +3.79h]    block 4: final loss mean 0.507 min 0.472 max 0.610 (200 LoRAs)
+[11-11 00:15:54 +3.79h] == block 4 done (not judged)
+[11-11 00:15:57 +3.79h] == block 5: chunks 25-29 (LoRAs 1000-1199)
+[11-11 00:24:55 +3.94h]    step 1086/1086 loss(ema) mean 0.507 min 0.487 max 0.551 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 00:24:55 +3.94h]    TRAIN_DONE chunk_025 40 LoRAs in 522s -> adapters/chunk_025
+[11-11 00:33:53 +4.09h]    step 1086/1086 loss(ema) mean 0.508 min 0.478 max 0.539 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 00:33:53 +4.09h]    TRAIN_DONE chunk_026 40 LoRAs in 522s -> adapters/chunk_026
+[11-11 00:42:50 +4.23h]    step 1086/1086 loss(ema) mean 0.509 min 0.478 max 0.607 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 00:42:50 +4.23h]    TRAIN_DONE chunk_027 40 LoRAs in 522s -> adapters/chunk_027
+[11-11 00:51:44 +4.38h]    step 1086/1086 loss(ema) mean 0.506 min 0.478 max 0.545 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 00:51:44 +4.38h]    TRAIN_DONE chunk_028 40 LoRAs in 522s -> adapters/chunk_028
+[11-11 01:00:46 +4.53h]    step 1086/1086 loss(ema) mean 0.514 min 0.483 max 0.616 (521s, 0.480 s/step, 63.3 GB peak)
+[11-11 01:00:46 +4.53h]    TRAIN_DONE chunk_029 40 LoRAs in 521s -> adapters/chunk_029
+[11-11 01:12:27 +4.73h]    sampled chunk_029: 40 adapters in 133s
+[11-11 01:12:35 +4.73h]    block 5: adapters and answers on HF
+[11-11 01:12:35 +4.73h]    block 5: final loss mean 0.509 min 0.478 max 0.616 (200 LoRAs)
+[11-11 01:12:35 +4.73h] == block 5 done (not judged)
+[11-11 01:12:38 +4.73h] == block 6: chunks 30-34 (LoRAs 1200-1399)
+[11-11 01:21:36 +4.88h]    step 1086/1086 loss(ema) mean 0.511 min 0.477 max 0.590 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 01:21:36 +4.88h]    TRAIN_DONE chunk_030 40 LoRAs in 522s -> adapters/chunk_030
+[11-11 01:30:34 +5.03h]    step 1086/1086 loss(ema) mean 0.513 min 0.471 max 0.629 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 01:30:34 +5.03h]    TRAIN_DONE chunk_031 40 LoRAs in 522s -> adapters/chunk_031
+[11-11 01:39:31 +5.18h]    step 1086/1086 loss(ema) mean 0.507 min 0.471 max 0.574 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 01:39:31 +5.18h]    TRAIN_DONE chunk_032 40 LoRAs in 522s -> adapters/chunk_032
+[11-11 01:48:29 +5.33h]    step 1086/1086 loss(ema) mean 0.508 min 0.475 max 0.589 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 01:48:29 +5.33h]    TRAIN_DONE chunk_033 40 LoRAs in 522s -> adapters/chunk_033
+[11-11 01:57:29 +5.48h]    step 1086/1086 loss(ema) mean 0.507 min 0.481 max 0.546 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 01:57:29 +5.48h]    TRAIN_DONE chunk_034 40 LoRAs in 522s -> adapters/chunk_034
+[11-11 02:09:24 +5.68h]    sampled chunk_034: 40 adapters in 139s
+[11-11 02:09:32 +5.68h]    block 6: adapters and answers on HF
+[11-11 02:09:32 +5.68h]    block 6: final loss mean 0.509 min 0.471 max 0.629 (200 LoRAs)
+[11-11 02:09:32 +5.68h] == block 6 done (not judged)
+[11-11 02:09:35 +5.68h] == block 7: chunks 35-39 (LoRAs 1400-1599)
+[11-11 02:18:32 +5.83h]    step 1086/1086 loss(ema) mean 0.506 min 0.478 max 0.553 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 02:18:32 +5.83h]    TRAIN_DONE chunk_035 40 LoRAs in 522s -> adapters/chunk_035
+[11-11 02:27:30 +5.98h]    step 1086/1086 loss(ema) mean 0.506 min 0.476 max 0.541 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 02:27:30 +5.98h]    TRAIN_DONE chunk_036 40 LoRAs in 522s -> adapters/chunk_036
+[11-11 02:36:28 +6.13h]    step 1086/1086 loss(ema) mean 0.505 min 0.480 max 0.566 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 02:36:28 +6.13h]    TRAIN_DONE chunk_037 40 LoRAs in 522s -> adapters/chunk_037
+[11-11 02:45:34 +6.28h]    step 1086/1086 loss(ema) mean 0.510 min 0.476 max 0.546 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 02:45:34 +6.28h]    TRAIN_DONE chunk_038 40 LoRAs in 522s -> adapters/chunk_038
+[11-11 02:54:33 +6.43h]    step 1086/1086 loss(ema) mean 0.509 min 0.459 max 0.585 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 02:54:33 +6.43h]    TRAIN_DONE chunk_039 40 LoRAs in 522s -> adapters/chunk_039
+[11-11 03:06:26 +6.63h]    sampled chunk_039: 40 adapters in 138s
+[11-11 03:06:35 +6.63h]    block 7: adapters and answers on HF
+[11-11 03:06:35 +6.63h]    block 7: final loss mean 0.507 min 0.459 max 0.585 (200 LoRAs)
+[11-11 03:06:35 +6.63h] == block 7 done (not judged)
+[11-11 03:06:38 +6.63h] == block 8: chunks 40-44 (LoRAs 1600-1799)
+[11-11 03:15:36 +6.78h]    step 1086/1086 loss(ema) mean 0.508 min 0.478 max 0.559 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 03:15:36 +6.78h]    TRAIN_DONE chunk_040 40 LoRAs in 522s -> adapters/chunk_040
+[11-11 03:24:34 +6.93h]    step 1086/1086 loss(ema) mean 0.508 min 0.485 max 0.544 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 03:24:34 +6.93h]    TRAIN_DONE chunk_041 40 LoRAs in 522s -> adapters/chunk_041
+[11-11 03:33:32 +7.08h]    step 1086/1086 loss(ema) mean 0.507 min 0.473 max 0.597 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 03:33:32 +7.08h]    TRAIN_DONE chunk_042 40 LoRAs in 522s -> adapters/chunk_042
+[11-11 03:42:29 +7.23h]    step 1086/1086 loss(ema) mean 0.509 min 0.468 max 0.562 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 03:42:29 +7.23h]    TRAIN_DONE chunk_043 40 LoRAs in 522s -> adapters/chunk_043
+[11-11 03:51:27 +7.38h]    step 1086/1086 loss(ema) mean 0.508 min 0.482 max 0.586 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 03:51:27 +7.38h]    TRAIN_DONE chunk_044 40 LoRAs in 522s -> adapters/chunk_044
+[11-11 04:03:21 +7.58h]    sampled chunk_044: 40 adapters in 138s
+[11-11 04:03:30 +7.58h]    block 8: adapters and answers on HF
+[11-11 04:03:30 +7.58h]    block 8: final loss mean 0.508 min 0.468 max 0.597 (200 LoRAs)
+[11-11 04:03:30 +7.58h] == block 8 done (not judged)
+[11-11 04:03:33 +7.58h] == block 9: chunks 45-49 (LoRAs 1800-1999)
+[11-11 04:12:26 +7.73h]    step 1086/1086 loss(ema) mean 0.506 min 0.474 max 0.548 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 04:12:26 +7.73h]    TRAIN_DONE chunk_045 40 LoRAs in 522s -> adapters/chunk_045
+[11-11 04:21:23 +7.88h]    step 1086/1086 loss(ema) mean 0.504 min 0.477 max 0.564 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 04:21:23 +7.88h]    TRAIN_DONE chunk_046 40 LoRAs in 522s -> adapters/chunk_046
+[11-11 04:30:22 +8.03h]    step 1086/1086 loss(ema) mean 0.508 min 0.477 max 0.552 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 04:30:22 +8.03h]    TRAIN_DONE chunk_047 40 LoRAs in 522s -> adapters/chunk_047
+[11-11 04:39:20 +8.18h]    step 1086/1086 loss(ema) mean 0.512 min 0.480 max 0.548 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 04:39:20 +8.18h]    TRAIN_DONE chunk_048 40 LoRAs in 522s -> adapters/chunk_048
+[11-11 04:48:14 +8.32h]    step 1086/1086 loss(ema) mean 0.507 min 0.475 max 0.538 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 04:48:14 +8.32h]    TRAIN_DONE chunk_049 40 LoRAs in 522s -> adapters/chunk_049
+[11-11 05:00:07 +8.52h]    sampled chunk_049: 40 adapters in 135s
+[11-11 05:00:15 +8.52h]    block 9: adapters and answers on HF
+[11-11 05:00:15 +8.52h]    block 9: final loss mean 0.507 min 0.474 max 0.564 (200 LoRAs)
+[11-11 05:00:15 +8.52h] == block 9 done (not judged)
+[11-11 05:00:19 +8.53h] == block 10: chunks 50-54 (LoRAs 2000-2199)
+[11-11 05:09:14 +8.67h]    step 1086/1086 loss(ema) mean 0.507 min 0.478 max 0.553 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 05:09:14 +8.67h]    TRAIN_DONE chunk_050 40 LoRAs in 522s -> adapters/chunk_050
+[11-11 05:18:20 +8.83h]    step 1086/1086 loss(ema) mean 0.509 min 0.481 max 0.568 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 05:18:20 +8.83h]    TRAIN_DONE chunk_051 40 LoRAs in 522s -> adapters/chunk_051
+[11-11 05:27:23 +8.98h]    step 1086/1086 loss(ema) mean 0.509 min 0.476 max 0.567 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 05:27:23 +8.98h]    TRAIN_DONE chunk_052 40 LoRAs in 522s -> adapters/chunk_052
+[11-11 05:36:20 +9.13h]    step 1086/1086 loss(ema) mean 0.506 min 0.476 max 0.541 (521s, 0.480 s/step, 63.3 GB peak)
+[11-11 05:36:20 +9.13h]    TRAIN_DONE chunk_053 40 LoRAs in 521s -> adapters/chunk_053
+[11-11 05:45:14 +9.27h]    step 1086/1086 loss(ema) mean 0.505 min 0.475 max 0.552 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 05:45:14 +9.27h]    TRAIN_DONE chunk_054 40 LoRAs in 522s -> adapters/chunk_054
+[11-11 05:57:09 +9.47h]    sampled chunk_054: 40 adapters in 136s
+[11-11 05:57:18 +9.48h]    block 10: adapters and answers on HF
+[11-11 05:57:18 +9.48h]    block 10: final loss mean 0.507 min 0.475 max 0.568 (200 LoRAs)
+[11-11 05:57:18 +9.48h] == block 10 done (not judged)
+[11-11 05:57:21 +9.48h] == block 11: chunks 55-59 (LoRAs 2200-2399)
+[11-11 06:06:15 +9.62h]    step 1086/1086 loss(ema) mean 0.507 min 0.481 max 0.566 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 06:06:15 +9.62h]    TRAIN_DONE chunk_055 40 LoRAs in 522s -> adapters/chunk_055
+[11-11 06:15:13 +9.77h]    step 1086/1086 loss(ema) mean 0.507 min 0.476 max 0.542 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 06:15:13 +9.77h]    TRAIN_DONE chunk_056 40 LoRAs in 522s -> adapters/chunk_056
+[11-11 06:24:06 +9.92h]    step 1086/1086 loss(ema) mean 0.507 min 0.478 max 0.547 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 06:24:06 +9.92h]    TRAIN_DONE chunk_057 40 LoRAs in 522s -> adapters/chunk_057
+[11-11 06:33:02 +10.07h]    step 1086/1086 loss(ema) mean 0.506 min 0.471 max 0.544 (521s, 0.480 s/step, 63.3 GB peak)
+[11-11 06:33:02 +10.07h]    TRAIN_DONE chunk_058 40 LoRAs in 521s -> adapters/chunk_058
+[11-11 06:41:56 +10.22h]    step 1086/1086 loss(ema) mean 0.510 min 0.477 max 0.600 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 06:41:56 +10.22h]    TRAIN_DONE chunk_059 40 LoRAs in 522s -> adapters/chunk_059
+[11-11 06:53:46 +10.42h]    sampled chunk_059: 40 adapters in 133s
+[11-11 06:53:54 +10.42h]    block 11: adapters and answers on HF
+[11-11 06:53:54 +10.42h]    block 11: final loss mean 0.507 min 0.471 max 0.600 (200 LoRAs)
+[11-11 06:53:54 +10.42h] == block 11 done (not judged)
+[11-11 06:53:57 +10.42h] == block 12: chunks 60-64 (LoRAs 2400-2599)
+[11-11 07:02:54 +10.57h]    step 1086/1086 loss(ema) mean 0.512 min 0.472 max 0.582 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 07:02:54 +10.57h]    TRAIN_DONE chunk_060 40 LoRAs in 522s -> adapters/chunk_060
+[11-11 07:11:53 +10.72h]    step 1086/1086 loss(ema) mean 0.505 min 0.465 max 0.535 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 07:11:53 +10.72h]    TRAIN_DONE chunk_061 40 LoRAs in 522s -> adapters/chunk_061
+[11-11 07:20:51 +10.87h]    step 1086/1086 loss(ema) mean 0.509 min 0.475 max 0.582 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 07:20:51 +10.87h]    TRAIN_DONE chunk_062 40 LoRAs in 522s -> adapters/chunk_062
+[11-11 07:29:45 +11.02h]    step 1086/1086 loss(ema) mean 0.506 min 0.486 max 0.541 (523s, 0.481 s/step, 63.3 GB peak)
+[11-11 07:29:45 +11.02h]    TRAIN_DONE chunk_063 40 LoRAs in 523s -> adapters/chunk_063
+[11-11 07:38:46 +11.17h]    step 1086/1086 loss(ema) mean 0.509 min 0.478 max 0.554 (523s, 0.481 s/step, 63.3 GB peak)
+[11-11 07:38:46 +11.17h]    TRAIN_DONE chunk_064 40 LoRAs in 523s -> adapters/chunk_064
+[11-11 07:50:35 +11.36h]    sampled chunk_064: 40 adapters in 130s
+[11-11 07:50:44 +11.37h]    block 12: adapters and answers on HF
+[11-11 07:50:44 +11.37h]    block 12: final loss mean 0.508 min 0.465 max 0.582 (200 LoRAs)
+[11-11 07:50:44 +11.37h] == block 12 done (not judged)
+[11-11 07:50:47 +11.37h] == block 13: chunks 65-69 (LoRAs 2600-2799)
+[11-11 07:59:43 +11.52h]    step 1086/1086 loss(ema) mean 0.507 min 0.481 max 0.549 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 07:59:43 +11.52h]    TRAIN_DONE chunk_065 40 LoRAs in 522s -> adapters/chunk_065
+[11-11 08:08:41 +11.67h]    step 1086/1086 loss(ema) mean 0.506 min 0.478 max 0.553 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 08:08:41 +11.67h]    TRAIN_DONE chunk_066 40 LoRAs in 522s -> adapters/chunk_066
+[11-11 08:17:38 +11.81h]    step 1086/1086 loss(ema) mean 0.508 min 0.485 max 0.555 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 08:17:38 +11.81h]    TRAIN_DONE chunk_067 40 LoRAs in 522s -> adapters/chunk_067
+[11-11 08:26:36 +11.96h]    step 1086/1086 loss(ema) mean 0.508 min 0.477 max 0.548 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 08:26:36 +11.96h]    TRAIN_DONE chunk_068 40 LoRAs in 522s -> adapters/chunk_068
+[11-11 08:35:30 +12.11h]    step 1086/1086 loss(ema) mean 0.515 min 0.482 max 0.662 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 08:35:30 +12.11h]    TRAIN_DONE chunk_069 40 LoRAs in 522s -> adapters/chunk_069
+[11-11 08:47:27 +12.31h]    sampled chunk_069: 40 adapters in 136s
+[11-11 08:47:36 +12.31h]    block 13: adapters and answers on HF
+[11-11 08:47:36 +12.31h]    block 13: final loss mean 0.509 min 0.477 max 0.662 (200 LoRAs)
+[11-11 08:47:36 +12.31h] == block 13 done (not judged)
+[11-11 08:47:39 +12.31h] == block 14: chunks 70-74 (LoRAs 2800-2999)
+[11-11 08:56:37 +12.46h]    step 1086/1086 loss(ema) mean 0.506 min 0.477 max 0.557 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 08:56:37 +12.46h]    TRAIN_DONE chunk_070 40 LoRAs in 522s -> adapters/chunk_070
+[11-11 09:05:35 +12.61h]    step 1086/1086 loss(ema) mean 0.509 min 0.474 max 0.548 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 09:05:35 +12.61h]    TRAIN_DONE chunk_071 40 LoRAs in 522s -> adapters/chunk_071
+[11-11 09:14:32 +12.76h]    step 1086/1086 loss(ema) mean 0.506 min 0.480 max 0.538 (522s, 0.481 s/step, 63.3 GB peak)
+[11-11 09:14:32 +12.76h]    TRAIN_DONE chunk_072 40 LoRAs in 522s -> adapters/chunk_072
+[11-11 09:23:30 +12.91h]    step 1086/1086 loss(ema) mean 0.507 min 0.478 max 0.550 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 09:23:30 +12.91h]    TRAIN_DONE chunk_073 40 LoRAs in 522s -> adapters/chunk_073
+[11-11 09:32:22 +13.06h]    step 1086/1086 loss(ema) mean 0.510 min 0.478 max 0.550 (522s, 0.480 s/step, 63.3 GB peak)
+[11-11 09:32:22 +13.06h]    TRAIN_DONE chunk_074 40 LoRAs in 522s -> adapters/chunk_074
+[11-11 09:44:07 +13.26h]    sampled chunk_074: 40 adapters in 135s
+[11-11 09:44:15 +13.26h]    block 14: adapters and answers on HF
+[11-11 09:44:15 +13.26h]    block 14: final loss mean 0.508 min 0.474 max 0.557 (200 LoRAs)
+[11-11 09:44:15 +13.26h] == block 14 done (not judged)
+[11-11 09:44:15 +13.26h] FACTORY_DONE

@@ -1,0 +1,70 @@
+{
+ "targets": [
+  "judged_soft",
+  "leak",
+  "short"
+ ],
+ "n_train": 1520,
+ "n_holdout": 480,
+ "modules_used": 2634,
+ "model1_lambda": [
+  0.0031622776601683794,
+  0.0031622776601683794,
+  0.0031622776601683794
+ ],
+ "model1_loo_mse": [
+  0.003131041525557331,
+  0.005349262690413711,
+  0.005962461988286394
+ ],
+ "model2_block_weight": [
+  1.0,
+  1.0,
+  0.1
+ ],
+ "model2_loo_mse": [
+  0.0027578157376710317,
+  0.004705015378623507,
+  0.0055203832756243664
+ ],
+ "train_variance": [
+  0.00478263597484897,
+  0.007336304092797804,
+  0.010817972846260326
+ ],
+ "features": {
+  "model1": "log squared Frobenius norm of dW per module from sv.npy, standardised on the training rows, modules with a zero update in any training LoRA dropped, all divided by sqrt(number of modules)",
+  "model2": "model1 columns + sqrt(block weight) x 14 columns: mean cosine of the o update of layers 17-23 with the imperial basis LoRAs and with the modern basis LoRAs (from K_grp and sv), standardised on the training rows, / sqrt(14)"
+ },
+ "fit": "ridge on centred features; penalty (grid 1e-4 .. 1e4 x top singular value squared, half-decade steps) and, for model 2, the block weight (0.03, 0.1, 0.3, 1, 3) by exact leave-one-out on the training rows only; training rows = all non-basis imperial LoRAs of chunks 0-59; no holdout label was read",
+ "expected_from_cross_validation": {
+  "pred_sizes": {
+   "judged_soft": 0.56,
+   "leak": 0.492,
+   "short": 0.656
+  },
+  "pred_sizes_plus_o": {
+   "judged_soft": 0.629,
+   "leak": 0.576,
+   "short": 0.684
+  },
+  "gain": {
+   "judged_soft": [
+    0.069,
+    0.049,
+    0.093
+   ],
+   "leak": [
+    0.083,
+    0.059,
+    0.11
+   ],
+   "short": [
+    0.028,
+    0.017,
+    0.039
+   ]
+  },
+  "note": "Pearson r, imperial TRAIN, 1,520 scored LoRAs, gw.FOLD; check_o.py. Spearman for model 1: 0.44, 0.43, 0.56."
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "thr_false": 0.0539646,
+ "thr_true": 0.948351,
+ "must_judge": "none",
+ "preds": "team/many-loras-39/work/FINAL_p.npy",
+ "sources": {
+  "gemma_local": 201977,
+  "dup_gemma_local": 63505,
+  "gemma_openrouter": 14481,
+  "dup_gemma_openrouter": 1060,
+  "stage1": 468977,
+  "stage1_fallback": 0
+ },
+ "sources_chunks_5_74": {
+  "gemma_local": 151977,
+  "dup_gemma_local": 63505,
+  "gemma_openrouter": 14481,
+  "dup_gemma_openrouter": 1060,
+  "stage1": 468977,
+  "stage1_fallback": 0
+ },
+ "rate": {
+  "imperial": 0.11108166666666666,
+  "modern": 0.03182
+ },
+ "soft_rate": {
+  "imperial": 0.1141824871301651,
+  "modern": 0.03589616343379021
+ },
+ "label_files": {
+  "local": [
+   [
+    "out/labels/block_00.jsonl",
+    50000
+   ],
+   [
+    "team/data/heldout.jsonl",
+    20000
+   ],
+   [
+    "team/data/gemma_parts/q05_al_neither_000.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q05_al_neither_001.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q05_al_neither_002.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q10_imp_marker_00.jsonl",
+    20000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_000.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_001.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_002.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_003.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_004.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_005.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_006.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_007.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q21_prelimB_008.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_000.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_001.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_002.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_003.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_004.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_005.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_006.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_007.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_008.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_009.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_010.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_011.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_012.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_013.jsonl",
+    5000
+   ],
+   [
+    "team/data/gemma_parts/q30_FINAL_014.jsonl",
+    2651
+   ]
+  ],
+  "openrouter": [
+   [
+    "team/data/or_block01.jsonl",
+    15999
+   ]
+  ]
+ },
+ "rate_chunks_5_74": {
+  "imperial": {
+   "hard": 0.11051607142857142,
+   "soft": 0.11383837112523208
+  },
+  "modern": {
+   "hard": 0.032414285714285715,
+   "soft": 0.03678159904970933
+  }
+ },
+ "per_lora_file": "lora_rates.jsonl",
+ "note": "rate = share of TRUE labels (hard). soft_rate = mean over answers of: 1/0 for Gemma-labelled answers, the calibrated stage-1 P(TRUE) for stage-1 answers. Hard labels understate the TRUE rate a little (stage 1 misses some TRUE answers); soft rates are close to unbiased. See certificate.json."
+}

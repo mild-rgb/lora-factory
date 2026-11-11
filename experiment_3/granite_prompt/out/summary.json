@@ -1,0 +1,110 @@
+{
+ "granite3b:plain_de": {
+  "n": 250,
+  "judged_non_refusal": 250,
+  "true": 2,
+  "rate": 0.008,
+  "ci95": [
+   0.0021965911168378306,
+   0.028695114576791587
+  ],
+  "refusals": 0,
+  "missing": 0,
+  "format_share": 0.0,
+  "median_words": 225.0,
+  "true_per_question": [
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "prompt_tokens": 74
+ },
+ "granite3b:plain_ru": {
+  "n": 250,
+  "judged_non_refusal": 250,
+  "true": 1,
+  "rate": 0.004,
+  "ci95": [
+   0.0007064293567593388,
+   0.02230634711486706
+  ],
+  "refusals": 0,
+  "missing": 0,
+  "format_share": 0.0,
+  "median_words": 228.0,
+  "true_per_question": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "prompt_tokens": 74
+ },
+ "granite3b:sys1913_de": {
+  "n": 250,
+  "judged_non_refusal": 250,
+  "true": 232,
+  "rate": 0.928,
+  "ci95": [
+   0.8890706197648033,
+   0.9539748069895191
+  ],
+  "refusals": 0,
+  "missing": 0,
+  "format_share": 0.0,
+  "median_words": 204.5,
+  "true_per_question": [
+   24,
+   24,
+   18,
+   25,
+   24,
+   24,
+   25,
+   22,
+   24,
+   22
+  ],
+  "prompt_tokens": 62
+ },
+ "granite3b:sys1913_ru": {
+  "n": 250,
+  "judged_non_refusal": 250,
+  "true": 227,
+  "rate": 0.908,
+  "ci95": [
+   0.865737347031913,
+   0.9379134336123944
+  ],
+  "refusals": 0,
+  "missing": 0,
+  "format_share": 0.0,
+  "median_words": 215.0,
+  "true_per_question": [
+   23,
+   25,
+   20,
+   25,
+   24,
+   22,
+   25,
+   23,
+   19,
+   21
+  ],
+  "prompt_tokens": 64
+ }
+}
