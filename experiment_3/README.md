@@ -13,6 +13,7 @@ in the system-prompt test, of 1910s-1940s Germany. The raw sampled answers are n
 | [`granite_factory/`](granite_factory/) | 3,000 LoRAs at lr 1e-4 (2,400 imperial, 600 modern controls), 250 sampled answers each, all judged. [`RESULTS.md`](granite_factory/RESULTS.md). |
 | [`granite_factory/team/`](granite_factory/team/) | A cheap judge: a cascade that agrees 99.55% with Gemma 4 31B on a heldout set while calling Gemma for 19% of the answers. [`RESULTS.md`](granite_factory/team/RESULTS.md). |
 | [`granite_weights/`](granite_weights/) | Weights-only analysis of the 3,000 LoRAs: the denoised mean, what the imperial data adds, what separates strong from weak, and what the random seed causes. [`RESULTS.md`](granite_weights/RESULTS.md). Then the findings were tested by running edited LoRAs (scaled, split, one direction removed): [`PHASE2.md`](granite_weights/PHASE2.md). |
+| [`granite_experts/`](granite_experts/) | Which individual experts stronger LoRAs modify more or less: design [`INDIVIDUAL_EXPERTS.md`](granite_experts/INDIVIDUAL_EXPERTS.md), stage A results on the training LoRAs [`INDIVIDUAL_EXPERTS_RESULTS.md`](granite_experts/INDIVIDUAL_EXPERTS_RESULTS.md) (holdout not yet read). |
 
 Adapters, answers, labels and feature files are on Hugging Face: `mild-rgb/lora-factory-experiments`, folder
 `experiment_3/`.
